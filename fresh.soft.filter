@@ -921,6 +921,45 @@
 			MinimapIcon 0 White Hexagon
 			PlayEffect White
 
+		# Scarabs
+		# =======
+
+			Show 
+				Class "Map Fragments"
+				BaseType "Gilded"
+				SetFontSize 40
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 168 166 161 255 
+				CustomAlertSound "filter_sounds/generic/high_value.ogg"
+				DisableDropSound
+				MinimapIcon 0 White Hexagon
+				PlayEffect White
+
+			Show 
+				Class "Map Fragments"
+				BaseType "Polished"
+				SetFontSize 33
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 168 166 161 255 
+				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				DisableDropSound
+				MinimapIcon 1 White Hexagon
+				PlayEffect White
+
+			Show 
+				Class "Map Fragments"
+				BaseType "Rusted"
+				SetFontSize 28
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 168 166 161 255 
+				CustomAlertSound "filter_sounds/generic/some_value.ogg"
+				DisableDropSound
+				MinimapIcon 2 White Hexagon
+				PlayEffect White
+
 	# Lab
 	# ===
 
@@ -991,6 +1030,21 @@
 		SetTextColor 22 22 22 255   
 		SetBorderColor 22 22 22 255 
 		SetBackgroundColor 162 0 255 255 
+		DisableDropSound
+
+	# Mid value cards that might have a conflict if they don't show up first
+
+	Show
+		Class "Divination"
+		BaseType "The Master" 
+		SetFontSize 33
+		SetTextColor 22 22 22 255  
+		SetBorderColor 22 22 22 255 
+		SetBackgroundColor 162 0 255 255
+		CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+		DisableDropSound
+		MinimapIcon 2 Brown Diamond
+		PlayEffect Brown
 
 	# Top Value
 	# Anything over 50C per card
@@ -1729,8 +1783,8 @@
 			SetBackgroundColor 0 171 115 255
 			CustomAlertSound "filter_sounds/generic/mid_value.ogg"
 			DisableDropSound
-			MinimapIcon 1 Yellow Square
-			PlayEffect Yellow
+			MinimapIcon 1 Green Triangle
+			PlayEffect Green
 
 		Show 
 			BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet"
@@ -2006,12 +2060,38 @@
 	# Specific Mods
 	# =============
 
+		# Show a little more highlighting for items with veiled mods
+
+		Show
+			Rarity Magic
+			HasExplicitMod "Veiled" 
+			SetFontSize 33
+			SetTextColor 22 22 22 255
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 0 171 115 255
+			CustomAlertSound "filter_sounds/generic/some_value.ogg"
+			DisableDropSound
+			MinimapIcon 2 Yellow Square
+			PlayEffect Yellow
+
+		Show
+			Rarity Rare
+			HasExplicitMod "Veiled"
+			SetFontSize 33
+			SetTextColor 22 22 22 255
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 240 150 9 255
+			CustomAlertSound "filter_sounds/generic/some_value.ogg"
+			DisableDropSound
+			MinimapIcon 2 Green Triangle
+			PlayEffect Green
+
 		# At the moment this just allows the filter to catch identified items with mods that might be somewhat interesting, that weren't otherwise noted in the rules above.
 		# It might be a good idea to either break these down (or look at lower level mods such as in the case of resists), and show items that have a combination of resists + another mod.
 
 		Show
 			Rarity Magic
-			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" 
+			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting"
 			SetFontSize 28
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
@@ -2020,7 +2100,7 @@
 
 		Show
 			Rarity Rare
-			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" 
+			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting"
 			SetFontSize 28
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
