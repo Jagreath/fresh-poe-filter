@@ -354,7 +354,7 @@
 		# ===
 
 			Show
-				DropLevel >= 83
+				MapTier = 16
 				Class Maps
 				SetFontSize 45
 				SetTextColor 22 22 22 255  
@@ -365,36 +365,11 @@
 				MinimapIcon 0 Red Star
 				PlayEffect Red
 
-			Show
-				DropLevel >= 78
-				Class Maps
-				ShapedMap True
-				SetFontSize 45
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 255 0 151 255
-				CustomAlertSound "filter_sounds/generic/high_value.ogg" 
-				DisableDropSound
-				MinimapIcon 0 Red Star
-				PlayEffect Red
-
-			Show
-				Class Maps
-				ElderMap True
-				SetFontSize 45
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 255 0 151 255
-				CustomAlertSound "filter_sounds/generic/high_value.ogg" 
-				DisableDropSound
-				MinimapIcon 0 Red Star
-				PlayEffect Red
-
 		# T15
 		# ===
 
 			Show
-				DropLevel >= 82
+				MapTier 15
 				Class Maps
 				SetFontSize 45
 				SetTextColor 22 22 22 255 
@@ -405,24 +380,11 @@
 				MinimapIcon 0 White Hexagon
 				PlayEffect White
 
-			Show
-				DropLevel >= 77
-				Class Maps
-				ShapedMap True
-				SetFontSize 45
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				CustomAlertSound "filter_sounds/generic/high_map.ogg" 
-				DisableDropSound
-				MinimapIcon 0 White Hexagon
-				PlayEffect White
-
 		# T11 - T14
 		# =========
 
 			Show
-				DropLevel >= 78
+				MapTier >= 11
 				Class Maps
 				SetFontSize 40
 				SetTextColor 22 22 22 255  
@@ -433,41 +395,14 @@
 				MinimapIcon 1 White Hexagon 
 				PlayEffect White
 
-			Show
-				DropLevel >= 73
-				Class Maps
-				ShapedMap True
-				SetFontSize 40
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255 
-				CustomAlertSound "filter_sounds/generic/high_map.ogg" 
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
 		# T10
 		# ===
 
 			# Emphasize within 5 ilvl range
 
 			Show
-				DropLevel >= 77
+				MapTier = 10
 				Class Maps
-				ItemLevel <= 81
-				SetFontSize 40
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255 
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			Show
-				DropLevel >= 72
-				Class Maps
-				ShapedMap True
 				ItemLevel <= 81
 				SetFontSize 40
 				SetTextColor 22 22 22 255
@@ -481,21 +416,8 @@
 			# Muted vis
 
 			Show
-				DropLevel >= 77
+				MapTier = 10
 				Class Maps
-				SetFontSize 28
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255 
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 2 White Hexagon
-				PlayEffect White
-
-			Show
-				DropLevel >= 72
-				Class Maps
-				ShapedMap True
 				SetFontSize 28
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -511,27 +433,13 @@
 			# Emphasize within 5 ilvl range
 
 			Show
-				DropLevel >= 76
+				MapTier = 9
 				Class Maps
 				ItemLevel <= 80
 				SetFontSize 40
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 168 166 161 255 
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			Show
-				DropLevel >= 71
-				Class Maps
-				ShapedMap True
-				ItemLevel <= 80
-				SetFontSize 40
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
 				CustomAlertSound "filter_sounds/generic/low_map.ogg"
 				DisableDropSound
 				MinimapIcon 1 White Hexagon
@@ -540,21 +448,15 @@
 			# Muted vis
 
 			Show
-				DropLevel >= 76
+				MapTier = 9
 				Class Maps
 				SetFontSize 28
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 168 166 161 255 
-
-			Show
-				DropLevel >= 71
-				Class Maps
-				ShapedMap True
-				SetFontSize 28
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
+				DisableDropSound
+				MinimapIcon 2 White Hexagon
+				PlayEffect White
 
 		# T8
 		# ==
@@ -562,22 +464,8 @@
 			# Emphasize within 5 ilvl range
 
 			Show
-				DropLevel >= 75
+				MapTier = 8
 				Class Maps
-				ItemLevel <= 79
-				SetFontSize 40
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			Show
-				DropLevel >= 70
-				Class Maps
-				ShapedMap True
 				ItemLevel <= 79
 				SetFontSize 40
 				SetTextColor 22 22 22 255
@@ -591,21 +479,15 @@
 			# Muted vis
 
 			Show
-				DropLevel >= 75
+				MapTier = 8
 				Class Maps
 				SetFontSize 28
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 168 166 161 255
-
-			Show
-				DropLevel >= 70
-				Class Maps
-				ShapedMap True
-				SetFontSize 28
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
+				DisableDropSound
+				MinimapIcon 2 White Hexagon
+				PlayEffect White
 
 		# T7
 		# ==
@@ -613,22 +495,8 @@
 			# Emphasize within 5 ilvl range
 
 			Show
-				DropLevel >= 74
+				MapTier = 7
 				Class Maps
-				ItemLevel <= 78
-				SetFontSize 40
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			Show
-				DropLevel = 69
-				Class Maps
-				ShapedMap True
 				ItemLevel <= 78
 				SetFontSize 40
 				SetTextColor 22 22 22 255
@@ -642,21 +510,15 @@
 			# Muted vis
 
 			Show
-				DropLevel >= 74
+				MapTier = 7
 				Class Maps
 				SetFontSize 28
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 168 166 161 255
-
-			Show
-				DropLevel = 69
-				Class Maps
-				ShapedMap True
-				SetFontSize 28
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
+				DisableDropSound
+				MinimapIcon 2 White Hexagon
+				PlayEffect White
 
 		# T6
 		# ==
@@ -664,22 +526,8 @@
 			# Emphasize within 5 ilvl range
 
 			Show
-				DropLevel >= 73
+				MapTier = 6
 				Class Maps
-				ItemLevel <= 77
-				SetFontSize 40
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			Show
-				DropLevel < 69
-				Class Maps
-				ShapedMap True
 				ItemLevel <= 77
 				SetFontSize 40
 				SetTextColor 22 22 22 255
@@ -693,21 +541,15 @@
 			# Muted vis
 
 			Show
-				DropLevel >= 73
+				MapTier = 6
 				Class Maps
 				SetFontSize 28
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 168 166 161 255
-
-			Show
-				DropLevel < 69
-				Class Maps
-				ShapedMap True
-				SetFontSize 28
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
+				DisableDropSound
+				MinimapIcon 2 White Hexagon
+				PlayEffect White
 
 		# T5
 		# ==
@@ -715,7 +557,7 @@
 			# Emphasize within 5 ilvl range
 
 			Show
-				DropLevel >= 72
+				MapTier = 5
 				Class Maps
 				ItemLevel <= 76
 				SetFontSize 40
@@ -730,12 +572,15 @@
 			# Muted vis
 
 			Show
-				DropLevel >= 72
+				MapTier = 5
 				Class Maps
 				SetFontSize 28
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 168 166 161 255
+				DisableDropSound
+				MinimapIcon 2 White Hexagon
+				PlayEffect White
 
 		# T4
 		# ==
@@ -743,7 +588,7 @@
 			# Emphasize within the 5 ilvl range
 
 			Show
-				DropLevel >= 71
+				MapTier = 4
 				Class Maps
 				ItemLevel <= 75
 				SetFontSize 40
@@ -758,12 +603,15 @@
 			# Muted vis
 
 			Show
-				DropLevel >= 71
+				MapTier = 4
 				Class Maps
 				SetFontSize 28
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 168 166 161 255
+				DisableDropSound
+				MinimapIcon 2 White Hexagon
+				PlayEffect White
 
 		# T3
 		# ==
@@ -771,7 +619,7 @@
 			# Emphasize within the 5 ilvl range
 
 			Show
-				DropLevel >= 70
+				MapTier = 3
 				Class Maps
 				ItemLevel <= 74
 				SetFontSize 40
@@ -786,12 +634,15 @@
 			# Muted vis
 
 			Show
-				DropLevel >= 70
+				MapTier = 3
 				Class Maps
 				SetFontSize 28
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 168 166 161 255
+				DisableDropSound
+				MinimapIcon 2 White Hexagon
+				PlayEffect White
 
 		# T2
 		# ==
@@ -799,7 +650,7 @@
 			# Emphasize within the 5 ilvl range
 
 			Show
-				DropLevel = 69
+				MapTier = 2
 				Class Maps
 				ItemLevel <= 73
 				SetFontSize 40
@@ -814,12 +665,15 @@
 			# Muted
 
 			Show
-				DropLevel = 69
+				MapTier = 2
 				Class Maps
 				SetFontSize 28
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 168 166 161 255
+				DisableDropSound
+				MinimapIcon 2 White Hexagon
+				PlayEffect White
 
 		# T1
 		# ==
@@ -827,7 +681,7 @@
 			# Emphasize within the 5 ilvl range
 
 			Show
-				DropLevel < 69
+				MapTier = 1
 				Class Maps
 				ItemLevel <= 72
 				SetFontSize 40
@@ -842,12 +696,15 @@
 			# Muted
 
 			Show
-				DropLevel < 69
+				MapTier = 1
 				Class Maps
 				SetFontSize 28
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 168 166 161 255
+				DisableDropSound
+				MinimapIcon 2 White Hexagon
+				PlayEffect White
 
 	# Fragments
 	# =========
@@ -926,14 +783,14 @@
 
 			Show 
 				Class "Map Fragments"
-				BaseType "Gilded"
-				SetFontSize 40
+				BaseType "Rusted"
+				SetFontSize 28
 				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 168 166 161 255 
-				CustomAlertSound "filter_sounds/generic/high_value.ogg"
+				CustomAlertSound "filter_sounds/generic/some_value.ogg"
 				DisableDropSound
-				MinimapIcon 0 White Hexagon
+				MinimapIcon 2 White Hexagon
 				PlayEffect White
 
 			Show 
@@ -950,14 +807,14 @@
 
 			Show 
 				Class "Map Fragments"
-				BaseType "Rusted"
-				SetFontSize 28
+				BaseType "Gilded"
+				SetFontSize 40
 				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 168 166 161 255 
-				CustomAlertSound "filter_sounds/generic/some_value.ogg"
+				CustomAlertSound "filter_sounds/generic/high_value.ogg"
 				DisableDropSound
-				MinimapIcon 2 White Hexagon
+				MinimapIcon 0 White Hexagon
 				PlayEffect White
 
 	# Lab
