@@ -748,6 +748,56 @@
 			MinimapIcon 2 Green Triangle
 			PlayEffect Green
 
+		# Specific Mods
+		# =============
+
+			# Show a little more highlighting for items with veiled mods
+
+			Show
+				Rarity Magic
+				HasExplicitMod "Veil"
+				SetFontSize 33
+				SetTextColor 22 22 22 255
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 0 171 115 255
+				CustomAlertSound "filter_sounds/generic/some_value.ogg"
+				DisableDropSound
+				MinimapIcon 2 Green Triangle
+				PlayEffect Green
+
+			Show
+				Rarity Rare
+				HasExplicitMod "Veil" 
+				SetFontSize 33
+				SetTextColor 22 22 22 255
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 240 150 9 255
+				CustomAlertSound "filter_sounds/generic/some_value.ogg"
+				DisableDropSound
+				MinimapIcon 2 Yellow Square
+				PlayEffect Yellow
+
+			# At the moment this just allows the filter to catch identified items with mods that might be somewhat interesting, that weren't otherwise noted in the rules above.
+			# It might be a good idea to either break these down (or look at lower level mods such as in the case of resists), and show items that have a combination of resists + another mod.
+
+			Show
+				Rarity Magic
+				HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "of Crafting"
+				SetFontSize 28
+				SetTextColor 22 22 22 255
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 0 171 115 255
+				DisableDropSound
+
+			Show
+				Rarity Rare
+				HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting"
+				SetFontSize 28
+				SetTextColor 22 22 22 255
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 240 150 9 255
+				DisableDropSound
+
 	# Jewelry
 	# =======
 
@@ -1792,56 +1842,6 @@
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
 			SetBackgroundColor 0 171 115 255
-			DisableDropSound
-
-	# Specific Mods
-	# =============
-
-		# Show a little more highlighting for items with veiled mods
-
-		Show
-			Rarity Magic
-			HasExplicitMod "Veiled" 
-			SetFontSize 33
-			SetTextColor 22 22 22 255
-			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
-			CustomAlertSound "filter_sounds/generic/some_value.ogg"
-			DisableDropSound
-			MinimapIcon 2 Yellow Square
-			PlayEffect Yellow
-
-		Show
-			Rarity Rare
-			HasExplicitMod "Veiled"
-			SetFontSize 33
-			SetTextColor 22 22 22 255
-			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
-			CustomAlertSound "filter_sounds/generic/some_value.ogg"
-			DisableDropSound
-			MinimapIcon 2 Green Triangle
-			PlayEffect Green
-
-		# At the moment this just allows the filter to catch identified items with mods that might be somewhat interesting, that weren't otherwise noted in the rules above.
-		# It might be a good idea to either break these down (or look at lower level mods such as in the case of resists), and show items that have a combination of resists + another mod.
-
-		Show
-			Rarity Magic
-			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting"
-			SetFontSize 28
-			SetTextColor 22 22 22 255
-			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
-			DisableDropSound
-
-		Show
-			Rarity Rare
-			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting"
-			SetFontSize 28
-			SetTextColor 22 22 22 255
-			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
 			DisableDropSound
 
 # Gems

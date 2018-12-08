@@ -2371,27 +2371,27 @@
 
 		Show
 			Rarity Magic
-			HasExplicitMod "Veiled" 
+			HasExplicitMod "Veil" 
 			SetFontSize 33
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
 			SetBackgroundColor 0 171 115 255
 			CustomAlertSound "filter_sounds/generic/some_value.ogg"
 			DisableDropSound
-			MinimapIcon 2 Yellow Square
-			PlayEffect Yellow
+			MinimapIcon 2 Green Triangle
+			PlayEffect Green
 
 		Show
 			Rarity Rare
-			HasExplicitMod "Veiled"
+			HasExplicitMod "Veil"
 			SetFontSize 33
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
 			SetBackgroundColor 240 150 9 255
 			CustomAlertSound "filter_sounds/generic/some_value.ogg"
 			DisableDropSound
-			MinimapIcon 2 Green Triangle
-			PlayEffect Green
+			MinimapIcon 2 Yellow Square
+			PlayEffect Yellow
 
 		# At the moment this just allows the filter to catch identified items with mods that might be somewhat interesting, that weren't otherwise noted in the rules above.
 		# It might be a good idea to either break these down (or look at lower level mods such as in the case of resists), and show items that have a combination of resists + another mod.
