@@ -2265,7 +2265,7 @@
 		Show
 			Class "Abyss Jewel"
 			Rarity <= Magic
-			ItemLevel >= 82
+			ItemLevel >= 77
 			SetFontSize 33
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
@@ -2275,17 +2275,17 @@
 		Show
 			Class "Abyss Jewel"
 			Rarity Rare
-			ItemLevel >= 82
+			ItemLevel >= 77
 			SetFontSize 42
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
 			SetBackgroundColor 210 198 82 255
 			DisableDropSound
 
-		Show
+		Hide
 			Class "Abyss Jewel"
 			Rarity <= Magic
-			ItemLevel >= 74
+			ItemLevel >= 65
 			SetFontSize 26
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
@@ -2295,7 +2295,7 @@
 		Show
 			Class "Abyss Jewel"
 			Rarity Rare
-			ItemLevel >= 74
+			ItemLevel >= 65
 			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
