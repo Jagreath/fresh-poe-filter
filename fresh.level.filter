@@ -6,6 +6,18 @@
 
 	Show
 		Class Currency
+		BaseType "Mirror of Kalandra"
+		SetFontSize 45
+		SetTextColor 22 22 22 255    
+		SetBorderColor 22 22 22 255  
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional ShMirror 300
+		DisableDropSound
+		MinimapIcon 0 Blue Circle
+		PlayEffect Blue	
+
+	Show
+		Class Currency
 		BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Mirror of Kalandra" "Exalted Orb" 
 		SetFontSize 45
 		SetTextColor 22 22 22 255    
