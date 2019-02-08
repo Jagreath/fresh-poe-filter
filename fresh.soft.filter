@@ -1,8 +1,19 @@
-# Fresh Filter - The Softer Version
-# A version of my "Fresh" filter with more lax rules about what rare items are shown, and some other slightly more annoying things might get through at the same time.
+# A more relaxed version of the "Fresh" filter.
 
 # Currency
 # ========
+
+	Show
+		Class Currency
+		BaseType "Mirror of Kalandra"
+		SetFontSize 45
+		SetTextColor 22 22 22 255    
+		SetBorderColor 22 22 22 255  
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional ShMirror 300
+		DisableDropSound
+		MinimapIcon 0 Blue Circle
+		PlayEffect Blue	
 
 	Show
 		Class Currency
@@ -10,10 +21,10 @@
 		SetFontSize 45
 		SetTextColor 22 22 22 255    
 		SetBorderColor 22 22 22 255  
-		SetBackgroundColor 255 0 151 255
-		CustomAlertSound "filter_sounds/generic/peak_value.ogg" 
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 6 300
 		DisableDropSound
-		MinimapIcon 0 Red Star
+		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
 	Show
@@ -22,8 +33,8 @@
 		SetFontSize 45
 		SetTextColor 22 22 22 255      
 		SetBorderColor 22 22 22 255  
-		SetBackgroundColor 27 161 226 255
-		CustomAlertSound "filter_sounds/generic/high_value.ogg"
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 10 300
 		DisableDropSound
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
@@ -34,8 +45,8 @@
 		SetFontSize 45
 		SetTextColor 22 22 22 255     
 		SetBorderColor 22 22 22 255
-		SetBackgroundColor 27 161 226 255
-		CustomAlertSound "filter_sounds/generic/mid_value.ogg"    
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 13 300
 		DisableDropSound
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
@@ -43,11 +54,11 @@
 	Show
 		Class Currency
 		BaseType "Annulment Shard" "Harbinger's Shard" "Ancient Shard" "Exalted Shard" "Horizon Shard" "Engineer's Shard" "Binding Shard" "Regal Shard" "Chaos Shard" "Orb of Fusing" "Orb of Alchemy" "Blessed Orb" "Orb of Scouring" "Cartographer's Chisel" "Orb of Horizons" "Engineer's Orb" "Orb of Binding" "Silver Coin" "Glassblower's Bauble" "Stacked Deck" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Sextant"
-		SetFontSize 40
+		SetFontSize 42
 		SetTextColor 22 22 22 255   
 		SetBorderColor 22 22 22 255  
-		SetBackgroundColor 27 161 226 255
-		CustomAlertSound "filter_sounds/generic/some_value.ogg"   
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 3 300
 		DisableDropSound
 		MinimapIcon 2 Blue Circle
 		PlayEffect Blue
@@ -55,46 +66,47 @@
 	Show
 		Class Currency
 		BaseType "Orb of Chance" "Chromatic Orb" "Jeweller's Orb" 
-		SetFontSize 40
+		SetFontSize 42
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 27 161 226 255
+		SetBackgroundColor 73 160 240 255
 		DisableDropSound
 		
 	Show
 		Class Currency
 		BaseType "Orb of Transmutation" "Orb of Augmentation" "Alchemy Shard" "Orb of Alteration"
-		SetFontSize 33
+		SetFontSize 38
 		SetBorderColor 22 22 22 255   
 		SetTextColor 22 22 22 255
-		SetBackgroundColor 27 161 226 255
+		SetBackgroundColor 73 160 240 255
 		DisableDropSound
 
 	Show
 		Class Currency
 		BaseType "Blacksmith's Whetstone" "Armourer's Scrap"
-		SetFontSize 28
+		SetFontSize 38
 		SetBorderColor 22 22 22 255   
 		SetTextColor 22 22 22 255
-		SetBackgroundColor 27 161 226 255
+		SetBackgroundColor 73 160 240 255
 		DisableDropSound
 
-	Hide
+	Show
 		Class Currency
 		BaseType "Transmutation Shard" "Alteration Shard"
-		SetFontSize 28
+		# SetFontSize 38
+		SetFontSize 26
 		SetTextColor 22 22 22 255           
 		SetBorderColor 22 22 22 255      
-		SetBackgroundColor 27 161 226 255
+		SetBackgroundColor 73 160 240 255
 		DisableDropSound
 
 	Show
 		Class Currency
 		BaseType "Portal Scroll" "Scroll of Wisdom"
-		SetFontSize 28
+		SetFontSize 26
 		SetTextColor 22 22 22 255           
 		SetBorderColor 22 22 22 255      
-		SetBackgroundColor 27 161 226 255
+		SetBackgroundColor 73 160 240 255
 		DisableDropSound
 
 	Show 
@@ -103,8 +115,8 @@
 		SetFontSize 45
 		SetTextColor 22 22 22 255     
 		SetBorderColor 22 22 22 255  
-		SetBackgroundColor 27 161 226 255 
-		CustomAlertSound "filter_sounds/generic/mid_value.ogg"  
+		SetBackgroundColor 73 160 240 255 
+		PlayAlertSoundPositional 12 300
 		DisableDropSound
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
@@ -112,19 +124,19 @@
 	Show
 		Class Currency
 		BaseType "Perandus Coin"
-		SetFontSize 40
+		SetFontSize 42
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 27 161 226 255 
+		SetBackgroundColor 73 160 240 255 
 		DisableDropSound
 
 	Hide
 		Class Currency
 		BaseType "Scroll Fragment"
-		SetFontSize 28
+		SetFontSize 26
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 27 161 226 255 
+		SetBackgroundColor 73 160 240 255 
 		DisableDropSound
 
 	Show
@@ -133,8 +145,8 @@
 		SetFontSize 45
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 27 161 226 255 
-		CustomAlertSound "filter_sounds/generic/high_value.ogg" 
+		SetBackgroundColor 73 160 240 255 
+		PlayAlertSoundPositional 10 300
 		DisableDropSound
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
@@ -145,104 +157,38 @@
 		SetFontSize 45
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 162 0 255 255
-		CustomAlertSound "filter_sounds/generic/high_value.ogg" 
+		SetBackgroundColor 97 182 83 255
+		PlayAlertSoundPositional 12 300
 		DisableDropSound
-		MinimapIcon 0 Brown Diamond
-		PlayEffect Brown
+		MinimapIcon 0 Green Triangle
+		PlayEffect Green
 
-	# Essence
+	Show
+		Class Currency
+		BaseType "Essence of" "Remnant of Corruption"
+		SetFontSize 42
+		SetTextColor 22 22 22 255 
+		SetBorderColor 22 22 22 255 
+		SetBackgroundColor 73 160 240 255 
+		PlayAlertSoundPositional 12 300
+		DisableDropSound
+		MinimapIcon 0 Blue Circle
+		PlayEffect Blue
+
+	Show
+		BaseType "Vial"
+		Class "Stackable Currency"
+		SetFontSize 42
+		SetTextColor 22 22 22 255  
+		SetBorderColor 22 22 22 255 
+		SetBackgroundColor 73 160 240 255 
+		PlayAlertSoundPositional 12 300
+		DisableDropSound
+		MinimapIcon 0 Blue Circle
+		PlayEffect Blue
+
+	# Fossils
 	# =======
-
-		Show
-			Class Currency
-			BaseType "Weeping Essence of"
-			SetFontSize 40
-			SetTextColor 22 22 22 255 
-			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 27 161 226 255
-			CustomAlertSound "filter_sounds/big_enough/weeping.ogg" 
-			DisableDropSound
-			MinimapIcon 0 Blue Circle
-			PlayEffect Blue
-
-		Show
-			Class Currency
-			BaseType "Wailing Essence of"
-			SetFontSize 40
-			SetTextColor 22 22 22 255 
-			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 27 161 226 255
-			CustomAlertSound "filter_sounds/big_enough/wailing.ogg" 
-			DisableDropSound
-			MinimapIcon 0 Blue Circle
-			PlayEffect Blue
-
-		Show
-			Class Currency
-			BaseType "Screaming Essence of"
-			SetFontSize 40
-			SetTextColor 22 22 22 255 
-			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 27 161 226 255
-			CustomAlertSound "filter_sounds/big_enough/screaming.ogg" 
-			DisableDropSound
-			MinimapIcon 0 Blue Circle
-			PlayEffect Blue
-
-		Show
-			Class Currency
-			BaseType "Shrieking Essence of"
-			SetFontSize 40
-			SetTextColor 22 22 22 255 
-			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 27 161 226 255
-			CustomAlertSound "filter_sounds/big_enough/shrieking.ogg" 
-			DisableDropSound
-			MinimapIcon 0 Blue Circle
-			PlayEffect Blue
-
-		Show
-			Class Currency
-			BaseType "Deafening Essence of" "Remnant of Corruption" "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium"
-			SetFontSize 40
-			SetTextColor 22 22 22 255 
-			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 27 161 226 255
-			CustomAlertSound "filter_sounds/big_enough/deafening.ogg" 
-			DisableDropSound
-			MinimapIcon 0 Blue Circle
-			PlayEffect Blue
-
-		Show
-			Class Currency
-			BaseType "Essence of"
-			SetFontSize 40
-			SetTextColor 22 22 22 255 
-			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 27 161 226 255
-			CustomAlertSound "filter_sounds/generic/some_value.ogg" 
-			DisableDropSound
-			MinimapIcon 0 Blue Circle
-			PlayEffect Blue
-
-	# Incursion Vials
-	# ===============
-
-		Show
-			BaseType "Vial"
-			Class "Stackable Currency"
-			SetFontSize 40
-			SetTextColor 22 22 22 255  
-			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 27 161 226 255
-			CustomAlertSound "filter_sounds/generic/high_value.ogg" 		
-			DisableDropSound
-			MinimapIcon 0 Blue Circle
-			PlayEffect Blue
-
-	# Delve Currency
-	# ==============
 
 		Show
 			BaseType "Fractured Fossil" "Faceted Fossil" "Glyphic Fossil" "Bloodstained Fossil" "Hollow Fossil" "Tangled Fossil"
@@ -250,20 +196,20 @@
 			SetFontSize 45
 			SetTextColor 22 22 22 255    
 			SetBorderColor 22 22 22 255  
-			SetBackgroundColor 255 0 151 255
-			CustomAlertSound "filter_sounds/generic/peak_value.ogg" 
+			SetBackgroundColor 73 160 240 255
+			PlayAlertSoundPositional 6 300
 			DisableDropSound
-			MinimapIcon 0 Red Star
+			MinimapIcon 0 Blue Circle
 			PlayEffect Blue
 
 		Show
 			BaseType "Encrusted Fossil" "Sanctified Fossil" "Gilded Fossil"
 			Class "Stackable Currency"
-			SetFontSize 40
+			SetFontSize 42
 			SetTextColor 22 22 22 255  
 			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 27 161 226 255
-			CustomAlertSound "filter_sounds/generic/high_value.ogg" 		
+			SetBackgroundColor 73 160 240 255
+			PlayAlertSoundPositional 10 300
 			DisableDropSound
 			MinimapIcon 0 Blue Circle
 			PlayEffect Blue
@@ -271,14 +217,17 @@
 		Show
 			BaseType "Fossil"
 			Class "Stackable Currency"
-			SetFontSize 40
+			SetFontSize 38
 			SetTextColor 22 22 22 255  
 			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 27 161 226 255
-			CustomAlertSound "filter_sounds/generic/mid_value.ogg" 		
+			SetBackgroundColor 73 160 240 255
+			PlayAlertSoundPositional 13 300
 			DisableDropSound
 			MinimapIcon 1 Blue Circle
 			PlayEffect Blue
+
+	# Resonators
+	# ==========
 
 		Show
 			BaseType "Prime"
@@ -287,18 +236,18 @@
 			SetTextColor 22 22 22 255    
 			SetBorderColor 22 22 22 255  
 			SetBackgroundColor 255 0 151 255
-			CustomAlertSound "filter_sounds/generic/peak_value.ogg" 
+			PlayAlertSoundPositional 10 300
 			DisableDropSound
-			MinimapIcon 0 Red Star
+			MinimapIcon 0 Blue Circle
 			PlayEffect Blue
 
 		Show
 			Class "Delve Socketable Currency"
-			SetFontSize 40
+			SetFontSize 42
 			SetTextColor 22 22 22 255  
 			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 27 161 226 255
-			CustomAlertSound "filter_sounds/generic/mid_value.ogg" 		
+			SetBackgroundColor 73 160 240 255
+			PlayAlertSoundPositional 13 300
 			DisableDropSound
 			MinimapIcon 1 Blue Circle
 			PlayEffect Blue
@@ -316,35 +265,35 @@
 			SetFontSize 45
 			SetTextColor 22 22 22 255  
 			SetBorderColor 22 22 22 255    
-			SetBackgroundColor 255 0 151 255
-			CustomAlertSound "filter_sounds/generic/peak_value.ogg" 
+			SetBackgroundColor 182 127 221 255
+			PlayAlertSoundPositional 6 300
 			DisableDropSound
-			MinimapIcon 0 Red Star 
-			PlayEffect Red
+			MinimapIcon 0 Brown Star
+			PlayEffect Brown
 
 		Show
 			Class Maps
 			BaseType "Courtyard Map" "Temple Map" "Shore Map"
 			Rarity Unique
-			SetFontSize 40
+			SetFontSize 42
 			SetBorderColor 22 22 22 255
 			SetTextColor 22 22 22 255
-			SetBackgroundColor 162 0 255 255
-			CustomAlertSound "filter_sounds/generic/high_value.ogg" 
+			SetBackgroundColor 182 127 221 255
+			PlayAlertSoundPositional 10 300
 			DisableDropSound
-			MinimapIcon 0 Brown Diamond
+			MinimapIcon 0 Brown Star
 			PlayEffect Brown
 
 		Show
 			Class Maps
 			Rarity Unique
-			SetFontSize 33
+			SetFontSize 38
 			SetBorderColor 22 22 22 255
 			SetTextColor 22 22 22 255
-			SetBackgroundColor 162 0 255 255
-			CustomAlertSound "filter_sounds/generic/mid_value.ogg" 
+			SetBackgroundColor 182 127 221 255
+			PlayAlertSoundPositional 13 300
 			DisableDropSound
-			MinimapIcon 0 Brown Diamond
+			MinimapIcon 0 Brown Star
 			PlayEffect Brown
 
 	# Tiers
@@ -359,352 +308,588 @@
 				SetFontSize 45
 				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255 
-				SetBackgroundColor 255 0 151 255
-				CustomAlertSound "filter_sounds/generic/high_value.ogg"  
+				SetBackgroundColor 219 65 65 255
+				PlayAlertSoundPositional 6 300
 				DisableDropSound
-				MinimapIcon 0 Red Star
+				MinimapIcon 0 Red Hexagon
 				PlayEffect Red
 
 		# T15
 		# ===
 
 			Show
-				MapTier 15
+				MapTier = 15
 				Class Maps
 				SetFontSize 45
-				SetTextColor 22 22 22 255 
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255 
-				SetBackgroundColor 168 166 161 255 
-				CustomAlertSound "filter_sounds/generic/high_map.ogg" 
+				SetBackgroundColor 219 65 65 255
+				PlayAlertSoundPositional 10 300
 				DisableDropSound
-				MinimapIcon 0 White Hexagon
-				PlayEffect White
+				MinimapIcon 0 Red Hexagon
+				PlayEffect Red
 
-		# T11 - T14
-		# =========
+		# T14
+		# ===
 
 			Show
-				MapTier >= 11
+				MapTier = 14
+				ItemLevel <= 82
 				Class Maps
-				SetFontSize 40
+				SetFontSize 45
 				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255  
-				CustomAlertSound "filter_sounds/generic/high_map.ogg"  
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
 				DisableDropSound 
-				MinimapIcon 1 White Hexagon 
-				PlayEffect White
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
+
+			Show
+				MapTier = 14
+				ItemLevel >= 83
+				Class Maps
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
+
+		# T13
+		# ===
+
+			Show
+				MapTier = 13
+				ItemLevel <= 81
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
+
+			Show
+				MapTier = 13
+				ItemLevel >= 82
+				Class Maps
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
+
+		# T12
+		# ===
+
+			Show
+				MapTier = 12
+				ItemLevel <= 80
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
+
+			Show
+				MapTier = 12
+				ItemLevel <= 82
+				Class Maps
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 13 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
+
+			Show
+				MapTier = 12
+				ItemLevel >= 83
+				Class Maps
+				SetFontSize 38
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 14 300
+				DisableDropSound 
+				MinimapIcon 2 Red Hexagon 
+				PlayEffect Red
+
+		# T11
+		# ===
+
+			Show
+				MapTier = 11
+				ItemLevel <= 79
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
+
+			Show
+				MapTier = 11
+				ItemLevel <= 81
+				Class Maps
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 13 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
+
+			Show
+				MapTier = 11
+				ItemLevel >= 82
+				Class Maps
+				SetFontSize 38
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 14 300
+				DisableDropSound 
+				MinimapIcon 2 Red Hexagon 
+				PlayEffect Red
 
 		# T10
 		# ===
 
-			# Emphasize within 5 ilvl range
+			Show
+				MapTier = 10
+				ItemLevel <= 78
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 10
+				ItemLevel <= 80
 				Class Maps
-				ItemLevel <= 81
-				SetFontSize 40
-				SetTextColor 22 22 22 255
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255 
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			# Muted vis
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 13 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 10
+				ItemLevel >= 81
 				Class Maps
-				SetFontSize 28
-				SetTextColor 22 22 22 255
+				SetFontSize 38
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255 
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 2 White Hexagon
-				PlayEffect White
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 14 300
+				DisableDropSound 
+				MinimapIcon 2 Red Hexagon 
+				PlayEffect Red
 
 		# T9
 		# ==
 
-			# Emphasize within 5 ilvl range
+			Show
+				MapTier = 9
+				ItemLevel <= 77
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 9
+				ItemLevel <= 79
 				Class Maps
-				ItemLevel <= 80
-				SetFontSize 40
-				SetTextColor 22 22 22 255
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255 
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			# Muted vis
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 13 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 9
+				ItemLevel >= 80
 				Class Maps
-				SetFontSize 28
-				SetTextColor 22 22 22 255
+				SetFontSize 38
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255 
-				DisableDropSound
-				MinimapIcon 2 White Hexagon
-				PlayEffect White
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 14 300
+				DisableDropSound 
+				MinimapIcon 2 Red Hexagon 
+				PlayEffect Red
 
 		# T8
 		# ==
 
-			# Emphasize within 5 ilvl range
+			Show
+				MapTier = 8
+				ItemLevel <= 76
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 8
+				ItemLevel <= 78
 				Class Maps
-				ItemLevel <= 79
-				SetFontSize 40
-				SetTextColor 22 22 22 255
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			# Muted vis
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 13 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 8
+				ItemLevel >= 79
 				Class Maps
-				SetFontSize 28
-				SetTextColor 22 22 22 255
+				SetFontSize 38
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				DisableDropSound
-				MinimapIcon 2 White Hexagon
-				PlayEffect White
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 14 300
+				DisableDropSound 
+				MinimapIcon 2 Red Hexagon 
+				PlayEffect Red
 
 		# T7
 		# ==
 
-			# Emphasize within 5 ilvl range
+			Show
+				MapTier = 7
+				ItemLevel <= 75
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 7
+				ItemLevel <= 77
 				Class Maps
-				ItemLevel <= 78
-				SetFontSize 40
-				SetTextColor 22 22 22 255
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			# Muted vis
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 13 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 7
+				ItemLevel >= 78
 				Class Maps
-				SetFontSize 28
-				SetTextColor 22 22 22 255
+				SetFontSize 38
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				DisableDropSound
-				MinimapIcon 2 White Hexagon
-				PlayEffect White
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 14 300
+				DisableDropSound 
+				MinimapIcon 2 Red Hexagon 
+				PlayEffect Red
 
 		# T6
 		# ==
 
-			# Emphasize within 5 ilvl range
+			Show
+				MapTier = 6
+				ItemLevel <= 74
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 6
+				ItemLevel <= 76
 				Class Maps
-				ItemLevel <= 77
-				SetFontSize 40
-				SetTextColor 22 22 22 255
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			# Muted vis
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 13 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 6
+				ItemLevel >= 77
 				Class Maps
-				SetFontSize 28
-				SetTextColor 22 22 22 255
+				SetFontSize 38
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				DisableDropSound
-				MinimapIcon 2 White Hexagon
-				PlayEffect White
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 14 300
+				DisableDropSound 
+				MinimapIcon 2 Red Hexagon 
+				PlayEffect Red
 
 		# T5
 		# ==
 
-			# Emphasize within 5 ilvl range
+			Show
+				MapTier = 5
+				ItemLevel <= 73
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 5
+				ItemLevel <= 75
 				Class Maps
-				ItemLevel <= 76
-				SetFontSize 40
-				SetTextColor 22 22 22 255
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			# Muted vis
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 13 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 5
+				ItemLevel >= 76
 				Class Maps
-				SetFontSize 28
-				SetTextColor 22 22 22 255
+				SetFontSize 38
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				DisableDropSound
-				MinimapIcon 2 White Hexagon
-				PlayEffect White
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 14 300
+				DisableDropSound 
+				MinimapIcon 2 Red Hexagon 
+				PlayEffect Red
 
 		# T4
 		# ==
 
-			# Emphasize within the 5 ilvl range
+			Show
+				MapTier = 4
+				ItemLevel <= 72
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 4
+				ItemLevel <= 74
 				Class Maps
-				ItemLevel <= 75
-				SetFontSize 40
-				SetTextColor 22 22 22 255
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			# Muted vis
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 13 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 4
+				ItemLevel >= 75
 				Class Maps
-				SetFontSize 28
-				SetTextColor 22 22 22 255
+				SetFontSize 38
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				DisableDropSound
-				MinimapIcon 2 White Hexagon
-				PlayEffect White
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 14 300
+				DisableDropSound 
+				MinimapIcon 2 Red Hexagon 
+				PlayEffect Red
 
 		# T3
 		# ==
 
-			# Emphasize within the 5 ilvl range
+			Show
+				MapTier = 3
+				ItemLevel <= 71
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 3
+				ItemLevel <= 73
 				Class Maps
-				ItemLevel <= 74
-				SetFontSize 40
-				SetTextColor 22 22 22 255
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			# Muted vis
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 13 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 3
+				ItemLevel >= 74
 				Class Maps
-				SetFontSize 28
-				SetTextColor 22 22 22 255
+				SetFontSize 38
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				DisableDropSound
-				MinimapIcon 2 White Hexagon
-				PlayEffect White
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 14 300
+				DisableDropSound 
+				MinimapIcon 2 Red Hexagon 
+				PlayEffect Red
 
 		# T2
 		# ==
 
-			# Emphasize within the 5 ilvl range
+			Show
+				MapTier = 2
+				ItemLevel <= 70
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 2
+				ItemLevel <= 72
 				Class Maps
-				ItemLevel <= 73
-				SetFontSize 40
-				SetTextColor 22 22 22 255
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			# Muted
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 13 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 2
+				ItemLevel >= 73
 				Class Maps
-				SetFontSize 28
-				SetTextColor 22 22 22 255
+				SetFontSize 38
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				DisableDropSound
-				MinimapIcon 2 White Hexagon
-				PlayEffect White
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 14 300
+				DisableDropSound 
+				MinimapIcon 2 Red Hexagon 
+				PlayEffect Red
 
 		# T1
 		# ==
 
-			# Emphasize within the 5 ilvl range
+			Show
+				MapTier = 1
+				ItemLevel <= 69
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 1
+				ItemLevel <= 71
 				Class Maps
-				ItemLevel <= 72
-				SetFontSize 40
-				SetTextColor 22 22 22 255
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				CustomAlertSound "filter_sounds/generic/low_map.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			# Muted
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 13 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 1
+				ItemLevel >= 72
 				Class Maps
-				SetFontSize 28
-				SetTextColor 22 22 22 255
+				SetFontSize 38
+				SetTextColor 22 22 22 255  
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255
-				DisableDropSound
-				MinimapIcon 2 White Hexagon
-				PlayEffect White
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 14 300
+				DisableDropSound 
+				MinimapIcon 2 Red Hexagon 
+				PlayEffect Red
 
 	# Fragments
 	# =========
@@ -715,7 +900,8 @@
 			SetFontSize 45
 			SetTextColor 22 22 22 255   
 			SetBorderColor 22 22 22 255  
-			SetBackgroundColor 27 161 226 255
+			SetBackgroundColor 73 160 240 255
+			PlayAlertSoundPositional 13 300
 			DisableDropSound
 			MinimapIcon 1 Blue Circle
 			PlayEffect Blue
@@ -723,123 +909,108 @@
 		Show
 			Class Currency
 			BaseType "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol"
-			SetFontSize 40
+			SetFontSize 42
 			SetTextColor 22 22 22 255  
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 27 161 226 255
+			SetBackgroundColor 73 160 240 255
 			DisableDropSound
 			MinimapIcon 2 Blue Circle
 			PlayEffect Blue
 
 		# Ancient Reliquary Key / Timeworn Reliquary Key
+
 		Show
 			Class "Misc Map Items"
 			SetFontSize 45
 			SetTextColor 22 22 22 255  
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 255 0 151 255 
-			CustomAlertSound "filter_sounds/generic/peak_value.ogg" 
+			SetBackgroundColor 182 127 221 255
+			PlayAlertSoundPositional 6 300
 			DisableDropSound
-			MinimapIcon 0 Red Star
-			PlayEffect Red
+			MinimapIcon 0 Brown Star
+			PlayEffect Brown
 
 		Show
 			Class "Map Fragments"
 			BaseType "Mortal" "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Sacrifice" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra" "Breachstone"
-			SetFontSize 45
+			SetFontSize 42
 			SetTextColor 22 22 22 255  
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 168 166 161 255 
-			CustomAlertSound "filter_sounds/generic/high_map.ogg"
+			SetBackgroundColor 219 65 65 255 
+			PlayAlertSoundPositional 10 300
 			DisableDropSound 
-			MinimapIcon 0 White Hexagon
-			PlayEffect White
+			MinimapIcon 0 Red Hexagon
+			PlayEffect Red
 
 		Show 
 			Class "Map Fragments"
 			BaseType "Divine Vessel"
-			SetFontSize 33
+			SetFontSize 38
 			SetTextColor 22 22 22 255  
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 168 166 161 255 
-			CustomAlertSound "filter_sounds/generic/some_value.ogg"
+			SetBackgroundColor 219 65 65 255 
+			PlayAlertSoundPositional 3 300
 			DisableDropSound
-			MinimapIcon 2 White Hexagon
-			PlayEffect White
+			MinimapIcon 2 Red Hexagon
+			PlayEffect Red
 
 		Show
 			Class "Pantheon Soul"
 			SetFontSize 45
 			SetTextColor 22 22 22 255      
 			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 168 166 161 255 
-			CustomAlertSound "filter_sounds/generic/high_value.ogg" 
+			SetBackgroundColor 182 127 221 255
+			PlayAlertSoundPositional 12 300
 			DisableDropSound
-			MinimapIcon 0 White Hexagon
-			PlayEffect White
+			MinimapIcon 0 Brown Star
+			PlayEffect Brown
 
 		# Scarabs
-		# =======
 
-			Show 
-				Class "Map Fragments"
-				BaseType "Rusted"
-				SetFontSize 28
-				SetTextColor 22 22 22 255  
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255 
-				CustomAlertSound "filter_sounds/generic/some_value.ogg"
-				DisableDropSound
-				MinimapIcon 2 White Hexagon
-				PlayEffect White
-
-			Show 
-				Class "Map Fragments"
-				BaseType "Polished"
-				SetFontSize 33
-				SetTextColor 22 22 22 255  
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255 
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
-				DisableDropSound
-				MinimapIcon 1 White Hexagon
-				PlayEffect White
-
-			Show 
-				Class "Map Fragments"
-				BaseType "Gilded"
-				SetFontSize 40
-				SetTextColor 22 22 22 255  
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 168 166 161 255 
-				CustomAlertSound "filter_sounds/generic/high_value.ogg"
-				DisableDropSound
-				MinimapIcon 0 White Hexagon
-				PlayEffect White
-
-	# Lab
-	# ===
+		Show 
+			Class "Map Fragments"
+			BaseType "Rusted" "Polished" "Gilded"
+			SetFontSize 42
+			SetTextColor 22 22 22 255  
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 219 65 65 255 
+			PlayAlertSoundPositional 10 300
+			DisableDropSound
+			MinimapIcon 1 Red Hexagon
+			PlayEffect Red
 
 		Show
 			BaseType "Offering to the Goddess"
-			SetFontSize 45
+			SetFontSize 38
 			SetTextColor 22 22 22 255 
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 168 166 161 255 
-			CustomAlertSound "filter_sounds/generic/high_map.ogg"
+			SetBackgroundColor 219 65 65 255 
+			PlayAlertSoundPositional 13 300
 			DisableDropSound 
-			MinimapIcon 0 White Hexagon
-			PlayEffect White
+			MinimapIcon 0 Red Hexagon
+			PlayEffect Red
 
 		Show
 			Class "Labyrinth"
 			SetFontSize 45
 			SetTextColor 22 22 22 255 
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 162 0 255 255 
-			CustomAlertSound "filter_sounds/generic/quest.ogg" 
+			SetBackgroundColor 182 127 221 255 
+			PlayAlertSoundPositional 12 300
 			DisableDropSound
-			MinimapIcon 0 Brown Diamond
+			MinimapIcon 0 Brown Star
+			PlayEffect Brown
+
+		Show
+			Class Quest
+			BaseType "Shaper's Orb"
+			SetFontSize 45
+			SetTextColor 22 22 22 255      
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 182 127 221 255
+			PlayAlertSoundPositional 6 300
+			DisableDropSound
+			MinimapIcon 0 Brown Star
 			PlayEffect Brown
 
 	# Catch
@@ -851,7 +1022,7 @@
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
 			SetBackgroundColor 255 0 101 255
-			MinimapIcon 0 Red Star
+			MinimapIcon 0 Red Hexagon
 			PlayEffect Red
 
 		Show
@@ -860,114 +1031,35 @@
 			SetTextColor 22 22 22 255      
 			SetBorderColor 22 22 22 255
 			SetBackgroundColor 255 0 101 255
-			MinimapIcon 0 Red Star
+			MinimapIcon 0 Red Hexagon
 			PlayEffect Red
-
-		Show
-			Class Quest
-			BaseType "Shaper's Orb"
-			SetFontSize 45
-			SetTextColor 22 22 22 255      
-			SetBorderColor 22 22 22 255
-			SetBackgroundColor 162 0 255 255
-			CustomAlertSound "filter_sounds/generic/quest.ogg" 
-			DisableDropSound
-			MinimapIcon 0 Brown Diamond
-			PlayEffect Brown
 
 # Divination Cards
 # ================
 
-	# Low value cards that might have a conflict if they don't show up first
-
-	Show
-		Class "Divination"
-		BaseType "The Wolf's Shadow"
-		SetFontSize 28
-		SetTextColor 22 22 22 255   
-		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 162 0 255 255 
-		DisableDropSound
-
-	# Mid value cards that might have a conflict if they don't show up first
-
-	Show
-		Class "Divination"
-		BaseType "The Master" 
-		SetFontSize 33
-		SetTextColor 22 22 22 255  
-		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 162 0 255 255
-		CustomAlertSound "filter_sounds/generic/mid_value.ogg"
-		DisableDropSound
-		MinimapIcon 2 Brown Diamond
-		PlayEffect Brown
-
-	# Top Value
-	# Anything over 50C per card
-
-	Show
-		Class "Divination"
-		BaseType "House of Mirrors" "Beauty Through Death" "The Doctor" "The Fiend" "The Immortal" "The Spark and the Flame" "Hunter's Reward" "The Queen" "The Samurai's Eye" "The Wolven King's Bite" "Immortal Resolve" "The Iron Bard" "Abandoned Wealth" "The Mayor" "Mawr Blaidd" "The Celestial Stone"
-		SetFontSize 45
-		SetTextColor 22 22 22 255 
-		SetBorderColor 22 22 22 255  
-		SetBackgroundColor 255 0 151 255
-		CustomAlertSound "filter_sounds/generic/peak_value.ogg" 
-		DisableDropSound
-		MinimapIcon 0 Red Star
-		PlayEffect Red
-
-	# High Value
-	# Anything above 15C or so per card
-
-	Show
-		Class "Divination"
-		BaseType "Wealth and Power" "The Dragon's Heart" "The Saint's Treasure" "The Undaunted" "Pride Before the Fall" "The Hunger" "Boon of the First Ones" "The Professor" "The King's Heart"
-		SetFontSize 40
-		SetTextColor 22 22 22 255 
-		SetBorderColor 22 22 22 255  
-		SetBackgroundColor 162 0 255 255
-		CustomAlertSound "filter_sounds/generic/high_value.ogg" 
-		DisableDropSound
-		MinimapIcon 1 Brown Diamond
-		PlayEffect Brown
-
-	# Mid Value
-	# Anything above 5C or so per card
-
-	Show
-		Class "Divination"
-		BaseType "The Artist" "The Valkyrie" "The Sephirot" "The Wolf" "The Master" "The Hoarder" "The Enlightened" "The Vast" "The Breach" "Heterochromia" "Perfection" "The Hale Heart" "The Wind" "The Undisputed" "Chaotic Disposition" "Bowyer's Dream" "The Celestial Justicar" "The Risk" "The Thaumaturgist" "The Valley of Steel Boxes" "The Void" "Time-Lost Relic" "The Last One Standing"
-		SetFontSize 33
-		SetTextColor 22 22 22 255  
-		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 162 0 255 255
-		CustomAlertSound "filter_sounds/generic/mid_value.ogg"
-		DisableDropSound
-		MinimapIcon 2 Brown Diamond
-		PlayEffect Brown
-
-	# Hide specific (mostly) worthless cards that drop enough that seeing them is an affront to the senses
+	# Hide cards that aren't worth turning in
 
 	Hide
 		Class "Divination"
 		BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon"
-		SetFontSize 24
+		SetFontSize 26
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255
-		SetBackgroundColor 162 0 255 255
+		SetBackgroundColor 186 186 176 255
 		DisableDropSound
 		
 	# Anything else
 
 	Show
 		Class "Divination"
-		SetFontSize 28
+		SetFontSize 38
 		SetTextColor 22 22 22 255   
 		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 162 0 255 255 
+		SetBackgroundColor 186 186 176 255
+		PlayAlertSoundPositional 13 300
 		DisableDropSound
+		MinimapIcon 1 White Square
+		PlayEffect White
 
 # Uniques
 # =======
@@ -981,31 +1073,14 @@
 			SocketGroup WWWWWW
 			BaseType "Simple Robe"
 			Rarity Unique
-			SetFontSize 40
+			SetFontSize 42
 			SetTextColor 22 22 22 255 
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 162 0 255 255
-			CustomAlertSound "filter_sounds/generic/high_value.ogg"	
+			SetBackgroundColor 182 127 221 255
+			PlayAlertSoundPositional 10 300
 			DisableDropSound
-			MinimapIcon 0 Brown Diamond
+			MinimapIcon 0 Brown Star
 			PlayEffect Brown
-
-		#Skin of the Loyal... also probably
-
-		Show
-			LinkedSockets 6
-			BaseType "Simple Robe"
-			Rarity Unique
-			SetFontSize 40
-			SetTextColor 22 22 22 255 
-			SetBorderColor 22 22 22 255
-			SetBackgroundColor 162 0 255 255
-			CustomAlertSound "filter_sounds/generic/high_value.ogg"
-			DisableDropSound
-			MinimapIcon 0 Brown Diamond
-			PlayEffect Brown
-
-		# Any unique that gets a five or six link is probably worth picking up.
 
 		Show
 			LinkedSockets 6
@@ -1013,11 +1088,11 @@
 			SetFontSize 45
 			SetTextColor 22 22 22 255   
 			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 255 0 151 255
-			CustomAlertSound "filter_sounds/generic/peak_value.ogg" 
+			SetBackgroundColor 182 127 221 255
+			PlayAlertSoundPositional 6 300
 			DisableDropSound
-			MinimapIcon 0 Red Star
-			PlayEffect Red
+			MinimapIcon 0 Brown Star
+			PlayEffect Brown
 
 		Show
 			LinkedSockets 5
@@ -1025,82 +1100,41 @@
 			SetFontSize 45
 			SetTextColor 22 22 22 255   
 			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 162 0 255 255
-			CustomAlertSound "filter_sounds/generic/high_value.ogg" 
+			SetBackgroundColor 182 127 221 255
+			PlayAlertSoundPositional 6 300
 			DisableDropSound
-			MinimapIcon 0 Brown Diamond
+			MinimapIcon 0 Brown Star
 			PlayEffect Brown
 
-		# This class was for Harbinger, but we'll leave it in here because why not, right?
+		# Harbinger pieces
 
 		Show
 			Class Piece
-			SetFontSize 45
+			SetFontSize 42
 			SetTextColor 22 22 22 255 
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 162 0 255 255
-			CustomAlertSound "filter_sounds/generic/high_value.ogg" 
+			SetBackgroundColor 182 127 221 255
+			PlayAlertSoundPositional 10 300
 			DisableDropSound
-			MinimapIcon 0 Brown Diamond
+			MinimapIcon 0 Brown Star
 			PlayEffect Brown
 
-	# Tier 1
-	# ======
-
-		# Bases guaranteed to be worth at least an exalt or more. OR, bases with at least one unique that are worth too many exalts to ignore.
-
-		Show
-			BaseType "Grand Mana Flask" "Sapphire Flask" "Prophecy Wand" "Crusader Boots" "Rawhide Boots" "Glorious Plate" "Amber Amulet"
-			Rarity Unique
-			SetFontSize 45
-			SetTextColor 22 22 22 255 
-			SetBorderColor 22 22 22 255  
-			SetBackgroundColor 255 0 151 255
-			CustomAlertSound "filter_sounds/generic/peak_value.ogg" 
-			DisableDropSound
-			MinimapIcon 0 Red Star
-			PlayEffect Red
-
-	# Tier 2
-	# ======
-
-		# Bases guaranteed to be worth at least 15C or more, or bases with at least one unique worth at least ~25C.
-
-		Show
-			BaseType "Sanctified Mana Flask" "Sanctified Life Flask" "Stibnite Flask" "Bismuth Flask" "Prismatic Jewel" "Imperial Bow" "Vaal Axe" "Carved Wand" "Infernal Sword" "Jewelled Foil" "Nightmare Mace" "Goathide Boots" "Sorcerer Boots" "Magistrate Crown" "Ezomyte Tower Shield" "Harlequin Mask" "Riveted Gloves" "Rawhide Tower Shield" "Ebony Tower Shield" "Occultist's Vestment" "Lapis Amulet"
-			Rarity Unique
-			SetFontSize 40
-			SetTextColor 22 22 22 255
-			SetBorderColor 22 22 22 255
-			SetBackgroundColor 162 0 255 255
-			CustomAlertSound "filter_sounds/generic/high_value.ogg"
-			DisableDropSound
-			MinimapIcon 0 Brown Diamond
-			PlayEffect Brown
-
-	# Other
-	# =====
-
-		# All other uniques.
-
-		Show
-			Rarity Unique
-			SetFontSize 33
-			SetTextColor 22 22 22 255
-			SetBorderColor 22 22 22 255
-			SetBackgroundColor 162 0 255 255
-			CustomAlertSound "filter_sounds/generic/mid_value.ogg"
-			DisableDropSound
-			MinimapIcon 1 Brown Diamond
-			PlayEffect Brown
-
+	Show
+		Rarity Unique
+		SetFontSize 42
+		SetTextColor 22 22 22 255
+		SetBorderColor 22 22 22 255
+		SetBackgroundColor 182 127 221 255
+		PlayAlertSoundPositional 10 300
+		DisableDropSound
+		MinimapIcon 1 Brown Star
+		PlayEffect Brown
+	
 # Rare, Magic, Normal Items
 # =========================
 
 	# High Priority
 	# =============
-
-		# These rules need to come first so we can highlight them.
 
 		Show
 			LinkedSockets 6
@@ -1108,10 +1142,10 @@
 			SetFontSize 45
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
-			CustomAlertSound "filter_sounds/generic/high_value.ogg"
+			SetBackgroundColor 210 198 82 255
+			PlayAlertSoundPositional 6 300
 			DisableDropSound
-			MinimapIcon 0 Yellow Square
+			MinimapIcon 0 Yellow Triangle
 			PlayEffect Yellow
 
 		Show
@@ -1120,25 +1154,11 @@
 			SetFontSize 45
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
-			CustomAlertSound "filter_sounds/generic/high_value.ogg"
+			SetBackgroundColor 97 182 83 255
+			PlayAlertSoundPositional 6 300
 			DisableDropSound
 			MinimapIcon 0 Green Triangle
 			PlayEffect Green
-
-		# I don't think this can happen! Putting it in a rule, to see if I'm wrong. In practice.
-
-		Show
-			Rarity < Rare
-			ElderItem True 
-			SetFontSize 45
-			SetTextColor 22 22 22 255
-			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
-			CustomAlertSound "filter_sounds/generic/peak_value.ogg"
-			DisableDropSound
-			MinimapIcon 0 Red Star
-			PlayEffect Blue
 
 	# Body Armours
 	# ============
@@ -1148,28 +1168,26 @@
 
 			Show
 				Class "Body Armours"
-				Rarity Rare
 				ElderItem True 
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 			Show
 				Class "Body Armours"
-				Rarity Rare
 				ShaperItem True 
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 		# Normal
@@ -1178,19 +1196,19 @@
 			Show
 				Class "Body Armours"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
+				SetBackgroundColor 210 198 82 255
 				DisableDropSound
 
 			Show
 				BaseType "Sacrificial Garb"
 				Rarity <= Magic
-				SetFontSize 24
+				SetFontSize 26
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 0 171 115 255
+				SetBackgroundColor 97 182 83 255
 				DisableDropSound
 
 		# Quality
@@ -1200,24 +1218,24 @@
 				Class "Body Armours"
 				Rarity Rare
 				Quality >= 30
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 			Show
 				Class "Body Armours"
 				Rarity <= Magic
 				Quality >= 30
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 0 171 115 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 97 182 83 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
 				MinimapIcon 1 Green Triangle
 				PlayEffect Green
@@ -1235,10 +1253,10 @@
 				SetFontSize 45
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 			Show
@@ -1248,10 +1266,10 @@
 				SetFontSize 45
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 		# Normal
@@ -1260,10 +1278,10 @@
 			Show
 				Class Helmets
 				Rarity Rare
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
+				SetBackgroundColor 210 198 82 255
 				DisableDropSound
 
 		# Quality
@@ -1276,10 +1294,10 @@
 				SetFontSize 45
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 			Show
@@ -1289,8 +1307,8 @@
 				SetFontSize 45
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 0 171 115 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 97 182 83 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
 				MinimapIcon 1 Green Triangle
 				PlayEffect Green
@@ -1305,26 +1323,26 @@
 				Class Gloves
 				Rarity Rare
 				ElderItem True 
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 			Show
 				Class Gloves
 				Rarity Rare
 				ShaperItem True 
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 		# Normal
@@ -1333,10 +1351,10 @@
 			Show
 				Class Gloves
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
+				SetBackgroundColor 210 198 82 255
 				DisableDropSound
 
 		# Quality
@@ -1346,24 +1364,24 @@
 				Class Gloves
 				Rarity Rare
 				Quality >= 30
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 			Show
 				Class Gloves
 				Rarity <= Magic
 				Quality >= 30
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 0 171 115 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 97 182 83 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
 				MinimapIcon 1 Green Triangle
 				PlayEffect Green
@@ -1378,26 +1396,26 @@
 				Class Boots
 				Rarity Rare
 				ElderItem True 
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 			Show
 				Class Boots
 				Rarity Rare
 				ShaperItem True 
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 		# Normal
@@ -1406,10 +1424,10 @@
 			Show
 				Class Boots
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
+				SetBackgroundColor 210 198 82 255
 				DisableDropSound
 
 		# Quality
@@ -1419,24 +1437,24 @@
 				Class Boots
 				Rarity Rare
 				Quality >= 30
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 			Show
 				Class Boots
 				Rarity <= Magic
 				Quality >= 30
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 0 171 115 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 97 182 83 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
 				MinimapIcon 1 Green Triangle
 				PlayEffect Green
@@ -1451,26 +1469,26 @@
 				Class Shields
 				Rarity Rare
 				ElderItem True 
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 			Show
 				Class Shields
 				Rarity Rare
 				ShaperItem True 
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 		# Normal
@@ -1479,19 +1497,19 @@
 			Show
 				BaseType "Titanium Spirit Shield" "Archon Kite Shield"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
+				SetBackgroundColor 210 198 82 255
 				DisableDropSound
 
 			Show
 				BaseType "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Harmonic Spirit Shield" "Battle Buckler" "Fossilised Spirit Shield" "Angelic Kite Shield" "Vaal Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Ceremonial Kite Shield"
 				Rarity Rare
-				SetFontSize 28
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
+				SetBackgroundColor 210 198 82 255
 				DisableDropSound
 
 		# Quality
@@ -1501,24 +1519,24 @@
 				BaseType "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Harmonic Spirit Shield" "Battle Buckler" "Fossilised Spirit Shield" "Angelic Kite Shield" "Vaal Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Ceremonial Kite Shield"
 				Rarity Rare
 				Quality >= 30
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 			Show
 				BaseType "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Harmonic Spirit Shield" "Battle Buckler" "Fossilised Spirit Shield" "Angelic Kite Shield" "Vaal Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Ceremonial Kite Shield"
 				Rarity <= Magic
 				Quality >= 30
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 0 171 115 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 97 182 83 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
 				MinimapIcon 1 Green Triangle
 				PlayEffect Green
@@ -1533,26 +1551,26 @@
 				Class Claws Daggers Wands "One Hand" "Bows" "Staves" "Two Hand" Quivers Sceptres
 				Rarity Rare
 				ElderItem True 
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 			Show
 				Class Claws Daggers Wands "One Hand" "Bows" "Staves" "Two Hand" Quivers Sceptres
 				Rarity Rare
 				ShaperItem True 
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 		# Normal
@@ -1561,28 +1579,28 @@
 			Show
 				BaseType "Runic Hatchet" "Vaal Hatchet" "Jewelled Foil" "Imperial Claw" "Platinum Kris" "Demon Dagger" "Ambusher" "Sambar Sceptre"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
+				SetBackgroundColor 210 198 82 255
 				DisableDropSound
 
 			Show
 				BaseType "Vaal Axe" "Gemini Claw" "Carnal Sceptre" "Void Sceptre" "Opal Wand" "Imbued Wand" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
 				Rarity Rare
-				SetFontSize 28
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
+				SetBackgroundColor 210 198 82 255
 				DisableDropSound
 
 			Show
 				Class Daggers Claws "One Hand Swords" "One Hand Axes" "One Hand Maces" Wands Sceptres
 				Rarity Rare
-				SetFontSize 24
+				SetFontSize 26
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
+				SetBackgroundColor 210 198 82 255
 				DisableDropSound
 
 		# Quality
@@ -1592,24 +1610,24 @@
 				Class Claws Daggers Wands "One Hand" "Bows" "Staves" "Two Hand" Quivers Sceptres
 				Rarity Rare
 				Quality >= 30
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 240 150 9 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 210 198 82 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
-				MinimapIcon 1 Yellow Square
+				MinimapIcon 1 Yellow Triangle
 				PlayEffect Yellow
 
 			Show
 				Class Claws Daggers Wands "One Hand" "Bows" "Staves" "Two Hand" Quivers Sceptres
 				Rarity <= Magic
 				Quality >= 30
-				SetFontSize 40
+				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
-				SetBackgroundColor 0 171 115 255
-				CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+				SetBackgroundColor 97 182 83 255
+				PlayAlertSoundPositional 13 300
 				DisableDropSound
 				MinimapIcon 1 Green Triangle
 				PlayEffect Green
@@ -1621,24 +1639,24 @@
 			BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet"
 			Rarity Rare
 			ItemLevel >= 82
-			SetFontSize 40
+			SetFontSize 42
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
-			CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+			SetBackgroundColor 210 198 82 255
+			PlayAlertSoundPositional 13 300
 			DisableDropSound
-			MinimapIcon 1 Yellow Square
+			MinimapIcon 1 Yellow Triangle
 			PlayEffect Yellow
 
 		Show 
 			BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet"
 			Rarity < Rare
 			ItemLevel >= 82
-			SetFontSize 40
+			SetFontSize 42
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
-			CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+			SetBackgroundColor 97 182 83 255
+			PlayAlertSoundPositional 13 300
 			DisableDropSound
 			MinimapIcon 1 Green Triangle
 			PlayEffect Green
@@ -1646,23 +1664,23 @@
 		Show 
 			BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet"
 			Rarity Rare
-			SetFontSize 40
+			SetFontSize 42
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
-			CustomAlertSound "filter_sounds/generic/some_value.ogg" 
+			SetBackgroundColor 210 198 82 255
+			PlayAlertSoundPositional 3 300
 			DisableDropSound
-			MinimapIcon 2 Yellow Square
+			MinimapIcon 2 Yellow Triangle
 			PlayEffect Yellow
 
 		Show 
 			BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet"
 			Rarity <= Magic
-			SetFontSize 40
+			SetFontSize 42
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
-			CustomAlertSound "filter_sounds/generic/some_value.ogg" 
+			SetBackgroundColor 97 182 83 255
+			PlayAlertSoundPositional 3 300
 			DisableDropSound
 			MinimapIcon 2 Green Triangle
 			PlayEffect Green
@@ -1672,13 +1690,13 @@
 			Rarity Rare
 			ElderItem True 
 			ItemLevel >= 80
-			SetFontSize 40
+			SetFontSize 42
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
-			CustomAlertSound "filter_sounds/generic/high_value.ogg"
+			SetBackgroundColor 210 198 82 255
+			PlayAlertSoundPositional 10 300
 			DisableDropSound
-			MinimapIcon 0 Yellow Square
+			MinimapIcon 0 Yellow Triangle
 			PlayEffect Yellow
 
 		Show
@@ -1686,88 +1704,88 @@
 			Rarity Rare
 			ShaperItem True 
 			ItemLevel >= 80
-			SetFontSize 40
+			SetFontSize 42
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
-			CustomAlertSound "filter_sounds/generic/high_value.ogg"
+			SetBackgroundColor 210 198 82 255
+			PlayAlertSoundPositional 10 300
 			DisableDropSound
-			MinimapIcon 0 Yellow Square
+			MinimapIcon 0 Yellow Triangle
 			PlayEffect Yellow
 
 		Show
 			Class Rings Amulets Belts
 			Rarity Rare
 			ItemLevel >= 84
-			SetFontSize 40
+			SetFontSize 42
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
+			SetBackgroundColor 210 198 82 255
 			DisableDropSound
 
 		Show
 			Class Rings Amulets Belts
 			Rarity Rare
 			ElderItem True 
-			SetFontSize 33
+			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
-			CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+			SetBackgroundColor 210 198 82 255
+			PlayAlertSoundPositional 13 300
 			DisableDropSound
-			MinimapIcon 1 Yellow Square
+			MinimapIcon 1 Yellow Triangle
 			PlayEffect Yellow
 
 		Show
 			Class Rings Amulets Belts
 			Rarity Rare
 			ShaperItem True 
-			SetFontSize 33
+			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
-			CustomAlertSound "filter_sounds/generic/mid_value.ogg"
+			SetBackgroundColor 210 198 82 255
+			PlayAlertSoundPositional 13 300
 			DisableDropSound
-			MinimapIcon 1 Yellow Square
+			MinimapIcon 1 Yellow Triangle
 			PlayEffect Yellow
 
 		Show
 			Class Rings 
 			BaseType "Diamond" "Two-Stone" "Ruby" "Sapphire" "Topaz"
 			Rarity Rare
-			SetFontSize 33
+			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
+			SetBackgroundColor 210 198 82 255
 			DisableDropSound
 
 		Show
 			Class Amulets
 			BaseType "Onyx" "Agate" "Citrine" "Turquoise"
 			Rarity Rare
-			SetFontSize 33
+			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
+			SetBackgroundColor 210 198 82 255
 			DisableDropSound
 
 		Show
 			Class Belts
 			BaseType "Leather" "Heavy" "Stygian Vise"
 			Rarity Rare
-			SetFontSize 33
+			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
+			SetBackgroundColor 210 198 82 255
 			DisableDropSound
 
 		Show
 			Class Rings Amulets Belts
 			Rarity Rare
-			SetFontSize 28
+			SetFontSize 33
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
+			SetBackgroundColor 210 198 82 255
 			DisableDropSound
 
 		Show
@@ -1775,10 +1793,10 @@
 			BaseType "Diamond" "Two-Stone" "Onyx" "Leather" "Heavy"
 			Rarity < Rare
 			ItemLevel >= 86
-			SetFontSize 24
+			SetFontSize 26
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
+			SetBackgroundColor 97 182 83 255
 			DisableDropSound
 
 	# Jewels
@@ -1787,59 +1805,59 @@
 		Show
 			Class "Abyss Jewel"
 			Rarity <= Magic
-			ItemLevel >= 82
-			SetFontSize 28
+			ItemLevel >= 77
+			SetFontSize 33
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
+			SetBackgroundColor 97 182 83 255
 			DisableDropSound
 
 		Show
 			Class "Abyss Jewel"
 			Rarity Rare
-			ItemLevel >= 82
-			SetFontSize 40
+			ItemLevel >= 77
+			SetFontSize 42
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
+			SetBackgroundColor 210 198 82 255
 			DisableDropSound
 
 		Show
 			Class "Abyss Jewel"
 			Rarity <= Magic
-			ItemLevel >= 74
-			SetFontSize 24
+			ItemLevel >= 65
+			SetFontSize 26
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
+			SetBackgroundColor 97 182 83 255
 			DisableDropSound
 
 		Show
 			Class "Abyss Jewel"
 			Rarity Rare
-			ItemLevel >= 74
-			SetFontSize 33
+			ItemLevel >= 65
+			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
+			SetBackgroundColor 210 198 82 255
 			DisableDropSound
 
 		Show
 			Class Jewel
 			Rarity Magic
-			SetFontSize 24
+			SetFontSize 26
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
+			SetBackgroundColor 97 182 83 255
 			DisableDropSound
 
 		Show
 			Class Jewel
 			Rarity Rare
-			SetFontSize 33
+			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
+			SetBackgroundColor 210 198 82 255
 			DisableDropSound
 
 	# Flasks
@@ -1849,22 +1867,22 @@
 			Class "Utility Flasks"
 			Rarity Magic
 			ItemLevel > 74
-			SetFontSize 33
-			Quality >= 18
+			SetFontSize 38
+			Quality >= 16
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
+			SetBackgroundColor 97 182 83 255
 			DisableDropSound
 
 		Show
 			Class "Utility Flasks"
 			Rarity Normal
 			ItemLevel > 74
-			SetFontSize 33
-			Quality >= 10
+			SetFontSize 38
+			Quality >= 5
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
+			SetBackgroundColor 97 182 83 255
 			DisableDropSound
 
 		Show
@@ -1872,10 +1890,10 @@
 			Rarity <= Magic
 			ItemLevel <= 74
 			ItemLevel >= 65
-			SetFontSize 33
+			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
+			SetBackgroundColor 97 182 83 255
 			DisableDropSound
 
 	# Vendor/Chancing
@@ -1884,34 +1902,36 @@
 		Show
 			Sockets 6
 			Rarity Rare
-			SetFontSize 40
+			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
-			CustomAlertSound "filter_sounds/generic/some_value.ogg"   
+			SetBackgroundColor 210 198 82 255
+			PlayAlertSoundPositional 13 300
 			DisableDropSound
-			MinimapIcon 2 Yellow Square
+			MinimapIcon 1 Yellow Triangle
 			PlayEffect Yellow
 
 		Show
 			Sockets 6
 			Rarity <= Magic
-			SetFontSize 40
+			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
-			CustomAlertSound "filter_sounds/generic/some_value.ogg"   
+			SetBackgroundColor 97 182 83 255
+			PlayAlertSoundPositional 13 300
 			DisableDropSound
-			MinimapIcon 2 Green Triangle
+			MinimapIcon 1 Green Triangle
 			PlayEffect Green
 
+		# Examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
+
 		Show
-			BaseType "Glorious Plate" "Sorcerer Boots" "Prophecy Wand"
+			BaseType "Glorious Plate"
 			Rarity Normal
-			SetFontSize 24
+			SetFontSize 26
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
+			SetBackgroundColor 97 182 83 255
 			DisableDropSound
 
 	# Specific Mods
@@ -1922,11 +1942,11 @@
 		Show
 			Rarity Magic
 			HasExplicitMod "Veil" 
-			SetFontSize 33
+			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
-			CustomAlertSound "filter_sounds/generic/some_value.ogg"
+			SetBackgroundColor 97 182 83 255
+			PlayAlertSoundPositional 13 300
 			DisableDropSound
 			MinimapIcon 2 Green Triangle
 			PlayEffect Green
@@ -1934,75 +1954,86 @@
 		Show
 			Rarity Rare
 			HasExplicitMod "Veil"
-			SetFontSize 33
+			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
-			CustomAlertSound "filter_sounds/generic/some_value.ogg"
+			SetBackgroundColor 210 198 82 255
+			PlayAlertSoundPositional 13 300
 			DisableDropSound
-			MinimapIcon 2 Yellow Square
+			MinimapIcon 2 Yellow Triangle
 			PlayEffect Yellow
 			
-		# At the moment this just allows the filter to catch identified items with mods that might be somewhat interesting, that weren't otherwise noted in the rules above.
-		# It might be a good idea to either break these down (or look at lower level mods such as in the case of resists), and show items that have a combination of resists + another mod.
+		# mods from incursion, delve, warbands, or T1 mods
 
 		Show
 			Rarity Magic
-			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting"
-			SetFontSize 28
+			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
+			SetFontSize 33
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 0 171 115 255
+			SetBackgroundColor 97 182 83 255
 			DisableDropSound
 
 		Show
 			Rarity Rare
-			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting"
-			SetFontSize 28
+			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
+			SetFontSize 33
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
-			SetBackgroundColor 240 150 9 255
+			SetBackgroundColor 210 198 82 255
 			DisableDropSound
 
 # Gems
 # ====
 
 	Show
-		Quality >= 10
+		Quality >= 6
 		Class Gems
 		BaseType "Empower" "Enlighten"
-		SetFontSize 40
+		SetFontSize 42
 		SetTextColor 22 22 22 255   
 		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 162 0 255 255 
-		CustomAlertSound "filter_sounds/generic/high_value.ogg"  
+		SetBackgroundColor 31 223 160 255
+		PlayAlertSoundPositional 10 300
 		DisableDropSound
-		MinimapIcon 0 Brown Diamond
-		PlayEffect Brown
+		MinimapIcon 0 Green Diamond
+		PlayEffect Green
 
 	Show
-		Quality >= 20
+		Quality >= 16
 		Class Gems
-		SetFontSize 40
-		SetTextColor 22 22 22 255  
+		SetFontSize 42
+		SetTextColor 22 22 22 255   
 		SetBorderColor 22 22 22 255
-		SetBackgroundColor 162 0 255 255
-		CustomAlertSound "filter_sounds/generic/high_value.ogg" 
+		SetBackgroundColor 31 223 160 255
+		PlayAlertSoundPositional 10 300
 		DisableDropSound
-		MinimapIcon 0 Brown Diamond
-		PlayEffect Brown
+		MinimapIcon 0 Green Diamond
+		PlayEffect Green
+
+	Show
+		Quality >= 11
+		Class Gems
+		SetFontSize 38
+		SetTextColor 22 22 22 255   
+		SetBorderColor 22 22 22 255
+		SetBackgroundColor 31 223 160 255
+		PlayAlertSoundPositional 13 300
+		DisableDropSound
+		MinimapIcon 1 Green Diamond
+		PlayEffect Green
 
 	Show
 		Class Gems
 		BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Added Chaos Damage" "Enhance"
-		SetFontSize 33
+		SetFontSize 38
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 162 0 255 255 
-		CustomAlertSound "filter_sounds/generic/some_value.ogg"    
+		SetBackgroundColor 31 223 160 255
+		PlayAlertSoundPositional 3 300
 		DisableDropSound
-		MinimapIcon 2 Brown Diamond
-		PlayEffect Brown
+		MinimapIcon 2 Green Diamond
+		PlayEffect Green
 
 	Show
 		Class Gems
@@ -2010,32 +2041,8 @@
 		SetFontSize 33
 		SetTextColor 22 22 22 255
 		SetBorderColor 22 22 22 255
-		SetBackgroundColor 162 0 255 255
+		SetBackgroundColor 31 223 160 255
 		DisableDropSound
-
-	Show
-		Quality >= 16
-		Class Gems
-		SetFontSize 33
-		SetTextColor 22 22 22 255   
-		SetBorderColor 22 22 22 255
-		SetBackgroundColor 162 0 255 255
-		CustomAlertSound "filter_sounds/generic/some_value.ogg"   
-		DisableDropSound
-		MinimapIcon 2 Brown Diamond
-		PlayEffect Brown
-
-	Show
-		GemLevel >= 19
-		Class Gems
-		SetFontSize 33
-		SetTextColor 22 22 22 255   
-		SetBorderColor 22 22 22 255
-		SetBackgroundColor 162 0 255 255
-		CustomAlertSound "filter_sounds/generic/mid_value.ogg" 
-		DisableDropSound
-		MinimapIcon 1 Brown Diamond
-		PlayEffect Brown
 
 # Vendor
 # ======
@@ -2046,11 +2053,11 @@
 		Quality = 20
 		BaseType "Flask"
 		Rarity < Magic
-		SetFontSize 33
+		SetFontSize 38
 		SetTextColor 22 22 22 255
 		SetBorderColor 22 22 22 255
-		SetBackgroundColor 0 171 115 255
-		CustomAlertSound "filter_sounds/generic/some_value.ogg"   
+		SetBackgroundColor 97 182 83 255
+		PlayAlertSoundPositional 13 300 
 		DisableDropSound
 		MinimapIcon 2 Green Triangle
 		PlayEffect Green
@@ -2058,13 +2065,13 @@
 	# Quality flasks can be collected to be vendored for a glassblower's bauble.
 
 	Show
-		Quality >= 10
+		Quality >= 5
 		BaseType "Flask"
 		Rarity <= Magic
-		SetFontSize 28
+		SetFontSize 33
 		SetTextColor 22 22 22 255
 		SetBorderColor 22 22 22 255
-		SetBackgroundColor 0 171 115 255
+		SetBackgroundColor 97 182 83 255
 		DisableDropSound
 
 	# These types of weapons (with at least 20 quality) will yield a cartographer's chisel when vendored with a map.
@@ -2073,30 +2080,30 @@
 		Quality = 20
 		BaseType "Gavel" "Rock Breaker" "Stone Hammer"
 		Rarity < Unique
-		SetFontSize 33
+		SetFontSize 38
 		SetBorderColor 22 22 22 255
 		SetTextColor 22 22 22 255
-		SetBackgroundColor 0 171 115 255
+		SetBackgroundColor 97 182 83 255
 		DisableDropSound
 
 	Show
 		Quality >= 16
 		BaseType "Gavel" "Rock Breaker" "Stone Hammer"
 		Rarity Magic
-		SetFontSize 24
+		SetFontSize 26
 		SetBorderColor 22 22 22 255
 		SetTextColor 22 22 22 255
-		SetBackgroundColor 0 171 115 255
+		SetBackgroundColor 97 182 83 255
 		DisableDropSound
 
 	Show
 		Quality >= 15
 		BaseType "Gavel" "Rock Breaker" "Stone Hammer"
 		Rarity Normal
-		SetFontSize 24
+		SetFontSize 26
 		SetBorderColor 22 22 22 255
 		SetTextColor 22 22 22 255
-		SetBackgroundColor 0 171 115 255
+		SetBackgroundColor 97 182 83 255
 		DisableDropSound
 
 	# These are items that can be vendored for a chromatic orb, but limited to items that take up less inventory space.
@@ -2106,10 +2113,10 @@
 		Width <= 2
 		Height <= 2
 		Rarity < Rare
-		SetFontSize 24
+		SetFontSize 26
 		SetBorderColor 22 22 22 255
 		SetTextColor 22 22 22 255
-		SetBackgroundColor 0 171 115 255
+		SetBackgroundColor 97 182 83 255
 		DisableDropSound
 
 	Show 
@@ -2117,22 +2124,21 @@
 		Width <= 1
 		Height <= 3
 		Rarity < Rare
-		SetFontSize 24
+		SetFontSize 26
 		SetBorderColor 22 22 22 255
 		SetTextColor 22 22 22 255
-		SetBackgroundColor 0 171 115 255
+		SetBackgroundColor 97 182 83 255
 		DisableDropSound
 
 	# Gems with a little quality. The filter shows these to allow for collection and then vendoring for gemcutter's prisms.
 
 	Show
-		Quality >= 1
+		Quality >= 3
 		Class Gems
-		SetFontSize 33
+		SetFontSize 26
 		SetTextColor 22 22 22 255
 		SetBorderColor 22 22 22 255
-		SetBackgroundColor 0 171 115 255
-		DisableDropSound
+		SetBackgroundColor 97 182 83 255
 
 # Quest
 # =====
@@ -2144,43 +2150,40 @@
 		SetFontSize 45
 		SetTextColor 22 22 22 255  
 		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 162 0 255 255
-		CustomAlertSound "filter_sounds/generic/quest.ogg" 
+		SetBackgroundColor 182 127 221 255
+		PlayAlertSoundPositional 12 300
 		DisableDropSound
-		MinimapIcon 0 Brown Diamond
+		MinimapIcon 0 Brown Star
 		PlayEffect Brown
 
-	# Incursion Items
-	# ===============
+	# Stone of Passage and flashpowder kegs from incursions and temples respectivly
 
-		# Stone of Passage and flashpowder kegs from incursions and temples respectivly
-
-		Show
-			Class "Incursion Item"
-			SetFontSize 45
-			SetTextColor 22 22 22 255  
-			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 162 0 255 255
-			CustomAlertSound "filter_sounds/generic/quest.ogg" 
-			DisableDropSound
-			MinimapIcon 0 Brown Diamond
-			PlayEffect Brown
+	Show
+		Class "Incursion Item"
+		SetFontSize 45
+		SetTextColor 22 22 22 255  
+		SetBorderColor 22 22 22 255 
+		SetBackgroundColor 182 127 221 255
+		PlayAlertSoundPositional 12 300
+		DisableDropSound
+		MinimapIcon 0 Brown Star
+		PlayEffect Brown
 
 # Fishing
 # =======
 
-	# I do not know any fishing secrets.
+	# I do not know any fishing secrets, unfortunately.
 
 	Show
 		Class "Fishing Rod"
 		SetFontSize 45
 		SetTextColor 22 22 22 255
 		SetBorderColor 22 22 22 255
-		SetBackgroundColor 255 0 151 255
-		CustomAlertSound "filter_sounds/generic/peak_value.ogg" 
+		SetBackgroundColor 182 127 221 255
+		PlayAlertSoundPositional 6 300
 		DisableDropSound
-		MinimapIcon 0 Red Star
-		PlayEffect Red
+		MinimapIcon 0 Brown Star
+		PlayEffect Brown
 
 # Hide
 # ====
@@ -2190,25 +2193,25 @@
 	Hide
 		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel"
 		Rarity Rare
-		SetFontSize 28
+		SetFontSize 26
 		SetTextColor 22 22 22 255
 		SetBorderColor 22 22 22 255
-		SetBackgroundColor 240 150 9 255
+		SetBackgroundColor 210 198 82 255
 		DisableDropSound
 
 	Hide
 		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Flask"
 		Rarity Magic
-		SetFontSize 28
+		SetFontSize 26
 		SetTextColor 22 22 22 255
 		SetBorderColor 22 22 22 255
-		SetBackgroundColor 0 81 193 255
+		SetBackgroundColor 50 76 171 255
 		DisableDropSound
 
 	Hide
 		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel"
 		Rarity Normal
-		SetFontSize 28
+		SetFontSize 26
 		SetTextColor 22 22 22 255
 		SetBorderColor 22 22 22 255
 		SetBackgroundColor 245 245 245 255
@@ -2216,10 +2219,10 @@
 
 	Hide
 		Class Gems
-		SetFontSize 28
+		SetFontSize 26
 		SetTextColor 22 22 22 255   
 		SetBorderColor 22 22 22 255
-		SetBackgroundColor 162 0 255 255
+		SetBackgroundColor 31 223 160 255
 		DisableDropSound
 
 # Exception
@@ -2232,9 +2235,9 @@
 		SetTextColor 22 22 22 255  
 		SetBorderColor 22 22 22 255 
 		SetBackgroundColor 255 0 101 255
-		CustomAlertSound "filter_sounds/generic/quest.ogg" 
+		PlayAlertSoundPositional 12 300
 		DisableDropSound
-		MinimapIcon 0 Red Star
+		MinimapIcon 0 Red Square
 		PlayEffect Red
 
 # Glossary
@@ -2243,48 +2246,59 @@
 	# Colors
 	# ======
 
+		# For outlines and hidden items
+
 		# Black: 22 22 22 255
 		# White: 245 245 245 255
+		# Blue: 50 76 171 255
+		# Errors (Red): 255 0 101 255
 
-		# Vital Red: 255 0 151 255
-		# Unique Purple: 162 0 255 255
-		# Rare Yellow: 240 150 9 255
-		# Construction Green: 0 171 115 255
-		# Currency Blue: 27 161 226 255
+		# Primary Colours
 
-		# Karto Grey: 168 166 161 255
-		# Danger Pink: 255 0 101 255
+		# Currency (Blue): 73 160 240 255
+		# Maps (Red): 219 65 65 255
+		# Uniques (Purple): 182 127 221 255
+		# Weapons/Armour (Yellow): 210 198 82 255
+		# Crafting bases (Green): 97 182 83 255
+		# Cards (White): 186 186 176 255
+		# Gems (Green): 31 223 160 255
 
-		# Hidden Blue: 0 81 193 255
+		# Deprecated
+
+		# Maps (Grey): 168 166 161 255
 
 	# Shapes
 	# ======
 
-		# Red Star
-		# Brown Diamond
-		# Yellow Square
-		# Green Triangle
-		# White Hexagon
-		# Blue Circle
+		# Currency: Blue Circle
+		# Maps: Red Hexagon
+		# Uniques: Brown Star
+		# Weapons/Armour: Yellow Triangle
+		# Crafting: Green Triangle
+		# Cards: White Square
+		# Gems: White Diamond
+
+		# Emphasis
+		# Important: 0
+		# Interesting: 1
+		# Average: 2
 		
 	# Sounds
 	# ======
 
-		# Mirror: CustomAlertSound "filter_sounds/generic/mirror_value.ogg"
-		# Precious: CustomAlertSound "filter_sounds/generic/peak_value.ogg" 
-		# Valuable: CustomAlertSound "filter_sounds/generic/high_value.ogg"
-		# Midling: CustomAlertSound "filter_sounds/generic/mid_value.ogg"
-		# Bare: CustomAlertSound "filter_sounds/generic/some_value.ogg"
-		# Good Map: CustomAlertSound "filter_sounds/generic/high_map.ogg"
-		# Normal Map: CustomAlertSound "filter_sounds/generic/low_map.ogg"
-		# Of Possible Interest: CustomAlertSound "filter_sounds/generic/quest.ogg"
-
+		# Required: PlayAlertSoundPositional 6 300
+		# Important: PlayAlertSoundPositional 10 300
+		# Interesting: PlayAlertSoundPositional 13 300
+		# Average: PlayAlertSoundPositional 3 300
+		# Audible: PlayAlertSoundPositional 14 300
+		# Quest (Or unknown): PlayAlertSoundPositional 12 300
 
 	# Sizes
 	# =====
 
-		# Tier 1: SetFontSize 45
-		# Tier 2: SetFontSize 40
-		# Tier 3: SetFontSize 33
-		# Tier 4: SetFontSize 28
-		# Tier 5: SetFontSize 24
+		# Required: SetFontSize 45
+		# Important: SetFontSize 42
+		# Interesting: SetFontSize 38
+		# Average: SetFontSize 33
+		# Visible: SetFontSize 26
+
