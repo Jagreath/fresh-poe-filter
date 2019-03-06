@@ -1938,11 +1938,11 @@
 	# Specific Mods
 	# =============
 
-		# Show a little more highlighting for items with veiled mods
+		# Ensure we see fractured and synthesised items. Any sort of value breakdown is TODO
 
 		Show
-			Rarity Magic
-			HasExplicitMod "Veil" 
+			Rarity <= Magic
+			FracturedItem True
 			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
@@ -1951,6 +1951,44 @@
 			DisableDropSound
 			MinimapIcon 2 Green Triangle
 			PlayEffect Green
+
+		Show
+			Rarity Rare
+			FracturedItem True
+			SetFontSize 38
+			SetTextColor 22 22 22 255
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 210 198 82 255
+			PlayAlertSoundPositional 13 300
+			DisableDropSound
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+
+		Show
+			Rarity <= Magic
+			SynthesisedItem True
+			SetFontSize 38
+			SetTextColor 22 22 22 255
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 97 182 83 255
+			PlayAlertSoundPositional 13 300
+			DisableDropSound
+			MinimapIcon 2 Green Triangle
+			PlayEffect Green
+
+		Show
+			Rarity >= Rare
+			SynthesisedItem True
+			SetFontSize 38
+			SetTextColor 22 22 22 255
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 210 198 82 255
+			PlayAlertSoundPositional 13 300
+			DisableDropSound
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+
+		# Show a little more highlighting for items with veiled mods
 
 		Show
 			Rarity Rare
@@ -1963,7 +2001,7 @@
 			DisableDropSound
 			MinimapIcon 2 Yellow Triangle
 			PlayEffect Yellow
-			
+
 		# mods from incursion, delve, warbands, or T1 mods
 
 		Show
@@ -1978,6 +2016,26 @@
 		Show
 			Rarity Rare
 			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
+			SetFontSize 33
+			SetTextColor 22 22 22 255
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 210 198 82 255
+			DisableDropSound
+
+		# show enchanted things
+
+		Show
+			AnyEnchantment True
+			Rarity Magic
+			SetFontSize 33
+			SetTextColor 22 22 22 255
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 97 182 83 255
+			DisableDropSound
+
+		Show
+			AnyEnchantment True
+			Rarity Rare
 			SetFontSize 33
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
