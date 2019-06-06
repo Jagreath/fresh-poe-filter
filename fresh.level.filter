@@ -188,70 +188,76 @@
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
-	# Fossils
-	# =======
+	Show
+		BaseType "Fractured Fossil" "Faceted Fossil" "Glyphic Fossil" "Bloodstained Fossil" "Hollow Fossil" "Tangled Fossil"
+		Class "Stackable Currency"
+		SetFontSize 45
+		SetTextColor 22 22 22 255    
+		SetBorderColor 22 22 22 255  
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 6 300
+		DisableDropSound
+		MinimapIcon 0 Blue Circle
+		PlayEffect Blue
 
-		Show
-			BaseType "Fractured Fossil" "Faceted Fossil" "Glyphic Fossil" "Bloodstained Fossil" "Hollow Fossil" "Tangled Fossil"
-			Class "Stackable Currency"
-			SetFontSize 45
-			SetTextColor 22 22 22 255    
-			SetBorderColor 22 22 22 255  
-			SetBackgroundColor 73 160 240 255
-			PlayAlertSoundPositional 6 300
-			DisableDropSound
-			MinimapIcon 0 Blue Circle
-			PlayEffect Blue
+	Show
+		BaseType "Encrusted Fossil" "Sanctified Fossil" "Gilded Fossil"
+		Class "Stackable Currency"
+		SetFontSize 42
+		SetTextColor 22 22 22 255  
+		SetBorderColor 22 22 22 255 
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 10 300
+		DisableDropSound
+		MinimapIcon 0 Blue Circle
+		PlayEffect Blue
 
-		Show
-			BaseType "Encrusted Fossil" "Sanctified Fossil" "Gilded Fossil"
-			Class "Stackable Currency"
-			SetFontSize 42
-			SetTextColor 22 22 22 255  
-			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 73 160 240 255
-			PlayAlertSoundPositional 10 300
-			DisableDropSound
-			MinimapIcon 0 Blue Circle
-			PlayEffect Blue
+	Show
+		BaseType "Fossil"
+		Class "Stackable Currency"
+		SetFontSize 38
+		SetTextColor 22 22 22 255  
+		SetBorderColor 22 22 22 255 
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 13 300
+		DisableDropSound
+		MinimapIcon 1 Blue Circle
+		PlayEffect Blue
 
-		Show
-			BaseType "Fossil"
-			Class "Stackable Currency"
-			SetFontSize 38
-			SetTextColor 22 22 22 255  
-			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 73 160 240 255
-			PlayAlertSoundPositional 13 300
-			DisableDropSound
-			MinimapIcon 1 Blue Circle
-			PlayEffect Blue
+	Show
+		BaseType "Prime"
+		Class "Delve Socketable Currency"
+		SetFontSize 45
+		SetTextColor 22 22 22 255    
+		SetBorderColor 22 22 22 255  
+		SetBackgroundColor 255 0 151 255
+		PlayAlertSoundPositional 10 300
+		DisableDropSound
+		MinimapIcon 0 Blue Circle
+		PlayEffect Blue
 
-	# Resonators
-	# ==========
+	Show
+		Class "Delve Socketable Currency"
+		SetFontSize 42
+		SetTextColor 22 22 22 255  
+		SetBorderColor 22 22 22 255 
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 13 300
+		DisableDropSound
+		MinimapIcon 1 Blue Circle
+		PlayEffect Blue
 
-		Show
-			BaseType "Prime"
-			Class "Delve Socketable Currency"
-			SetFontSize 45
-			SetTextColor 22 22 22 255    
-			SetBorderColor 22 22 22 255  
-			SetBackgroundColor 255 0 151 255
-			PlayAlertSoundPositional 10 300
-			DisableDropSound
-			MinimapIcon 0 Blue Circle
-			PlayEffect Blue
-
-		Show
-			Class "Delve Socketable Currency"
-			SetFontSize 42
-			SetTextColor 22 22 22 255  
-			SetBorderColor 22 22 22 255 
-			SetBackgroundColor 73 160 240 255
-			PlayAlertSoundPositional 13 300
-			DisableDropSound
-			MinimapIcon 1 Blue Circle
-			PlayEffect Blue
+	Show
+		Class "Stackable Currency"
+		BaseType "Incubator"
+		SetFontSize 45
+		SetTextColor 22 22 22 255     
+		SetBorderColor 22 22 22 255
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 13 300
+		DisableDropSound
+		MinimapIcon 1 Blue Circle
+		PlayEffect Blue
 
 # Maps
 # ====
@@ -297,6 +303,17 @@
 			MinimapIcon 2 Blue Circle
 			PlayEffect Blue
 
+		Show
+			Class "Stackable Currency"
+			BaseType "Splinter"
+			SetFontSize 42
+			SetTextColor 22 22 22 255  
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 73 160 240 255
+			DisableDropSound
+			MinimapIcon 2 Blue Circle
+			PlayEffect Blue
+
 		# Ancient Reliquary Key / Timeworn Reliquary Key
 
 		Show
@@ -313,6 +330,18 @@
 		Show
 			Class "Map Fragments"
 			BaseType "Mortal" "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Sacrifice" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra" "Breachstone"
+			SetFontSize 42
+			SetTextColor 22 22 22 255  
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 219 65 65 255 
+			PlayAlertSoundPositional 10 300
+			DisableDropSound 
+			MinimapIcon 0 Red Hexagon
+			PlayEffect Red
+
+		Show
+			Class "Stackable Currency"
+			BaseType "Emblem"
 			SetFontSize 42
 			SetTextColor 22 22 22 255  
 			SetBorderColor 22 22 22 255
@@ -1632,58 +1661,49 @@
 			SetBackgroundColor 97 182 83 255
 			DisableDropSound
 
-	# Specific Mods
-	# =============
+	# Synthesised / Fractured
+	# =======================
 
-		# Ensure we see fractured and synthesised items. Any sort of value breakdown is TODO
+		# As of the league ending, these shouldn't drop. This section is "just in case."
 
 		Show
 			Rarity <= Magic
 			FracturedItem True
-			SetFontSize 38
+			SetFontSize 33
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
 			SetBackgroundColor 97 182 83 255
-			PlayAlertSoundPositional 13 300
 			DisableDropSound
-			MinimapIcon 2 Green Triangle
-			PlayEffect Green
 
 		Show
 			Rarity Rare
 			FracturedItem True
-			SetFontSize 38
+			SetFontSize 33
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
 			SetBackgroundColor 210 198 82 255
-			PlayAlertSoundPositional 13 300
 			DisableDropSound
-			MinimapIcon 2 Yellow Triangle
-			PlayEffect Yellow
 
 		Show
 			Rarity <= Magic
 			SynthesisedItem True
-			SetFontSize 38
+			SetFontSize 33
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
 			SetBackgroundColor 97 182 83 255
-			PlayAlertSoundPositional 13 300
 			DisableDropSound
-			MinimapIcon 2 Green Triangle
-			PlayEffect Green
 
 		Show
 			Rarity >= Rare
 			SynthesisedItem True
-			SetFontSize 38
+			SetFontSize 33
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
 			SetBackgroundColor 210 198 82 255
-			PlayAlertSoundPositional 13 300
 			DisableDropSound
-			MinimapIcon 2 Yellow Triangle
-			PlayEffect Yellow
+
+	# Specific Mods
+	# =============
 
 		# Show a little more highlighting for items with veiled mods
 
