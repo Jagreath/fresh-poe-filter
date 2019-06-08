@@ -255,8 +255,7 @@
 		PlayEffect Blue
 
 	Show
-		Class "Stackable Currency"
-		BaseType "Incubator"
+		Class "Incubator"
 		SetFontSize 45
 		SetTextColor 22 22 22 255     
 		SetBorderColor 22 22 22 255
@@ -968,7 +967,7 @@
 			PlayEffect Red
 
 		Show
-			Class "Stackable Currency"
+			Class "Map Fragments"
 			BaseType "Emblem"
 			SetFontSize 42
 			SetTextColor 22 22 22 255  
