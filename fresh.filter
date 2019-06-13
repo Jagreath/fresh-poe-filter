@@ -1900,7 +1900,7 @@
 		# ======
 
 			Show
-				BaseType "Titanium Spirit Shield" "Archon Kite Shield"
+				BaseType "Titanium Spirit Shield"
 				Rarity Rare
 				ItemLevel >= 84
 				SetFontSize 42
@@ -1910,7 +1910,7 @@
 				DisableDropSound
 
 			Show
-				BaseType "Titanium Spirit Shield" "Archon Kite Shield"
+				BaseType "Titanium Spirit Shield" "Fossilised Spirit Shield"
 				Rarity Rare
 				SetFontSize 38
 				SetTextColor 22 22 22 255
@@ -1919,7 +1919,7 @@
 				DisableDropSound
 
 			Show
-				BaseType "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Harmonic Spirit Shield" "Battle Buckler" "Fossilised Spirit Shield" "Angelic Kite Shield"
+				BaseType "Crusader Buckler" "Supreme Spiked Shield"
 				Rarity Rare
 				SetFontSize 33
 				SetTextColor 22 22 22 255
@@ -1931,7 +1931,7 @@
 		# =======
 
 			Show
-				BaseType "Colossal Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Titanium Spirit Shield" "Archon Kite Shield" "Champion Kite Shield"
+				BaseType "Colossal Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Titanium Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Pinnacle Tower Shield"
 				Rarity Rare
 				Quality >= 30
 				SetFontSize 38
@@ -1944,7 +1944,7 @@
 				PlayEffect Yellow
 
 			Show
-				BaseType "Colossal Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Titanium Spirit Shield" "Archon Kite Shield" "Champion Kite Shield"
+				BaseType "Colossal Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Titanium Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Pinnacle Tower Shield"
 				Rarity <= Magic
 				Quality >= 30
 				SetFontSize 38
@@ -2048,7 +2048,7 @@
 		# ======
 
 			Show
-				BaseType "Runic Hatchet" "Vaal Hatchet" "Jewelled Foil" "Imperial Claw" "Platinum Kris" "Demon Dagger" "Ambusher"
+				BaseType "Siege Axe" "Jewelled Foil" "Imperial Claw" "Platinum Kris" "Opal Wand"
 				Rarity Rare
 				SetFontSize 38
 				SetTextColor 22 22 22 255
@@ -2057,7 +2057,7 @@
 				DisableDropSound
 
 			Show
-				BaseType "Gemini Claw" "Carnal Sceptre" "Void Sceptre" "Opal Wand" "Imbued Wand"
+				BaseType "Ambusher" "Void Sceptre" "Demon's Horn"
 				Rarity Rare
 				SetFontSize 33
 				SetTextColor 22 22 22 255
@@ -2069,7 +2069,7 @@
 		# =======
 
 			Show
-				BaseType "Imperial Claw" "Gemini Claw" "Ambusher" "Eternal Sword" "Tiger Hook" "Jewelled Foil" "Exquisite Blade" "Fleshripper" "Vaal Axe" "Runic Hatchet" "Vaal Hatchet" "Behemoth Mace" "Coronal Maul" "Thicket Bow" "Harbinger Bow"
+				BaseType "Imperial Claw" "Gemini Claw" "Ambusher" "Eternal Sword" "Tiger Hook" "Jewelled Foil" "Exquisite Blade" "Fleshripper" "Vaal Axe" "Runic Hatchet" "Vaal Hatchet" "Behemoth Mace" "Coronal Maul" "Thicket Bow" "Harbinger Bow" "Siege Axe" "Legion Sword" "Lithe Blade" "Carnal Sceptre" "Nightmare Mace" "Maelström Staff" "Judgement Staff" "Demon's Horn"
 				Rarity Rare
 				Quality >= 30
 				SetFontSize 38
@@ -2082,7 +2082,7 @@
 				PlayEffect Yellow
 
 			Show
-				BaseType "Imperial Claw" "Gemini Claw" "Ambusher" "Eternal Sword" "Tiger Hook" "Jewelled Foil" "Exquisite Blade" "Fleshripper" "Vaal Axe" "Runic Hatchet" "Vaal Hatchet" "Behemoth Mace" "Coronal Maul" "Thicket Bow" "Harbinger Bow"
+				BaseType "Imperial Claw" "Gemini Claw" "Ambusher" "Eternal Sword" "Tiger Hook" "Jewelled Foil" "Exquisite Blade" "Fleshripper" "Vaal Axe" "Runic Hatchet" "Vaal Hatchet" "Behemoth Mace" "Coronal Maul" "Thicket Bow" "Harbinger Bow" "Siege Axe" "Legion Sword" "Lithe Blade" "Carnal Sceptre" "Nightmare Mace" "Maelström Staff" "Judgement Staff" "Demon's Horn"
 				Rarity <= Magic
 				Quality >= 30
 				SetFontSize 38
@@ -2435,14 +2435,14 @@
 
 		# Other examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
 
-		# Show
-		#	BaseType "Jewelled Foil"
-		#	Rarity Normal
-		#	SetFontSize 26
-		#	SetTextColor 22 22 22 255
-		#	SetBorderColor 22 22 22 255
-		#	SetBackgroundColor 97 182 83 255
-		#	DisableDropSound
+		Show
+			BaseType "Glorious Plate" "Nightmare Bascinet"
+			Rarity Normal
+			SetFontSize 26
+			SetTextColor 22 22 22 255
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 97 182 83 255
+			DisableDropSound
 
 	# Synthesised / Fractured
 	# =======================
@@ -2489,6 +2489,9 @@
 	# =============
 
 		# Show a little more highlighting for items with veiled mods
+		# Rares can get picked up before hitting this, for other reasons.
+		# However, the game adds an icon to veiled items, so this isn't 
+		# really a problem
 
 		Show
 			Rarity Rare
@@ -2560,6 +2563,18 @@
 
 	Show
 		Quality >= 18
+		Class Gems
+		SetFontSize 42
+		SetTextColor 22 22 22 255   
+		SetBorderColor 22 22 22 255
+		SetBackgroundColor 31 223 160 255
+		PlayAlertSoundPositional 10 300
+		DisableDropSound
+		MinimapIcon 0 Green Diamond
+		PlayEffect Green
+
+	Show
+		GemLevel >= 20
 		Class Gems
 		SetFontSize 42
 		SetTextColor 22 22 22 255   
