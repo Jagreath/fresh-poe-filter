@@ -2090,6 +2090,18 @@
 		PlayEffect Green
 
 	Show
+		GemLevel >= 20
+		Class Gems
+		SetFontSize 42
+		SetTextColor 22 22 22 255   
+		SetBorderColor 22 22 22 255
+		SetBackgroundColor 31 223 160 255
+		PlayAlertSoundPositional 10 300
+		DisableDropSound
+		MinimapIcon 0 Green Diamond
+		PlayEffect Green
+
+	Show
 		Quality >= 11
 		Class Gems
 		SetFontSize 38
