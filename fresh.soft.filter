@@ -1532,7 +1532,7 @@
 				DisableDropSound
 
 			Show
-				BaseType "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Harmonic Spirit Shield" "Battle Buckler" "Fossilised Spirit Shield" "Angelic Kite Shield" "Vaal Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Ceremonial Kite Shield"
+				BaseType "Colossal Tower Shield" "Pinnacle Tower Shield" "Crusader Buckler" "Harmonic Spirit Shield" "Battle Buckler" "Fossilised Spirit Shield" "Angelic Kite Shield" "Vaal Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Ceremonial Kite Shield" "Supreme Spiked Shield"
 				Rarity Rare
 				SetFontSize 33
 				SetTextColor 22 22 22 255
@@ -1544,10 +1544,10 @@
 		# =======
 
 			Show
-				BaseType "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Harmonic Spirit Shield" "Battle Buckler" "Fossilised Spirit Shield" "Angelic Kite Shield" "Vaal Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Ceremonial Kite Shield"
+				BaseType "Colossal Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Titanium Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Pinnacle Tower Shield"
 				Rarity Rare
 				Quality >= 30
-				SetFontSize 42
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -1557,10 +1557,10 @@
 				PlayEffect Yellow
 
 			Show
-				BaseType "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Harmonic Spirit Shield" "Battle Buckler" "Fossilised Spirit Shield" "Angelic Kite Shield" "Vaal Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Ceremonial Kite Shield"
+				BaseType "Colossal Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Titanium Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Pinnacle Tower Shield"
 				Rarity <= Magic
 				Quality >= 30
-				SetFontSize 42
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 97 182 83 255
@@ -1951,10 +1951,10 @@
 			MinimapIcon 1 Green Triangle
 			PlayEffect Green
 
-		# Examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
+		# Other examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
 
 		Show
-			BaseType "Glorious Plate"
+			BaseType "Glorious Plate" "Nightmare Bascinet"
 			Rarity Normal
 			SetFontSize 26
 			SetTextColor 22 22 22 255
@@ -2007,6 +2007,9 @@
 	# =============
 
 		# Show a little more highlighting for items with veiled mods
+		# Rares can get picked up before hitting this, for other reasons.
+		# However, the game adds an icon to veiled items, so this isn't 
+		# really a problem
 
 		Show
 			Rarity Rare

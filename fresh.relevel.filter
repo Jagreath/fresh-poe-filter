@@ -2008,6 +2008,9 @@
 	# =============
 
 		# Show a little more highlighting for items with veiled mods
+		# Rares can get picked up before hitting this, for other reasons.
+		# However, the game adds an icon to veiled items, so this isn't 
+		# really a problem
 
 		Show
 			Rarity Rare
