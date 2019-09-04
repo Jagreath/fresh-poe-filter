@@ -71,7 +71,7 @@
 		SetBorderColor 22 22 22 255 
 		SetBackgroundColor 73 160 240 255
 		DisableDropSound
-		
+
 	Show
 		Class Currency
 		BaseType "Orb of Transmutation" "Orb of Augmentation" "Alchemy Shard" "Orb of Alteration"
@@ -84,17 +84,27 @@
 	Show
 		Class Currency
 		BaseType "Blacksmith's Whetstone" "Armourer's Scrap"
-		SetFontSize 38
+		SetFontSize 33
 		SetBorderColor 22 22 22 255   
 		SetTextColor 22 22 22 255
 		SetBackgroundColor 73 160 240 255
 		DisableDropSound
 
-	Show
+	Hide
 		Class Currency
 		BaseType "Transmutation Shard" "Alteration Shard"
-		# SetFontSize 38
+		# SetFontSize 33
 		SetFontSize 26
+		SetTextColor 22 22 22 255           
+		SetBorderColor 22 22 22 255      
+		SetBackgroundColor 73 160 240 255
+		DisableDropSound
+
+	Show
+		Class Currency
+		BaseType "Portal Scroll" "Scroll of Wisdom"
+		StackSize > 1
+		SetFontSize 33
 		SetTextColor 22 22 22 255           
 		SetBorderColor 22 22 22 255      
 		SetBackgroundColor 73 160 240 255
@@ -128,7 +138,10 @@
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255 
 		SetBackgroundColor 73 160 240 255 
+		PlayAlertSoundPositional 3 300
 		DisableDropSound
+		MinimapIcon 2 Blue Circle
+		PlayEffect Blue
 
 	Hide
 		Class Currency
@@ -188,7 +201,7 @@
 		PlayEffect Blue
 
 	Show
-		BaseType "Fractured Fossil" "Faceted Fossil" "Glyphic Fossil" "Bloodstained Fossil" "Hollow Fossil" "Tangled Fossil"
+		BaseType "Fractured Fossil" "Faceted Fossil" "Glyphic Fossil" "Bloodstained Fossil" "Hollow Fossil" 
 		Class "Stackable Currency"
 		SetFontSize 45
 		SetTextColor 22 22 22 255    
@@ -200,7 +213,7 @@
 		PlayEffect Blue
 
 	Show
-		BaseType "Encrusted Fossil" "Sanctified Fossil" "Gilded Fossil"
+		BaseType "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" 
 		Class "Stackable Currency"
 		SetFontSize 42
 		SetTextColor 22 22 22 255  
@@ -225,32 +238,44 @@
 
 	Show
 		BaseType "Prime"
-		Class "Delve Socketable Currency"
+		Class "Delve Stackable Socketable Currency" 
 		SetFontSize 45
 		SetTextColor 22 22 22 255    
 		SetBorderColor 22 22 22 255  
 		SetBackgroundColor 255 0 151 255
-		PlayAlertSoundPositional 10 300
-		DisableDropSound
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	Show
-		Class "Delve Socketable Currency"
-		SetFontSize 42
-		SetTextColor 22 22 22 255  
-		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 73 160 240 255
 		PlayAlertSoundPositional 13 300
 		DisableDropSound
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
 	Show
+		Class "Delve Stackable Socketable Currency" 
+		SetFontSize 42
+		SetTextColor 22 22 22 255  
+		SetBorderColor 22 22 22 255 
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 3 300
+		DisableDropSound
+		MinimapIcon 2 Blue Circle
+		PlayEffect Blue
+
+	Show
 		Class "Incubator"
-		SetFontSize 45
+		SetFontSize 33
 		SetTextColor 22 22 22 255     
 		SetBorderColor 22 22 22 255
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 3 300
+		DisableDropSound
+		MinimapIcon 2 Blue Circle
+		PlayEffect Blue
+
+	Show
+		BaseType "Oil" 
+		Class "Stackable Currency" 
+		SetFontSize 38
+		SetTextColor 22 22 22 255      
+		SetBorderColor 22 22 22 255  
 		SetBackgroundColor 73 160 240 255
 		PlayAlertSoundPositional 13 300
 		DisableDropSound
@@ -1954,7 +1979,7 @@
 		# Other examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
 
 		Show
-			BaseType "Glorious Plate" "Nightmare Bascinet"
+			BaseType "Glorious Plate"
 			Rarity Normal
 			SetFontSize 26
 			SetTextColor 22 22 22 255
