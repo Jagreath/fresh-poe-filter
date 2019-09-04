@@ -2021,7 +2021,7 @@
 			# The rest!
 
 			Show
-				Class Claw Dagger Wand "One Hand" "Bow" "Staves" "Two Hand" Sceptre
+				Class Claw Dagger Wand "One Hand" "Bow" "Staves" "Two Hand" Sceptre Quivers
 				ElderItem True 
 				SetFontSize 33
 				SetTextColor 22 22 22 255
@@ -2033,7 +2033,7 @@
 				PlayEffect Yellow
 
 			Show
-				Class Claw Dagger Wand "One Hand" "Bow" "Staves" "Two Hand" Sceptre
+				Class Claw Dagger Wand "One Hand" "Bow" "Staves" "Two Hand" Sceptre Quivers
 				ShaperItem True 
 				SetFontSize 33
 				SetTextColor 22 22 22 255
