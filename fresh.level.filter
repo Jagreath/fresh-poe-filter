@@ -1008,7 +1008,7 @@
 
 			Show
 				BaseType "Copper Kris" "Skean" "Imp Dagger"
-				Class "Daggers"
+				Class "Daggers" "Rune Dagger"
 				Rarity Rare
 				ItemLevel < 49
 				SetFontSize 38
@@ -1019,7 +1019,7 @@
 
 			Show
 				BaseType "Golden Kris" "Royal Skean" "Fiend Dagger"
-				Class "Daggers"
+				Class "Daggers" "Rune Dagger"
 				Rarity Rare
 				ItemLevel < 58
 				SetFontSize 38
@@ -1030,7 +1030,7 @@
 
 			Show
 				BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger"
-				Class "Daggers"
+				Class "Daggers" "Rune Dagger"
 				Rarity Rare
 				SetFontSize 38
 				SetTextColor 22 22 22 255
@@ -1293,7 +1293,7 @@
 		# ======
 
 			Show
-				Class "Staves"
+				Class "Staves" Warstaff
 				Rarity Rare
 				DropLevel >= 0
 				ItemLevel < 43
@@ -1304,7 +1304,7 @@
 				DisableDropSound
 
 			Show
-				Class "Staves"
+				Class "Staves" Warstaff
 				Rarity Rare
 				DropLevel >= 41
 				ItemLevel < 59
@@ -1315,7 +1315,7 @@
 				DisableDropSound
 
 			Show
-				Class "Staves"
+				Class "Staves" Warstaff
 				Rarity Rare
 				DropLevel >= 57
 				SetFontSize 33
@@ -2004,7 +2004,7 @@
 	# This section effectively hides most anything that wasn't matched to any of the preceding rules.
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaff"
 		Rarity Rare
 		SetFontSize 26
 		SetTextColor 22 22 22 255
@@ -2013,7 +2013,7 @@
 		DisableDropSound
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Flask"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Flask" "Rune Dagger" "Warstaff"
 		Rarity Magic
 		SetFontSize 26
 		SetTextColor 22 22 22 255
@@ -2022,7 +2022,7 @@
 		DisableDropSound
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaff"
 		Rarity Normal
 		SetFontSize 26
 		SetTextColor 22 22 22 255
