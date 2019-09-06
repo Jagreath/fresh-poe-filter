@@ -136,7 +136,10 @@
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255 
 		SetBackgroundColor 73 160 240 255 
+		PlayAlertSoundPositional 3 300
 		DisableDropSound
+		MinimapIcon 2 Blue Circle
+		PlayEffect Blue
 
 	Hide
 		Class Currency
@@ -196,7 +199,7 @@
 		PlayEffect Blue
 
 	Show
-		BaseType "Fractured Fossil" "Faceted Fossil" "Glyphic Fossil" "Bloodstained Fossil" "Hollow Fossil" "Tangled Fossil"
+		BaseType "Fractured Fossil" "Faceted Fossil" "Glyphic Fossil" "Bloodstained Fossil" "Hollow Fossil" 
 		Class "Stackable Currency"
 		SetFontSize 45
 		SetTextColor 22 22 22 255    
@@ -208,7 +211,7 @@
 		PlayEffect Blue
 
 	Show
-		BaseType "Encrusted Fossil" "Sanctified Fossil" "Gilded Fossil"
+		BaseType "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" 
 		Class "Stackable Currency"
 		SetFontSize 42
 		SetTextColor 22 22 22 255  
@@ -233,32 +236,44 @@
 
 	Show
 		BaseType "Prime"
-		Class "Delve Socketable Currency"
+		Class "Delve Stackable Socketable Currency" 
 		SetFontSize 45
 		SetTextColor 22 22 22 255    
 		SetBorderColor 22 22 22 255  
 		SetBackgroundColor 255 0 151 255
-		PlayAlertSoundPositional 10 300
-		DisableDropSound
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	Show
-		Class "Delve Socketable Currency"
-		SetFontSize 42
-		SetTextColor 22 22 22 255  
-		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 73 160 240 255
 		PlayAlertSoundPositional 13 300
 		DisableDropSound
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
 	Show
+		Class "Delve Stackable Socketable Currency" 
+		SetFontSize 42
+		SetTextColor 22 22 22 255  
+		SetBorderColor 22 22 22 255 
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 3 300
+		DisableDropSound
+		MinimapIcon 2 Blue Circle
+		PlayEffect Blue
+
+	Show
 		Class "Incubator"
-		SetFontSize 45
+		SetFontSize 33
 		SetTextColor 22 22 22 255     
 		SetBorderColor 22 22 22 255
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 3 300
+		DisableDropSound
+		MinimapIcon 2 Blue Circle
+		PlayEffect Blue
+
+	Show
+		BaseType "Oil" 
+		Class "Stackable Currency" 
+		SetFontSize 38
+		SetTextColor 22 22 22 255      
+		SetBorderColor 22 22 22 255  
 		SetBackgroundColor 73 160 240 255
 		PlayAlertSoundPositional 13 300
 		DisableDropSound
@@ -2021,7 +2036,7 @@
 			# The rest!
 
 			Show
-				Class Claw Dagger Wand "One Hand" "Bow" "Staves" "Two Hand" Sceptre Quivers
+				Class Claw Dagger Wand "One Hand" "Bow" "Staves" "Two Hand" Sceptre Quivers "Rune Dagger" Warstaff
 				ElderItem True 
 				SetFontSize 33
 				SetTextColor 22 22 22 255
@@ -2033,7 +2048,7 @@
 				PlayEffect Yellow
 
 			Show
-				Class Claw Dagger Wand "One Hand" "Bow" "Staves" "Two Hand" Sceptre Quivers
+				Class Claw Dagger Wand "One Hand" "Bow" "Staves" "Two Hand" Sceptre Quivers "Rune Dagger" Warstaff
 				ShaperItem True 
 				SetFontSize 33
 				SetTextColor 22 22 22 255
@@ -2098,7 +2113,7 @@
 	# =======
 
 		Show 
-			BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet"
+			BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet" 
 			Rarity Rare
 			ItemLevel >= 82
 			SetFontSize 42
@@ -2436,7 +2451,7 @@
 		# Other examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
 
 		Show
-			BaseType "Glorious Plate" "Nightmare Bascinet"
+			BaseType "Glorious Plate"
 			Rarity Normal
 			SetFontSize 26
 			SetTextColor 22 22 22 255
@@ -2765,7 +2780,7 @@
 	# This section effectively hides most anything that wasn't matched to any of the preceding rules.
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaff"
 		Rarity Rare
 		SetFontSize 26
 		SetTextColor 22 22 22 255
@@ -2774,7 +2789,7 @@
 		DisableDropSound
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Flask"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Flask" "Rune Dagger" "Warstaff"
 		Rarity Magic
 		SetFontSize 26
 		SetTextColor 22 22 22 255
@@ -2783,7 +2798,7 @@
 		DisableDropSound
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaff"
 		Rarity Normal
 		SetFontSize 26
 		SetTextColor 22 22 22 255

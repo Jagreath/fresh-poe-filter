@@ -72,7 +72,7 @@
 		SetBorderColor 22 22 22 255 
 		SetBackgroundColor 73 160 240 255
 		DisableDropSound
-		
+
 	Show
 		Class Currency
 		BaseType "Orb of Transmutation" "Orb of Augmentation" "Alchemy Shard" "Orb of Alteration"
@@ -85,7 +85,7 @@
 	Show
 		Class Currency
 		BaseType "Blacksmith's Whetstone" "Armourer's Scrap"
-		SetFontSize 38
+		SetFontSize 33
 		SetBorderColor 22 22 22 255   
 		SetTextColor 22 22 22 255
 		SetBackgroundColor 73 160 240 255
@@ -94,8 +94,18 @@
 	Show
 		Class Currency
 		BaseType "Transmutation Shard" "Alteration Shard"
-		# SetFontSize 38
+		# SetFontSize 33
 		SetFontSize 26
+		SetTextColor 22 22 22 255           
+		SetBorderColor 22 22 22 255      
+		SetBackgroundColor 73 160 240 255
+		DisableDropSound
+
+	Show
+		Class Currency
+		BaseType "Portal Scroll" "Scroll of Wisdom"
+		StackSize > 1
+		SetFontSize 33
 		SetTextColor 22 22 22 255           
 		SetBorderColor 22 22 22 255      
 		SetBackgroundColor 73 160 240 255
@@ -129,7 +139,10 @@
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255 
 		SetBackgroundColor 73 160 240 255 
+		PlayAlertSoundPositional 3 300
 		DisableDropSound
+		MinimapIcon 2 Blue Circle
+		PlayEffect Blue
 
 	Show
 		Class Currency
@@ -189,7 +202,7 @@
 		PlayEffect Blue
 
 	Show
-		BaseType "Fractured Fossil" "Faceted Fossil" "Glyphic Fossil" "Bloodstained Fossil" "Hollow Fossil" "Tangled Fossil"
+		BaseType "Fractured Fossil" "Faceted Fossil" "Glyphic Fossil" "Bloodstained Fossil" "Hollow Fossil" 
 		Class "Stackable Currency"
 		SetFontSize 45
 		SetTextColor 22 22 22 255    
@@ -201,7 +214,7 @@
 		PlayEffect Blue
 
 	Show
-		BaseType "Encrusted Fossil" "Sanctified Fossil" "Gilded Fossil"
+		BaseType "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" 
 		Class "Stackable Currency"
 		SetFontSize 42
 		SetTextColor 22 22 22 255  
@@ -226,32 +239,44 @@
 
 	Show
 		BaseType "Prime"
-		Class "Delve Socketable Currency"
+		Class "Delve Stackable Socketable Currency" 
 		SetFontSize 45
 		SetTextColor 22 22 22 255    
 		SetBorderColor 22 22 22 255  
 		SetBackgroundColor 255 0 151 255
-		PlayAlertSoundPositional 10 300
-		DisableDropSound
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	Show
-		Class "Delve Socketable Currency"
-		SetFontSize 42
-		SetTextColor 22 22 22 255  
-		SetBorderColor 22 22 22 255 
-		SetBackgroundColor 73 160 240 255
 		PlayAlertSoundPositional 13 300
 		DisableDropSound
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
 	Show
+		Class "Delve Stackable Socketable Currency" 
+		SetFontSize 42
+		SetTextColor 22 22 22 255  
+		SetBorderColor 22 22 22 255 
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 3 300
+		DisableDropSound
+		MinimapIcon 2 Blue Circle
+		PlayEffect Blue
+
+	Show
 		Class "Incubator"
-		SetFontSize 45
+		SetFontSize 33
 		SetTextColor 22 22 22 255     
 		SetBorderColor 22 22 22 255
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 3 300
+		DisableDropSound
+		MinimapIcon 2 Blue Circle
+		PlayEffect Blue
+
+	Show
+		BaseType "Oil" 
+		Class "Stackable Currency" 
+		SetFontSize 38
+		SetTextColor 22 22 22 255      
+		SetBorderColor 22 22 22 255  
 		SetBackgroundColor 73 160 240 255
 		PlayAlertSoundPositional 13 300
 		DisableDropSound
@@ -983,7 +1008,7 @@
 
 			Show
 				BaseType "Copper Kris" "Skean" "Imp Dagger"
-				Class "Daggers"
+				Class "Daggers" "Rune Dagger"
 				Rarity Rare
 				ItemLevel < 49
 				SetFontSize 38
@@ -994,7 +1019,7 @@
 
 			Show
 				BaseType "Golden Kris" "Royal Skean" "Fiend Dagger"
-				Class "Daggers"
+				Class "Daggers" "Rune Dagger"
 				Rarity Rare
 				ItemLevel < 58
 				SetFontSize 38
@@ -1005,7 +1030,7 @@
 
 			Show
 				BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger"
-				Class "Daggers"
+				Class "Daggers" "Rune Dagger"
 				Rarity Rare
 				SetFontSize 38
 				SetTextColor 22 22 22 255
@@ -1268,7 +1293,7 @@
 		# ======
 
 			Show
-				Class "Staves"
+				Class "Staves" Warstaff
 				Rarity Rare
 				DropLevel >= 0
 				ItemLevel < 43
@@ -1279,7 +1304,7 @@
 				DisableDropSound
 
 			Show
-				Class "Staves"
+				Class "Staves" Warstaff
 				Rarity Rare
 				DropLevel >= 41
 				ItemLevel < 59
@@ -1290,7 +1315,7 @@
 				DisableDropSound
 
 			Show
-				Class "Staves"
+				Class "Staves" Warstaff
 				Rarity Rare
 				DropLevel >= 57
 				SetFontSize 33
@@ -1652,7 +1677,7 @@
 	# ========
 
 		Show
-			BaseType "Glorious Plate" "Sorcerer Boots" "Prophecy Wand"
+			BaseType "Glorious Plate" 
 			Rarity Normal
 			SetFontSize 26
 			SetTextColor 22 22 22 255
@@ -1979,7 +2004,7 @@
 	# This section effectively hides most anything that wasn't matched to any of the preceding rules.
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaff"
 		Rarity Rare
 		SetFontSize 26
 		SetTextColor 22 22 22 255
@@ -1988,7 +2013,7 @@
 		DisableDropSound
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Flask"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Flask" "Rune Dagger" "Warstaff"
 		Rarity Magic
 		SetFontSize 26
 		SetTextColor 22 22 22 255
@@ -1997,7 +2022,7 @@
 		DisableDropSound
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaff"
 		Rarity Normal
 		SetFontSize 26
 		SetTextColor 22 22 22 255
