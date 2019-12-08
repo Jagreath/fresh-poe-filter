@@ -262,13 +262,13 @@
 
 	Show
 		Class "Incubator"
-		SetFontSize 33
+		SetFontSize 38
 		SetTextColor 22 22 22 255     
 		SetBorderColor 22 22 22 255
 		SetBackgroundColor 73 160 240 255
-		PlayAlertSoundPositional 3 300
+		PlayAlertSoundPositional 13 300
 		DisableDropSound
-		MinimapIcon 2 Blue Circle
+		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
 	Show
