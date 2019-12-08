@@ -63,16 +63,16 @@
 
 	Show
 		Class Currency
-		BaseType "Orb of Chance" "Chromatic Orb" "Jeweller's Orb" 
+		BaseType "Orb of Chance" "Chromatic Orb" "Jeweller's Orb" "Orb of Alteration"
 		SetFontSize 42
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255 
 		SetBackgroundColor 73 160 240 255
 		DisableDropSound
 
-	Show
+	Hide
 		Class Currency
-		BaseType "Alchemy Shard" "Orb of Alteration"
+		BaseType "Alchemy Shard" 
 		SetFontSize 38
 		SetBorderColor 22 22 22 255   
 		SetTextColor 22 22 22 255
@@ -268,13 +268,13 @@
 
 	Show
 		Class "Incubator"
-		SetFontSize 33
+		SetFontSize 38
 		SetTextColor 22 22 22 255     
 		SetBorderColor 22 22 22 255
 		SetBackgroundColor 73 160 240 255
-		PlayAlertSoundPositional 3 300
+		PlayAlertSoundPositional 13 300
 		DisableDropSound
-		MinimapIcon 2 Blue Circle
+		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
 	Show
@@ -1462,15 +1462,15 @@
 				SetBackgroundColor 210 198 82 255
 				DisableDropSound
 
-			Show
-				BaseType "Bone Helmet"
-				Rarity Normal
-				ItemLevel >= 74
-				SetFontSize 26
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 97 182 83 255
-				DisableDropSound
+			#Show
+			#	BaseType "Bone Helmet"
+			#	Rarity Normal
+			#	ItemLevel >= 74
+			#	SetFontSize 26
+			#	SetTextColor 22 22 22 255
+			#	SetBorderColor 22 22 22 255
+			#	SetBackgroundColor 97 182 83 255
+			#	DisableDropSound
 
 		# Quality
 		# =======
@@ -1624,15 +1624,15 @@
 				SetBackgroundColor 210 198 82 255
 				DisableDropSound
 
-			Show
-				BaseType "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
-				Rarity Normal
-				ItemLevel >= 74
-				SetFontSize 26
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 97 182 83 255
-				DisableDropSound
+			#Show
+			#	BaseType "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+			#	Rarity Normal
+			#	ItemLevel >= 74
+			#	SetFontSize 26
+			#	SetTextColor 22 22 22 255
+			#	SetBorderColor 22 22 22 255
+			#	SetBackgroundColor 97 182 83 255
+			#	DisableDropSound
 
 		# Quality
 		# =======
@@ -1784,15 +1784,15 @@
 				SetBackgroundColor 210 198 82 255
 				DisableDropSound
 
-			Show
-				BaseType "Two-Toned Boots"
-				Rarity Normal
-				ItemLevel >= 74
-				SetFontSize 26
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 97 182 83 255 
-				DisableDropSound
+			#Show
+			#	BaseType "Two-Toned Boots"
+			#	Rarity Normal
+			#	ItemLevel >= 74
+			#	SetFontSize 26
+			#	SetTextColor 22 22 22 255
+			#	SetBorderColor 22 22 22 255
+			#	SetBackgroundColor 97 182 83 255 
+			#	DisableDropSound
 
 		# Quality
 		# =======
@@ -2069,7 +2069,7 @@
 				DisableDropSound
 
 			Show
-				BaseType "Ambusher" "Demon's Horn"
+				BaseType "Ambusher" "Demon's Horn" "Convoking Wand"
 				Rarity Rare
 				ItemLevel >= 81
 				SetFontSize 33
