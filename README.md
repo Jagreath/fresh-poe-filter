@@ -1,4 +1,4 @@
-# Jagreath's "Fresh" Filter
+# A "Fresh" Filter
 A filter for the game [Path of Exile](https://www.pathofexile.com/). For the uninitiated: Path of Exile is an ARPG, and filter files are used as a way of limiting what item drops are shown, and how they are shown.
 
 ## Overview
