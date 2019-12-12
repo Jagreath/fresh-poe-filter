@@ -17,7 +17,7 @@
 
 	Show
 		Class Currency
-		BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Mirror of Kalandra" "Exalted Orb" 
+		BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Mirror of Kalandra" "Exalted Orb" "Awakener's Orb"
 		SetFontSize 45
 		SetTextColor 22 22 22 255    
 		SetBorderColor 22 22 22 255  
@@ -41,7 +41,7 @@
 
 	Show 
 		Class Currency
-		BaseType  "Regal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Vaal Orb" "Master Cartographer's Sextant"
+		BaseType  "Regal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Vaal Orb" "Awakened Sextant"
 		SetFontSize 45
 		SetTextColor 22 22 22 255     
 		SetBorderColor 22 22 22 255
@@ -53,7 +53,7 @@
 
 	Show
 		Class Currency
-		BaseType "Annulment Shard" "Harbinger's Shard" "Ancient Shard" "Exalted Shard" "Horizon Shard" "Engineer's Shard" "Binding Shard" "Regal Shard" "Chaos Shard" "Orb of Fusing" "Orb of Alchemy" "Blessed Orb" "Orb of Scouring" "Cartographer's Chisel" "Orb of Horizons" "Engineer's Orb" "Orb of Binding" "Silver Coin" "Glassblower's Bauble" "Stacked Deck" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Sextant"
+		BaseType "Annulment Shard" "Harbinger's Shard" "Ancient Shard" "Exalted Shard" "Horizon Shard" "Engineer's Shard" "Binding Shard" "Regal Shard" "Chaos Shard" "Orb of Fusing" "Orb of Alchemy" "Blessed Orb" "Orb of Scouring" "Cartographer's Chisel" "Orb of Horizons" "Engineer's Orb" "Orb of Binding" "Silver Coin" "Glassblower's Bauble" "Stacked Deck" "Prime Sextant" "Simple Sextant"
 		SetFontSize 42
 		SetTextColor 22 22 22 255   
 		SetBorderColor 22 22 22 255  
@@ -93,7 +93,6 @@
 	Hide
 		Class Currency
 		BaseType "Transmutation Shard" "Alteration Shard"
-		# SetFontSize 33
 		SetFontSize 26
 		SetTextColor 22 22 22 255           
 		SetBorderColor 22 22 22 255      
@@ -261,7 +260,7 @@
 
 	Show
 		Class "Incubator"
-		SetFontSize 38
+		SetFontSize 42
 		SetTextColor 22 22 22 255     
 		SetBorderColor 22 22 22 255
 		SetBackgroundColor 73 160 240 255
@@ -273,7 +272,19 @@
 	Show
 		BaseType "Oil" 
 		Class "Stackable Currency" 
-		SetFontSize 38
+		SetFontSize 42
+		SetTextColor 22 22 22 255      
+		SetBorderColor 22 22 22 255  
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 13 300
+		DisableDropSound
+		MinimapIcon 1 Blue Circle
+		PlayEffect Blue
+
+	Show
+		BaseType "Catalyst"
+		Class "Stackable Currency"
+		SetFontSize 42
 		SetTextColor 22 22 22 255      
 		SetBorderColor 22 22 22 255  
 		SetBackgroundColor 73 160 240 255
@@ -287,7 +298,7 @@
 
 	# Unique
 	# ======
-	
+
 		Show
 			Class Maps
 			BaseType "Chateau Map" "Museum Map" "Courtyard Map" "Moon Temple Map" "Maze Map" 
@@ -364,6 +375,19 @@
 
 			Show
 				MapTier = 14
+				BlightedMap True
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
+
+			Show
+				MapTier = 14
 				ItemLevel <= 82
 				Class Maps
 				SetFontSize 45
@@ -393,6 +417,19 @@
 
 			Show
 				MapTier = 13
+				BlightedMap True
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
+
+			Show
+				MapTier = 13
 				ItemLevel <= 81
 				Class Maps
 				SetFontSize 45
@@ -419,6 +456,19 @@
 
 		# T12
 		# ===
+
+			Show
+				MapTier = 12
+				BlightedMap True
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 12
@@ -464,6 +514,19 @@
 
 			Show
 				MapTier = 11
+				BlightedMap True
+				Class Maps
+				SetFontSize 45
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 10 300
+				DisableDropSound 
+				MinimapIcon 0 Red Hexagon 
+				PlayEffect Red
+
+			Show
+				MapTier = 11
 				ItemLevel <= 79
 				Class Maps
 				SetFontSize 45
@@ -503,6 +566,19 @@
 
 		# T10
 		# ===
+
+			Show
+				MapTier = 10
+				BlightedMap True
+				Class Maps
+				SetFontSize 42
+				SetTextColor 22 22 22 255  
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 219 65 65 255  
+				PlayAlertSoundPositional 13 300
+				DisableDropSound 
+				MinimapIcon 1 Red Hexagon 
+				PlayEffect Red
 
 			Show
 				MapTier = 10
@@ -973,7 +1049,7 @@
 
 		Show
 			Class "Map Fragments"
-			BaseType "Mortal" "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Sacrifice" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra" "Breachstone"
+			BaseType "Mortal" "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Sacrifice" "Fragment of" "Breachstone" 
 			SetFontSize 42
 			SetTextColor 22 22 22 255  
 			SetBorderColor 22 22 22 255
@@ -998,7 +1074,7 @@
 		Show 
 			Class "Map Fragments"
 			BaseType "Divine Vessel"
-			SetFontSize 38
+			SetFontSize 33
 			SetTextColor 22 22 22 255  
 			SetBorderColor 22 22 22 255
 			SetBackgroundColor 219 65 65 255 
@@ -1057,6 +1133,19 @@
 		Show
 			Class Quest
 			BaseType "Shaper's Orb"
+			SetFontSize 45
+			SetTextColor 22 22 22 255      
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 182 127 221 255
+			PlayAlertSoundPositional 6 300
+			DisableDropSound
+			MinimapIcon 0 Brown Star
+			PlayEffect Brown
+
+		# Watchstones
+
+		Show
+			BaseType "Watchstone"
 			SetFontSize 45
 			SetTextColor 22 22 22 255      
 			SetBorderColor 22 22 22 255
@@ -1216,24 +1305,12 @@
 	# Body Armours
 	# ============
 
-		# Elder / Shaper
-		# ==============
+		# Influenced
+		# ==========
 
 			Show
 				Class "Body Armours"
-				ElderItem True 
-				SetFontSize 42
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 210 198 82 255
-				PlayAlertSoundPositional 13 300
-				DisableDropSound
-				MinimapIcon 1 Yellow Triangle
-				PlayEffect Yellow
-
-			Show
-				Class "Body Armours"
-				ShaperItem True 
+				HasInfluence Shaper Elder
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1296,26 +1373,13 @@
 	# Helmets
 	# =======
 
-		# Elder / Shaper
-		# ==============
+		# Influenced
+		# ==========
 
 			Show
 				Class Helmet
 				Rarity Rare
-				ElderItem True 
-				SetFontSize 45
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 210 198 82 255
-				PlayAlertSoundPositional 13 300
-				DisableDropSound
-				MinimapIcon 1 Yellow Triangle
-				PlayEffect Yellow
-
-			Show
-				Class Helmet
-				Rarity Rare
-				ShaperItem True 
+				HasInfluence Shaper Elder 
 				SetFontSize 45
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1369,26 +1433,13 @@
 	# Gloves
 	# ======
 
-		# Elder / Shaper
-		# ==============
+		# Influenced
+		# ==========
 
 			Show
 				Class Gloves
 				Rarity Rare
-				ElderItem True 
-				SetFontSize 42
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 210 198 82 255
-				PlayAlertSoundPositional 13 300
-				DisableDropSound
-				MinimapIcon 1 Yellow Triangle
-				PlayEffect Yellow
-
-			Show
-				Class Gloves
-				Rarity Rare
-				ShaperItem True 
+				HasInfluence Shaper Elder
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1442,26 +1493,13 @@
 	# Boots
 	# =====
 
-		# Elder / Shaper
-		# ==============
+		# Influenced
+		# ==========
 
 			Show
 				Class Boots
 				Rarity Rare
-				ElderItem True 
-				SetFontSize 42
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 210 198 82 255
-				PlayAlertSoundPositional 13 300
-				DisableDropSound
-				MinimapIcon 1 Yellow Triangle
-				PlayEffect Yellow
-
-			Show
-				Class Boots
-				Rarity Rare
-				ShaperItem True 
+				HasInfluence Shaper Elder 
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1515,26 +1553,13 @@
 	# Shields
 	# =======
 
-		# Elder / Shaper
-		# ==============
+		# Influenced
+		# ==========
 
 			Show
 				Class Shields
 				Rarity Rare
-				ElderItem True 
-				SetFontSize 42
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 210 198 82 255
-				PlayAlertSoundPositional 13 300
-				DisableDropSound
-				MinimapIcon 1 Yellow Triangle
-				PlayEffect Yellow
-
-			Show
-				Class Shields
-				Rarity Rare
-				ShaperItem True 
+				HasInfluence Shaper Elder
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1597,26 +1622,13 @@
 	# Weapons
 	# =======
 
-		# Elder / Shaper
-		# ==============
+		# Influenced
+		# ==========
 
 			Show
-				Class Claws Daggers Wands "One Hand" "Bows" "Staves" "Two Hand" Quivers Sceptres "Rune Dagger" Warstaff
+				Class Claws Daggers Wands "One Hand" "Bows" "Staves" "Two Hand" Quivers Sceptres "Rune Dagger" Warstaves
 				Rarity Rare
-				ElderItem True 
-				SetFontSize 42
-				SetTextColor 22 22 22 255
-				SetBorderColor 22 22 22 255
-				SetBackgroundColor 210 198 82 255
-				PlayAlertSoundPositional 13 300
-				DisableDropSound
-				MinimapIcon 1 Yellow Triangle
-				PlayEffect Yellow
-
-			Show
-				Class Claws Daggers Wands "One Hand" "Bows" "Staves" "Two Hand" Quivers Sceptres "Rune Dagger" Warstaff
-				Rarity Rare
-				ShaperItem True 
+				HasInfluence Shaper Elder
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1660,7 +1672,7 @@
 		# =======
 
 			Show
-				Class Claws Daggers Wands "One Hand" "Bows" "Staves" "Two Hand" Quivers Sceptres "Rune Dagger" Warstaff
+				Class Claws Daggers Wands "One Hand" "Bows" "Staves" "Two Hand" Quivers Sceptres "Rune Dagger" Warstaves
 				Rarity Rare
 				Quality >= 30
 				SetFontSize 42
@@ -1673,7 +1685,7 @@
 				PlayEffect Yellow
 
 			Show
-				Class Claws Daggers Wands "One Hand" "Bows" "Staves" "Two Hand" Quivers Sceptres "Rune Dagger" Warstaff
+				Class Claws Daggers Wands "One Hand" "Bows" "Staves" "Two Hand" Quivers Sceptres "Rune Dagger" Warstaves
 				Rarity <= Magic
 				Quality >= 30
 				SetFontSize 42
@@ -1741,21 +1753,7 @@
 		Show
 			Class Rings Amulets Belts
 			Rarity Rare
-			ElderItem True 
-			ItemLevel >= 80
-			SetFontSize 42
-			SetTextColor 22 22 22 255
-			SetBorderColor 22 22 22 255
-			SetBackgroundColor 210 198 82 255
-			PlayAlertSoundPositional 10 300
-			DisableDropSound
-			MinimapIcon 0 Yellow Triangle
-			PlayEffect Yellow
-
-		Show
-			Class Rings Amulets Belts
-			Rarity Rare
-			ShaperItem True 
+			HasInfluence Shaper Elder
 			ItemLevel >= 80
 			SetFontSize 42
 			SetTextColor 22 22 22 255
@@ -1779,20 +1777,7 @@
 		Show
 			Class Rings Amulets Belts
 			Rarity Rare
-			ElderItem True 
-			SetFontSize 38
-			SetTextColor 22 22 22 255
-			SetBorderColor 22 22 22 255
-			SetBackgroundColor 210 198 82 255
-			PlayAlertSoundPositional 13 300
-			DisableDropSound
-			MinimapIcon 1 Yellow Triangle
-			PlayEffect Yellow
-
-		Show
-			Class Rings Amulets Belts
-			Rarity Rare
-			ShaperItem True 
+			HasInfluence Shaper Elder
 			SetFontSize 38
 			SetTextColor 22 22 22 255
 			SetBorderColor 22 22 22 255
@@ -2028,6 +2013,20 @@
 			SetBackgroundColor 210 198 82 255
 			DisableDropSound
 
+	# Metamorph
+	# =========
+
+		Show
+			Class "Metamorph Sample"
+			SetFontSize 42
+			SetTextColor 22 22 22 255  
+			SetBorderColor 22 22 22 255 
+			SetBackgroundColor 31 223 160 255
+			PlayAlertSoundPositional 10 300
+			DisableDropSound
+			MinimapIcon 0 Green Triangle
+			PlayEffect Green 
+
 	# Specific Mods
 	# =============
 
@@ -2095,6 +2094,18 @@
 		Quality >= 6
 		Class Gems
 		BaseType "Empower" "Enlighten"
+		SetFontSize 42
+		SetTextColor 22 22 22 255   
+		SetBorderColor 22 22 22 255 
+		SetBackgroundColor 31 223 160 255
+		PlayAlertSoundPositional 10 300
+		DisableDropSound
+		MinimapIcon 0 Green Diamond
+		PlayEffect Green
+
+	Show
+		Class Gems
+		BaseType "Awakened"
 		SetFontSize 42
 		SetTextColor 22 22 22 255   
 		SetBorderColor 22 22 22 255 
@@ -2308,7 +2319,7 @@
 	# This section effectively hides most anything that wasn't matched to any of the preceding rules.
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaff"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaves"
 		Rarity Rare
 		SetFontSize 26
 		SetTextColor 22 22 22 255
@@ -2317,7 +2328,7 @@
 		DisableDropSound
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Flask" "Rune Dagger" "Warstaff"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Flask" "Rune Dagger" "Warstaves"
 		Rarity Magic
 		SetFontSize 26
 		SetTextColor 22 22 22 255
@@ -2326,7 +2337,7 @@
 		DisableDropSound
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaff"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaves"
 		Rarity Normal
 		SetFontSize 26
 		SetTextColor 22 22 22 255
@@ -2393,7 +2404,7 @@
 		# Weapons/Armour: Yellow Triangle
 		# Crafting: Green Triangle
 		# Cards: White Square
-		# Gems: White Diamond
+		# Gems: Green Diamond
 
 		# Emphasis
 		# Important: 0

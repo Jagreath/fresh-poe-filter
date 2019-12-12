@@ -18,7 +18,7 @@
 
 	Show
 		Class Currency
-		BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Mirror of Kalandra" "Exalted Orb" 
+		BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Mirror of Kalandra" "Exalted Orb" "Awakener's Orb"
 		SetFontSize 45
 		SetTextColor 22 22 22 255    
 		SetBorderColor 22 22 22 255  
@@ -42,7 +42,7 @@
 
 	Show 
 		Class Currency
-		BaseType  "Regal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Vaal Orb" "Master Cartographer's Sextant"
+		BaseType  "Regal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Vaal Orb" "Awakened Sextant"
 		SetFontSize 45
 		SetTextColor 22 22 22 255     
 		SetBorderColor 22 22 22 255
@@ -54,7 +54,7 @@
 
 	Show
 		Class Currency
-		BaseType "Annulment Shard" "Harbinger's Shard" "Ancient Shard" "Exalted Shard" "Horizon Shard" "Engineer's Shard" "Binding Shard" "Regal Shard" "Chaos Shard" "Orb of Fusing" "Orb of Alchemy" "Blessed Orb" "Orb of Scouring" "Cartographer's Chisel" "Orb of Horizons" "Engineer's Orb" "Orb of Binding" "Silver Coin" "Glassblower's Bauble" "Stacked Deck" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Sextant"
+		BaseType "Annulment Shard" "Harbinger's Shard" "Ancient Shard" "Exalted Shard" "Horizon Shard" "Engineer's Shard" "Binding Shard" "Regal Shard" "Chaos Shard" "Orb of Fusing" "Orb of Alchemy" "Blessed Orb" "Orb of Scouring" "Cartographer's Chisel" "Orb of Horizons" "Engineer's Orb" "Orb of Binding" "Silver Coin" "Glassblower's Bauble" "Stacked Deck" "Prime Sextant" "Simple Sextant"
 		SetFontSize 42
 		SetTextColor 22 22 22 255   
 		SetBorderColor 22 22 22 255  
@@ -262,7 +262,7 @@
 
 	Show
 		Class "Incubator"
-		SetFontSize 38
+		SetFontSize 42
 		SetTextColor 22 22 22 255     
 		SetBorderColor 22 22 22 255
 		SetBackgroundColor 73 160 240 255
@@ -274,7 +274,19 @@
 	Show
 		BaseType "Oil" 
 		Class "Stackable Currency" 
-		SetFontSize 38
+		SetFontSize 42
+		SetTextColor 22 22 22 255      
+		SetBorderColor 22 22 22 255  
+		SetBackgroundColor 73 160 240 255
+		PlayAlertSoundPositional 13 300
+		DisableDropSound
+		MinimapIcon 1 Blue Circle
+		PlayEffect Blue
+
+	Show
+		BaseType "Catalyst"
+		Class "Stackable Currency"
+		SetFontSize 42
 		SetTextColor 22 22 22 255      
 		SetBorderColor 22 22 22 255  
 		SetBackgroundColor 73 160 240 255
@@ -437,6 +449,19 @@
 		Show
 			Class Quest
 			BaseType "Shaper's Orb"
+			SetFontSize 45
+			SetTextColor 22 22 22 255      
+			SetBorderColor 22 22 22 255
+			SetBackgroundColor 182 127 221 255
+			PlayAlertSoundPositional 6 300
+			DisableDropSound
+			MinimapIcon 0 Brown Star
+			PlayEffect Brown
+
+		# Watchstones
+
+		Show
+			BaseType "Watchstone"
 			SetFontSize 45
 			SetTextColor 22 22 22 255      
 			SetBorderColor 22 22 22 255
@@ -1293,7 +1318,7 @@
 		# ======
 
 			Show
-				Class "Staves" Warstaff
+				Class "Staves" Warstaves
 				Rarity Rare
 				DropLevel >= 0
 				ItemLevel < 43
@@ -1304,7 +1329,7 @@
 				DisableDropSound
 
 			Show
-				Class "Staves" Warstaff
+				Class "Staves" Warstaves
 				Rarity Rare
 				DropLevel >= 41
 				ItemLevel < 59
@@ -1315,7 +1340,7 @@
 				DisableDropSound
 
 			Show
-				Class "Staves" Warstaff
+				Class "Staves" Warstaves
 				Rarity Rare
 				DropLevel >= 57
 				SetFontSize 33
@@ -1726,6 +1751,20 @@
 			SetBackgroundColor 210 198 82 255
 			DisableDropSound
 
+	# Metamorph
+	# =========
+
+		Show
+			Class "Metamorph Sample"
+			SetFontSize 42
+			SetTextColor 22 22 22 255  
+			SetBorderColor 22 22 22 255 
+			SetBackgroundColor 31 223 160 255
+			PlayAlertSoundPositional 10 300
+			DisableDropSound
+			MinimapIcon 0 Green Triangle
+			PlayEffect Green 
+
 	# Specific Mods
 	# =============
 
@@ -1793,6 +1832,18 @@
 		Quality >= 6
 		Class Gems
 		BaseType "Empower" "Enlighten"
+		SetFontSize 42
+		SetTextColor 22 22 22 255   
+		SetBorderColor 22 22 22 255 
+		SetBackgroundColor 31 223 160 255
+		PlayAlertSoundPositional 10 300
+		DisableDropSound
+		MinimapIcon 0 Green Diamond
+		PlayEffect Green
+
+	Show
+		Class Gems
+		BaseType "Awakened"
 		SetFontSize 42
 		SetTextColor 22 22 22 255   
 		SetBorderColor 22 22 22 255 
@@ -2004,7 +2055,7 @@
 	# This section effectively hides most anything that wasn't matched to any of the preceding rules.
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaff"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaves"
 		Rarity Rare
 		SetFontSize 26
 		SetTextColor 22 22 22 255
@@ -2013,7 +2064,7 @@
 		DisableDropSound
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Flask" "Rune Dagger" "Warstaff"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Flask" "Rune Dagger" "Warstaves"
 		Rarity Magic
 		SetFontSize 26
 		SetTextColor 22 22 22 255
@@ -2022,7 +2073,7 @@
 		DisableDropSound
 
 	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaff"
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaves"
 		Rarity Normal
 		SetFontSize 26
 		SetTextColor 22 22 22 255
@@ -2089,7 +2140,7 @@
 		# Weapons/Armour: Yellow Triangle
 		# Crafting: Green Triangle
 		# Cards: White Square
-		# Gems: White Diamond
+		# Gems: Green Diamond
 
 		# Emphasis
 		# Important: 0
