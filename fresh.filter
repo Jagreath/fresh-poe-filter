@@ -1387,7 +1387,7 @@
 			Show
 				BaseType "Astral Plate" "Vaal Regalia"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -1396,7 +1396,7 @@
 			Show
 				BaseType "Sacrificial Garb"
 				Rarity <= Magic
-				SetFontSize 26
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 97 182 83 255
@@ -1936,7 +1936,7 @@
 			Show
 				BaseType "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver"
 				Rarity Rare
-				ItemLevel >= 84
+				ItemLevel >= 80
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2030,7 +2030,7 @@
 			Show
 				BaseType "Gemini Claw" "Imperial Claw"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2039,7 +2039,7 @@
 			Show
 				BaseType "Great White Claw"
 				Rarity Rare
-				SetFontSize 26
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2132,7 +2132,7 @@
 			Show
 				BaseType "Ambusher" "Demon Dagger"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2141,7 +2141,7 @@
 			Show
 				BaseType "Gutting Knife" "Sai" "Platinum Kris" "Imperial Skean"
 				Rarity Rare
-				SetFontSize 26
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2234,7 +2234,7 @@
 			Show
 				BaseType "Convoking Wand" "Imbued Wand" "Prophecy Wand"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2243,7 +2243,7 @@
 			Show
 				BaseType "Demon's Horn" "Profane Wand"
 				Rarity Rare
-				SetFontSize 26
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2336,7 +2336,7 @@
 			Show
 				BaseType "Corsair Sword" "Legion Sword" "Vaal Rapier" "Jewelled Foil"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2345,7 +2345,7 @@
 			Show
 				BaseType "Tiger Hook" "Eternal Sword" "Harpy Rapier"
 				Rarity Rare
-				SetFontSize 26
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2438,7 +2438,7 @@
 			Show
 				BaseType "Royal Axe" "Siege Axe"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2447,7 +2447,7 @@
 			Show
 				BaseType "Runic Hatchet" "Vaal Hatchet"
 				Rarity Rare
-				SetFontSize 26
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2540,7 +2540,7 @@
 			Show
 				BaseType "Behemoth Mace" "Auric Mace"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2549,7 +2549,7 @@
 			Show
 				BaseType "Nightmare Mace"
 				Rarity Rare
-				SetFontSize 26
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2642,7 +2642,7 @@
 			Show
 				BaseType "Harbinger Bow" "Thicket Bow"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2651,7 +2651,7 @@
 			Show
 				BaseType "Citadel Bow" "Maraketh Bow" "Imperial Bow"
 				Rarity Rare
-				SetFontSize 26
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2744,7 +2744,7 @@
 			Show
 				BaseType "Eclipse Staff" "Judgement Staff"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2753,7 +2753,7 @@
 			Show
 				BaseType "Imperial Staff" "Lathi" "Maelström Staff" "Ezomyte Staff"
 				Rarity Rare
-				SetFontSize 26
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2846,7 +2846,7 @@
 			Show
 				BaseType "Vaal Greatsword" "Exquisite Blade"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2855,7 +2855,7 @@
 			Show
 				BaseType "Reaver Sword" "Lion Sword"
 				Rarity Rare
-				SetFontSize 26
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2948,7 +2948,7 @@
 			Show
 				BaseType "Vaal Axe" "Fleshripper" 
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -2957,7 +2957,7 @@
 			Show
 				BaseType "Ezomyte Axe" "Void Axe" "Despot Axe"
 				Rarity Rare
-				SetFontSize 26
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -3050,7 +3050,7 @@
 			Show
 				BaseType "Coronal Maul" "Meatgrinder"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -3059,7 +3059,7 @@
 			Show
 				BaseType "Piledriver"
 				Rarity Rare
-				SetFontSize 26
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -3152,7 +3152,7 @@
 			Show
 				BaseType "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
 				Rarity Rare
-				SetFontSize 33
+				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
@@ -3161,7 +3161,7 @@
 			Show
 				BaseType "Carnal Sceptre" "Platinum Sceptre"
 				Rarity Rare
-				SetFontSize 26
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 210 198 82 255
