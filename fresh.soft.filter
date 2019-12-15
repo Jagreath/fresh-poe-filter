@@ -1313,7 +1313,7 @@
 			Show
 				BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1328,7 +1328,7 @@
 			Show
 				BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1342,7 +1342,7 @@
 
 			Show
 				Class "Body Armours"
-				HasInfluence Shaper Elder 
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1415,7 +1415,7 @@
 			Show
 				BaseType "Bone Helmet" "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascinet" "Bone Helmet" "Prophet Crown" "Deicide Mask"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1430,7 +1430,7 @@
 			Show
 				BaseType "Bone Helmet" "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascinet" "Bone Helmet" "Prophet Crown" "Deicide Mask"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1444,7 +1444,7 @@
 
 			Show
 				Class Helmet
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1508,7 +1508,7 @@
 			Show
 				BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1523,7 +1523,7 @@
 			Show
 				BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1537,7 +1537,7 @@
 
 			Show
 				Class Gloves
-				HasInfluence Shaper Elder 
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1601,7 +1601,7 @@
 			Show
 				BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1616,7 +1616,7 @@
 			Show
 				BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1630,7 +1630,7 @@
 
 			Show
 				Class Boots
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1694,7 +1694,7 @@
 			Show
 				BaseType "Colossal Tower Shield" "Pinnacle Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Vaal Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1709,7 +1709,7 @@
 			Show
 				BaseType "Colossal Tower Shield" "Pinnacle Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Vaal Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1723,7 +1723,7 @@
 
 			Show
 				Class Shield
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1796,7 +1796,7 @@
 			Show
 				Class Quivers
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1811,7 +1811,7 @@
 			Show
 				BaseType "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1825,7 +1825,7 @@
 
 			Show
 				Class Quivers
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1858,7 +1858,7 @@
 			Show
 				BaseType "Gemini Claw" "Imperial Claw" "Great White Claw"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1873,7 +1873,7 @@
 			Show
 				BaseType "Gemini Claw" "Imperial Claw" "Great White Claw"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1887,7 +1887,7 @@
 
 			Show
 				Class "Claws"
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1960,7 +1960,7 @@
 			Show
 				BaseType "Ambusher" "Gutting Knife" "Sai" "Demon Dagger" "Platinum Kris" "Imperial Skean"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1975,7 +1975,7 @@
 			Show
 				BaseType "Ambusher" "Gutting Knife" "Sai" "Demon Dagger" "Platinum Kris" "Imperial Skean"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -1989,7 +1989,7 @@
 
 			Show
 				Class "Daggers" "Rune Daggers"
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2062,7 +2062,7 @@
 			Show
 				BaseType "Convoking Wand" "Imbued Wand" "Demon's Horn" "Prophecy Wand" "Profane Wand"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2077,7 +2077,7 @@
 			Show
 				BaseType "Convoking Wand" "Imbued Wand" "Demon's Horn" "Prophecy Wand" "Profane Wand"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2091,7 +2091,7 @@
 
 			Show
 				Class "Wands"
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2164,7 +2164,7 @@
 			Show
 				BaseType "Corsair Sword" "Legion Sword" "Tiger Hook" "Eternal Sword" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Apex Rapier"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2179,7 +2179,7 @@
 			Show
 				BaseType "Corsair Sword" "Legion Sword" "Tiger Hook" "Eternal Sword" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Apex Rapier"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2193,7 +2193,7 @@
 
 			Show
 				Class "One Hand Swords"
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2266,7 +2266,7 @@
 			Show
 				BaseType "Royal Axe" "Siege Axe" "Runic Hatchet" "Vaal Hatchet"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2281,7 +2281,7 @@
 			Show
 				BaseType "Royal Axe" "Siege Axe" "Runic Hatchet" "Vaal Hatchet"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2295,7 +2295,7 @@
 
 			Show
 				Class "One Hand Axes"
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2368,7 +2368,7 @@
 			Show
 				BaseType "Behemoth Mace" "Auric Mace" "Nightmare Mace"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2383,7 +2383,7 @@
 			Show
 				BaseType "Behemoth Mace" "Auric Mace" "Nightmare Mace"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2397,7 +2397,7 @@
 
 			Show
 				Class "One Hand Maces"
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2470,7 +2470,7 @@
 			Show
 				BaseType "Harbinger Bow" "Thicket Bow" "Citadel Bow" "Maraketh Bow" "Imperial Bow"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2485,7 +2485,7 @@
 			Show
 				BaseType "Harbinger Bow" "Thicket Bow" "Citadel Bow" "Maraketh Bow" "Imperial Bow"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2499,7 +2499,7 @@
 
 			Show
 				Class "Bows"
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2572,7 +2572,7 @@
 			Show
 				BaseType "Imperial Staff" "Lathi" "Eclipse Staff" "Maelström Staff" "Judgement Staff" "Ezomyte Staff"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2587,7 +2587,7 @@
 			Show
 				BaseType "Imperial Staff" "Lathi" "Eclipse Staff" "Maelström Staff" "Judgement Staff" "Ezomyte Staff"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2601,7 +2601,7 @@
 
 			Show
 				Class "Staves" "Warstaves"
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2674,7 +2674,7 @@
 			Show
 				BaseType "Vaal Greatsword" "Reaver Sword" "Exquisite Blade" "Lion Sword"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2689,7 +2689,7 @@
 			Show
 				BaseType "Vaal Greatsword" "Reaver Sword" "Exquisite Blade" "Lion Sword"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2703,7 +2703,7 @@
 
 			Show
 				Class "Two Hand Swords"
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2776,7 +2776,7 @@
 			Show
 				BaseType "Vaal Axe" "Ezomyte Axe" "Fleshripper" "Void Axe" "Despot Axe"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2791,7 +2791,7 @@
 			Show
 				BaseType "Vaal Axe" "Ezomyte Axe" "Fleshripper" "Void Axe" "Despot Axe"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2805,7 +2805,7 @@
 
 			Show
 				Class "Two Hand Axes"
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2878,7 +2878,7 @@
 			Show
 				BaseType "Coronal Maul" "Meatgrinder" "Piledriver"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2893,7 +2893,7 @@
 			Show
 				BaseType "Coronal Maul" "Meatgrinder" "Piledriver"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2907,7 +2907,7 @@
 
 			Show
 				Class "Two Hand Maces"
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2980,7 +2980,7 @@
 			Show
 				BaseType "Carnal Sceptre" "Platinum Sceptre" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -2995,7 +2995,7 @@
 			Show
 				BaseType "Carnal Sceptre" "Platinum Sceptre" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
 				ItemLevel >= 84
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -3009,7 +3009,7 @@
 
 			Show
 				Class "Sceptres"
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -3080,7 +3080,7 @@
 			Show
 				Class Amulets
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 45
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -3093,7 +3093,7 @@
 			Show
 				Class Amulets
 				ItemLevel >= 82
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -3105,7 +3105,7 @@
 
 			Show
 				Class Amulets
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -3193,7 +3193,7 @@
 				Class Rings
 				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 45
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -3206,7 +3206,7 @@
 			Show
 				Class Rings
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 45
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -3219,7 +3219,7 @@
 			Show
 				Class Rings
 				ItemLevel >= 82
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -3231,7 +3231,7 @@
 
 			Show
 				Class Rings
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -3329,7 +3329,7 @@
 				Class Belts
 				BaseType "Crystal Belt"
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 45
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -3342,7 +3342,7 @@
 			Show
 				Class Belts
 				ItemLevel >= 86
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -3356,7 +3356,7 @@
 				Class Belts
 				BaseType "Crystal Belt" "Leather Belt" "Heavy Belt"
 				ItemLevel >= 82
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 42
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -3369,7 +3369,7 @@
 			Show
 				Class Belts
 				ItemLevel >= 82
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 38
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
@@ -3381,7 +3381,7 @@
 
 			Show
 				Class Belts
-				HasInfluence Shaper Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
