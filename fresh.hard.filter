@@ -70,7 +70,7 @@
 		SetBackgroundColor 73 160 240 255
 		DisableDropSound
 
-	Hide
+	Show
 		Class Currency
 		BaseType "Alchemy Shard" 
 		SetFontSize 38
@@ -79,7 +79,7 @@
 		SetBackgroundColor 73 160 240 255
 		DisableDropSound
 
-	Hide
+	Show
 		Class Currency
 		BaseType "Orb of Transmutation" "Orb of Augmentation" 
 		SetFontSize 38
@@ -88,7 +88,7 @@
 		SetBackgroundColor 73 160 240 255
 		DisableDropSound
 
-	Hide
+	Show
 		Class Currency
 		BaseType "Blacksmith's Whetstone" "Armourer's Scrap"
 		SetFontSize 33
@@ -3133,6 +3133,18 @@
 				SetBackgroundColor 97 182 83 255
 				DisableDropSound
 
+			# Extra normal jewelery to use excess alchs on
+			#Show
+			#	Class Amulets
+			#	BaseType "Onyx" "Marble" "Blue Pearl"
+			#	Rarity < Magic
+			#	ItemLevel >= 82
+			#	SetFontSize 33
+			#	SetTextColor 22 22 22 255
+			#	SetBorderColor 22 22 22 255
+			#	SetBackgroundColor 97 182 83 255
+			#	DisableDropSound
+
 			Show
 				Class Amulets
 				BaseType "Marble Amulet" "Blue Pearl Amulet" "Onyx Amulet"
@@ -3254,6 +3266,17 @@
 				Rarity <= Magic
 				ItemLevel >= 86
 				SetFontSize 38
+				SetTextColor 22 22 22 255
+				SetBorderColor 22 22 22 255
+				SetBackgroundColor 97 182 83 255
+				DisableDropSound
+
+			Show
+				Class Rings
+				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond" "Two-Stone"
+				Rarity < Magic
+				ItemLevel >= 82
+				SetFontSize 33
 				SetTextColor 22 22 22 255
 				SetBorderColor 22 22 22 255
 				SetBackgroundColor 97 182 83 255
@@ -3579,14 +3602,14 @@
 
 		# Other examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
 
-		Show
-			BaseType "Glorious Plate"
-			Rarity Normal
-			SetFontSize 26
-			SetTextColor 22 22 22 255
-			SetBorderColor 22 22 22 255
-			SetBackgroundColor 97 182 83 255
-			DisableDropSound
+		#Show
+		#	BaseType "Glorious Plate"
+		#	Rarity Normal
+		#	SetFontSize 26
+		#	SetTextColor 22 22 22 255
+		#	SetBorderColor 22 22 22 255
+		#	SetBackgroundColor 97 182 83 255
+		#	DisableDropSound
 
 	# Synthesised / Fractured
 	# =======================
@@ -3769,7 +3792,7 @@
 
 	Show
 		Class Gems
-		BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Added Chaos Damage" "Enhance"
+		BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
 		SetFontSize 38
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255 
@@ -3781,7 +3804,7 @@
 
 	Show
 		Class Gems
-		BaseType "Detonate Mines" "Vaal" 
+		BaseType "Vaal" 
 		SetFontSize 33
 		SetTextColor 22 22 22 255
 		SetBorderColor 22 22 22 255
