@@ -94,7 +94,6 @@
 	Show
 		Class Currency
 		BaseType "Transmutation Shard" "Alteration Shard"
-		# SetFontSize 33
 		SetFontSize 26
 		SetTextColor 22 22 22 255           
 		SetBorderColor 22 22 22 255      
@@ -1701,14 +1700,14 @@
 	# Chancing
 	# ========
 
-		Show
-			BaseType "Glorious Plate" 
-			Rarity Normal
-			SetFontSize 26
-			SetTextColor 22 22 22 255
-			SetBorderColor 22 22 22 255
-			SetBackgroundColor 97 182 83 255
-			DisableDropSound
+		#Show
+		#	BaseType "Glorious Plate" 
+		#	Rarity Normal
+		#	SetFontSize 26
+		#	SetTextColor 22 22 22 255
+		#	SetBorderColor 22 22 22 255
+		#	SetBackgroundColor 97 182 83 255
+		#	DisableDropSound
 
 	# Synthesised / Fractured
 	# =======================
@@ -1891,7 +1890,7 @@
 
 	Show
 		Class Gems
-		BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Added Chaos Damage" "Enhance"
+		BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
 		SetFontSize 38
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255 
@@ -1903,7 +1902,7 @@
 
 	Show
 		Class Gems
-		BaseType "Detonate Mines" "Vaal" 
+		BaseType "Vaal" 
 		SetFontSize 33
 		SetTextColor 22 22 22 255
 		SetBorderColor 22 22 22 255
