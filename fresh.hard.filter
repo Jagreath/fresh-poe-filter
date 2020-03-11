@@ -912,101 +912,699 @@
 # Equipment
 # =========
 
-	# Fishing
+	# Body Armours
+	# ============
+
+		Show
+			BaseType "Sacrificial Garb"
+			Continue
+
+		#Show
+		#	BaseType "Astral Plate" "Vaal Regalia"
+		#	Rarity Rare
+		#	Continue
+
+		Show
+			BaseType "Astral Plate" "Vaal Regalia"
+			Rarity Rare
+			ItemLevel >= 81
+			SetFontSize 33
+			Continue
+
+		Show
+			BaseType "Astral Plate" "Vaal Regalia"
+			Rarity Rare
+			ItemLevel >= 84
+			SetFontSize 38
+			Continue
+
+		Show
+			Class "Body Armours"
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 38
+			PlayAlertSound 3 225
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate" "Vaal Regalia" "Sadist Garb"
+			ItemLevel >= 81
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb"
+			ItemLevel >= 84
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+	# Helmets
 	# =======
 
-		Show
-			Class "Fishing Rod"
-			SetFontSize 45
-			PlayAlertSound 6 300
-			MinimapIcon 0 Brown Star
-			PlayEffect Brown
+		#Show
+		#	BaseType "Hubris Circlet" "Bone Helmet"
+		#	Rarity Rare
+		#	Continue
 
-	# Defaults
+		Show
+			BaseType "Royal Burgonet" "Hubris Circlet" "Bone Helmet"
+			Rarity Rare
+			ItemLevel >= 82
+			SetFontSize 33
+			Continue
+
+		Show
+			BaseType "Royal Burgonet" "Hubris Circlet" "Bone Helmet"
+			Rarity Rare
+			ItemLevel >= 84
+			SetFontSize 38
+			Continue
+
+		Show
+			Class Helmets
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 38
+			PlayAlertSound 3 225
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Deicide Mask"
+			ItemLevel >= 82
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet"
+			ItemLevel >= 84
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+	# Gloves
+	# ======
+
+		#Show
+		#	BaseType "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+		#	Rarity Normal
+		#	Continue
+
+		#Show
+		#	BaseType "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
+		#	Rarity Rare
+		#	Continue
+
+		Show
+			BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
+			Rarity Rare
+			ItemLevel >= 82
+			SetFontSize 33
+			Continue
+
+		Show
+			Class Gloves
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 33
+			PlayAlertSound 14 200
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
+			Rarity Rare
+			ItemLevel >= 84
+			SetFontSize 38
+			Continue
+
+		Show
+			BaseType "Slink Gloves" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
+			ItemLevel >= 82
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Slink Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
+			ItemLevel >= 84
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+	# Boots
+	# =====
+
+		#Show
+		#	BaseType "Two-Toned Boots"
+		#	Rarity Normal
+		#	Continue
+
+		#Show
+		#	BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots"
+		#	Rarity Rare
+		#	Continue
+
+		Show
+			BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots"
+			Rarity Rare
+			ItemLevel >= 82
+			SetFontSize 33
+			Continue
+
+		Show
+			BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots"
+			Rarity Rare
+			ItemLevel >= 84
+			SetFontSize 38
+			Continue
+
+		Show
+			Class Boots
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 38
+			PlayAlertSound 3 225
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots"
+			ItemLevel >= 82
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots"
+			Rarity Rare
+			ItemLevel >= 86
+			SetFontSize 45
+			Continue
+
+		Show
+			BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots"
+			ItemLevel >= 84
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+	# Shields
+	# =======
+
+		#Show
+		#	BaseType "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield"
+		#	Rarity Rare
+		#	Continue
+
+		Show
+			BaseType "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" 
+			Rarity Rare
+			ItemLevel >= 81
+			SetFontSize 33
+			Continue
+
+		Show
+			Class Shields
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 33
+			PlayAlertSound 14 200
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield"
+			Rarity Rare
+			ItemLevel >= 84
+			SetFontSize 38
+			Continue
+
+		Show
+			BaseType "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield"
+			ItemLevel >= 81
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Colossal Tower Shield" "Pinnacle Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Vaal Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield"
+			ItemLevel >= 84
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+	# Claws
+	# =====
+
+		#Show
+		#	BaseType "Gemini Claw" "Imperial Claw" "Great White Claw"
+		#	Rarity Rare
+		#	ItemLevel >= 80
+		#	SetFontSize 33
+		#	Continue
+
+		Show
+			Class Claws
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 33
+			PlayAlertSound 14 200
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		#Show
+		#	BaseType "Gemini Claw"
+		#	Rarity Rare
+		#	ItemLevel >= 83
+		#	SetFontSize 38
+		#	Continue
+
+		Show
+			BaseType "Gemini Claw" "Imperial Claw"
+			ItemLevel >= 80
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Gemini Claw" "Imperial Claw" "Great White Claw"
+			ItemLevel >= 83
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+	# Daggers
+	# =======
+
+		#Show
+		#	BaseType "Demon Dagger" "Platinum Kris" 
+		#	Rarity Rare
+		#	Continue
+
+		Show
+			BaseType "Demon Dagger" "Platinum Kris" 
+			Rarity Rare
+			ItemLevel >= 80
+			SetFontSize 33
+			Continue
+
+		Show
+			Class Daggers "Rune Daggers"
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 33
+			PlayAlertSound 14 200
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Demon Dagger" "Platinum Kris" "Imperial Skean"
+			Rarity Rare
+			ItemLevel >= 83
+			SetFontSize 38
+			Continue
+
+		Show
+			BaseType "Ambusher" "Demon Dagger" "Platinum Kris" 
+			ItemLevel >= 80
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Ambusher" "Gutting Knife" "Sai" "Demon Dagger" "Platinum Kris" "Imperial Skean"
+			ItemLevel >= 83
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+	# Wands
+	# =====
+
+		Show
+			BaseType "Convoking Wand"
+			Rarity Rare
+			Continue
+
+		Show
+			BaseType "Convoking Wand" "Opal Wand"
+			Rarity Rare
+			ItemLevel >= 80
+			SetFontSize 33
+			Continue
+
+		Show
+			Class Wands
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 33
+			PlayAlertSound 14 200
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand"
+			Rarity Rare
+			ItemLevel >= 83
+			SetFontSize 38
+			Continue
+
+		Show
+			BaseType "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand"
+			ItemLevel >= 80
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Demon's Horn" "Profane Wand" "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Opal Wand"
+			ItemLevel >= 83
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+	# Swords
+	# ======
+
+		#Show
+		#	BaseType "Jewelled Foil" "Harpy Rapier"
+		#	Rarity Rare
+		#	ItemLevel >= 80
+		#	SetFontSize 33
+		#	Continue
+
+		Show
+			Class "One Hand Swords" "Two Hand Swords"
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 33
+			PlayAlertSound 14 200
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Jewelled Foil"
+			Rarity Rare
+			ItemLevel >= 83
+			SetFontSize 38
+			Continue
+
+		Show
+			BaseType "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Exquisite Blade"
+			ItemLevel >= 80
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Corsair Sword" "Legion Sword" "Tiger Hook" "Eternal Sword" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Apex Rapier" "Vaal Greatsword" "Reaver Sword" "Exquisite Blade" "Lion Sword"
+			ItemLevel >= 83
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+	# Axes
+	# ====
+
+		#Show
+		#	BaseType "Siege Axe"
+		#	Rarity Rare
+		#	ItemLevel >= 80
+		#	SetFontSize 33
+		#	Continue
+
+		Show
+			Class "One Hand Axes" "Two Hand Axes"
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 33
+			PlayAlertSound 14 200
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Siege Axe"
+			Rarity Rare
+			ItemLevel >= 83
+			SetFontSize 38
+			Continue
+
+		Show
+			BaseType "Royal Axe" "Siege Axe" "Vaal Axe" "Fleshripper"
+			ItemLevel >= 80
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Royal Axe" "Siege Axe" "Runic Hatchet" "Vaal Hatchet" "Vaal Axe" "Ezomyte Axe" "Fleshripper" "Void Axe" "Despot Axe"
+			ItemLevel >= 83
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+	# Maces
+	# =====
+
+		#Show
+		#	BaseType "Behemoth Mace" "Coronal Maul"
+		#	Rarity Rare
+		#	ItemLevel >= 80
+		#	SetFontSize 33
+		#	Continue
+
+		Show
+			Class "One Hand Maces" "Two Hand Maces"
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 33
+			PlayAlertSound 14 200
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		#Show
+		#	BaseType "Behemoth Mace" "Coronal Maul"
+		#	Rarity Rare
+		#	ItemLevel >= 83
+		#	SetFontSize 38
+		#	Continue
+
+		Show
+			BaseType "Behemoth Mace" "Coronal Maul"
+			ItemLevel >= 80
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Behemoth Mace" "Auric Mace" "Nightmare Mace" "Coronal Maul" "Meatgrinder" "Piledriver"
+			ItemLevel >= 83
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+	# Bows
+	# ====
+
+		#Show
+		#	BaseType "Thicket Bow" "Imperial Bow"
+		#	Rarity Rare
+		#	ItemLevel >= 80
+		#	SetFontSize 33
+		#	Continue
+
+		Show
+			Class Bows
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 33
+			PlayAlertSound 14 200
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		#Show
+		#	BaseType "Thicket Bow" "Imperial Bow"
+		#	Rarity Rare
+		#	ItemLevel >= 83
+		#	SetFontSize 38
+		#	Continue
+
+		Show
+			BaseType "Thicket Bow" "Imperial Bow"
+			ItemLevel >= 80
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Harbinger Bow" "Thicket Bow" "Citadel Bow" "Maraketh Bow" "Imperial Bow"
+			ItemLevel >= 83
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+	# Staves
+	# ======
+
+		#Show
+		#	BaseType "Eclipse Staff"
+		#	Rarity Rare
+		#	ItemLevel >= 80
+		#	SetFontSize 33
+		#	Continue
+
+		Show
+			Class Staves Warstaves
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 33
+			PlayAlertSound 14 200
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Eclipse Staff"
+			Rarity Rare
+			ItemLevel >= 83
+			SetFontSize 38
+			Continue
+
+		Show
+			BaseType "Eclipse Staff" "Judgement Staff"
+			ItemLevel >= 80
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType  "Maelström Staff" "Judgement Staff" "Ezomyte Staff"
+			ItemLevel >= 83
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Eclipse Staff" "Imperial Staff" "Lathi"
+			ItemLevel >= 84
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+	# Sceptres
 	# ========
 
-		Show
-			BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Titan Gauntlets" "Slink Gloves" "Sorcerer Gloves" "Titan Greaves" "Two-Toned Boots" "Slink Boots" "Sorcerer Boots" "Platinum Kris" "Demon's Horn" "Vaal Rapier" "Jewelled Foil" "Imperial Bow"
-			ItemLevel >= 81
-			Rarity Rare
-			Continue
+		#Show
+		#	BaseType "Void Sceptre"
+		#	Rarity Rare
+		#	ItemLevel >= 80
+		#	SetFontSize 33
+		#	Continue
 
 		Show
-			BaseType "Astral Plate" "Vaal Regalia" "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Slink Gloves" "Sorcerer Gloves" "Titan Greaves" "Two-Toned Boots" "Slink Boots" "Sorcerer Boots" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Gemini Claw" "Imperial Claw" "Ambusher" "Convoking Wand" "Prophecy Wand" "Corsair Sword" "Legion Sword" "Tiger Hook" "Eternal Sword" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Royal Axe" "Siege Axe" "Behemoth Mace" "Auric Mace" "Nightmare Mace" "Harbinger Bow" "Thicket Bow" "Eclipse Staff" "Exquisite Blade" "Vaal Axe" "Fleshripper" "Void Sceptre" "Sambar Sceptre"
-			ItemLevel >= 84
-			Rarity Rare
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Body Armours" Helmet Gloves Boots Shield Quivers Claws Daggers "Rune Daggers" Wands "One Hand Swords" "One Hand Axes" "One Hand Maces" Bows Staves Warstaves "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" Sceptres
+			Class Sceptres
 			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
-			SetFontSize 38
-			PlayAlertSound 3 225
+			SetFontSize 33
+			PlayAlertSound 14 200
 			MinimapIcon 2 Yellow Triangle
 			PlayEffect Yellow
 			Continue
 
 		Show
-			BaseType "Titan Greaves" "Two-Toned Boots" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots"
+			BaseType "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
 			Rarity Rare
-			ItemLevel >= 86
-			SetFontSize 42
-			Continue
-
-		Show
-			BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb" "Bone Helmet" "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascinet" "Bone Helmet" "Prophet Crown" "Deicide Mask" "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Gemini Claw" "Imperial Claw" "Great White Claw" "Ambusher" "Gutting Knife" "Sai" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Convoking Wand" "Jewelled Foil" "Eclipse Staff" "Vaal Axe"
-			ItemLevel >= 84
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
-			SetFontSize 42
-			PlayAlertSound 13 250
-			MinimapIcon 1 Yellow Triangle
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb" "Bone Helmet" "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascinet" "Bone Helmet" "Prophet Crown" "Deicide Mask" "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Titanium Spirit Shield" "Fossilised Spirit Shield" Quiver "Spike-Point Arrow Quiver" "Gemini Claw" "Imperial Claw" "Great White Claw" "Ambusher" "Gutting Knife" "Sai" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Convoking Wand" "Jewelled Foil" "Eclipse Staff" "Vaal Axe"
-			ItemLevel >= 86
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
-			SetFontSize 45
-			PlayAlertSound 10 275
-			MinimapIcon 0 Yellow Triangle
-			PlayEffect Yellow
-			Continue
-
-
-		# ===
-
-		Show
-			BaseType "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Slink Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Slink Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Crusader Buckler" "Archon Kite Shield" "Supreme Spiked Shield" "Great White Claw" "Gutting Knife" "Sai" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Tiger Hook" "Eternal Sword" "Harpy Rapier" "Runic Hatchet" "Vaal Hatchet" "Nightmare Mace" "Citadel Bow" "Maraketh Bow" "Imperial Bow" "Imperial Staff" "Lathi" "Maelström Staff" "Ezomyte Staff" "Reaver Sword" "Lion Sword" "Ezomyte Axe" "Void Axe" "Despot Axe" "Piledriver" "Carnal Sceptre" "Platinum Sceptre"
-			Rarity Rare
-			Continue
-
-		Show
-			BaseType "Astral Plate" "Vaal Regalia" "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Gemini Claw" "Imperial Claw" "Ambusher" "Demon Dagger" "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Corsair Sword" "Legion Sword" "Vaal Rapier" "Jewelled Foil" "Royal Axe" "Siege Axe" "Behemoth Mace" "Auric Mace" "Harbinger Bow" "Thicket Bow" "Eclipse Staff" "Judgement Staff" "Vaal Greatsword" "Exquisite Blade" "Vaal Axe" "Fleshripper" "Coronal Maul" "Meatgrinder" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
-			Rarity Rare
-			SetFontSize 33
-			Continue
-
-		Show
-			BaseType "Astral Plate" "Vaal Regalia" "Bone Helmet" "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascinet" "Bone Helmet" "Prophet Crown" "Deicide Mask" "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Titanium Spirit Shield" 
-			Rarity Rare
-			ItemLevel >= 84
+			ItemLevel >= 83
 			SetFontSize 38
 			Continue
 
 		Show
-			Class "Body Armours" Helmet Gloves Boots Shield Claws Daggers "Rune Daggers" Wands "One Hand Swords" "One Hand Axes" "One Hand Maces" Bows Staves Warstaves "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" Sceptres Quivers
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
-			SetFontSize 38
-			PlayAlertSound 3 225
-			MinimapIcon 2 Yellow Triangle
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb" "Bone Helmet" "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascinet" "Bone Helmet" "Prophet Crown" "Deicide Mask" "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Colossal Tower Shield" "Pinnacle Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Vaal Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Gemini Claw" "Imperial Claw" "Great White Claw" "Ambusher" "Gutting Knife" "Sai" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Convoking Wand" "Imbued Wand" "Demon's Horn" "Prophecy Wand" "Profane Wand" "Corsair Sword" "Legion Sword" "Tiger Hook" "Eternal Sword" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Apex Rapier" "Royal Axe" "Siege Axe" "Runic Hatchet" "Vaal Hatchet" "Behemoth Mace" "Auric Mace" "Nightmare Mace" "Harbinger Bow" "Thicket Bow" "Citadel Bow" "Maraketh Bow" "Imperial Bow" "Imperial Staff" "Lathi" "Eclipse Staff" "Maelström Staff" "Judgement Staff" "Ezomyte Staff" "Vaal Greatsword" "Reaver Sword" "Exquisite Blade" "Lion Sword" "Vaal Axe" "Ezomyte Axe" "Fleshripper" "Void Axe" "Despot Axe" "Coronal Maul" "Meatgrinder" "Piledriver" "Carnal Sceptre" "Platinum Sceptre" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
-			ItemLevel >= 84
+			BaseType "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
+			ItemLevel >= 80
 			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 			SetFontSize 42
 			PlayAlertSound 13 250
@@ -1015,17 +1613,8 @@
 			Continue
 
 		Show
-			SocketGroup 6
-			Rarity Rare
-			SetFontSize 45
-			PlayAlertSound 10 275
-			MinimapIcon 0 Yellow Triangle
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb" "Bone Helmet" "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascinet" "Bone Helmet" "Prophet Crown" "Deicide Mask" "Bone Helmet" "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet" "Nightmare Bascinet" "Bone Helmet" "Prophet Crown" "Deicide Mask" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Colossal Tower Shield" "Pinnacle Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Vaal Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield" "Gemini Claw" "Imperial Claw" "Great White Claw" "Ambusher" "Gutting Knife" "Sai" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Convoking Wand" "Imbued Wand" "Demon's Horn" "Prophecy Wand" "Profane Wand" "Corsair Sword" "Legion Sword" "Tiger Hook" "Eternal Sword" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Apex Rapier" "Royal Axe" "Siege Axe" "Runic Hatchet" "Vaal Hatchet" "Behemoth Mace" "Auric Mace" "Nightmare Mace" "Harbinger Bow" "Thicket Bow" "Citadel Bow" "Maraketh Bow" "Imperial Bow" "Imperial Staff" "Lathi" "Eclipse Staff" "Maelström Staff" "Judgement Staff" "Ezomyte Staff" "Vaal Greatsword" "Reaver Sword" "Exquisite Blade" "Lion Sword" "Vaal Axe" "Ezomyte Axe" "Fleshripper" "Void Axe" "Despot Axe" "Coronal Maul" "Meatgrinder" "Piledriver" "Carnal Sceptre" "Platinum Sceptre" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
-			ItemLevel >= 86
+			BaseType "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
+			ItemLevel >= 83
 			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 			SetFontSize 45
 			PlayAlertSound 10 275
@@ -1033,8 +1622,51 @@
 			PlayEffect Yellow
 			Continue
 
-	# Additional
-	# ==========
+	# Quivers
+	# =======
+
+		#Show
+		#	BaseType "Spike-Point Arrow Quiver"
+		#	Rarity Rare
+		#	ItemLevel >= 80
+		#	SetFontSize 33
+		#	Continue
+
+		Show
+			Class Quivers
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			SetFontSize 33
+			PlayAlertSound 14 200
+			MinimapIcon 2 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		#Show
+		#	BaseType "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver"
+		#	Rarity Rare
+		#	ItemLevel >= 84
+		#	SetFontSize 38
+		#	Continue
+
+		Show
+			BaseType "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver"
+			ItemLevel >= 80
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver"
+			ItemLevel >= 84
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Triangle
+			PlayEffect Yellow
+			Continue
 
 	# Amulets
 	# =======
@@ -1350,6 +1982,24 @@
 			SetFontSize 38
 			Continue
 
+	Show
+		ItemLevel >= 86
+		HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+		SetFontSize 45
+		PlayAlertSound 10 275
+		MinimapIcon 0 Yellow Triangle
+		PlayEffect Yellow
+		Continue
+
+	Show
+		SocketGroup 6
+		Rarity Rare
+		SetFontSize 45
+		PlayAlertSound 10 275
+		MinimapIcon 0 Yellow Triangle
+		PlayEffect Yellow
+		Continue
+
 	# Uniques
 	# =======
 
@@ -1380,3 +2030,12 @@
 			PlayEffect Brown
 			Continue
 
+	# Fishing
+	# =======
+
+		Show
+			Class "Fishing Rod"
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Brown Star
+			PlayEffect Brown

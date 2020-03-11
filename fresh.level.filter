@@ -646,16 +646,6 @@
 # Equipment
 # =========
 
-	# Fishing
-	# =======
-
-		Show
-			Class "Fishing Rod"
-			SetFontSize 45
-			PlayAlertSound 6 300
-			MinimapIcon 0 Brown Star
-			PlayEffect Brown
-
 	# Defaults
 	# ========
 
@@ -761,24 +751,6 @@
 			DropLevel >= 60
 			AreaLevel >= 70
 			SetFontSize 38
-			Continue
-
-		Show
-			SocketGroup 5
-			Rarity Rare
-			SetFontSize 42
-			PlayAlertSound 13 250
-			MinimapIcon 1 Yellow Triangle
-			PlayEffect Yellow
-			Continue
-
-		Show
-			SocketGroup 6
-			Rarity Rare
-			SetFontSize 45
-			PlayAlertSound 10 275
-			MinimapIcon 0 Yellow Triangle
-			PlayEffect Yellow
 			Continue
 
 	# Additional
@@ -902,6 +874,24 @@
 				AreaLevel < 18
 				SetFontSize 33
 				Continue
+
+	Show
+		SocketGroup 5
+		Rarity Rare
+		SetFontSize 42
+		PlayAlertSound 13 250
+		MinimapIcon 1 Yellow Triangle
+		PlayEffect Yellow
+		Continue
+
+	Show
+		SocketGroup 6
+		Rarity Rare
+		SetFontSize 45
+		PlayAlertSound 10 275
+		MinimapIcon 0 Yellow Triangle
+		PlayEffect Yellow
+		Continue
 
 	# Jewelry
 	# =======
@@ -1123,3 +1113,12 @@
 			PlayEffect Brown
 			Continue
 
+	# Fishing
+	# =======
+
+		Show
+			Class "Fishing Rod"
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Brown Star
+			PlayEffect Brown

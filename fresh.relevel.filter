@@ -642,15 +642,23 @@
 # Equipment
 # =========
 
-	# Fishing
-	# =======
+	Show
+		SocketGroup 5
+		Rarity Rare
+		SetFontSize 42
+		PlayAlertSound 13 250
+		MinimapIcon 1 Yellow Triangle
+		PlayEffect Yellow
+		Continue
 
-		Show
-			Class "Fishing Rod"
-			SetFontSize 45
-			PlayAlertSound 6 300
-			MinimapIcon 0 Brown Star
-			PlayEffect Brown
+	Show
+		SocketGroup 6
+		Rarity Rare
+		SetFontSize 45
+		PlayAlertSound 10 275
+		MinimapIcon 0 Yellow Triangle
+		PlayEffect Yellow
+		Continue
 
 	# Jewelry
 	# =======
@@ -860,4 +868,14 @@
 			MinimapIcon 0 Brown Star
 			PlayEffect Brown
 			Continue
+
+	# Fishing
+	# =======
+
+		Show
+			Class "Fishing Rod"
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Brown Star
+			PlayEffect Brown
 
