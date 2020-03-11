@@ -87,7 +87,7 @@
 		Continue
 
 	Show
-		Class Quest "Incursion Item"
+		Class Quest "Incursion Item" "Pantheon Soul"
 		SetFontSize 38
 		SetBackgroundColor 182 127 221 255
 		PlayAlertSound 12 250
@@ -125,7 +125,7 @@
 		BaseType  "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard"
 		SetFontSize 42
 		PlayAlertSound 13 250
-		MinimapIcon 2 Blue Circle
+		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
 	Show
@@ -310,6 +310,16 @@
 	Show
 		Class "Stackable Currency"
 		BaseType "Fertile Catalyst" "Prismatic Catalyst"
+		SetFontSize 45
+		PlayAlertSound 10 275
+		MinimapIcon 0 Blue Circle
+		PlayEffect Blue
+
+	# Delirium
+
+	Show
+		Class "Stackable Currency"
+		BaseType "Delirium Orb"
 		SetFontSize 45
 		PlayAlertSound 10 275
 		MinimapIcon 0 Blue Circle
@@ -608,57 +618,11 @@
 	# =========
 
 		Show
-			BaseType "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol"
-			SetFontSize 42
-			MinimapIcon 1 Blue Circle
-			PlayEffect Blue
-
-		Show
-			BaseType "Splinter of Chayula"
+			Class "Map Fragments"
+			BaseType "Offering to the Goddess"
 			SetFontSize 42
 			PlayAlertSound 13 250
-			MinimapIcon 1 Blue Circle
-			PlayEffect Blue
-
-		Show
-			Class "Stackable Currency"
-			BaseType "Splinter"
-			SetFontSize 42
-			MinimapIcon 1 Blue Circle
-			PlayEffect Blue
-
-		# Ancient Reliquary Key / Timeworn Reliquary Key
-
-		Show
-			Class "Misc Map Items"
-			BaseType Key
-			SetFontSize 45
-			PlayAlertSound 6 300
-			MinimapIcon 0 Red Hexagon
-			PlayEffect Red
-
-		Show
-			Class "Map Fragments"
-			BaseType "Mortal" "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Sacrifice" "Fragment of" "Breachstone" 
-			SetFontSize 45
-			PlayAlertSound 10 275
-			MinimapIcon 0 Red Hexagon
-			PlayEffect Red
-
-		Show
-			Class "Misc Map Items"
-			BaseType "Breachstone" 
-			SetFontSize 45
-			PlayAlertSound 10 275
-			MinimapIcon 0 Red Hexagon
-			PlayEffect Red
-
-		Show
-			Class "Map Fragments"
-			BaseType "Emblem"
-			SetFontSize 45
-			PlayAlertSound 10 275
-			MinimapIcon 0 Red Hexagon
+			MinimapIcon 1 Red Hexagon
 			PlayEffect Red
 
 		Show 
@@ -670,33 +634,142 @@
 			PlayEffect Red
 
 		Show
-			Class "Pantheon Soul"
+			Class "Map Fragments"
+			BaseType Hope Rage Grief "Sacrifice at"
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Red Hexagon
 			PlayEffect Red
 
-		# Scarabs
-
-		Show 
+		Show
 			Class "Map Fragments"
-			BaseType "Rusted" "Polished" "Gilded"
+			BaseType Ignorance Eradication Enslavement Constriction Purification Chimera Minotaur Phoenix Hydra 
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Red Hexagon
 			PlayEffect Red
 
 		Show
-			BaseType "Offering to the Goddess"
+			Class "Map Fragments"
+			BaseType Emptiness Terror Knowledge Shape
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Red Hexagon
+			PlayEffect Red
+
+		# Ancient Reliquary Key / Timeworn Reliquary Key
+
+		Show
+			Class "Misc Map Items"
+			BaseType Key
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Red Hexagon
+			PlayEffect Red
+
+		# Scarabs
+
+		Show 
+			Class "Map Fragments"
+			BaseType "Scarab"
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Red Hexagon
+			PlayEffect Red
+			Continue
+
+		Show
+			Class "Map Fragments"
+			BaseType "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab"
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Red Hexagon
 			PlayEffect Red
 
 		# Watchstones
 
 		Show
 			BaseType "Watchstone"
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Red Hexagon
+			PlayEffect Red
+
+		# Prophecy
+
+		Show
+			Class "Map Fragments"
+			BaseType "Eber's Key"
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Red Hexagon
+			PlayEffect Red
+
+		Show
+			Class "Map Fragments"
+			BaseType "Yriel's Key" "Inya's Key" "Volkuur's Key"
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Red Hexagon
+			PlayEffect Red		
+
+		# Breach
+
+		Show
+			Class "Stackable Currency"
+			BaseType "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol"
+			SetFontSize 38
+			PlayAlertSound 3 225
+			MinimapIcon 2 Blue Circle
+			PlayEffect Blue
+
+		Show
+			Class "Stackable Currency"
+			BaseType "Splinter of Chayula"
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Blue Circle
+			PlayEffect Blue
+
+		Show
+			Class "Misc Map Items"
+			BaseType "Breachstone" 
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Red Hexagon
+			PlayEffect Red
+
+		# Legion
+
+		Show
+			Class "Stackable Currency"
+			BaseType "Timeless"
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Blue Circle
+			PlayEffect Blue
+
+		Show
+			Class "Map Fragments"
+			BaseType "Emblem"
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Red Hexagon
+			PlayEffect Red
+
+		# Delirium
+
+		Show
+			Class "Stackable Currency"
+			BaseType "Simulacrum Splinter"
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Blue Circle
+			PlayEffect Blue
+
+		Show
+			Class "Map Fragments"
+			BaseType Simulacrum
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Red Hexagon
@@ -1990,6 +2063,26 @@
 			Rarity Rare
 			ItemLevel >= 77
 			SetFontSize 42
+			Continue
+
+		Show
+			Class Jewel
+			BaseType "Cluster Jewel"
+			Rarity <= Magic
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Green Triangle
+			PlayEffect Green
+			Continue
+
+		Show
+			Class Jewel
+			BaseType "Cluster Jewel"
+			Rarity Rare
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Triangle
+			PlayEffect Yellow
 			Continue
 
 	# Flasks
