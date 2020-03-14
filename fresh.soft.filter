@@ -87,7 +87,7 @@
 		Continue
 
 	Show
-		Class Quest "Incursion Item" "Pantheon Soul"
+		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item"
 		SetFontSize 38
 		SetBackgroundColor 182 127 221 255
 		PlayAlertSound 12 250
@@ -789,6 +789,9 @@
 	Hide
 		Class "Divination"
 		BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon"
+		PlayAlertSound None
+		MinimapIcon -1
+		PlayEffect None
 
 # Crafting
 # ========
@@ -860,7 +863,6 @@
 	Show
 		BaseType "Gavel" "Rock Breaker" "Stone Hammer"
 		Quality >= 16
-		SetBackgroundColor 97 182 83 255
 		Continue
 
 	# Chromatic fuel
@@ -876,7 +878,6 @@
 	Show
 		Quality >= 3
 		Class Gems
-		SetBackgroundColor 97 182 83 255
 		Continue
 
 	# Prophecy
