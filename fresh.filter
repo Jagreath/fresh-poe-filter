@@ -640,15 +640,16 @@
 
 		Show
 			Class "Map Fragments"
-			BaseType Hope Rage Grief "Sacrifice at"
+			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at"
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 
 		Show
+
 			Class "Map Fragments"
-			BaseType Ignorance Eradication Enslavement Constriction Purification Chimera Minotaur Phoenix Hydra 
+			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" 
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Red Cross
@@ -656,7 +657,7 @@
 
 		Show
 			Class "Map Fragments"
-			BaseType Emptiness Terror Knowledge Shape
+			BaseType "of Emptiness" "of Terror" "of Knowledge" "of Shape"
 			SetFontSize 45
 			PlayAlertSound 6 300
 			MinimapIcon 0 Red Cross
@@ -737,7 +738,7 @@
 			PlayEffect Blue
 
 		Show
-			Class "Misc Map Items"
+			Class "Map Fragments"
 			BaseType "Breachstone" 
 			SetFontSize 45
 			PlayAlertSound 10 275
@@ -1040,20 +1041,14 @@
 	# Helmets
 	# =======
 
-		#Show
-		#	BaseType "Bone Helmet"
-		#	Rarity Normal
-		#	Continue
-
 		Show
-			BaseType "Hubris Circlet" "Bone Helmet"
+			BaseType "Deicide Mask" "Nightmare Bascinet"
 			Rarity Rare
 			Continue
 
 		Show
 			BaseType "Royal Burgonet" "Hubris Circlet" "Bone Helmet"
 			Rarity Rare
-			ItemLevel >= 82
 			SetFontSize 33
 			Continue
 
@@ -1096,20 +1091,14 @@
 	# Gloves
 	# ======
 
-		#Show
-		#	BaseType "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
-		#	Rarity Normal
-		#	Continue
-
 		Show
-			BaseType "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
+			BaseType "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts"
 			Rarity Rare
 			Continue
 
 		Show
 			BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
 			Rarity Rare
-			ItemLevel >= 82
 			SetFontSize 33
 			Continue
 
@@ -1152,20 +1141,14 @@
 	# Boots
 	# =====
 
-		#Show
-		#	BaseType "Two-Toned Boots"
-		#	Rarity Normal
-		#	Continue
-
 		Show
-			BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots"
+			BaseType "Slink Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots"
 			Rarity Rare
 			Continue
 
 		Show
 			BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots"
 			Rarity Rare
-			ItemLevel >= 82
 			SetFontSize 33
 			Continue
 
@@ -1216,14 +1199,13 @@
 	# =======
 
 		Show
-			BaseType "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield"
+			BaseType "Archon Kite Shield" "Supreme Spiked Shield"
 			Rarity Rare
 			Continue
 
 		Show
 			BaseType "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield"
 			Rarity Rare
-			ItemLevel >= 81
 			SetFontSize 33
 			Continue
 
@@ -1237,7 +1219,7 @@
 			Continue
 
 		Show
-			BaseType "Colossal Tower Shield" "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield"
+			BaseType "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield"
 			Rarity Rare
 			ItemLevel >= 84
 			SetFontSize 38
@@ -1267,9 +1249,13 @@
 	# =====
 
 		Show
+			BaseType "Terror Claw" "Vaal Claw"
+			Rarity Rare
+			Continue
+
+		Show
 			BaseType "Gemini Claw" "Imperial Claw" "Great White Claw"
 			Rarity Rare
-			ItemLevel >= 80
 			SetFontSize 33
 			Continue
 
@@ -1313,14 +1299,13 @@
 	# =======
 
 		Show
-			BaseType "Demon Dagger" "Platinum Kris" 
+			BaseType "Imperial Skean"
 			Rarity Rare
 			Continue
 
 		Show
 			BaseType "Ambusher" "Demon Dagger" "Platinum Kris" 
 			Rarity Rare
-			ItemLevel >= 80
 			SetFontSize 33
 			Continue
 
@@ -1364,14 +1349,13 @@
 	# =====
 
 		Show
-			BaseType "Convoking Wand"
+			BaseType "Imbued Wand" "Prophecy Wand"
 			Rarity Rare
 			Continue
 
 		Show
 			BaseType "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand"
 			Rarity Rare
-			ItemLevel >= 80
 			SetFontSize 33
 			Continue
 
@@ -1415,9 +1399,13 @@
 	# ======
 
 		Show
+			BaseType "Vaal Rapier" "Corsair Sword"
+			Rarity Rare
+			Continue
+
+		Show
 			BaseType "Jewelled Foil" "Harpy Rapier"
 			Rarity Rare
-			ItemLevel >= 80
 			SetFontSize 33
 			Continue
 
@@ -1461,9 +1449,19 @@
 	# ====
 
 		Show
+			BaseType "Runic Hatchet"
+			Rarity Rare
+			Continue
+
+		Show
+			BaseType "Siege Axe" 
+			Rarity Rare
+			SetFontSize 33
+			Continue
+
+		Show
 			BaseType "Siege Axe"
 			Rarity Rare
-			ItemLevel >= 80
 			SetFontSize 33
 			Continue
 
@@ -1506,13 +1504,6 @@
 	# Maces
 	# =====
 
-		#Show
-		#	BaseType "Behemoth Mace" "Coronal Maul"
-		#	Rarity Rare
-		#	ItemLevel >= 80
-		#	SetFontSize 33
-		#	Continue
-
 		Show
 			Class "One Hand Maces" "Two Hand Maces"
 			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
@@ -1521,13 +1512,6 @@
 			MinimapIcon 2 Yellow Kite
 			PlayEffect Yellow
 			Continue
-
-		#Show
-		#	BaseType "Behemoth Mace" "Coronal Maul"
-		#	Rarity Rare
-		#	ItemLevel >= 83
-		#	SetFontSize 38
-		#	Continue
 
 		Show
 			BaseType "Behemoth Mace" "Coronal Maul"
@@ -1552,13 +1536,6 @@
 	# Bows
 	# ====
 
-		#Show
-		#	BaseType "Thicket Bow" "Imperial Bow"
-		#	Rarity Rare
-		#	ItemLevel >= 80
-		#	SetFontSize 33
-		#	Continue
-
 		Show
 			Class Bows
 			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
@@ -1567,13 +1544,6 @@
 			MinimapIcon 2 Yellow Kite
 			PlayEffect Yellow
 			Continue
-
-		#Show
-		#	BaseType "Thicket Bow" "Imperial Bow"
-		#	Rarity Rare
-		#	ItemLevel >= 83
-		#	SetFontSize 38
-		#	Continue
 
 		Show
 			BaseType "Thicket Bow" "Imperial Bow"
@@ -1597,13 +1567,6 @@
 
 	# Staves
 	# ======
-
-		#Show
-		#	BaseType "Eclipse Staff"
-		#	Rarity Rare
-		#	ItemLevel >= 80
-		#	SetFontSize 33
-		#	Continue
 
 		Show
 			Class Staves Warstaves
@@ -1657,7 +1620,6 @@
 		Show
 			BaseType "Void Sceptre"
 			Rarity Rare
-			ItemLevel >= 80
 			SetFontSize 33
 			Continue
 
@@ -1700,13 +1662,6 @@
 	# Quivers
 	# =======
 
-		#Show
-		#	BaseType "Spike-Point Arrow Quiver"
-		#	Rarity Rare
-		#	ItemLevel >= 80
-		#	SetFontSize 33
-		#	Continue
-
 		Show
 			Class Quivers
 			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
@@ -1715,13 +1670,6 @@
 			MinimapIcon 2 Yellow Kite
 			PlayEffect Yellow
 			Continue
-
-		#Show
-		#	BaseType "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver"
-		#	Rarity Rare
-		#	ItemLevel >= 84
-		#	SetFontSize 38
-		#	Continue
 
 		Show
 			BaseType "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver"

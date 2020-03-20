@@ -642,17 +642,19 @@
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 
+
 		Show
 			Class "Map Fragments"
-			BaseType Hope Rage Grief "Sacrifice at"
+			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at"
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 
 		Show
+
 			Class "Map Fragments"
-			BaseType Ignorance Eradication Enslavement Constriction Purification Chimera Minotaur Phoenix Hydra 
+			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" 
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Red Cross
@@ -660,7 +662,7 @@
 
 		Show
 			Class "Map Fragments"
-			BaseType Emptiness Terror Knowledge Shape
+			BaseType "of Emptiness" "of Terror" "of Knowledge" "of Shape"
 			SetFontSize 45
 			PlayAlertSound 6 300
 			MinimapIcon 0 Red Cross
@@ -741,7 +743,7 @@
 			PlayEffect Blue
 
 		Show
-			Class "Misc Map Items"
+			Class "Map Fragments"
 			BaseType "Breachstone" 
 			SetFontSize 45
 			PlayAlertSound 10 275
