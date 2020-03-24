@@ -993,12 +993,6 @@
 		Show
 			BaseType "Astral Plate" "Vaal Regalia"
 			Rarity Rare
-			Continue
-
-		Show
-			BaseType "Astral Plate" "Vaal Regalia" "Sadist Garb"
-			Rarity Rare
-			ItemLevel >= 81
 			SetFontSize 33
 			Continue
 
@@ -1018,10 +1012,12 @@
 			PlayEffect Yellow
 			Continue
 
+		# Crusader
+
 		Show
-			BaseType "Astral Plate" "Vaal Regalia" "Sadist Garb"
-			ItemLevel >= 81
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			Class "Body Armours"
+			ItemLevel >= 82
+			HasInfluence Crusader
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
@@ -1029,11 +1025,291 @@
 			Continue
 
 		Show
-			BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb"
+			BaseType "Vaal Regalia" "Astral Plate"
 			ItemLevel >= 84
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			HasInfluence Crusader
 			SetFontSize 45
 			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class "Body Armours"
+			ItemLevel >= 85
+			HasInfluence Crusader
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Assassin's Garb" "Sadist Garb" "Vaal Regalia" "Astral Plate"
+			ItemLevel >= 85
+			HasInfluence Crusader
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		#Elder
+
+		Show
+			Class "Body Armours"
+			ItemLevel >= 82
+			HasInfluence Elder
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate"
+			ItemLevel >= 82
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Assassin's Garb"
+			ItemLevel >= 84
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Vaal Regalia" "Zodiac Leather" "Triumphant Lamellar" "Glorious Plate" "Sadist Garb" "Gladiator Plate"
+			ItemLevel >= 86
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate"
+			ItemLevel >= 84
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Assassin's Garb"
+			ItemLevel >= 86
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		#Hunter
+
+		Show
+			Class "Body Armours"
+			ItemLevel >= 82
+			HasInfluence Hunter
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate"
+			ItemLevel >= 82
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Vaal Regalia"
+			ItemLevel >= 84
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Assassin's Garb" "Glorious Plate" "Zodiac Leather" "Occultist's Vestment"
+			ItemLevel >= 85
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate"
+			ItemLevel >= 84
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Assassin's Garb" "Vaal Regalia"
+			ItemLevel >= 86
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		#Redeemer
+
+		Show
+			Class "Body Armours"
+			ItemLevel >= 82
+			HasInfluence Redeemer
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate"
+			ItemLevel >= 83
+			HasInfluence Redeemer
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate"
+			ItemLevel >= 85
+			HasInfluence Redeemer
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Vaal Regalia" "Zodiac Leather" "Assassin's Garb"
+			ItemLevel >= 86
+			HasInfluence Redeemer
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		#Shaper
+
+		Show
+			Class "Body Armours"
+			ItemLevel >= 82
+			HasInfluence Shaper
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Vaal Regalia"
+			ItemLevel >= 83
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Occultist's Vestment" "Astral Plate"
+			ItemLevel >= 85
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Vaal Regalia"
+			ItemLevel >= 84
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		#Warlord
+
+		Show
+			Class "Body Armours"
+			ItemLevel >= 82
+			HasInfluence Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate"
+			ItemLevel >= 82
+			HasInfluence Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class "Body Armours"
+			ItemLevel >= 86
+			HasInfluence Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate"
+			ItemLevel >= 84
+			HasInfluence Warlord
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Assassin's Garb"
+			ItemLevel >= 85
+			HasInfluence Warlord
+			SetFontSize 45
+			PlayAlertSound 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
