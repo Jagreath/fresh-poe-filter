@@ -1016,7 +1016,7 @@
 
 		Show
 			Class "Body Armours"
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 38
 			PlayAlertSound 3 225
 			MinimapIcon 2 Yellow Kite
@@ -1067,7 +1067,7 @@
 
 		Show
 			Class Helmets
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 38
 			PlayAlertSound 3 225
 			MinimapIcon 2 Yellow Kite
@@ -1116,7 +1116,7 @@
 
 		Show
 			Class Gloves
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 33
 			PlayAlertSound 14 200
 			MinimapIcon 2 Yellow Kite
@@ -1179,7 +1179,7 @@
 
 		Show
 			Class Boots
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 38
 			PlayAlertSound 3 225
 			MinimapIcon 2 Yellow Kite
@@ -1230,7 +1230,7 @@
 
 		Show
 			Class Shields
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 33
 			PlayAlertSound 14 200
 			MinimapIcon 2 Yellow Kite
@@ -1276,7 +1276,7 @@
 
 		Show
 			Class Claws
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 33
 			PlayAlertSound 14 200
 			MinimapIcon 2 Yellow Kite
@@ -1327,7 +1327,7 @@
 
 		Show
 			Class Daggers "Rune Daggers"
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 33
 			PlayAlertSound 14 200
 			MinimapIcon 2 Yellow Kite
@@ -1378,7 +1378,7 @@
 
 		Show
 			Class Wands
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 33
 			PlayAlertSound 14 200
 			MinimapIcon 2 Yellow Kite
@@ -1424,7 +1424,7 @@
 
 		Show
 			Class "One Hand Swords" "Two Hand Swords"
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 33
 			PlayAlertSound 14 200
 			MinimapIcon 2 Yellow Kite
@@ -1470,7 +1470,7 @@
 
 		Show
 			Class "One Hand Axes" "Two Hand Axes"
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 33
 			PlayAlertSound 14 200
 			MinimapIcon 2 Yellow Kite
@@ -1516,7 +1516,7 @@
 
 		Show
 			Class "One Hand Maces" "Two Hand Maces"
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 33
 			PlayAlertSound 14 200
 			MinimapIcon 2 Yellow Kite
@@ -1562,7 +1562,7 @@
 
 		Show
 			Class Bows
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 33
 			PlayAlertSound 14 200
 			MinimapIcon 2 Yellow Kite
@@ -1608,7 +1608,7 @@
 
 		Show
 			Class Staves Warstaves
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 33
 			PlayAlertSound 14 200
 			MinimapIcon 2 Yellow Kite
@@ -1664,7 +1664,7 @@
 
 		Show
 			Class Sceptres
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 33
 			PlayAlertSound 14 200
 			MinimapIcon 2 Yellow Kite
@@ -1710,7 +1710,7 @@
 
 		Show
 			Class Quivers
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord 
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 33
 			PlayAlertSound 14 200
 			MinimapIcon 2 Yellow Kite
