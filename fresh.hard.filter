@@ -831,6 +831,15 @@
 		PlayEffect Green
 		Continue
 
+	Show
+		SocketGroup 6
+		Rarity Rare
+		SetFontSize 45
+		PlayAlertSound 10 275
+		MinimapIcon 0 Yellow Kite
+		PlayEffect Yellow
+		Continue
+
 	# Synthesis
 
 	Show
@@ -995,38 +1004,10 @@
 			BaseType "Sacrificial Garb"
 			Continue
 
-		#Show
-		#	BaseType "Astral Plate" "Vaal Regalia"
-		#	Rarity Rare
-		#	Continue
-
-		Show
-			BaseType "Astral Plate" "Vaal Regalia"
-			Rarity Rare
-			ItemLevel >= 81
-			SetFontSize 33
-			Continue
-
-		Show
-			BaseType "Astral Plate" "Vaal Regalia"
-			Rarity Rare
-			ItemLevel >= 84
-			SetFontSize 38
-			Continue
-
 		Show
 			Class "Body Armours"
+			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 38
-			PlayAlertSound 3 225
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType "Astral Plate" "Vaal Regalia" "Sadist Garb"
-			ItemLevel >= 81
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
@@ -1034,11 +1015,191 @@
 			Continue
 
 		Show
-			BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb"
-			ItemLevel >= 84
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Astral Plate"
+			ItemLevel >= 82
+			HasInfluence Hunter Elder Warlord
 			SetFontSize 45
 			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate"
+			ItemLevel >= 83
+			HasInfluence Redeemer
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Vaal Regalia"
+			ItemLevel >= 83
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate"
+			ItemLevel >= 84
+			HasInfluence Crusader
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Assassin's Garb"
+			ItemLevel >= 84
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Vaal Regalia"
+			ItemLevel >= 84
+			HasInfluence Hunter Crusader
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate"
+			ItemLevel >= 84
+			HasInfluence Elder Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Vaal Regalia"
+			ItemLevel >= 84
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class "Body Armours"
+			ItemLevel >= 85
+			HasInfluence Crusader
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Assassin's Garb" "Glorious Plate" "Zodiac Leather" "Occultist's Vestment"
+			ItemLevel >= 85
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Occultist's Vestment" "Astral Plate"
+			ItemLevel >= 85
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Sadist Garb" "Vaal Regalia"
+			ItemLevel >= 85
+			HasInfluence Crusader
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Astral Plate"
+			ItemLevel >= 85
+			HasInfluence Redeemer Crusader
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Assassin's Garb"
+			ItemLevel >= 85
+			HasInfluence Warlord Crusader
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class "Body Armours"
+			ItemLevel >= 86
+			HasInfluence Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Vaal Regalia" "Zodiac Leather" "Triumphant Lamellar" "Glorious Plate" "Sadist Garb" "Gladiator Plate"
+			ItemLevel >= 86
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Assassin's Garb"
+			ItemLevel >= 86
+			HasInfluence Elder Redeemer Hunter
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Vaal Regalia"
+			ItemLevel >= 86
+			HasInfluence Hunter Redeemer
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Zodiac Leather"
+			ItemLevel >= 86
+			HasInfluence Redeemer
+			SetFontSize 45
+			PlayAlertSound 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1046,38 +1207,32 @@
 	# Helmets
 	# =======
 
-		#Show
-		#	BaseType "Hubris Circlet" "Bone Helmet"
-		#	Rarity Rare
-		#	Continue
-
 		Show
-			BaseType "Royal Burgonet" "Hubris Circlet" "Bone Helmet"
+			BaseType "Hubris Circlet" "Bone Helmet"
 			Rarity Rare
-			ItemLevel >= 82
 			SetFontSize 33
 			Continue
 
 		Show
-			BaseType "Royal Burgonet" "Hubris Circlet" "Bone Helmet"
+			BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet"
 			Rarity Rare
 			ItemLevel >= 84
 			SetFontSize 38
 			Continue
 
-		Show
-			Class Helmets
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 38
-			PlayAlertSound 3 225
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
+		#Show
+		#	Class Helmets
+		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+		#	SetFontSize 38
+		#	PlayAlertSound 3 225
+		#	MinimapIcon 2 Yellow Kite
+		#	PlayEffect Yellow
+		#	Continue
 
 		Show
-			BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Deicide Mask"
+			Class Helmets
 			ItemLevel >= 82
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
@@ -1085,11 +1240,241 @@
 			Continue
 
 		Show
-			BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet"
-			ItemLevel >= 84
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Bone Helmet"
+			ItemLevel >= 82
+			HasInfluence Crusader Hunter Warlord
 			SetFontSize 45
 			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Royal Burgonet" "Eternal Burgonet"
+			ItemLevel >= 82
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Hubris Circlet"
+			ItemLevel >= 82
+			HasInfluence Hunter Redeemer
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Bone Helmet"
+			ItemLevel >= 82
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Hubris Circlet"
+			ItemLevel >= 83
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Hubris Circlet"
+			ItemLevel >= 84
+			HasInfluence Crusader Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Lion Pelt" "Deicide Mask"
+			ItemLevel >= 84
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Bone Helmet"
+			ItemLevel >= 84
+			HasInfluence Redeemer Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Royal Burgonet" "Eternal Burgonet"
+			ItemLevel >= 84
+			HasInfluence Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Hubris Circlet"
+			ItemLevel >= 84
+			HasInfluence Redeemer Shaper
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Ezomyte Burgonet" "Lion Pelt" "Praetor Crown" 
+			ItemLevel >= 85
+			HasInfluence Crusader
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Deicide Mask" "Mind Cage" 
+			ItemLevel >= 85
+			HasInfluence Redeemer Crusader
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Sinner Tricorne" "Nightmare Bascinet" "Eternal Burgonet" "Royal Burgonet"
+			ItemLevel >= 85
+			HasInfluence Hunter Crusader
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Hubris Circlet"
+			ItemLevel >= 85
+			HasInfluence Crusader Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Royal Burgonet" "Eternal Burgonet"
+			ItemLevel >= 85
+			HasInfluence Elder Warlord
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Mind Cage"
+			ItemLevel >= 85
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Lion Pelt"
+			ItemLevel >= 85
+			HasInfluence Redeemer Hunter
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Bone Helmet"
+			ItemLevel >= 85
+			HasInfluence Warlord
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Royal Burgonet" "Praetor Crown" "Lion Pelt" "Vaal Mask" "Mind Cage" "Deicide Mask" "Sinner Tricorne" "Eternal Burgonet"
+			ItemLevel >= 86
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Lion Pelt" "Sinner Tricorne" "Nightmare Bascinet" "Praetor Crown" "Mind Cage" "Deicide Mask" "Vaal Mask"
+			ItemLevel >= 86
+			HasInfluence Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Nightmare Bascinet" "Hubris Circlet"
+			ItemLevel >= 86
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Eternal Burgonet"
+			ItemLevel >= 86
+			HasInfluence Redeemer
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Royal Burgonet"
+			ItemLevel >= 86
+			HasInfluence Redeemer
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Bone Helmet"
+			ItemLevel >= 86
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1097,43 +1482,32 @@
 	# Gloves
 	# ======
 
-		#Show
-		#	BaseType "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
-		#	Rarity Normal
-		#	Continue
-
-		#Show
-		#	BaseType "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
-		#	Rarity Rare
-		#	Continue
-
 		Show
-			BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
+			BaseType "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
 			Rarity Rare
-			ItemLevel >= 82
 			SetFontSize 33
 			Continue
 
 		Show
-			Class Gloves
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 33
-			PlayAlertSound 14 200
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
+			BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves"
 			Rarity Rare
 			ItemLevel >= 84
 			SetFontSize 38
 			Continue
 
+		#Show
+		#	Class Gloves
+		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+		#	SetFontSize 38
+		#	PlayAlertSound 3 225
+		#	MinimapIcon 2 Yellow Kite
+		#	PlayEffect Yellow
+		#	Continue
+
 		Show
-			BaseType "Slink Gloves" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
+			Class Gloves
 			ItemLevel >= 82
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
@@ -1141,11 +1515,151 @@
 			Continue
 
 		Show
-			BaseType "Slink Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
-			ItemLevel >= 84
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Fingerless Silk Gloves"
+			ItemLevel >= 82
+			HasInfluence Crusader Redeemer Shaper
 			SetFontSize 45
 			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Sorcerer Gloves"
+			ItemLevel >= 82
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Spiked Gloves"
+			ItemLevel >= 82
+			HasInfluence Crusader Elder Redeemer
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Gripped Gloves"
+			ItemLevel >= 82
+			HasInfluence Elder Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Fingerless Silk Gloves"
+			ItemLevel >= 82
+			HasInfluence Elder Hunter Warlord 
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Spiked Gloves"
+			ItemLevel >= 82
+			HasInfluence Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Gripped Gloves"
+			ItemLevel >= 82
+			HasInfluence Hunter Warlord
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue			
+
+		Show
+			BaseType "Gripped Gloves"
+			ItemLevel >= 84
+			HasInfluence Crusader Redeemer
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Sorcerer Gloves"
+			ItemLevel >= 84
+			HasInfluence Elder Shaper Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Slink Gloves" "Dragonscale Gauntlets" "Titan Gauntlets"
+			ItemLevel >= 84
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Spiked Gloves"
+			ItemLevel >= 84
+			HasInfluence Elder Shaper
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Fingerless Silk Gloves"
+			ItemLevel >= 84
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Sorcerer Gloves" "Arcanist Gloves"
+			ItemLevel >= 84
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Slink Gloves" "Dragonscale Gauntlets" "Titan Gauntlets"
+			ItemLevel >= 86
+			HasInfluence Warlord Elder
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Spiked Gloves"
+			ItemLevel >= 86
+			HasInfluence Redeemer
+			SetFontSize 45
+			PlayAlertSound 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1153,25 +1667,14 @@
 	# Boots
 	# =====
 
-		#Show
-		#	BaseType "Two-Toned Boots"
-		#	Rarity Normal
-		#	Continue
-
-		#Show
-		#	BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots"
-		#	Rarity Rare
-		#	Continue
-
 		Show
-			BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots"
+			BaseType "Sorcerer Boots" "Two-Toned Boots"
 			Rarity Rare
-			ItemLevel >= 82
 			SetFontSize 33
 			Continue
 
 		Show
-			BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots"
+			BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots"
 			Rarity Rare
 			ItemLevel >= 84
 			SetFontSize 38
@@ -1179,17 +1682,24 @@
 
 		Show
 			Class Boots
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+			Rarity Rare
+			ItemLevel >= 86
 			SetFontSize 38
-			PlayAlertSound 3 225
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
 			Continue
 
+		#Show
+		#	Class Boots
+		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+		#	SetFontSize 38
+		#	PlayAlertSound 3 225
+		#	MinimapIcon 2 Yellow Kite
+		#	PlayEffect Yellow
+		#	Continue
+
 		Show
-			BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots"
+			Class Boots
 			ItemLevel >= 82
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
@@ -1197,18 +1707,120 @@
 			Continue
 
 		Show
-			BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots"
-			Rarity Rare
-			ItemLevel >= 86
+			BaseType "Two-Toned Boots"
+			ItemLevel >= 82
+			HasInfluence Hunter Redeemer
 			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
 			Continue
 
 		Show
-			BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots"
+			BaseType "Sorcerer Boots"
 			ItemLevel >= 84
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			HasInfluence Crusader Redeemer Shaper
 			SetFontSize 45
 			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Titan Greaves"
+			ItemLevel >= 84
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Sorcerer Boots"
+			ItemLevel >= 84
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Two-Toned Boots"
+			ItemLevel >= 85
+			HasInfluence Crusader Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Two-Toned Boots"
+			ItemLevel >= 85
+			HasInfluence Elder Shaper
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Sorcerer Boots"
+			ItemLevel >= 85
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Titan Greaves"
+			ItemLevel >= 86
+			HasInfluence Crusader Elder Redeemer Shaper Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Boots
+			ItemLevel >= 86
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Two-Toned Boots"
+			ItemLevel >= 86
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Titan Greaves"
+			ItemLevel >= 86
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Two-Toned Boots"
+			ItemLevel >= 86
+			HasInfluence Crusader Warlord
+			SetFontSize 45
+			PlayAlertSound 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1216,38 +1828,32 @@
 	# Shields
 	# =======
 
-		#Show
-		#	BaseType "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield"
-		#	Rarity Rare
-		#	Continue
-
 		Show
-			BaseType "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" 
+			BaseType "Titanium Spirit Shield"
 			Rarity Rare
-			ItemLevel >= 81
 			SetFontSize 33
 			Continue
 
 		Show
-			Class Shields
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 33
-			PlayAlertSound 14 200
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield"
+			BaseType "Titanium Spirit Shield" "Fossilised Spirit Shield"
 			Rarity Rare
 			ItemLevel >= 84
 			SetFontSize 38
 			Continue
 
+		#Show
+		#	Class Shields
+		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+		#	SetFontSize 38
+		#	PlayAlertSound 3 225
+		#	MinimapIcon 2 Yellow Kite
+		#	PlayEffect Yellow
+		#	Continue
+
 		Show
-			BaseType "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield"
-			ItemLevel >= 81
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Elegant Round Shield" "Cardinal Round Shield" "Spiny Round Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield"
+			ItemLevel >= 82
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
@@ -1255,11 +1861,61 @@
 			Continue
 
 		Show
-			BaseType "Colossal Tower Shield" "Pinnacle Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Vaal Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield"
-			ItemLevel >= 84
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Titanium Spirit Shield"
+			ItemLevel >= 82
+			HasInfluence Crusader Hunter
 			SetFontSize 45
 			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Fossilised Spirit Shield" "Harmonic Spirit Shield"
+			ItemLevel >= 82
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Titanium Spirit Shield"
+			ItemLevel >= 82
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Harmonic Spirit Shield"
+			ItemLevel >= 84
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Titanium Spirit Shield"
+			ItemLevel >= 84
+			HasInfluence Crusader Hunter
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Fossilised Spirit Shield"
+			ItemLevel >= 86
+			HasInfluence Shaper Crusader
+			SetFontSize 45
+			PlayAlertSound 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1267,33 +1923,26 @@
 	# Claws
 	# =====
 
-		#Show
-		#	BaseType "Gemini Claw" "Imperial Claw" "Great White Claw"
-		#	Rarity Rare
-		#	ItemLevel >= 80
-		#	SetFontSize 33
-		#	Continue
-
 		Show
-			Class Claws
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 33
-			PlayAlertSound 14 200
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
+			BaseType "Gemini Claw" "Imperial Claw"
+			Rarity Rare
+			ItemLevel >= 84
+			SetFontSize 38
 			Continue
 
 		#Show
-		#	BaseType "Gemini Claw"
-		#	Rarity Rare
-		#	ItemLevel >= 83
+		#	Class Claws
+		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
+		#	PlayAlertSound 3 225
+		#	MinimapIcon 2 Yellow Kite
+		#	PlayEffect Yellow
 		#	Continue
 
 		Show
-			BaseType "Gemini Claw" "Imperial Claw"
-			ItemLevel >= 80
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw"
+			ItemLevel >= 82
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
@@ -1301,9 +1950,39 @@
 			Continue
 
 		Show
-			BaseType "Gemini Claw" "Imperial Claw" "Great White Claw"
+			BaseType "Gemini Claw" 
 			ItemLevel >= 83
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Imperial Claw"
+			ItemLevel >= 83
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Imperial Claw" 
+			ItemLevel >= 86
+			HasInfluence Hunter Redeemer
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Gemini Claw"
+			ItemLevel >= 86
+			HasInfluence Crusader Hunter Redeemer
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
@@ -1313,38 +1992,26 @@
 	# Daggers
 	# =======
 
-		#Show
-		#	BaseType "Demon Dagger" "Platinum Kris" 
-		#	Rarity Rare
-		#	Continue
-
 		Show
-			BaseType "Demon Dagger" "Platinum Kris" 
-			Rarity Rare
-			ItemLevel >= 80
-			SetFontSize 33
-			Continue
-
-		Show
-			Class Daggers "Rune Daggers"
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 33
-			PlayAlertSound 14 200
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType "Demon Dagger" "Platinum Kris" "Imperial Skean"
+			BaseType "Ambusher" "Platinum Kris" "Imperial Skean"
 			Rarity Rare
 			ItemLevel >= 83
 			SetFontSize 38
 			Continue
 
+		#Show
+		#	Class Daggers "Rune Daggers"
+		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+		#	SetFontSize 38
+		#	PlayAlertSound 3 225
+		#	MinimapIcon 2 Yellow Kite
+		#	PlayEffect Yellow
+		#	Continue
+
 		Show
-			BaseType "Ambusher" "Demon Dagger" "Platinum Kris" 
-			ItemLevel >= 80
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Ambusher" "Demon Dagger" "Platinum Kris" "Imperial Skean"
+			ItemLevel >= 82
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
@@ -1352,9 +2019,19 @@
 			Continue
 
 		Show
-			BaseType "Ambusher" "Gutting Knife" "Sai" "Demon Dagger" "Platinum Kris" "Imperial Skean"
-			ItemLevel >= 83
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Ambusher" "Platinum Kris" "Golden Kris" 
+			ItemLevel >= 85
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Imperial Skean"
+			ItemLevel >= 85
+			HasInfluence Hunter
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
@@ -1365,37 +2042,31 @@
 	# =====
 
 		Show
-			BaseType "Convoking Wand"
-			Rarity Rare
-			Continue
-
-		Show
 			BaseType "Convoking Wand" "Opal Wand"
 			Rarity Rare
-			ItemLevel >= 80
 			SetFontSize 33
 			Continue
 
 		Show
-			Class Wands
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 33
-			PlayAlertSound 14 200
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand"
+			BaseType "Convoking Wand" "Opal Wand" "Imbued Wand" "Prophecy Wand"
 			Rarity Rare
 			ItemLevel >= 83
 			SetFontSize 38
 			Continue
 
+		#Show
+		#	Class Wands
+		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+		#	SetFontSize 38
+		#	PlayAlertSound 3 225
+		#	MinimapIcon 2 Yellow Kite
+		#	PlayEffect Yellow
+		#	Continue
+
 		Show
-			BaseType "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand"
-			ItemLevel >= 80
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand" "Imbued Wand" "Prophecy Wand"
+			ItemLevel >= 82
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
@@ -1403,11 +2074,121 @@
 			Continue
 
 		Show
-			BaseType "Demon's Horn" "Profane Wand" "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Opal Wand"
-			ItemLevel >= 83
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Opal Wand"
+			ItemLevel >= 82
+			HasInfluence Crusader Hunter Redeemer Shaper Warlord
 			SetFontSize 45
 			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Imbued Wand"
+			ItemLevel >= 82
+			HasInfluence Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Profane Wand" "Imbued Wand"
+			ItemLevel >= 84
+			HasInfluence Crusader Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Prophecy Wand"
+			ItemLevel >= 85
+			HasInfluence Crusader Hunter Redeemer Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Tornado Wand"
+			ItemLevel >= 85
+			HasInfluence Crusader
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Opal Wand"
+			ItemLevel >= 85
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Tornado Wand"
+			ItemLevel >= 86
+			HasInfluence Shaper Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Profane Wand"
+			ItemLevel >= 86
+			HasInfluence Crusader Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Prophecy Wand"
+			ItemLevel >= 86
+			HasInfluence Elder Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Convoking Wand"
+			ItemLevel >= 86
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Opal Wand"
+			ItemLevel >= 86
+			HasInfluence Crusader Redeemer
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Profane Wand"
+			ItemLevel >= 86
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1415,33 +2196,26 @@
 	# Swords
 	# ======
 
-		#Show
-		#	BaseType "Jewelled Foil" "Harpy Rapier"
-		#	Rarity Rare
-		#	ItemLevel >= 80
-		#	SetFontSize 33
-		#	Continue
-
 		Show
-			Class "One Hand Swords" "Two Hand Swords"
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 33
-			PlayAlertSound 14 200
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType "Jewelled Foil"
+			BaseType "Jewelled Foil" "Spiraled Foil"
 			Rarity Rare
 			ItemLevel >= 83
 			SetFontSize 38
 			Continue
 
+		#Show
+		#	Class "One Hand Swords" "Two Hand Swords"
+		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+		#	SetFontSize 38
+		#	PlayAlertSound 3 225
+		#	MinimapIcon 2 Yellow Kite
+		#	PlayEffect Yellow
+		#	Continue
+
 		Show
-			BaseType "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Exquisite Blade"
-			ItemLevel >= 80
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Jewelled Foil" "Harpy Rapier" "Spiraled Foil" "Vaal Rapier" "Corsair Sword"
+			ItemLevel >= 82
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
@@ -1449,9 +2223,79 @@
 			Continue
 
 		Show
-			BaseType "Corsair Sword" "Legion Sword" "Tiger Hook" "Eternal Sword" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Apex Rapier" "Vaal Greatsword" "Reaver Sword" "Exquisite Blade" "Lion Sword"
+			BaseType "Jewelled Foil"
+			ItemLevel >= 82
+			HasInfluence Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Spiraled Foil"
 			ItemLevel >= 83
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			HasInfluence Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Jewelled Foil"
+			ItemLevel >= 83
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Jewelled Foil"
+			ItemLevel >= 83
+			HasInfluence Warlord
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Exquisite Blade"
+			ItemLevel >= 84
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Jewelled Foil"
+			ItemLevel >= 86
+			HasInfluence Crusader Elder Hunter Redeemer
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Spiraled Foil"
+			ItemLevel >= 86
+			HasInfluence Hunter Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Apex Rapier"
+			ItemLevel >= 86
+			HasInfluence Redeemer
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
@@ -1461,33 +2305,26 @@
 	# Axes
 	# ====
 
-		#Show
-		#	BaseType "Siege Axe"
-		#	Rarity Rare
-		#	ItemLevel >= 80
-		#	SetFontSize 33
-		#	Continue
-
 		Show
-			Class "One Hand Axes" "Two Hand Axes"
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 33
-			PlayAlertSound 14 200
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType "Siege Axe"
+			BaseType "Siege Axe" "Vaal Hatchet" "Vaal Axe"
 			Rarity Rare
 			ItemLevel >= 83
 			SetFontSize 38
 			Continue
 
+		#Show
+		#	Class "One Hand Axes" "Two Hand Axes"
+		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+		#	SetFontSize 38
+		#	PlayAlertSound 3 225
+		#	MinimapIcon 2 Yellow Kite
+		#	PlayEffect Yellow
+		#	Continue
+
 		Show
-			BaseType "Royal Axe" "Siege Axe" "Vaal Axe" "Fleshripper"
-			ItemLevel >= 80
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Royal Axe" "Siege Axe" "Vaal Hatchet" "Vaal Axe"
+			ItemLevel >= 82
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
@@ -1495,9 +2332,19 @@
 			Continue
 
 		Show
-			BaseType "Royal Axe" "Siege Axe" "Runic Hatchet" "Vaal Hatchet" "Vaal Axe" "Ezomyte Axe" "Fleshripper" "Void Axe" "Despot Axe"
+			BaseType "Royal Axe" "Siege Axe" "Vaal Hatchet"
 			ItemLevel >= 83
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Vaal Axe" "Fleshripper"
+			ItemLevel >= 86
+			HasInfluence Elder
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
@@ -1507,43 +2354,10 @@
 	# Maces
 	# =====
 
-		#Show
-		#	BaseType "Behemoth Mace" "Coronal Maul"
-		#	Rarity Rare
-		#	ItemLevel >= 80
-		#	SetFontSize 33
-		#	Continue
-
 		Show
-			Class "One Hand Maces" "Two Hand Maces"
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 33
-			PlayAlertSound 14 200
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		#Show
-		#	BaseType "Behemoth Mace" "Coronal Maul"
-		#	Rarity Rare
-		#	ItemLevel >= 83
-		#	SetFontSize 38
-		#	Continue
-
-		Show
-			BaseType "Behemoth Mace" "Coronal Maul"
-			ItemLevel >= 80
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-			SetFontSize 42
-			PlayAlertSound 13 250
-			MinimapIcon 1 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType "Behemoth Mace" "Auric Mace" "Nightmare Mace" "Coronal Maul" "Meatgrinder" "Piledriver"
-			ItemLevel >= 83
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Coronal Maul"
+			ItemLevel >= 86
+			HasInfluence Elder Redeemer
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
@@ -1553,43 +2367,30 @@
 	# Bows
 	# ====
 
-		#Show
-		#	BaseType "Thicket Bow" "Imperial Bow"
-		#	Rarity Rare
-		#	ItemLevel >= 80
-		#	SetFontSize 33
-		#	Continue
-
 		Show
-			Class Bows
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 33
-			PlayAlertSound 14 200
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		#Show
-		#	BaseType "Thicket Bow" "Imperial Bow"
-		#	Rarity Rare
-		#	ItemLevel >= 83
-		#	SetFontSize 38
-		#	Continue
-
-		Show
-			BaseType "Thicket Bow" "Imperial Bow"
-			ItemLevel >= 80
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-			SetFontSize 42
-			PlayAlertSound 13 250
-			MinimapIcon 1 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType "Harbinger Bow" "Thicket Bow" "Citadel Bow" "Maraketh Bow" "Imperial Bow"
+			BaseType "Citadel Bow" "Imperial Bow"
 			ItemLevel >= 83
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Thicket Bow" "Imperial Bow" "Spine Bow" "Maraketh Bow"
+			ItemLevel >= 86
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Harbinger Bow"
+			ItemLevel >= 86
+			HasInfluence Elder
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
@@ -1599,43 +2400,10 @@
 	# Staves
 	# ======
 
-		#Show
-		#	BaseType "Eclipse Staff"
-		#	Rarity Rare
-		#	ItemLevel >= 80
-		#	SetFontSize 33
-		#	Continue
-
-		Show
-			Class Staves Warstaves
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 33
-			PlayAlertSound 14 200
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
 		Show
 			BaseType "Eclipse Staff"
-			Rarity Rare
 			ItemLevel >= 83
-			SetFontSize 38
-			Continue
-
-		Show
-			BaseType "Eclipse Staff" "Judgement Staff"
-			ItemLevel >= 80
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-			SetFontSize 42
-			PlayAlertSound 13 250
-			MinimapIcon 1 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType  "Maelström Staff" "Judgement Staff" "Ezomyte Staff"
-			ItemLevel >= 83
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			HasInfluence Shaper
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
@@ -1643,9 +2411,59 @@
 			Continue
 
 		Show
-			BaseType "Eclipse Staff" "Imperial Staff" "Lathi"
+			BaseType "Eclipse Staff" "Moon Staff"
 			ItemLevel >= 84
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			HasInfluence Crusader
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Moon Staff"
+			ItemLevel >= 84
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Eclipse Staff"
+			ItemLevel >= 84
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Moon Staff"
+			ItemLevel >= 85
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Eclipse Staff"
+			ItemLevel >= 85
+			HasInfluence Redeemer Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Serpentine Staff"
+			ItemLevel >= 86
+			HasInfluence Crusader Elder Redeemer Shaper Warlord
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
@@ -1655,22 +2473,6 @@
 	# Sceptres
 	# ========
 
-		#Show
-		#	BaseType "Void Sceptre"
-		#	Rarity Rare
-		#	ItemLevel >= 80
-		#	SetFontSize 33
-		#	Continue
-
-		Show
-			Class Sceptres
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 33
-			PlayAlertSound 14 200
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
 		Show
 			BaseType "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
 			Rarity Rare
@@ -1678,20 +2480,49 @@
 			SetFontSize 38
 			Continue
 
+		#Show
+		#	Class Sceptres
+		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+		#	SetFontSize 38
+		#	PlayAlertSound 3 225
+		#	MinimapIcon 2 Yellow Kite
+		#	PlayEffect Yellow
+		#	Continue
+
+		#Show
+		#	Class Sceptres
+		#	ItemLevel >= 82
+		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+		#	SetFontSize 42
+		#	PlayAlertSound 13 250
+		#	MinimapIcon 1 Yellow Kite
+		#	PlayEffect Yellow
+		#	Continue
+
 		Show
-			BaseType "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
-			ItemLevel >= 80
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-			SetFontSize 42
-			PlayAlertSound 13 250
-			MinimapIcon 1 Yellow Kite
+			BaseType "Opal Sceptre" "Void Sceptre"
+			ItemLevel >= 85
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
 
 		Show
-			BaseType "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
-			ItemLevel >= 83
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType "Sambar Sceptre"
+			ItemLevel >= 86
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Void Sceptre"
+			ItemLevel >= 86
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
@@ -1701,43 +2532,60 @@
 	# Quivers
 	# =======
 
-		#Show
-		#	BaseType "Spike-Point Arrow Quiver"
-		#	Rarity Rare
-		#	ItemLevel >= 80
-		#	SetFontSize 33
-		#	Continue
-
 		Show
-			Class Quivers
-			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-			SetFontSize 33
-			PlayAlertSound 14 200
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		#Show
-		#	BaseType "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver"
-		#	Rarity Rare
-		#	ItemLevel >= 84
-		#	SetFontSize 38
-		#	Continue
-
-		Show
-			BaseType "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver"
-			ItemLevel >= 80
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-			SetFontSize 42
-			PlayAlertSound 13 250
-			MinimapIcon 1 Yellow Kite
+			BaseType "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Sharktooth Arrow Quiver"
+			ItemLevel >= 82
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
 
 		Show
-			BaseType "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver"
+			BaseType "Two-Point Arrow Quiver"
 			ItemLevel >= 84
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			HasInfluence Hunter Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Blunt Arrow Quiver" "Serrated Arrow Quiver"
+			ItemLevel >= 85
+			HasInfluence Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Broadhead Arrow Quiver"
+			ItemLevel >= 85
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Serrated Arrow Quiver"
+			ItemLevel >= 86
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Two-Point Arrow Quiver" "Blunt Arrow Quiver"
+			ItemLevel >= 86
+			HasInfluence Redeemer
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
@@ -1747,24 +2595,22 @@
 	# Amulets
 	# =======
 
+		# Crafting
+		#Show
+		#	Class Amulets
+		#	BaseType Onyx Marble "Blue Pearl"
+		#	Rarity Normal
+		#	ItemLevel >= 82
+		#	Continue
+
 		Show
 			Class Amulets
 			Rarity Rare
 			SetFontSize 38
 			Continue
 
-		# Show amulets for use of excess alchs
-		#Show
-		#	Class Amulets
-		#	BaseType Onyx Marble "Blue Pearl"
-		#	Rarity Normal
-		#	ItemLevel >= 82
-		#	SetFontSize 38
-		#	Continue
-
 		Show
 			Class Amulets
-			Rarity <= Magic
 			ItemLevel >= 86
 			SetFontSize 38
 			Continue
@@ -1778,7 +2624,9 @@
 
 		Show
 			Class Amulets
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType Marble "Blue Pearl" Amber Turquoise
+			Rarity Rare
+			ItemLevel >= 86
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
@@ -1787,26 +2635,18 @@
 
 		Show
 			Class Amulets
-			Rarity Rare
-			ItemLevel >= 84
+			ItemLevel >= 82
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			Continue
-
-		Show
-			Class Amulets
-			BaseType Marble "Blue Pearl"
-			Rarity Rare
-			ItemLevel >= 84
-			SetFontSize 42
+			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
 
 		Show
 			Class Amulets
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-			Rarity Rare
 			ItemLevel >= 82
+			HasInfluence Hunter
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
@@ -1815,11 +2655,76 @@
 
 		Show
 			Class Amulets
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-			Rarity Rare
-			ItemLevel >= 86
+			BaseType Turquoise Jade Citrine 
+			ItemLevel >= 82
+			HasInfluence Redeemer
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Amulets
+			BaseType Marble "Blue Pearl" Citrine
+			ItemLevel >= 82
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Amulets
+			BaseType Marble
+			ItemLevel >= 82
+			HasInfluence Elder
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Amulets
+			BaseType "Blue Pearl" "Marble"
+			ItemLevel >= 83
+			HasInfluence Crusader
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Amulets
+			BaseType Marble
+			ItemLevel >= 83
+			HasInfluence Warlord
 			SetFontSize 45
 			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Amulets
+			BaseType Onyx
+			ItemLevel >= 85
+			HasInfluence Redeemer
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Amulets
+			ItemLevel >= 85
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1827,13 +2732,7 @@
 	# Rings
 	# =====
 
-		Show
-			Class Rings
-			Rarity Rare
-			SetFontSize 38
-			Continue
-
-		# Show amulets for use of excess alchs
+		# Crafting
 		#Show
 		#	Class Rings
 		#	BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond" "Two-Stone"
@@ -1844,21 +2743,28 @@
 
 		Show
 			Class Rings
-			Rarity <= Magic
+			Rarity Rare
+			SetFontSize 38
+			Continue
+
+		Show
+			Class Rings
 			ItemLevel >= 86
 			SetFontSize 38
 			Continue
 
 		Show
 			Class Rings
-			BaseType "Cerulean Ring" "Diamond" "Two-Stone" "Ruby" "Sapphire" "Topaz"
+			BaseType Cerulean Steel Opal Vermillion
 			Rarity Rare
 			SetFontSize 42
 			Continue
 
 		Show
 			Class Rings
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType Steel Opal Vermillion Cerulean
+			Rarity Rare
+			ItemLevel >= 84
 			SetFontSize 42
 			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
@@ -1867,33 +2773,19 @@
 
 		Show
 			Class Rings
-			BaseType "Steel Ring" "Opal Ring" "Vermillion Ring"
-			Rarity Rare
+			ItemLevel >= 82
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			Continue
-
-		Show
-			Class Rings
-			Rarity Rare
-			ItemLevel >= 84
-			SetFontSize 42
-			Continue
-
-		Show
-			Class Rings
-			BaseType "Steel Ring" "Opal Ring" "Vermillion Ring"
-			Rarity Rare
-			ItemLevel >= 84
-			SetFontSize 42
+			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
 
 		Show
 			Class Rings
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-			Rarity Rare
+			BaseType Moonstone
 			ItemLevel >= 82
+			HasInfluence Crusader
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
@@ -1902,12 +2794,110 @@
 
 		Show
 			Class Rings
-			BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring"
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-			Rarity Rare
-			ItemLevel >= 86
+			BaseType Diamond "Two-Stone"
+			ItemLevel >= 82
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Rings
+			BaseType Steel
+			ItemLevel >= 82
+			HasInfluence Elder Shaper Warlord
 			SetFontSize 45
 			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Rings
+			BaseType Cerulean
+			ItemLevel >= 82
+			HasInfluence Crusader
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Rings
+			BaseType Opal Vermillion
+			ItemLevel >= 82
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Rings
+			BaseType Steel
+			ItemLevel >= 83
+			HasInfluence Crusader
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Rings
+			BaseType Cerulean
+			ItemLevel >= 83
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Rings
+			BaseType Cerulean
+			ItemLevel >= 84
+			HasInfluence Elder Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Rings
+			BaseType "Two-Stone"
+			ItemLevel >= 84
+			HasInfluence Warlord
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Rings
+			BaseType Cerulean
+			ItemLevel >= 84
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Rings
+			BaseType Coral Ruby Topaz Sapphire
+			ItemLevel >= 85
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1918,42 +2908,25 @@
 		Show
 			Class Belts
 			Rarity Rare
+			Continue
+
+		Show
+			Class Belts
+			BaseType Leather Heavy Vanguard
+			Rarity Rare
 			SetFontSize 38
 			Continue
 
 		Show
 			Class Belts
 			BaseType "Crystal Belt" "Stygian Vise" "Leather" "Heavy" "Vanguard Belt"
-			Rarity <= Magic
 			ItemLevel >= 86
 			SetFontSize 38
 			Continue
 
 		Show
 			Class Belts
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-			SetFontSize 38
-			PlayAlertSound 3 225
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		Show
-			Class Belts
-			BaseType "Leather" "Heavy" "Vanguard"
-			Rarity Rare
-			SetFontSize 42
-			Continue
-
-		Show
-			Class Belts
-			BaseType "Crystal Belt" "Stygian Vise"
-			Rarity Rare
-			SetFontSize 42
-			Continue
-
-		Show
-			Class Belts
+			BaseType Leather Heavy Vanguard
 			Rarity Rare
 			ItemLevel >= 84
 			SetFontSize 42
@@ -1961,19 +2934,48 @@
 
 		Show
 			Class Belts
-			BaseType "Crystal Belt" "Stygian Vise"
+			BaseType Crystal Stygian
+			Rarity Rare
+			SetFontSize 42
+			Continue
+
+		Show
+			Class Belts
+			BaseType Crystal
 			Rarity Rare
 			ItemLevel >= 84
 			SetFontSize 42
+			PlayAlertSound 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
 
 		Show
 			Class Belts
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+			BaseType Stygian
 			Rarity Rare
+			ItemLevel >= 85
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Belts
 			ItemLevel >= 82
+			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+			SetFontSize 42
+			PlayAlertSound 13 250
+			MinimapIcon 1 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Belts
+			BaseType Crystal
+			ItemLevel >= 82
+			HasInfluence Elder Hunter Redeemer Warlord
 			SetFontSize 45
 			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
@@ -1982,12 +2984,44 @@
 
 		Show
 			Class Belts
-			BaseType "Crystal Belt"
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-			Rarity Rare
-			ItemLevel >= 86
+			BaseType Crystal
+			ItemLevel >= 82
+			HasInfluence Crusader Shaper
 			SetFontSize 45
 			PlayAlertSound 6 300
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Belts
+			BaseType Leather
+			ItemLevel >= 84
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Belts
+			BaseType Leather Heavy
+			ItemLevel >= 84
+			HasInfluence Elder Hunter
+			SetFontSize 45
+			PlayAlertSound 10 275
+			MinimapIcon 0 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			Class Belts
+			BaseType Heavy Studded
+			ItemLevel >= 86
+			HasInfluence Shaper
+			SetFontSize 45
+			PlayAlertSound 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2078,24 +3112,6 @@
 			SetFontSize 38
 			Continue
 
-	Show
-		ItemLevel >= 86
-		HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-		SetFontSize 45
-		PlayAlertSound 10 275
-		MinimapIcon 0 Yellow Kite
-		PlayEffect Yellow
-		Continue
-
-	Show
-		SocketGroup 6
-		Rarity Rare
-		SetFontSize 45
-		PlayAlertSound 10 275
-		MinimapIcon 0 Yellow Kite
-		PlayEffect Yellow
-		Continue
-
 	# Uniques
 	# =======
 
@@ -2135,3 +3151,4 @@
 			PlayAlertSound 6 300
 			MinimapIcon 0 Purple Diamond
 			PlayEffect Purple
+			Continue
