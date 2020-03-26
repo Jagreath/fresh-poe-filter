@@ -32,14 +32,14 @@
 		# 			PlayEffect Grey
 
 		#	Sounds:
-		# 		Audible: PlayAlertSound 14 200
+		# 		Audible: PlayAlertSoundPositional 14 200
 
-		# 		Highlighted: PlayAlertSound 3 225
-		# 		Interesting: PlayAlertSound 13 250
-		# 		Important: PlayAlertSound 10 275
+		# 		Highlighted: PlayAlertSoundPositional 3 225
+		# 		Interesting: PlayAlertSoundPositional 13 250
+		# 		Important: PlayAlertSoundPositional 10 275
 
-		# 		Required: PlayAlertSound 6 300
-		# 		Quest (Or unknown): PlayAlertSound 12 250
+		# 		Required: PlayAlertSoundPositional 6 300
+		# 		Quest (Or unknown): PlayAlertSoundPositional 12 250
 
 		#	TextSize:
 		# 		Default: SetFontSize 26
@@ -90,7 +90,7 @@
 		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item"
 		SetFontSize 38
 		SetBackgroundColor 182 127 221 255
-		PlayAlertSound 12 250
+		PlayAlertSoundPositional 12 250
 		MinimapIcon 0 Pink UpsideDownHouse
 		PlayEffect Pink
 		Continue
@@ -124,28 +124,28 @@
 	Show
 		BaseType  "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard"
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
 	Show
 		BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" 
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
 	Show
 		BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Exalted Orb" "Awakener's Orb"
 		SetFontSize 45
-		PlayAlertSound 6 300
+		PlayAlertSoundPositional 6 300
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
 	Show
 		BaseType "Mirror of Kalandra"
 		SetFontSize 45
-		PlayAlertSound ShMirror 300
+		PlayAlertSoundPositional ShMirror 300
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -155,14 +155,14 @@
 		Class Currency
 		BaseType Blessing
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
 	Show
 		BaseType "Blessing of Chayula"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -180,7 +180,7 @@
 		Class Currency
 		BaseType "Unshaping Orb" "Cartographer's Seal"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -190,7 +190,7 @@
 		Class Currency
 		BaseType "Essence of"
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
@@ -198,7 +198,7 @@
 		Class Currency
 		BaseType "Deafening Essence" "Remnant of Corruption"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -208,7 +208,7 @@
 		Class "Stackable Currency"
 		BaseType Vial
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -218,7 +218,7 @@
 		Class "Stackable Currency"
 		BaseType "Fossil"
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
@@ -226,7 +226,7 @@
 		Class "Stackable Currency"
 		BaseType "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -234,7 +234,7 @@
 		Class "Stackable Currency"
 		BaseType "Fractured Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" 
 		SetFontSize 45
-		PlayAlertSound 6 300
+		PlayAlertSoundPositional 6 300
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -242,7 +242,7 @@
 		Class "Delve Stackable Socketable Currency" 
 		BaseType Potent Powerful Primitive
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
@@ -250,7 +250,7 @@
 		Class "Delve Stackable Socketable Currency" 
 		BaseType Prime
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -259,7 +259,7 @@
 	Show
 		Class Incubator
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
@@ -267,7 +267,7 @@
 		Class Incubator
 		BaseType "Gemcutter" "Geomancer" "Time-Lost" "Thaumaturge" "Foreboding" "Diviner"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -277,7 +277,7 @@
 		Class "Stackable Currency"
 		BaseType Oil
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
@@ -285,7 +285,7 @@
 		Class "Stackable Currency"
 		BaseType "Silver Oil"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -293,7 +293,7 @@
 		Class "Stackable Currency"
 		BaseType "Golden Oil" 
 		SetFontSize 45
-		PlayAlertSound 6 300
+		PlayAlertSoundPositional 6 300
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -303,7 +303,7 @@
 		Class "Stackable Currency"
 		BaseType Catalyst
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
@@ -311,7 +311,7 @@
 		Class "Stackable Currency"
 		BaseType "Fertile Catalyst" "Prismatic Catalyst"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -321,7 +321,7 @@
 		Class "Stackable Currency"
 		BaseType "Delirium Orb"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -335,7 +335,7 @@
 			MapTier >= 1
 			Class Maps
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 			Continue
@@ -351,7 +351,7 @@
 			Class "Map Fragments"
 			BaseType "Offering to the Goddess"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 
@@ -359,7 +359,7 @@
 			Class "Map Fragments"
 			BaseType "Divine Vessel"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 
@@ -368,7 +368,7 @@
 			Class "Map Fragments"
 			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 
@@ -377,7 +377,7 @@
 			Class "Map Fragments"
 			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" 
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -385,7 +385,7 @@
 			Class "Map Fragments"
 			BaseType "of Emptiness" "of Terror" "of Knowledge" "of Shape"
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -395,7 +395,7 @@
 			Class "Misc Map Items"
 			BaseType Key
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -405,7 +405,7 @@
 			Class "Map Fragments"
 			BaseType "Scarab"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 			Continue
@@ -414,7 +414,7 @@
 			Class "Map Fragments"
 			BaseType "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab"
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -423,7 +423,7 @@
 		Show
 			BaseType "Watchstone"
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -433,7 +433,7 @@
 			Class "Map Fragments"
 			BaseType "Eber's Key"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 
@@ -441,7 +441,7 @@
 			Class "Map Fragments"
 			BaseType "Yriel's Key" "Inya's Key" "Volkuur's Key"
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red		
 
@@ -451,7 +451,7 @@
 			Class "Stackable Currency"
 			BaseType "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol"
 			SetFontSize 38
-			PlayAlertSound 3 225
+			PlayAlertSoundPositional 3 225
 			MinimapIcon 2 Blue Circle
 			PlayEffect Blue
 
@@ -459,7 +459,7 @@
 			Class "Stackable Currency"
 			BaseType "Splinter of Chayula"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Blue Circle
 			PlayEffect Blue
 
@@ -467,7 +467,7 @@
 			Class "Map Fragments"
 			BaseType "Breachstone" 
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -477,7 +477,7 @@
 			Class "Stackable Currency"
 			BaseType "Timeless"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Blue Circle
 			PlayEffect Blue
 
@@ -485,7 +485,7 @@
 			Class "Map Fragments"
 			BaseType "Emblem"
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -495,7 +495,7 @@
 			Class "Stackable Currency"
 			BaseType "Simulacrum Splinter"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Blue Circle
 			PlayEffect Blue
 
@@ -503,7 +503,7 @@
 			Class "Map Fragments"
 			BaseType Simulacrum
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -513,7 +513,7 @@
 	Show
 		Class "Divination"
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Grey Square
 		PlayEffect Grey
 		Continue
@@ -521,7 +521,7 @@
 	Hide
 		Class "Divination"
 		BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon"
-		PlayAlertSound None
+		PlayAlertSoundPositional None
 		MinimapIcon -1
 		PlayEffect None
 
@@ -531,7 +531,7 @@
 	Show
 		Sockets 6
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Green Kite
 		PlayEffect Green
 		Continue
@@ -547,7 +547,7 @@
 		SocketGroup 5
 		Rarity <= Magic
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Green Kite
 		PlayEffect Green
 		Continue
@@ -556,7 +556,7 @@
 		SocketGroup 6
 		Rarity <= Magic
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Green Kite
 		PlayEffect Green
 		Continue
@@ -565,7 +565,7 @@
 
 	Show
 		FracturedItem True
-		PlayAlertSound 14 200
+		PlayAlertSoundPositional 14 200
 		MinimapIcon 2 Green Kite
 		PlayEffect Green
 		Continue
@@ -628,7 +628,7 @@
 		BaseType Prophecy
 		SetFontSize 42
 		SetBackgroundColor 97 182 83 255
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Green Kite
 		PlayEffect Green
 
@@ -638,7 +638,7 @@
 		Class "Metamorph Sample"
 		SetFontSize 42
 		SetBackgroundColor 97 182 83 255
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Green Kite
 		PlayEffect Green 
 
@@ -646,7 +646,7 @@
 
 	Show
 		HasExplicitMod "Veil"
-		PlayAlertSound 14 200
+		PlayAlertSoundPositional 14 200
 		MinimapIcon 2 Yellow Kite
 		PlayEffect Yellow
 		Continue
@@ -675,7 +675,7 @@
 		Class Gems
 		BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
 		SetFontSize 38
-		PlayAlertSound 3 225
+		PlayAlertSoundPositional 3 225
 		MinimapIcon 2 Cyan Raindrop
 		PlayEffect Cyan
 		Continue
@@ -684,7 +684,7 @@
 		Quality >= 11
 		Class Gems
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Cyan Raindrop
 		PlayEffect Cyan
 		Continue
@@ -693,7 +693,7 @@
 		Quality >= 16
 		Class Gems
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Cyan Raindrop
 		PlayEffect Cyan
 		Continue
@@ -703,7 +703,7 @@
 		Class Gems
 		BaseType "Empower" "Enlighten"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Cyan Raindrop
 		PlayEffect Cyan
 
@@ -711,7 +711,7 @@
 		Class Gems
 		BaseType "Awakened"
 		SetFontSize 45
-		PlayAlertSound 6 300
+		PlayAlertSoundPositional 6 300
 		MinimapIcon 0 Cyan Raindrop
 		PlayEffect Cyan
 
@@ -722,7 +722,7 @@
 		SocketGroup 5
 		Rarity Rare
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Yellow Kite
 		PlayEffect Yellow
 		Continue
@@ -731,7 +731,7 @@
 		SocketGroup 6
 		Rarity Rare
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Yellow Kite
 		PlayEffect Yellow
 		Continue
@@ -781,7 +781,7 @@
 			BaseType "Cluster Jewel"
 			Rarity <= Magic
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Green Kite
 			PlayEffect Green
 			Continue
@@ -791,7 +791,7 @@
 			BaseType "Cluster Jewel"
 			Rarity Rare
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -941,7 +941,7 @@
 		Show
 			Rarity Unique
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Purple Diamond
 			PlayEffect Purple
 			Continue
@@ -950,7 +950,7 @@
 			SocketGroup >= 5
 			Rarity Unique
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Purple Diamond
 			PlayEffect Purple
 			Continue
@@ -960,7 +960,7 @@
 			BaseType "Simple Robe"
 			Rarity Unique
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Purple Diamond
 			PlayEffect Purple
 			Continue
@@ -971,7 +971,7 @@
 		Show
 			Class "Fishing Rod"
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Purple Diamond
 			PlayEffect Purple
 

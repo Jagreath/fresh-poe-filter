@@ -32,14 +32,14 @@
 		# 			PlayEffect Grey
 
 		#	Sounds:
-		# 		Audible: PlayAlertSound 14 200
+		# 		Audible: PlayAlertSoundPositional 14 200
 
-		# 		Highlighted: PlayAlertSound 3 225
-		# 		Interesting: PlayAlertSound 13 250
-		# 		Important: PlayAlertSound 10 275
+		# 		Highlighted: PlayAlertSoundPositional 3 225
+		# 		Interesting: PlayAlertSoundPositional 13 250
+		# 		Important: PlayAlertSoundPositional 10 275
 
-		# 		Required: PlayAlertSound 6 300
-		# 		Quest (Or unknown): PlayAlertSound 12 250
+		# 		Required: PlayAlertSoundPositional 6 300
+		# 		Quest (Or unknown): PlayAlertSoundPositional 12 250
 
 		#	TextSize:
 		# 		Default: SetFontSize 26
@@ -90,7 +90,7 @@
 		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item"
 		SetFontSize 38
 		SetBackgroundColor 182 127 221 255
-		PlayAlertSound 12 250
+		PlayAlertSoundPositional 12 250
 		MinimapIcon 0 Pink UpsideDownHouse
 		PlayEffect Pink
 		Continue
@@ -129,28 +129,28 @@
 	Show
 		BaseType  "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard"
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
 	Show
 		BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" 
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
 	Show
 		BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Exalted Orb" "Awakener's Orb"
 		SetFontSize 45
-		PlayAlertSound 6 300
+		PlayAlertSoundPositional 6 300
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
 	Show
 		BaseType "Mirror of Kalandra"
 		SetFontSize 45
-		PlayAlertSound ShMirror 300
+		PlayAlertSoundPositional ShMirror 300
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -160,14 +160,14 @@
 		Class Currency
 		BaseType Blessing
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
 	Show
 		BaseType "Blessing of Chayula"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -185,7 +185,7 @@
 		Class Currency
 		BaseType "Unshaping Orb" "Cartographer's Seal"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -195,7 +195,7 @@
 		Class Currency
 		BaseType "Essence of"
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
@@ -203,7 +203,7 @@
 		Class Currency
 		BaseType "Deafening Essence" "Remnant of Corruption"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -213,7 +213,7 @@
 		Class "Stackable Currency"
 		BaseType Vial
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -223,7 +223,7 @@
 		Class "Stackable Currency"
 		BaseType "Fossil"
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
@@ -231,7 +231,7 @@
 		Class "Stackable Currency"
 		BaseType "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -239,7 +239,7 @@
 		Class "Stackable Currency"
 		BaseType "Fractured Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" 
 		SetFontSize 45
-		PlayAlertSound 6 300
+		PlayAlertSoundPositional 6 300
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -247,7 +247,7 @@
 		Class "Delve Stackable Socketable Currency" 
 		BaseType Potent Powerful Primitive
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
@@ -255,7 +255,7 @@
 		Class "Delve Stackable Socketable Currency" 
 		BaseType Prime
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -264,7 +264,7 @@
 	Show
 		Class Incubator
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
@@ -272,7 +272,7 @@
 		Class Incubator
 		BaseType "Gemcutter" "Geomancer" "Time-Lost" "Thaumaturge" "Foreboding" "Diviner"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -282,7 +282,7 @@
 		Class "Stackable Currency"
 		BaseType Oil
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
@@ -290,7 +290,7 @@
 		Class "Stackable Currency"
 		BaseType "Silver Oil"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -298,7 +298,7 @@
 		Class "Stackable Currency"
 		BaseType "Golden Oil" 
 		SetFontSize 45
-		PlayAlertSound 6 300
+		PlayAlertSoundPositional 6 300
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -308,7 +308,7 @@
 		Class "Stackable Currency"
 		BaseType Catalyst
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
@@ -316,7 +316,7 @@
 		Class "Stackable Currency"
 		BaseType "Fertile Catalyst" "Prismatic Catalyst"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -326,7 +326,7 @@
 		Class "Stackable Currency"
 		BaseType "Delirium Orb"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -339,7 +339,7 @@
 		Show
 			Class Maps
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 			Continue
@@ -356,7 +356,7 @@
 				MapTier = 1
 				AreaLevel >= 70
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 				Continue
 
@@ -365,7 +365,7 @@
 				MapTier = 1
 				AreaLevel >= 73
 				SetFontSize 38
-				PlayAlertSound 3 225
+				PlayAlertSoundPositional 3 225
 				MinimapIcon 2 Red Cross
 
 		# T2
@@ -376,7 +376,7 @@
 				MapTier = 2
 				AreaLevel >= 71
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 				Continue
 
@@ -385,7 +385,7 @@
 				MapTier = 2
 				AreaLevel >= 74
 				SetFontSize 38
-				PlayAlertSound 3 225
+				PlayAlertSoundPositional 3 225
 				MinimapIcon 2 Red Cross
 
 		# T3
@@ -396,7 +396,7 @@
 				MapTier = 3
 				AreaLevel >= 72
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 				Continue
 
@@ -405,7 +405,7 @@
 				MapTier = 3
 				AreaLevel >= 75
 				SetFontSize 38
-				PlayAlertSound 3 225
+				PlayAlertSoundPositional 3 225
 				MinimapIcon 2 Red Cross
 
 		# T4
@@ -416,7 +416,7 @@
 				MapTier = 4
 				AreaLevel >= 73
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 				Continue
 
@@ -425,7 +425,7 @@
 				MapTier = 4
 				AreaLevel >= 76
 				SetFontSize 38
-				PlayAlertSound 3 225
+				PlayAlertSoundPositional 3 225
 				MinimapIcon 2 Red Cross
 
 		# T5
@@ -436,7 +436,7 @@
 				MapTier = 5
 				AreaLevel >= 74
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 				Continue
 
@@ -445,7 +445,7 @@
 				MapTier = 5
 				AreaLevel >= 77
 				SetFontSize 38
-				PlayAlertSound 3 225
+				PlayAlertSoundPositional 3 225
 				MinimapIcon 2 Red Cross
 
 		# T6
@@ -456,7 +456,7 @@
 				MapTier = 6
 				AreaLevel >= 75
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 				Continue
 
@@ -465,7 +465,7 @@
 				MapTier = 6
 				AreaLevel >= 78
 				SetFontSize 38
-				PlayAlertSound 3 225
+				PlayAlertSoundPositional 3 225
 				MinimapIcon 2 Red Cross
 
 		# T7
@@ -476,7 +476,7 @@
 				MapTier = 7
 				AreaLevel >= 76
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 				Continue
 
@@ -485,7 +485,7 @@
 				MapTier = 7
 				AreaLevel >= 79
 				SetFontSize 38
-				PlayAlertSound 3 225
+				PlayAlertSoundPositional 3 225
 				MinimapIcon 2 Red Cross
 
 		# T8
@@ -496,7 +496,7 @@
 				MapTier = 8
 				AreaLevel >= 77
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 				Continue
 
@@ -505,7 +505,7 @@
 				MapTier = 8
 				AreaLevel >= 80
 				SetFontSize 38
-				PlayAlertSound 3 225
+				PlayAlertSoundPositional 3 225
 				MinimapIcon 2 Red Cross
 
 		# T9
@@ -516,7 +516,7 @@
 				MapTier = 9
 				AreaLevel >= 78
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 				Continue
 
@@ -525,7 +525,7 @@
 				MapTier = 9
 				AreaLevel >= 81
 				SetFontSize 38
-				PlayAlertSound 3 225
+				PlayAlertSoundPositional 3 225
 				MinimapIcon 2 Red Cross
 
 		# T10
@@ -536,7 +536,7 @@
 				MapTier = 10
 				AreaLevel >= 79
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 				Continue
 
@@ -545,7 +545,7 @@
 				MapTier = 10
 				AreaLevel >= 82
 				SetFontSize 38
-				PlayAlertSound 3 225
+				PlayAlertSoundPositional 3 225
 				MinimapIcon 2 Red Cross
 
 		# T11
@@ -556,7 +556,7 @@
 				MapTier = 11
 				AreaLevel >= 80
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 				Continue
 
@@ -565,7 +565,7 @@
 				MapTier = 11
 				AreaLevel >= 83
 				SetFontSize 38
-				PlayAlertSound 3 225
+				PlayAlertSoundPositional 3 225
 				MinimapIcon 2 Red Cross
 
 		# T12
@@ -576,7 +576,7 @@
 				MapTier = 12
 				AreaLevel >= 81
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 				Continue
 
@@ -585,7 +585,7 @@
 				MapTier = 12
 				AreaLevel >= 83
 				SetFontSize 38
-				PlayAlertSound 3 225
+				PlayAlertSoundPositional 3 225
 				MinimapIcon 2 Red Cross
 
 		# T13
@@ -596,7 +596,7 @@
 				MapTier = 13
 				AreaLevel >= 82
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 				Continue
 
@@ -605,7 +605,7 @@
 				MapTier = 13
 				AreaLevel >= 83
 				SetFontSize 38
-				PlayAlertSound 3 225
+				PlayAlertSoundPositional 3 225
 				MinimapIcon 2 Red Cross
 
 		# T14
@@ -616,7 +616,7 @@
 				MapTier = 14
 				AreaLevel >= 82
 				SetFontSize 42
-				PlayAlertSound 13 250
+				PlayAlertSoundPositional 13 250
 				MinimapIcon 1 Red Cross
 
 	# Fragments
@@ -626,7 +626,7 @@
 			Class "Map Fragments"
 			BaseType "Offering to the Goddess"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 
@@ -634,7 +634,7 @@
 			Class "Map Fragments"
 			BaseType "Divine Vessel"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 
@@ -642,7 +642,7 @@
 			Class "Map Fragments"
 			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 
@@ -651,7 +651,7 @@
 			Class "Map Fragments"
 			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" 
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -659,7 +659,7 @@
 			Class "Map Fragments"
 			BaseType "of Emptiness" "of Terror" "of Knowledge" "of Shape"
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -669,7 +669,7 @@
 			Class "Misc Map Items"
 			BaseType Key
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -679,7 +679,7 @@
 			Class "Map Fragments"
 			BaseType "Scarab"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 			Continue
@@ -688,7 +688,7 @@
 			Class "Map Fragments"
 			BaseType "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab"
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -697,7 +697,7 @@
 		Show
 			BaseType "Watchstone"
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -707,7 +707,7 @@
 			Class "Map Fragments"
 			BaseType "Eber's Key"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 
@@ -715,7 +715,7 @@
 			Class "Map Fragments"
 			BaseType "Yriel's Key" "Inya's Key" "Volkuur's Key"
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red		
 
@@ -725,7 +725,7 @@
 			Class "Stackable Currency"
 			BaseType "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol"
 			SetFontSize 38
-			PlayAlertSound 3 225
+			PlayAlertSoundPositional 3 225
 			MinimapIcon 2 Blue Circle
 			PlayEffect Blue
 
@@ -733,7 +733,7 @@
 			Class "Stackable Currency"
 			BaseType "Splinter of Chayula"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Blue Circle
 			PlayEffect Blue
 
@@ -741,7 +741,7 @@
 			Class "Map Fragments"
 			BaseType "Breachstone" 
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -751,7 +751,7 @@
 			Class "Stackable Currency"
 			BaseType "Timeless"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Blue Circle
 			PlayEffect Blue
 
@@ -759,7 +759,7 @@
 			Class "Map Fragments"
 			BaseType "Emblem"
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -769,7 +769,7 @@
 			Class "Stackable Currency"
 			BaseType "Simulacrum Splinter"
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Blue Circle
 			PlayEffect Blue
 
@@ -777,7 +777,7 @@
 			Class "Map Fragments"
 			BaseType Simulacrum
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
 
@@ -787,7 +787,7 @@
 	Show
 		Class "Divination"
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Grey Square
 		PlayEffect Grey
 		Continue
@@ -795,7 +795,7 @@
 	Hide
 		Class "Divination"
 		BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon"
-		PlayAlertSound None
+		PlayAlertSoundPositional None
 		MinimapIcon -1
 		PlayEffect None
 
@@ -805,7 +805,7 @@
 	Show
 		Sockets 6
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Green Kite
 		PlayEffect Green
 		Continue
@@ -821,7 +821,7 @@
 		SocketGroup 6
 		Rarity < Rare
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Green Kite
 		PlayEffect Green
 		Continue
@@ -830,7 +830,7 @@
 		SocketGroup 6
 		Rarity Rare
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Yellow Kite
 		PlayEffect Yellow
 		Continue
@@ -839,7 +839,7 @@
 
 	Show
 		FracturedItem True
-		PlayAlertSound 14 200
+		PlayAlertSoundPositional 14 200
 		MinimapIcon 2 Green Kite
 		PlayEffect Green
 		Continue
@@ -902,7 +902,7 @@
 		BaseType Prophecy
 		SetFontSize 42
 		SetBackgroundColor 97 182 83 255
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Green Kite
 		PlayEffect Green
 
@@ -912,7 +912,7 @@
 		Class "Metamorph Sample"
 		SetFontSize 42
 		SetBackgroundColor 97 182 83 255
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Green Kite
 		PlayEffect Green 
 
@@ -920,7 +920,7 @@
 
 	Show
 		HasExplicitMod "Veil"
-		PlayAlertSound 14 200
+		PlayAlertSoundPositional 14 200
 		MinimapIcon 2 Yellow Kite
 		PlayEffect Yellow
 		Continue
@@ -949,7 +949,7 @@
 		Class Gems
 		BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
 		SetFontSize 38
-		PlayAlertSound 3 225
+		PlayAlertSoundPositional 3 225
 		MinimapIcon 2 Cyan Raindrop
 		PlayEffect Cyan
 		Continue
@@ -958,7 +958,7 @@
 		Quality >= 15
 		Class Gems
 		SetFontSize 42
-		PlayAlertSound 13 250
+		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Cyan Raindrop
 		PlayEffect Cyan
 		Continue
@@ -967,7 +967,7 @@
 		Quality >= 18
 		Class Gems
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Cyan Raindrop
 		PlayEffect Cyan
 		Continue
@@ -977,7 +977,7 @@
 		Class Gems
 		BaseType "Empower" "Enlighten"
 		SetFontSize 45
-		PlayAlertSound 10 275
+		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Cyan Raindrop
 		PlayEffect Cyan
 
@@ -985,7 +985,7 @@
 		Class Gems
 		BaseType "Awakened"
 		SetFontSize 45
-		PlayAlertSound 6 300
+		PlayAlertSoundPositional 6 300
 		MinimapIcon 0 Cyan Raindrop
 		PlayEffect Cyan
 
@@ -1021,7 +1021,7 @@
 		#	Class "Body Armours"
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -1031,7 +1031,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1041,7 +1041,7 @@
 			ItemLevel >= 82
 			HasInfluence Hunter Elder Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1051,7 +1051,7 @@
 			ItemLevel >= 83
 			HasInfluence Redeemer
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1061,7 +1061,7 @@
 			ItemLevel >= 83
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1071,7 +1071,7 @@
 			ItemLevel >= 84
 			HasInfluence Crusader
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1081,7 +1081,7 @@
 			ItemLevel >= 84
 			HasInfluence Elder
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1091,7 +1091,7 @@
 			ItemLevel >= 84
 			HasInfluence Hunter Crusader
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1101,7 +1101,7 @@
 			ItemLevel >= 84
 			HasInfluence Elder Hunter Warlord
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1111,7 +1111,7 @@
 			ItemLevel >= 84
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1121,7 +1121,7 @@
 			ItemLevel >= 85
 			HasInfluence Crusader
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1131,7 +1131,7 @@
 			ItemLevel >= 85
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1141,7 +1141,7 @@
 			ItemLevel >= 85
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1151,7 +1151,7 @@
 			ItemLevel >= 85
 			HasInfluence Crusader
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1161,7 +1161,7 @@
 			ItemLevel >= 85
 			HasInfluence Redeemer Crusader
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1171,7 +1171,7 @@
 			ItemLevel >= 85
 			HasInfluence Warlord Crusader
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1181,7 +1181,7 @@
 			ItemLevel >= 86
 			HasInfluence Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1191,7 +1191,7 @@
 			ItemLevel >= 86
 			HasInfluence Elder
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1201,7 +1201,7 @@
 			ItemLevel >= 86
 			HasInfluence Elder Redeemer Hunter
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1211,7 +1211,7 @@
 			ItemLevel >= 86
 			HasInfluence Hunter Redeemer
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1221,7 +1221,7 @@
 			ItemLevel >= 86
 			HasInfluence Redeemer
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1251,7 +1251,7 @@
 		#	Class Helmets
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -1261,7 +1261,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1271,7 +1271,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Hunter Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1281,7 +1281,7 @@
 			ItemLevel >= 82
 			HasInfluence Elder
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1291,7 +1291,7 @@
 			ItemLevel >= 82
 			HasInfluence Hunter Redeemer
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1301,7 +1301,7 @@
 			ItemLevel >= 82
 			HasInfluence Elder
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1311,7 +1311,7 @@
 			ItemLevel >= 83
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1321,7 +1321,7 @@
 			ItemLevel >= 84
 			HasInfluence Crusader Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1331,7 +1331,7 @@
 			ItemLevel >= 84
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1341,7 +1341,7 @@
 			ItemLevel >= 84
 			HasInfluence Redeemer Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1351,7 +1351,7 @@
 			ItemLevel >= 84
 			HasInfluence Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1361,7 +1361,7 @@
 			ItemLevel >= 84
 			HasInfluence Redeemer Shaper
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1371,7 +1371,7 @@
 			ItemLevel >= 85
 			HasInfluence Crusader
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1381,7 +1381,7 @@
 			ItemLevel >= 85
 			HasInfluence Redeemer Crusader
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1391,7 +1391,7 @@
 			ItemLevel >= 85
 			HasInfluence Hunter Crusader
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1401,7 +1401,7 @@
 			ItemLevel >= 85
 			HasInfluence Crusader Hunter Warlord
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1411,7 +1411,7 @@
 			ItemLevel >= 85
 			HasInfluence Elder Warlord
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1421,7 +1421,7 @@
 			ItemLevel >= 85
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1431,7 +1431,7 @@
 			ItemLevel >= 85
 			HasInfluence Redeemer Hunter
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1441,7 +1441,7 @@
 			ItemLevel >= 85
 			HasInfluence Warlord
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1451,7 +1451,7 @@
 			ItemLevel >= 86
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1461,7 +1461,7 @@
 			ItemLevel >= 86
 			HasInfluence Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1471,7 +1471,7 @@
 			ItemLevel >= 86
 			HasInfluence Elder
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1481,7 +1481,7 @@
 			ItemLevel >= 86
 			HasInfluence Redeemer
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1491,7 +1491,7 @@
 			ItemLevel >= 86
 			HasInfluence Redeemer
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1501,7 +1501,7 @@
 			ItemLevel >= 86
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1531,7 +1531,7 @@
 		#	Class Gloves
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -1541,7 +1541,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1551,7 +1551,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Redeemer Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1561,7 +1561,7 @@
 			ItemLevel >= 82
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1571,7 +1571,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Redeemer
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1581,7 +1581,7 @@
 			ItemLevel >= 82
 			HasInfluence Elder Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1591,7 +1591,7 @@
 			ItemLevel >= 82
 			HasInfluence Elder Hunter Warlord 
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1601,7 +1601,7 @@
 			ItemLevel >= 82
 			HasInfluence Hunter Warlord
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1611,7 +1611,7 @@
 			ItemLevel >= 82
 			HasInfluence Hunter Warlord
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue			
@@ -1621,7 +1621,7 @@
 			ItemLevel >= 84
 			HasInfluence Crusader Redeemer
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1631,7 +1631,7 @@
 			ItemLevel >= 84
 			HasInfluence Elder Shaper Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1641,7 +1641,7 @@
 			ItemLevel >= 84
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1651,7 +1651,7 @@
 			ItemLevel >= 84
 			HasInfluence Elder Shaper
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1661,7 +1661,7 @@
 			ItemLevel >= 84
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1671,7 +1671,7 @@
 			ItemLevel >= 84
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1681,7 +1681,7 @@
 			ItemLevel >= 86
 			HasInfluence Warlord Elder
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1691,7 +1691,7 @@
 			ItemLevel >= 86
 			HasInfluence Redeemer
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1728,7 +1728,7 @@
 		#	Class Boots
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -1738,7 +1738,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1748,7 +1748,7 @@
 			ItemLevel >= 82
 			HasInfluence Hunter Redeemer
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1758,7 +1758,7 @@
 			ItemLevel >= 84
 			HasInfluence Crusader Redeemer Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1768,7 +1768,7 @@
 			ItemLevel >= 84
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1778,7 +1778,7 @@
 			ItemLevel >= 84
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1788,7 +1788,7 @@
 			ItemLevel >= 85
 			HasInfluence Crusader Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1798,7 +1798,7 @@
 			ItemLevel >= 85
 			HasInfluence Elder Shaper
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1808,7 +1808,7 @@
 			ItemLevel >= 85
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1818,7 +1818,7 @@
 			ItemLevel >= 86
 			HasInfluence Crusader Elder Redeemer Shaper Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1828,7 +1828,7 @@
 			ItemLevel >= 86
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1837,7 +1837,7 @@
 			BaseType "Two-Toned Boots"
 			ItemLevel >= 86
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1847,7 +1847,7 @@
 			ItemLevel >= 86
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1857,7 +1857,7 @@
 			ItemLevel >= 86
 			HasInfluence Crusader Warlord
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1887,7 +1887,7 @@
 		#	Class Shields
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -1897,7 +1897,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1907,7 +1907,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1917,7 +1917,7 @@
 			ItemLevel >= 82
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1927,7 +1927,7 @@
 			ItemLevel >= 82
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1937,7 +1937,7 @@
 			ItemLevel >= 84
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1947,7 +1947,7 @@
 			ItemLevel >= 84
 			HasInfluence Crusader Hunter
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1957,7 +1957,7 @@
 			ItemLevel >= 86
 			HasInfluence Shaper Crusader
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -1987,7 +1987,7 @@
 		#	Class Claws
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -1997,7 +1997,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2007,7 +2007,7 @@
 			ItemLevel >= 83
 			HasInfluence Elder
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2017,7 +2017,7 @@
 			ItemLevel >= 83
 			HasInfluence Elder
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2027,7 +2027,7 @@
 			ItemLevel >= 86
 			HasInfluence Hunter Redeemer
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2037,7 +2037,7 @@
 			ItemLevel >= 86
 			HasInfluence Crusader Hunter Redeemer
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2067,7 +2067,7 @@
 		#	Class Daggers "Rune Daggers"
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2077,7 +2077,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2087,7 +2087,7 @@
 			ItemLevel >= 85
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2097,7 +2097,7 @@
 			ItemLevel >= 85
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2127,7 +2127,7 @@
 		#	Class Wands
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2137,7 +2137,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2147,7 +2147,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Hunter Redeemer Shaper Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2157,7 +2157,7 @@
 			ItemLevel >= 82
 			HasInfluence Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2167,7 +2167,7 @@
 			ItemLevel >= 84
 			HasInfluence Crusader Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2177,7 +2177,7 @@
 			ItemLevel >= 85
 			HasInfluence Crusader Hunter Redeemer Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2187,7 +2187,7 @@
 			ItemLevel >= 85
 			HasInfluence Crusader
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2197,7 +2197,7 @@
 			ItemLevel >= 85
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2207,7 +2207,7 @@
 			ItemLevel >= 86
 			HasInfluence Shaper Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2217,7 +2217,7 @@
 			ItemLevel >= 86
 			HasInfluence Crusader Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2227,7 +2227,7 @@
 			ItemLevel >= 86
 			HasInfluence Elder Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2237,7 +2237,7 @@
 			ItemLevel >= 86
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2247,7 +2247,7 @@
 			ItemLevel >= 86
 			HasInfluence Crusader Redeemer
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2257,7 +2257,7 @@
 			ItemLevel >= 86
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2287,7 +2287,7 @@
 		#	Class "One Hand Swords" "Two Hand Swords"
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2297,7 +2297,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2307,7 +2307,7 @@
 			ItemLevel >= 82
 			HasInfluence Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2317,7 +2317,7 @@
 			ItemLevel >= 83
 			HasInfluence Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2327,7 +2327,7 @@
 			ItemLevel >= 83
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2337,7 +2337,7 @@
 			ItemLevel >= 83
 			HasInfluence Warlord
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2347,7 +2347,7 @@
 			ItemLevel >= 84
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2357,7 +2357,7 @@
 			ItemLevel >= 86
 			HasInfluence Crusader Elder Hunter Redeemer
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2367,7 +2367,7 @@
 			ItemLevel >= 86
 			HasInfluence Hunter Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2377,7 +2377,7 @@
 			ItemLevel >= 86
 			HasInfluence Redeemer
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2407,7 +2407,7 @@
 		#	Class "One Hand Axes" "Two Hand Axes"
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2417,7 +2417,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2427,7 +2427,7 @@
 			ItemLevel >= 83
 			HasInfluence Elder
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2437,7 +2437,7 @@
 			ItemLevel >= 86
 			HasInfluence Elder
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2449,7 +2449,7 @@
 		#	Class "One Hand Axes" "Two Hand Axes"
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2459,7 +2459,7 @@
 		#	ItemLevel >= 83
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 42
-		#	PlayAlertSound 13 250
+		#	PlayAlertSoundPositional 13 250
 		#	MinimapIcon 1 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2469,7 +2469,7 @@
 			ItemLevel >= 86
 			HasInfluence Elder Redeemer
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2481,7 +2481,7 @@
 		#	Class Bows
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2491,7 +2491,7 @@
 		#	ItemLevel >= 80
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 42
-		#	PlayAlertSound 13 250
+		#	PlayAlertSoundPositional 13 250
 		#	MinimapIcon 1 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2501,7 +2501,7 @@
 			ItemLevel >= 83
 			HasInfluence Elder
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2511,7 +2511,7 @@
 			ItemLevel >= 86
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2521,7 +2521,7 @@
 			ItemLevel >= 86
 			HasInfluence Elder
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2540,7 +2540,7 @@
 		#	Class Staves Warstaves
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2550,7 +2550,7 @@
 		#	ItemLevel >= 82
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 42
-		#	PlayAlertSound 13 250
+		#	PlayAlertSoundPositional 13 250
 		#	MinimapIcon 1 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2560,7 +2560,7 @@
 			ItemLevel >= 83
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2570,7 +2570,7 @@
 			ItemLevel >= 84
 			HasInfluence Crusader
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2580,7 +2580,7 @@
 			ItemLevel >= 84
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2590,7 +2590,7 @@
 			ItemLevel >= 84
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2600,7 +2600,7 @@
 			ItemLevel >= 85
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2610,7 +2610,7 @@
 			ItemLevel >= 85
 			HasInfluence Redeemer Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2620,7 +2620,7 @@
 			ItemLevel >= 86
 			HasInfluence Crusader Elder Redeemer Shaper Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2645,7 +2645,7 @@
 		#	Class Sceptres
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2655,7 +2655,7 @@
 		#	ItemLevel >= 82
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 42
-		#	PlayAlertSound 13 250
+		#	PlayAlertSoundPositional 13 250
 		#	MinimapIcon 1 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2665,7 +2665,7 @@
 			ItemLevel >= 85
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2675,7 +2675,7 @@
 			ItemLevel >= 86
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2685,7 +2685,7 @@
 			ItemLevel >= 86
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2697,7 +2697,7 @@
 		#	Class Quivers
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 38
-		#	PlayAlertSound 3 225
+		#	PlayAlertSoundPositional 3 225
 		#	MinimapIcon 2 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2707,7 +2707,7 @@
 		#	ItemLevel >= 82
 		#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 		#	SetFontSize 42
-		#	PlayAlertSound 13 250
+		#	PlayAlertSoundPositional 13 250
 		#	MinimapIcon 1 Yellow Kite
 		#	PlayEffect Yellow
 		#	Continue
@@ -2717,7 +2717,7 @@
 			ItemLevel >= 82
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2727,7 +2727,7 @@
 			ItemLevel >= 84
 			HasInfluence Hunter Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2737,7 +2737,7 @@
 			ItemLevel >= 85
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2747,7 +2747,7 @@
 			ItemLevel >= 85
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2757,7 +2757,7 @@
 			ItemLevel >= 86
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2767,7 +2767,7 @@
 			ItemLevel >= 86
 			HasInfluence Redeemer
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2808,7 +2808,7 @@
 			Rarity Rare
 			ItemLevel >= 86
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2818,7 +2818,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2828,7 +2828,7 @@
 			ItemLevel >= 82
 			HasInfluence Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2839,7 +2839,7 @@
 			ItemLevel >= 82
 			HasInfluence Redeemer
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2850,7 +2850,7 @@
 			ItemLevel >= 82
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2861,7 +2861,7 @@
 			ItemLevel >= 82
 			HasInfluence Elder
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2872,7 +2872,7 @@
 			ItemLevel >= 83
 			HasInfluence Crusader
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2883,7 +2883,7 @@
 			ItemLevel >= 83
 			HasInfluence Warlord
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2894,7 +2894,7 @@
 			ItemLevel >= 85
 			HasInfluence Redeemer
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2904,7 +2904,7 @@
 			ItemLevel >= 85
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2946,7 +2946,7 @@
 			Rarity Rare
 			ItemLevel >= 84
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2956,7 +2956,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2967,7 +2967,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2978,7 +2978,7 @@
 			ItemLevel >= 82
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -2989,7 +2989,7 @@
 			ItemLevel >= 82
 			HasInfluence Elder Shaper Warlord
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3000,7 +3000,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3011,7 +3011,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3022,7 +3022,7 @@
 			ItemLevel >= 83
 			HasInfluence Crusader
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3033,7 +3033,7 @@
 			ItemLevel >= 83
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3044,7 +3044,7 @@
 			ItemLevel >= 84
 			HasInfluence Elder Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3055,7 +3055,7 @@
 			ItemLevel >= 84
 			HasInfluence Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3066,7 +3066,7 @@
 			ItemLevel >= 84
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3077,7 +3077,7 @@
 			ItemLevel >= 85
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3125,7 +3125,7 @@
 			Rarity Rare
 			ItemLevel >= 84
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3136,7 +3136,7 @@
 			Rarity Rare
 			ItemLevel >= 85
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3146,7 +3146,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3157,7 +3157,7 @@
 			ItemLevel >= 82
 			HasInfluence Elder Hunter Redeemer Warlord
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3168,7 +3168,7 @@
 			ItemLevel >= 82
 			HasInfluence Crusader Shaper
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3179,7 +3179,7 @@
 			ItemLevel >= 84
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3190,7 +3190,7 @@
 			ItemLevel >= 84
 			HasInfluence Elder Hunter
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3201,7 +3201,7 @@
 			ItemLevel >= 86
 			HasInfluence Shaper
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3241,7 +3241,7 @@
 			BaseType "Cluster Jewel"
 			Rarity <= Magic
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Green Kite
 			PlayEffect Green
 			Continue
@@ -3251,7 +3251,7 @@
 			BaseType "Cluster Jewel"
 			Rarity Rare
 			SetFontSize 42
-			PlayAlertSound 13 250
+			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Yellow Kite
 			PlayEffect Yellow
 			Continue
@@ -3298,7 +3298,7 @@
 		Show
 			Rarity Unique
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Purple Diamond
 			PlayEffect Purple
 			Continue
@@ -3307,7 +3307,7 @@
 			SocketGroup >= 5
 			Rarity Unique
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Purple Diamond
 			PlayEffect Purple
 			Continue
@@ -3317,7 +3317,7 @@
 			BaseType "Simple Robe"
 			Rarity Unique
 			SetFontSize 45
-			PlayAlertSound 10 275
+			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Purple Diamond
 			PlayEffect Purple
 			Continue
@@ -3328,7 +3328,7 @@
 		Show
 			Class "Fishing Rod"
 			SetFontSize 45
-			PlayAlertSound 6 300
+			PlayAlertSoundPositional 6 300
 			MinimapIcon 0 Purple Diamond
 			PlayEffect Purple
 			Continue

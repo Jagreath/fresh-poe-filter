@@ -1,13 +1,18 @@
 # A "Fresh" Filter
-A filter for the game [Path of Exile](https://www.pathofexile.com/). For the uninitiated: Path of Exile is an ARPG, and filter files are used as a way of limiting what item drops are shown, and how they are shown.
+An item filter for the game [Path of Exile](https://www.pathofexile.com/).
 
 ## Overview
-The goal of this filter was to allow me to spend less time thinking about the item drops displayed on screen, and more time actually playing.
 
-It attempts to do this by having a limited palette, a restrictive set of rules on what item drops are actually shown, and fewer rules for item drops that *are* shown.
+I put this filter together because I didn't really care for the extensive visual rules that many filters use to illustrate item properties. I just want to know if I care to pick an item up, and I want items to be visually distinct. So I tried to generally limit my rules and use a palette of five colors only.
+
+### Standard Filter
+The initial filter I made. Shows a reasonable number of items, with more focus on influened items and the "best" bases otherwise.
 
 ### Soft Filter
-A version of the filter that will generally show more rare item drops.
+This version of the filter shows a lot of rares. I use this when starting a league, and often in SSF.
 
 ### Level Filter
-A version of the filter that ignores endgame item drops, and has graduated rules for weapons and flasks that help during leveling.
+A leveling filter that limits equipment drops to near-level ranges.
+
+### Hard Filter
+This version of the filter tries to limit equipment more, as well as hiding some of the lower value currencies.
