@@ -123,7 +123,11 @@
 		SetFontSize 33
 
 	Show
-		BaseType "Blessed Orb" "Orb of Transmutation" "Blacksmith's Whetstone" "Orb of Augmentation" "Armourer's Scrap" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard"
+		BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
+		SetFontSize 33
+
+	Show
+		BaseType "Blessed Orb"  "Orb of Augmentation" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard"
 		SetFontSize 38
 
 	Show
