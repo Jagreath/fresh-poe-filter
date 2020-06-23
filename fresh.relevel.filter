@@ -736,6 +736,15 @@
 		Continue
 
 	Show
+		GemLevel >= 18
+		Class Gems
+		SetFontSize 42
+		PlayAlertSoundPositional 13 250
+		MinimapIcon 1 Cyan Raindrop
+		PlayEffect Cyan
+		Continue
+
+	Show
 		Quality >= 16
 		Class Gems
 		SetFontSize 45
@@ -748,6 +757,14 @@
 		Quality >= 6
 		Class Gems
 		BaseType "Empower" "Enlighten"
+		SetFontSize 45
+		PlayAlertSoundPositional 10 275
+		MinimapIcon 0 Cyan Raindrop
+		PlayEffect Cyan
+
+	Show
+		GemLevel >= 21
+		Class Gems
 		SetFontSize 45
 		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Cyan Raindrop
