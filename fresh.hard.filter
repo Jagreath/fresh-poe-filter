@@ -112,6 +112,7 @@
 
 	Hide
 		BaseType "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard" "Alteration Shard"
+		Continue
 
 	Show
 		BaseType "Portal Scroll" "Scroll of Wisdom"
