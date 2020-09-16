@@ -1002,6 +1002,15 @@
 		Continue
 
 	Show
+		Class Gems
+		AlternateQuality True
+		SetFontSize 38
+		PlayAlertSoundPositional 3 225
+		MinimapIcon 2 Cyan Raindrop
+		PlayEffect Cyan
+		Continue
+
+	Show
 		Quality >= 15
 		Class Gems
 		SetFontSize 42
