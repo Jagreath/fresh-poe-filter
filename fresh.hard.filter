@@ -87,7 +87,7 @@
 		Continue
 
 	Show
-		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item"
+		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Trinket" "Heist Target" "Contract" "Blueprint" "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
 		SetFontSize 38
 		SetBackgroundColor 182 127 221 255
 		PlayAlertSoundPositional 12 250
@@ -333,6 +333,16 @@
 		SetFontSize 45
 		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
+		PlayEffect Blue
+
+	# Heist
+
+	Show
+		Class "Stackable Currency"
+		BaseType "Regrading Lens" "Tempering Orb" "Tailoring Orb"
+		SetFontSize 38
+		PlayAlertSoundPositional 3 225
+		MinimapIcon 2 Blue Circle
 		PlayEffect Blue
 
 # Maps
