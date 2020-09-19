@@ -339,7 +339,7 @@
 
 	Show
 		Class "Stackable Currency"
-		BaseType "Regrading Lens" "Tempering Orb" "Tailoring Orb"
+		BaseType "Regrading Lens" "Tempering Orb" "Tailoring Orb" "Rogue's Marker"
 		SetFontSize 38
 		PlayAlertSoundPositional 3 225
 		MinimapIcon 2 Blue Circle
