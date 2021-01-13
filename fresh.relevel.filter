@@ -123,25 +123,27 @@
 		SetFontSize 33
 
 	Show
-		BaseType "Blessed Orb" "Orb of Augmentation" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard"
+		Class Currency
+		BaseType Perandus
 		SetFontSize 38
+		PlayEffect Blue
 
 	Show
-		BaseType  "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard"
+		BaseType  "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker"
 		SetFontSize 42
 		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
 	Show
-		BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" 
+		BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking"
 		SetFontSize 45
 		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
 	Show
-		BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Exalted Orb" "Awakener's Orb"
+		BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Exalted Orb" "Awakener's Orb" "Maven's Orb"
 		SetFontSize 45
 		PlayAlertSoundPositional 6 300
 		MinimapIcon 0 Blue Circle
@@ -151,41 +153,6 @@
 		BaseType "Mirror of Kalandra"
 		SetFontSize 45
 		PlayAlertSoundPositional ShMirror 300
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	# Breach
-
-	Show
-		Class Currency
-		BaseType Blessing
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Blue Circle
-		PlayEffect Blue
-
-	Show
-		BaseType "Blessing of Chayula"
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	# Perandus
-
-	Show
-		Class Currency
-		BaseType Perandus
-		SetFontSize 38
-		PlayEffect Blue
-
-	# Atlas
-
-	Show
-		Class Currency
-		BaseType "Unshaping Orb" "Cartographer's Seal"
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
@@ -330,14 +297,14 @@
 		MinimapIcon 0 Blue Circle
 		PlayEffect Blue
 
-	# Heist
+	# Ritual
 
 	Show
 		Class "Stackable Currency"
-		BaseType "Regrading Lens" "Tempering Orb" "Tailoring Orb" "Rogue's Marker"
-		SetFontSize 38
-		PlayAlertSoundPositional 3 225
-		MinimapIcon 2 Blue Circle
+		BaseType "Ritual Splinter" "Ritual Vessel" "Crescent Splinter"
+		SetFontSize 42
+		PlayAlertSoundPositional 13 250
+		MinimapIcon 1 Blue Circle
 		PlayEffect Blue
 
 # Maps
@@ -370,6 +337,14 @@
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 
+		Show
+			Class "Misc Map Items"
+			BaseType "Maven's Invitation"
+			SetFontSize 42
+			PlayAlertSoundPositional 13 250
+			MinimapIcon 1 Red Cross
+			PlayEffect Red
+
 		Show 
 			Class "Map Fragments"
 			BaseType "Divine Vessel"
@@ -378,10 +353,9 @@
 			MinimapIcon 1 Red Cross
 			PlayEffect Red
 
-
 		Show
 			Class "Map Fragments"
-			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at"
+			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at" "Maven's Writ"
 			SetFontSize 42
 			PlayAlertSoundPositional 13 250
 			MinimapIcon 1 Red Cross
@@ -521,6 +495,16 @@
 			PlayAlertSoundPositional 10 275
 			MinimapIcon 0 Red Cross
 			PlayEffect Red
+
+		# Ritual
+
+		Show
+			Class "Map Fragment"
+			BaseType "Blood-filled Vessel"
+			SetFontSize 42
+			PlayAlertSoundPositional 13 250
+			MinimapIcon 1 Blue Circle
+			PlayEffect Blue
 
 # Divination Cards
 # ================
@@ -669,7 +653,11 @@
 	# mods from incursion, delve, warbands, or T1 mods
 
 	Show
-		HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
+		HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" 
+		Continue
+
+	Show
+		HasExplicitMod >=2  "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous"
 		Continue
 
 	# enchants
@@ -805,7 +793,7 @@
 	# ==================
 
 		Show
-			BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand" "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger" "Flickerflame Blade" "Flashfire Blade" "Infernal Blade" "Shadow Fangs" "Malign Fangs" "Void Fangs" "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe" "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade" "Flare Mace" "Crack Mace" "Boom Mace" "Oscillating Sceptre" "Stabilising Sceptre" "Alternating Sceptre" "Hedron Bow" "Foundry Bow" "Solarine Bow" "Transformer Staff" "Reciprocation Staff" "Battery Staff" "Capacity Rod" "Potentiality Rod" "Eventuality Rod" "Prime Cleaver" "Honed Cleaver" "Apex Cleaver" "Rebuking Blade" "Blasting Blade" "Banishing Blade" "Blunt Force Condenser" "Crushing Force Magnifier" "Impact Force Propagator" "Exhausting Spirit Shield" "Subsuming Spirit Shield" "Transfer-attuned Spirit Shield" "Endothermic Buckler" "Polar Buckler" "Cold-attuned Buckler" "Exothermic Tower Shield" "Magmatic Tower Shield" "Heat-attuned Tower Shield" "Micro-Distillery Belt" "Mechalarm Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring"
+			BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand" "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger" "Flickerflame Blade" "Flashfire Blade" "Infernal Blade" "Shadow Fangs" "Malign Fangs" "Void Fangs" "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe" "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade" "Flare Mace" "Crack Mace" "Boom Mace" "Oscillating Sceptre" "Stabilising Sceptre" "Alternating Sceptre" "Hedron Bow" "Foundry Bow" "Solarine Bow" "Transformer Staff" "Reciprocation Staff" "Battery Staff" "Capacity Rod" "Potentiality Rod" "Eventuality Rod" "Prime Cleaver" "Honed Cleaver" "Apex Cleaver" "Rebuking Blade" "Blasting Blade" "Banishing Blade" "Blunt Force Condenser" "Crushing Force Magnifier" "Impact Force Propagator" "Exhausting Spirit Shield" "Subsuming Spirit Shield" "Transfer-attuned Spirit Shield" "Endothermic Buckler" "Polar Buckler" "Cold-attuned Buckler" "Exothermic Tower Shield" "Magmatic Tower Shield" "Heat-attuned Tower Shield" "Micro-Distillery Belt" "Mechalarm Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
 			SetFontSize 38
 			PlayAlertSoundPositional 3 225
 			MinimapIcon 2 Green Kite
@@ -813,7 +801,7 @@
 			Continue
 
 		Show
-			BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand" "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger" "Flickerflame Blade" "Flashfire Blade" "Infernal Blade" "Shadow Fangs" "Malign Fangs" "Void Fangs" "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe" "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade" "Flare Mace" "Crack Mace" "Boom Mace" "Oscillating Sceptre" "Stabilising Sceptre" "Alternating Sceptre" "Hedron Bow" "Foundry Bow" "Solarine Bow" "Transformer Staff" "Reciprocation Staff" "Battery Staff" "Capacity Rod" "Potentiality Rod" "Eventuality Rod" "Prime Cleaver" "Honed Cleaver" "Apex Cleaver" "Rebuking Blade" "Blasting Blade" "Banishing Blade" "Blunt Force Condenser" "Crushing Force Magnifier" "Impact Force Propagator" "Exhausting Spirit Shield" "Subsuming Spirit Shield" "Transfer-attuned Spirit Shield" "Endothermic Buckler" "Polar Buckler" "Cold-attuned Buckler" "Exothermic Tower Shield" "Magmatic Tower Shield" "Heat-attuned Tower Shield" "Micro-Distillery Belt" "Mechalarm Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring"
+			BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand" "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger" "Flickerflame Blade" "Flashfire Blade" "Infernal Blade" "Shadow Fangs" "Malign Fangs" "Void Fangs" "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe" "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade" "Flare Mace" "Crack Mace" "Boom Mace" "Oscillating Sceptre" "Stabilising Sceptre" "Alternating Sceptre" "Hedron Bow" "Foundry Bow" "Solarine Bow" "Transformer Staff" "Reciprocation Staff" "Battery Staff" "Capacity Rod" "Potentiality Rod" "Eventuality Rod" "Prime Cleaver" "Honed Cleaver" "Apex Cleaver" "Rebuking Blade" "Blasting Blade" "Banishing Blade" "Blunt Force Condenser" "Crushing Force Magnifier" "Impact Force Propagator" "Exhausting Spirit Shield" "Subsuming Spirit Shield" "Transfer-attuned Spirit Shield" "Endothermic Buckler" "Polar Buckler" "Cold-attuned Buckler" "Exothermic Tower Shield" "Magmatic Tower Shield" "Heat-attuned Tower Shield" "Micro-Distillery Belt" "Mechalarm Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
 			Rarity Rare
 			MinimapIcon 2 Yellow Kite
 			PlayEffect Yellow
