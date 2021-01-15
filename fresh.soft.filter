@@ -928,48 +928,6 @@
 		AnyEnchantment True
 		Continue
 
-	# harvest
-
-	Show
-		BaseType Seed
-		Class "Harvest Seed"
-		SetFontSize 38
-		SetBackgroundColor 97 182 83 255
-		PlayAlertSoundPositional 3 225
-		MinimapIcon 2 Green Kite
-		PlayEffect Green 
-		Continue
-
-	Show
-		BaseType Grain
-		Class "Harvest Seed"
-		SetFontSize 42
-		SetBackgroundColor 97 182 83 255
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Green Kite
-		PlayEffect Green 
-		Continue
-
-	Show
-		BaseType Bulb
-		Class "Harvest Seed"
-		SetFontSize 45
-		SetBackgroundColor 97 182 83 255
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Green Kite
-		PlayEffect Green 
-		Continue
-
-	Show
-		BaseType "Wild Thornfruit" "Vivid Scalefruit" "Primal Blisterfruit"
-		Class "Harvest Seed"
-		SetFontSize 45
-		SetBackgroundColor 97 182 83 255
-		PlayAlertSoundPositional 6 300
-		MinimapIcon 0 Green Kite
-		PlayEffect Green 
-		Continue
-
 # Gems
 # ====
 
@@ -2326,7 +2284,7 @@
 
 
 		Show
-			BaseType "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+			Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
 			Rarity <= Magic
 			SetFontSize 38
 			PlayAlertSoundPositional 3 225
@@ -2334,7 +2292,7 @@
 			PlayEffect Green
 
 		Show
-			BaseType "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+			Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
 			Rarity Rare
 			SetFontSize 38
 			PlayAlertSoundPositional 3 225
