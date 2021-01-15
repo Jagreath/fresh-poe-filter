@@ -87,7 +87,7 @@
 		Continue
 
 	Show
-		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Trinket" "Heist Target" "Contract" "Blueprint" "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Heist Target"
 		SetFontSize 38
 		SetBackgroundColor 182 127 221 255
 		PlayAlertSoundPositional 12 250
@@ -1336,6 +1336,69 @@
 			Quality >= 18
 			SetFontSize 38
 			Continue
+
+	# Heist
+	# =====
+
+		Show
+			BaseType "Contract" "Blueprint" "Trinket"
+			Rarity <= Magic
+			SetFontSize 38
+			PlayAlertSoundPositional 3 225
+			MinimapIcon 2 Green Kite
+			PlayEffect Green
+			Continue
+
+		Show
+			BaseType "Contract" "Blueprint" "Trinket"
+			Rarity Rare
+			SetFontSize 38
+			PlayAlertSoundPositional 3 225
+			MinimapIcon 2 Yellow Kite
+			PlayEffect Yellow
+			Continue
+
+		Show
+			BaseType "Contract" "Blueprint"
+			Rarity <= Magic
+			ItemLevel >= 83
+			SetFontSize 42
+			PlayAlertSoundPositional 13 250
+			MinimapIcon 1 Green Kite
+			PlayEffect Green
+
+		Show
+			BaseType "Contract" "Blueprint"
+			Rarity Rare
+			ItemLevel >= 83
+			SetFontSize 42
+			PlayAlertSoundPositional 13 250
+			MinimapIcon 1 Yellow Kite
+			PlayEffect Yellow
+
+		Show
+			BaseType "Trinket"
+			SetFontSize 42
+			PlayAlertSoundPositional 13 250
+			MinimapIcon 1 Yellow Kite
+			PlayEffect Yellow
+
+
+		Show
+			BaseType "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+			Rarity <= Magic
+			SetFontSize 38
+			PlayAlertSoundPositional 3 225
+			MinimapIcon 2 Green Kite
+			PlayEffect Green
+
+		Show
+			BaseType "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+			Rarity Rare
+			SetFontSize 38
+			PlayAlertSoundPositional 3 225
+			MinimapIcon 2 Yellow Kite
+			PlayEffect Yellow
 
 	# Uniques
 	# =======
