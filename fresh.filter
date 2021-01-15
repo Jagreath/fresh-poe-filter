@@ -955,7 +955,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter"
+			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" 
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -963,10 +963,6 @@
 
 		Show
 			Class Incubator
-
-		Show
-			Class "Stackable Currency"
-			BaseType "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" 
 
 	# Fragments
 	# =========
@@ -1080,6 +1076,10 @@
 
 		Show
 			Quality >= 15
+			Class Gems
+
+		Show
+			GemLevel >= 20
 			Class Gems
 
 	# Crafting
