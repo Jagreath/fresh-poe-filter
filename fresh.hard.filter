@@ -336,6 +336,12 @@
 
 		# Amulets
 
+			Show
+				Class Amulets
+				BaseType Marble
+				ItemLevel >= 83
+				HasInfluence Warlord
+
 		# Rings
 
 			Show
@@ -445,7 +451,7 @@
 			Show
 				BaseType "Bone Helmet"
 				ItemLevel >= 82
-				HasInfluence Crusader Hunter Warlord
+				HasInfluence Crusader Hunter Warlord Elder
 
 			Show
 				BaseType "Royal Burgonet" "Eternal Burgonet"
@@ -1125,25 +1131,45 @@
 
 		# Helmets
 
+			Show
+				Class Helmets 
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+
 		# Gloves
 
+			Show
+				Class Gloves
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+
 		# Boots
+
+			Show
+				Class Boots 
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
 
 		# Body Armours
 
 			Show
-				Class "Body Armours" Helmets Gloves Boots Amulets Rings Belts
+				Class "Body Armours"
 				ItemLevel >= 82
-				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 
 		# Weapons
 
 			Show
-				BaseType "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Elegant Round Shield" "Cardinal Round Shield" "Spiny Round Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield" "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw" "Ambusher" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Harpy Rapier" "Spiraled Foil" "Vaal Rapier" "Corsair Sword" "Royal Axe" "Siege Axe" "Vaal Hatchet" "Vaal Axe"
+				BaseType "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Elegant Round Shield" "Cardinal Round Shield" "Spiny Round Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield" "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw" "Ambusher" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Harpy Rapier" "Spiraled Foil" "Vaal Rapier" "Corsair Sword" "Royal Axe" "Siege Axe" "Vaal Hatchet" "Vaal Axe" 
 				ItemLevel >= 82
 				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 
 		# Amulets
+
+			Show
+				Class Amulets
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
 
 			Show
 				Class Amulets
@@ -1155,11 +1181,21 @@
 
 			Show
 				Class Rings
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+
+			Show
+				Class Rings
 				BaseType Steel Opal Vermillion Cerulean
 				Rarity Rare
 				ItemLevel >= 84
 
 		# Belts
+
+			Show
+				Class Belts
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
 
 			Show
 				Class Belts
@@ -1211,6 +1247,11 @@
 				ItemLevel >= 75
 				Rarity Rare
 
+			Show
+				Class "Abyss Jewel"
+				Rarity Rare
+				ItemLevel >= 81
+
 		# Heist 
 
 			Show
@@ -1251,7 +1292,7 @@
 
 		Show
 			Class Gems
-			BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
+			BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance" 
 
 		Show
 			Class Gems
@@ -1269,18 +1310,23 @@
 		# Helmets
 
 			Show
-				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Deicide Mask" "Nightmare Bascinet"
+				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet"
 				Rarity Rare
 				ItemLevel >= 84
 
 		# Gloves
 
 			Show
-				BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Slink Gloves" 
+				BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves"
 				Rarity Rare
 				ItemLevel >= 84
 
 		# Boots
+
+			Show
+				BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots"
+				Rarity Rare
+				ItemLevel >= 84
 
 			Show
 				Class Boots
@@ -1297,12 +1343,12 @@
 		# Weapons
 
 			Show
-				BaseType "Ambusher" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Harpy Rapier" "Spiraled Foil" "Vaal Rapier" "Corsair Sword" "Royal Axe" "Siege Axe" "Vaal Hatchet" "Vaal Axe" "Eclipse Staff" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" 
+				BaseType "Ambusher" "Platinum Kris" "Imperial Skean" "Convoking Wand" "Opal Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Spiraled Foil" "Siege Axe" "Vaal Hatchet" "Vaal Axe" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" 
 				Rarity Rare
 				ItemLevel >= 83
 
 			Show
-				BaseType "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw"
+				BaseType "Titanium Spirit Shield" "Fossilised Spirit Shield" "Gemini Claw" "Imperial Claw"
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -1353,8 +1399,8 @@
 
 			Show
 				Class "Abyss Jewel"
-				Rarity Rare
-				ItemLevel >= 77
+				Rarity <= Magic
+				ItemLevel >= 81
 
 		# Flasks
 
@@ -1380,6 +1426,7 @@
 			Show
 				BaseType "Flask"
 				Quality = 20
+				Rarity Normal
 
 # Level 5
 # =======
@@ -1412,19 +1459,19 @@
 		# Helmets
 
 			Show
-				BaseType "Royal Burgonet" "Hubris Circlet" "Bone Helmet"  
+				BaseType "Hubris Circlet" "Bone Helmet"
 				Rarity Rare
 
 		# Gloves
 
 			Show
-				BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves"  
+				BaseType "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
 				Rarity Rare
 
 		# Boots
 
 			Show
-				BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" 
+				BaseType "Sorcerer Boots" "Two-Toned Boots" 
 				Rarity Rare
 
 		# Body Armours
@@ -1436,22 +1483,22 @@
 		# Weapons
 
 			Show
-				BaseType "Gemini Claw" "Imperial Claw" "Great White Claw" "Ambusher" "Demon Dagger" "Platinum Kris" "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand" "Jewelled Foil" "Spiraled Foil" "Harpy Rapier" "Royal Axe" "Siege Axe" "Void Sceptre" 
+				BaseType "Titanium Spirit Shield" "Convoking Wand" "Opal Wand" 
 				Rarity Rare
 
-		# Amulets
+		# Amulets 
 
 			Show
 				Class Amulets
 				Rarity Rare
 
-		# Rings
+		# Rings 
 
 			Show
 				Class Rings
 				Rarity Rare
 
-		# Belts
+		# Belts 
 
 			Show
 				Class Belts
@@ -1466,8 +1513,8 @@
 
 			Show
 				Class "Abyss Jewel"
-				Rarity <= Magic
-				ItemLevel >= 77
+				Rarity Rare
+				ItemLevel >= 65
 
 		# Flasks
 
@@ -1509,36 +1556,16 @@
 
 		# Helmets
 
-			Show
-				BaseType "Deicide Mask" "Nightmare Bascinet"
-				Rarity Rare
-
 		# Gloves
 
-			Show
-				BaseType "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Slink Gloves"
-				Rarity Rare
-
 		# Boots
-
-			Show
-				BaseType "Slink Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots"
-				Rarity Rare
 
 		# Body Armours
 
 			Show
 				BaseType "Sacrificial Garb"
 
-			Show
-				BaseType "Sadist Garb" "Zodiac Leather" 
-				Rarity Rare
-
 		# Weapons
-
-			Show
-				BaseType "Archon Kite Shield" "Supreme Spiked Shield" "Terror Claw" "Vaal Claw" "Imperial Skean" "Imbued Wand" "Prophecy Wand" "Vaal Rapier" "Corsair Sword" "Vaal Hatchet"
-				Rarity Rare
 
 		# Amulets
 
@@ -1559,16 +1586,16 @@
 
 		# Flasks
 
+		# Chancing.
+		# Show normal items for using chance orbs hoping to hit a unique.
+		# Notable examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
+
+		#Show
+		#	BaseType "Glorious Plate"
+		#	Rarity Normal
+		#   Continue
+
 		# Vendor
-
-			# Chancing.
-			# Show normal items for using chance orbs hoping to hit a unique.
-			# Notable examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
-
-			#Show
-			#	BaseType "Glorious Plate"
-			#	Rarity Normal
-			#   Continue
 
 			Show
 				BaseType "Flask"
@@ -1576,7 +1603,7 @@
 
 			Show
 				BaseType "Gavel" "Rock Breaker" "Stone Hammer"
-				Quality >= 10
+				Quality >= 15
 				Rarity Normal
 
 			Show
@@ -1589,17 +1616,17 @@
 				Height <= 2
 
 			Show
-				Quality >= 7
+				Quality >= 8
 				Class Gems
 
-			Show
-				HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" 
+		Show
+			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" 
 
-			Show
-				HasExplicitMod >=2  "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous"
+		Show
+			HasExplicitMod >=2  "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous"
 
-			Show
-				AnyEnchantment True
+		Show
+			AnyEnchantment True
 
 		# Strange Bases
 

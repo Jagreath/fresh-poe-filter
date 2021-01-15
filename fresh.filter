@@ -336,6 +336,12 @@
 
 		# Amulets
 
+			Show
+				Class Amulets
+				BaseType Marble
+				ItemLevel >= 83
+				HasInfluence Warlord
+
 		# Rings
 
 			Show
@@ -1124,14 +1130,29 @@
 
 		# Helmets
 
+			Show
+				Class Helmets 
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+
 		# Gloves
 
+			Show
+				Class Gloves
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+
 		# Boots
+
+			Show
+				Class Boots 
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
 
 		# Body Armours
 
 			Show
-				Class "Body Armours" Helmets Gloves Boots Amulets Rings Belts
+				Class "Body Armours" 
 				ItemLevel >= 82
 				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
 
@@ -1146,6 +1167,11 @@
 
 			Show
 				Class Amulets
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+
+			Show
+				Class Amulets
 				BaseType Marble "Blue Pearl" Amber Turquoise
 				Rarity Rare
 				ItemLevel >= 86
@@ -1154,11 +1180,21 @@
 
 			Show
 				Class Rings
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+
+			Show
+				Class Rings
 				BaseType Steel Opal Vermillion Cerulean
 				Rarity Rare
 				ItemLevel >= 84
 
 		# Belts
+
+			Show
+				Class Belts
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
 
 			Show
 				Class Belts
@@ -1379,6 +1415,7 @@
 			Show
 				BaseType "Flask"
 				Quality = 20
+				Rarity Normal
 
 # Level 5
 # =======
@@ -1558,16 +1595,16 @@
 
 		# Flasks
 
+		# Chancing.
+		# Show normal items for using chance orbs hoping to hit a unique.
+		# Notable examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
+
+		#Show
+		#	BaseType "Glorious Plate"
+		#	Rarity Normal
+		#   Continue
+
 		# Vendor
-
-			# Chancing.
-			# Show normal items for using chance orbs hoping to hit a unique.
-			# Notable examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
-
-			#Show
-			#	BaseType "Glorious Plate"
-			#	Rarity Normal
-			#   Continue
 
 			Show
 				BaseType "Flask"
@@ -1591,14 +1628,14 @@
 				Quality >= 7
 				Class Gems
 
-			Show
-				HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" 
+		Show
+			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" 
 
-			Show
-				HasExplicitMod >=2  "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous"
+		Show
+			HasExplicitMod >=2  "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous"
 
-			Show
-				AnyEnchantment True
+		Show
+			AnyEnchantment True
 
 		# Strange Bases
 
