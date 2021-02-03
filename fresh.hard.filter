@@ -1089,6 +1089,10 @@
 	# --------
 
 		Show
+			Class "Stackable Currency"
+			BaseType "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol"
+
+		Show
 			Class Currency "Stackable Currency"
 			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" 
 
@@ -1347,17 +1351,14 @@
 		# PlayAlertSoundPositional 3 225
 		PlayAlertSoundPositional None
 		MinimapIcon -1
+		PlayEffect None
 		Continue
 
 	# Currency
 	# --------
 
 		Show
-			Class "Stackable Currency"
-			BaseType "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol"
-
-		Show
-			BaseType "Blessed Orb"  "Orb of Augmentation" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard" Perandus
+			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard" Perandus
 
 	# Gems
 	# ----
@@ -1491,7 +1492,10 @@
 		# Heist
 
 			Show
-				BaseType "Contract" "Blueprint" "Trinket" "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+				BaseType "Contract" "Blueprint" "Trinket"
+
+			Show
+				Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
 
 		# Vendor
 
@@ -1506,7 +1510,7 @@
 	Show
 		SetFontSize 35
 		# PlayAlertSoundPositional 14 200
-		PlayEffect None
+		# PlayEffect None
 		Continue
 
 	# Currency
@@ -1517,7 +1521,7 @@
 			StackSize > 1
 
 		Show
-			BaseType "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
+			BaseType "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"  "Orb of Augmentation"
 
 	# Equipment
 	# ---------
@@ -1712,6 +1716,9 @@
 
 	Hide
 		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaves" "Gems"
+
+	Show
+		SetFontSize 45
 		Continue
 
 	# Quest (story) items
@@ -1722,7 +1729,6 @@
 		PlayAlertSoundPositional 12 250
 		MinimapIcon 0 Pink UpsideDownHouse
 		PlayEffect Pink
-		Continue
 
 	# Unhandled
 
@@ -1730,4 +1736,3 @@
 		SetBackgroundColor 245 129 66 255
 		MinimapIcon 0 Orange Moon
 		PlayEffect Orange
-		Continue

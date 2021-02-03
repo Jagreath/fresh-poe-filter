@@ -1480,7 +1480,10 @@
 		# Heist
 
 			Show
-				BaseType "Contract" "Blueprint" "Trinket" "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+				BaseType "Contract" "Blueprint" "Trinket"
+
+			Show
+				Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
 
 		# Vendor
 
@@ -1721,7 +1724,6 @@
 
 	Hide
 		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaves" "Gems"
-		Continue
 
 	# Quest (story) items
 
