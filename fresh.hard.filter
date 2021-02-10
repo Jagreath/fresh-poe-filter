@@ -1409,19 +1409,19 @@
 		# Body Armours
 
 			Show
-				BaseType "Astral Plate" "Vaal Regalia" "Sadist Garb" "Zodiac Leather"
+				BaseType "Astral Plate" "Vaal Regalia"
 				Rarity Rare
 				ItemLevel >= 84
 
 		# Weapons
 
 			Show
-				BaseType "Ambusher" "Platinum Kris" "Imperial Skean" "Convoking Wand" "Opal Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Spiraled Foil" "Siege Axe" "Vaal Hatchet" "Vaal Axe" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" 
+				BaseType "Imperial Skean" "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Siege Axe" "Sambar Sceptre"
 				Rarity Rare
 				ItemLevel >= 83
 
 			Show
-				BaseType "Titanium Spirit Shield" "Fossilised Spirit Shield" "Gemini Claw" "Imperial Claw"
+				BaseType "Titanium Spirit Shield" "Fossilised Spirit Shield" "Gemini Claw"
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -1559,7 +1559,7 @@
 		# Weapons
 
 			Show
-				BaseType "Titanium Spirit Shield" "Convoking Wand" "Opal Wand" 
+				BaseType "Titanium Spirit Shield" "Convoking Wand" "Prophecy Wand" 
 				Rarity Rare
 
 		# Amulets 
@@ -1734,5 +1734,7 @@
 
 	Show
 		SetBackgroundColor 245 129 66 255
+		PlayAlertSoundPositional 12 250
 		MinimapIcon 0 Orange Moon
 		PlayEffect Orange
+		Continue
