@@ -930,7 +930,13 @@
 			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" 
 
 		Show
-			HasExplicitMod >=2  "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous"
+			HasExplicitMod >=2  "Virile" "Athlete's" "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Exile" "of Bameth" "of the Titan" "of the Gods" "of the Godslayer" "of the Phantom" "of the Wind" "of the Blur" "of the Virtuoso" "of the Genius" "of the Polymath"
+
+		Show
+			HasExplicitMod >=2  "Emperor's" "Dictator's" "Bloodthirsty" "Cruel" "Tyrannical" "Merciless" "Razor-sharp" "Tempered" "Flaring" "Annealed" "of Infamy" "of Celebration" "of Fame" "of Penetrating" "of Incision" "of Ferocity" "of Destruction"
+
+		Show
+			HasExplicitMod >=2 "Glyphic" "Runic" "Pyroclastic" "Xoph's" "Cryomancer's" "Tul's" "Ionising" "Esh's" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Blasting" "Cremating" "Polar" "Entombing" "Discharging" "Electrocuting" "Disintegrating" "Heartstopping" "Fanatical" "of Ferocity" "of Destruction" "Lava Conjurer's" "Winter Beckoner's" "Tempest Master's" "Splintermind's" "Tecton's"
 
 		Show
 			AnyEnchantment True
