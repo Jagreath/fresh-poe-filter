@@ -98,9 +98,6 @@
 			Class Gems
 			BaseType "Awakened"
 
-	# Maps
-	# ----
-
 	# Fragments
 	# ---------
 
@@ -126,256 +123,40 @@
 
 		# Helmets
 
-			Show
-				BaseType "Bone Helmet"
-				ItemLevel >= 82
-				HasInfluence Elder
-
-			Show
-				BaseType "Hubris Circlet"
-				ItemLevel >= 84
-				HasInfluence Redeemer Shaper
-
-			Show
-				BaseType "Hubris Circlet"
-				ItemLevel >= 85
-				HasInfluence Crusader Hunter Warlord
-
-			Show
-				BaseType "Royal Burgonet" "Eternal Burgonet"
-				ItemLevel >= 85
-				HasInfluence Elder Warlord
-
-			Show
-				BaseType "Mind Cage"
-				ItemLevel >= 85
-				HasInfluence Hunter
-
-			Show
-				BaseType "Lion Pelt"
-				ItemLevel >= 85
-				HasInfluence Redeemer Hunter
-
-			Show
-				BaseType "Bone Helmet"
-				ItemLevel >= 85
-				HasInfluence Warlord
-
-			Show
-				BaseType "Royal Burgonet"
-				ItemLevel >= 86
-				HasInfluence Redeemer
-
-			Show
-				BaseType "Bone Helmet"
-				ItemLevel >= 86
-				HasInfluence Hunter
-
 		# Gloves
-
-			Show
-				BaseType "Fingerless Silk Gloves"
-				ItemLevel >= 82
-				HasInfluence Elder Hunter Warlord 
-
-			Show
-				BaseType "Spiked Gloves"
-				ItemLevel >= 82
-				HasInfluence Hunter Warlord
-
-			Show
-				BaseType "Gripped Gloves"
-				ItemLevel >= 82
-				HasInfluence Hunter Warlord
-
-			Show
-				BaseType "Spiked Gloves"
-				ItemLevel >= 84
-				HasInfluence Elder Shaper
-
-			Show
-				BaseType "Fingerless Silk Gloves"
-				ItemLevel >= 84
-				HasInfluence Shaper
-
-			Show
-				BaseType "Sorcerer Gloves" "Arcanist Gloves"
-				ItemLevel >= 84
-				HasInfluence Hunter
-
-			Show
-				BaseType "Spiked Gloves"
-				ItemLevel >= 86
-				HasInfluence Redeemer
 
 		# Boots
 
-			Show
-				BaseType "Two-Toned Boots"
-				ItemLevel >= 82
-				HasInfluence Hunter Redeemer 
-
-			Show
-				BaseType "Sorcerer Boots"
-				ItemLevel >= 84
-				HasInfluence Hunter
-
-			Show
-				BaseType "Two-Toned Boots"
-				ItemLevel >= 85
-				HasInfluence Elder Shaper
-
-			Show
-				BaseType "Sorcerer Boots"
-				ItemLevel >= 85
-				HasInfluence Shaper
-			
-			Show
-				BaseType "Titan Greaves"
-				ItemLevel >= 86
-				HasInfluence Hunter
-
-			Show
-				BaseType "Two-Toned Boots"
-				ItemLevel >= 86
-				HasInfluence Crusader Warlord
-
 		# Body Armours
 
-			Show
-				BaseType "Astral Plate"
-				ItemLevel >= 84
-				HasInfluence Elder Hunter Warlord
-
-			Show
-				BaseType "Vaal Regalia"
-				ItemLevel >= 84
-				HasInfluence Shaper		
-
-			Show
-				BaseType "Sadist Garb" "Vaal Regalia"
-				ItemLevel >= 85
-				HasInfluence Crusader
-
-			Show
-				BaseType "Astral Plate"
-				ItemLevel >= 85
-				HasInfluence Redeemer Crusader
-
-			Show
-				BaseType "Assassin's Garb"
-				ItemLevel >= 85
-				HasInfluence Warlord Crusader
-
-			Show
-				BaseType "Assassin's Garb"
-				ItemLevel >= 86
-				HasInfluence Elder Redeemer Hunter
-
-			Show
-				BaseType "Vaal Regalia"
-				ItemLevel >= 86
-				HasInfluence Hunter Redeemer
-
-			Show
-				BaseType "Zodiac Leather"
-				ItemLevel >= 86
-				HasInfluence Redeemer
-
 		# Weapons
-
-			Show
-				BaseType "Titanium Spirit Shield"
-				ItemLevel >= 82
-				HasInfluence Shaper	
-
-			Show
-				BaseType "Jewelled Foil"
-				ItemLevel >= 83
-				HasInfluence Warlord
-
-			Show
-				BaseType "Imperial Claw"
-				ItemLevel >= 83
-				HasInfluence Elder
-
-			Show
-				BaseType "Eclipse Staff"
-				ItemLevel >= 84
-				HasInfluence Shaper
-
-			Show
-				BaseType "Harmonic Spirit Shield"
-				ItemLevel >= 84
-				HasInfluence Shaper
-
-			Show
-				BaseType "Titanium Spirit Shield"
-				ItemLevel >= 84
-				HasInfluence Crusader Hunter
-
-			Show
-				BaseType "Opal Wand"
-				ItemLevel >= 85
-				HasInfluence Shaper
-
-			Show
-				BaseType "Opal Wand"
-				ItemLevel >= 86
-				HasInfluence Crusader Redeemer
-
-			Show
-				BaseType "Profane Wand"
-				ItemLevel >= 86
-				HasInfluence Shaper
-
-			Show
-				BaseType "Fossilised Spirit Shield"
-				ItemLevel >= 86
-				HasInfluence Shaper Crusader
 
 		# Amulets
 
 			Show
 				Class Amulets
-				BaseType Marble
-				ItemLevel >= 83
-				HasInfluence Warlord
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+				Rarity Rare
+				ItemLevel >= 86
 
 		# Rings
 
 			Show
 				Class Rings
-				BaseType Steel
-				ItemLevel >= 82
-				HasInfluence Elder Shaper Warlord
-
-			Show
-				Class Rings
-				BaseType Cerulean
-				ItemLevel >= 82
-				HasInfluence Crusader
-
-			Show
-				Class Rings
-				BaseType Opal Vermillion
-				ItemLevel >= 82
-				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-
-			Show
-				Class Rings
-				BaseType Cerulean
-				ItemLevel >= 84
-				HasInfluence Shaper
+				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring"
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+				Rarity Rare
+				ItemLevel >= 86
 
 		# Belts
 
 			Show
 				Class Belts
-				BaseType Crystal
-				ItemLevel >= 82
-				HasInfluence Crusader Shaper
-		
+				BaseType "Crystal Belt"
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+				Rarity Rare
+				ItemLevel >= 86
+
 # Level 2
 # =======
 
@@ -481,552 +262,78 @@
 	# Equipment
 	# ---------
 
+		Show
+			ItemLevel >= 86
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+
 		# Helmets
 
 			Show
-				BaseType "Bone Helmet"
-				ItemLevel >= 82
-				HasInfluence Crusader Hunter Warlord
-
-			Show
-				BaseType "Royal Burgonet" "Eternal Burgonet"
-				ItemLevel >= 82
-				HasInfluence Elder
-
-			Show
-				BaseType "Hubris Circlet"
-				ItemLevel >= 82
-				HasInfluence Hunter Redeemer
-
-			Show
-				BaseType "Hubris Circlet"
-				ItemLevel >= 83
-				HasInfluence Shaper
-
-			Show
-				BaseType "Hubris Circlet"
+				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet"
 				ItemLevel >= 84
-				HasInfluence Crusader Warlord
-
-			Show
-				BaseType "Lion Pelt" "Deicide Mask"
-				ItemLevel >= 84
-				HasInfluence Hunter
-
-			Show
-				BaseType "Bone Helmet"
-				ItemLevel >= 84
-				HasInfluence Redeemer Shaper
-
-			Show
-				BaseType "Royal Burgonet" "Eternal Burgonet"
-				ItemLevel >= 84
-				HasInfluence Warlord
-
-			Show
-				BaseType "Ezomyte Burgonet" "Lion Pelt" "Praetor Crown" 
-				ItemLevel >= 85
-				HasInfluence Crusader
-
-			Show
-				BaseType "Deicide Mask" "Mind Cage" 
-				ItemLevel >= 85
-				HasInfluence Redeemer Crusader
-
-			Show
-				BaseType "Sinner Tricorne" "Nightmare Bascinet" "Eternal Burgonet" "Royal Burgonet"
-				ItemLevel >= 85
-				HasInfluence Hunter Crusader
-
-			Show
-				BaseType "Royal Burgonet" "Praetor Crown" "Lion Pelt" "Vaal Mask" "Mind Cage" "Deicide Mask" "Sinner Tricorne" "Eternal Burgonet"
-				ItemLevel >= 86
-				HasInfluence Shaper
-
-			Show
-				BaseType "Lion Pelt" "Sinner Tricorne" "Nightmare Bascinet" "Praetor Crown" "Mind Cage" "Deicide Mask" "Vaal Mask"
-				ItemLevel >= 86
-				HasInfluence Warlord
-
-			Show
-				BaseType "Nightmare Bascinet" "Hubris Circlet"
-				ItemLevel >= 86
-				HasInfluence Elder
-
-			Show
-				BaseType "Eternal Burgonet"
-				ItemLevel >= 86
-				HasInfluence Redeemer
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Gloves
 
 			Show
-				BaseType "Fingerless Silk Gloves"
-				ItemLevel >= 82
-				HasInfluence Crusader Redeemer Shaper
-
-			Show
-				BaseType "Sorcerer Gloves"
-				ItemLevel >= 82
-				HasInfluence Hunter
-
-			Show
-				BaseType "Spiked Gloves"
-				ItemLevel >= 82
-				HasInfluence Crusader Elder Redeemer
-
-			Show
-				BaseType "Gripped Gloves"
-				ItemLevel >= 82
-				HasInfluence Elder Shaper
-
-			Show
-				BaseType "Gripped Gloves"
+				BaseType "Slink Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
 				ItemLevel >= 84
-				HasInfluence Crusader Redeemer
-
-			Show
-				BaseType "Sorcerer Gloves"
-				ItemLevel >= 84
-				HasInfluence Elder Shaper Warlord
-
-			Show
-				BaseType "Slink Gloves" "Dragonscale Gauntlets" "Titan Gauntlets"
-				ItemLevel >= 84
-				HasInfluence Hunter
-
-			Show
-				BaseType "Slink Gloves" "Dragonscale Gauntlets" "Titan Gauntlets"
-				ItemLevel >= 86
-				HasInfluence Warlord Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Boots
 
 			Show
-				BaseType "Sorcerer Boots"
+				BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots"
+				Rarity Rare
+				ItemLevel >= 86
+
+			Show
+				BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots"
 				ItemLevel >= 84
-				HasInfluence Crusader Redeemer Shaper
-
-			Show
-				BaseType "Titan Greaves"
-				ItemLevel >= 84
-				HasInfluence Hunter
-
-			Show
-				BaseType "Two-Toned Boots"
-				ItemLevel >= 85
-				HasInfluence Crusader Warlord
-
-			Show
-				BaseType "Titan Greaves"
-				ItemLevel >= 86
-				HasInfluence Crusader Elder Redeemer Shaper Warlord
-
-			Show
-				Class Boots
-				ItemLevel >= 86
-				HasInfluence Hunter
-
-			Show
-				BaseType "Two-Toned Boots"
-				ItemLevel >= 86
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Body Armours
 
 			Show
-				BaseType "Astral Plate"
-				ItemLevel >= 82
-				HasInfluence Hunter Elder Warlord
-
-			Show
-				BaseType "Astral Plate"
-				ItemLevel >= 83
-				HasInfluence Redeemer
-
-			Show
-				BaseType "Vaal Regalia"
-				ItemLevel >= 83
-				HasInfluence Shaper
-
-			Show
-				BaseType "Astral Plate"
+				BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb"
 				ItemLevel >= 84
-				HasInfluence Crusader
-
-			Show
-				BaseType "Assassin's Garb"
-				ItemLevel >= 84
-				HasInfluence Elder
-
-			Show
-				BaseType "Vaal Regalia"
-				ItemLevel >= 84
-				HasInfluence Hunter Crusader
-
-			Show
-				Class "Body Armours"
-				ItemLevel >= 85
-				HasInfluence Crusader
-
-			Show
-				BaseType "Assassin's Garb" "Glorious Plate" "Zodiac Leather" "Occultist's Vestment"
-				ItemLevel >= 85
-				HasInfluence Hunter
-
-			Show
-				BaseType "Occultist's Vestment" "Astral Plate"
-				ItemLevel >= 85
-				HasInfluence Shaper
-
-			Show
-				Class "Body Armours"
-				ItemLevel >= 86
-				HasInfluence Warlord
-
-			Show
-				BaseType "Vaal Regalia" "Zodiac Leather" "Triumphant Lamellar" "Glorious Plate" "Sadist Garb" "Gladiator Plate"
-				ItemLevel >= 86
-				HasInfluence Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Weapons
 
 			Show
-				BaseType "Titanium Spirit Shield"
-				ItemLevel >= 82
-				HasInfluence Crusader Hunter
-
-			Show
-				BaseType "Fossilised Spirit Shield" "Harmonic Spirit Shield"
-				ItemLevel >= 82
-				HasInfluence Shaper
-
-			Show
-				BaseType "Gemini Claw" 
+				BaseType "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw" "Ambusher" "Gutting Knife" "Sai" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Opal Wand" "Corsair Sword" "Legion Sword" "Tiger Hook" "Eternal Sword" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Apex Rapier" "Vaal Greatsword" "Reaver Sword" "Exquisite Blade" "Lion Sword" "Royal Axe" "Siege Axe" "Runic Hatchet" "Vaal Hatchet" "Vaal Axe" "Ezomyte Axe" "Fleshripper" "Void Axe" "Despot Axe" "Behemoth Mace" "Auric Mace" "Nightmare Mace" "Coronal Maul" "Meatgrinder" "Piledriver" "Harbinger Bow" "Thicket Bow" "Citadel Bow" "Maraketh Bow" "Imperial Bow" "Maelström Staff" "Judgement Staff" "Ezomyte Staff" "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
 				ItemLevel >= 83
-				HasInfluence Elder
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 			Show
-				BaseType "Imperial Claw" 
-				ItemLevel >= 86
-				HasInfluence Hunter Redeemer
-
-			Show
-				BaseType "Gemini Claw"
-				ItemLevel >= 86
-				HasInfluence Crusader Hunter Redeemer
-
-			Show
-				BaseType "Ambusher" "Platinum Kris" "Golden Kris" 
-				ItemLevel >= 85
-				HasInfluence Shaper
-
-			Show
-				BaseType "Imperial Skean"
-				ItemLevel >= 85
-				HasInfluence Hunter
-
-			Show
-				BaseType "Opal Wand"
-				ItemLevel >= 82
-				HasInfluence Crusader Hunter Redeemer Shaper Warlord
-
-			Show
-				BaseType "Imbued Wand"
-				ItemLevel >= 82
-				HasInfluence Warlord
-
-			Show
-				BaseType "Profane Wand" "Imbued Wand"
+				BaseType "Colossal Tower Shield" "Pinnacle Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Vaal Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield" "Eclipse Staff" "Imperial Staff" "Lathi" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver"
 				ItemLevel >= 84
-				HasInfluence Crusader Shaper
-
-			Show
-				BaseType "Prophecy Wand"
-				ItemLevel >= 85
-				HasInfluence Crusader Hunter Redeemer Shaper
-
-			Show
-				BaseType "Tornado Wand"
-				ItemLevel >= 85
-				HasInfluence Crusader
-
-			Show
-				BaseType "Tornado Wand"
-				ItemLevel >= 86
-				HasInfluence Shaper Warlord
-
-			Show
-				BaseType "Profane Wand"
-				ItemLevel >= 86
-				HasInfluence Crusader Hunter
-
-			Show
-				BaseType "Prophecy Wand"
-				ItemLevel >= 86
-				HasInfluence Elder Warlord
-
-			Show
-				BaseType "Convoking Wand"
-				ItemLevel >= 86
-				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-
-			Show
-				BaseType "Jewelled Foil"
-				ItemLevel >= 82
-				HasInfluence Warlord
-
-			Show
-				BaseType "Spiraled Foil"
-				ItemLevel >= 83
-				HasInfluence Warlord
-
-			Show
-				BaseType "Jewelled Foil"
-				ItemLevel >= 83
-				HasInfluence Shaper
-
-			Show
-				BaseType "Exquisite Blade"
-				ItemLevel >= 84
-				HasInfluence Shaper
-
-			Show
-				BaseType "Jewelled Foil"
-				ItemLevel >= 86
-				HasInfluence Crusader Elder Hunter Redeemer
-
-			Show
-				BaseType "Spiraled Foil"
-				ItemLevel >= 86
-				HasInfluence Hunter Shaper
-
-			Show
-				BaseType "Apex Rapier"
-				ItemLevel >= 86
-				HasInfluence Redeemer
-
-			Show
-				BaseType "Royal Axe" "Siege Axe" "Vaal Hatchet"
-				ItemLevel >= 83
-				HasInfluence Elder
-
-			Show
-				BaseType "Vaal Axe" "Fleshripper"
-				ItemLevel >= 86
-				HasInfluence Elder
-
-			Show
-				BaseType "Coronal Maul"
-				ItemLevel >= 86
-				HasInfluence Elder Redeemer
-
-			Show
-				BaseType "Citadel Bow" "Imperial Bow"
-				ItemLevel >= 83
-				HasInfluence Elder
-
-			Show
-				BaseType "Thicket Bow" "Imperial Bow" "Spine Bow" "Maraketh Bow"
-				ItemLevel >= 86
-				HasInfluence Shaper
-
-			Show
-				BaseType "Harbinger Bow"
-				ItemLevel >= 86
-				HasInfluence Elder
-
-			Show
-				BaseType "Eclipse Staff"
-				ItemLevel >= 83
-				HasInfluence Shaper
-
-			Show
-				BaseType "Eclipse Staff" "Moon Staff"
-				ItemLevel >= 84
-				HasInfluence Crusader
-
-			Show
-				BaseType "Moon Staff"
-				ItemLevel >= 84
-				HasInfluence Shaper
-
-			Show
-				BaseType "Moon Staff"
-				ItemLevel >= 85
-				HasInfluence Hunter
-
-			Show
-				BaseType "Eclipse Staff"
-				ItemLevel >= 85
-				HasInfluence Redeemer Warlord
-
-			Show
-				BaseType "Serpentine Staff"
-				ItemLevel >= 86
-				HasInfluence Crusader Elder Redeemer Shaper Warlord
-
-			Show
-				BaseType "Opal Sceptre" "Void Sceptre"
-				ItemLevel >= 85
-				HasInfluence Shaper
-
-			Show
-				BaseType "Sambar Sceptre"
-				ItemLevel >= 86
-				HasInfluence Shaper
-
-			Show
-				BaseType "Void Sceptre"
-				ItemLevel >= 86
-				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-
-			Show
-				BaseType "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Sharktooth Arrow Quiver"
-				ItemLevel >= 82
-				HasInfluence Hunter
-
-			Show
-				BaseType "Two-Point Arrow Quiver"
-				ItemLevel >= 84
-				HasInfluence Hunter Shaper
-
-			Show
-				BaseType "Blunt Arrow Quiver" "Serrated Arrow Quiver"
-				ItemLevel >= 85
-				HasInfluence Hunter
-
-			Show
-				BaseType "Broadhead Arrow Quiver"
-				ItemLevel >= 85
-				HasInfluence Shaper
-
-			Show
-				BaseType "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Serrated Arrow Quiver"
-				ItemLevel >= 86
-				HasInfluence Shaper
-
-			Show
-				BaseType "Two-Point Arrow Quiver" "Blunt Arrow Quiver"
-				ItemLevel >= 86
-				HasInfluence Redeemer
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Amulets
 
 			Show
 				Class Amulets
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+				Rarity Rare
 				ItemLevel >= 82
-				HasInfluence Hunter
-
-			Show
-				Class Amulets
-				BaseType Turquoise Jade Citrine 
-				ItemLevel >= 82
-				HasInfluence Redeemer
-
-			Show
-				Class Amulets
-				BaseType Marble "Blue Pearl" Citrine
-				ItemLevel >= 82
-				HasInfluence Shaper
-
-			Show
-				Class Amulets
-				BaseType Marble
-				ItemLevel >= 82
-				HasInfluence Elder
-
-			Show
-				Class Amulets
-				BaseType "Blue Pearl" "Marble"
-				ItemLevel >= 83
-				HasInfluence Crusader
-
-			Show
-				Class Amulets
-				BaseType Marble
-				ItemLevel >= 83
-				HasInfluence Warlord
-
-			Show
-				Class Amulets
-				BaseType Onyx
-				ItemLevel >= 85
-				HasInfluence Redeemer
-
-			Show
-				Class Amulets
-				ItemLevel >= 85
-				HasInfluence Shaper
 
 		# Rings
 
 			Show
 				Class Rings
-				BaseType Moonstone
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+				Rarity Rare
 				ItemLevel >= 82
-				HasInfluence Crusader
-
-			Show
-				Class Rings
-				BaseType Diamond "Two-Stone"
-				ItemLevel >= 82
-				HasInfluence Shaper
-
-			Show
-				Class Rings
-				BaseType Steel
-				ItemLevel >= 83
-				HasInfluence Crusader
-
-			Show
-				Class Rings
-				BaseType Cerulean
-				ItemLevel >= 83
-				HasInfluence Shaper
-
-			Show
-				Class Rings
-				BaseType Cerulean
-				ItemLevel >= 84
-				HasInfluence Elder Warlord
-
-			Show
-				Class Rings
-				BaseType "Two-Stone"
-				ItemLevel >= 84
-				HasInfluence Warlord
-
-			Show
-				Class Rings
-				BaseType Coral Ruby Topaz Sapphire
-				ItemLevel >= 85
-				HasInfluence Shaper
 
 		# Belts
 
 			Show
 				Class Belts
-				BaseType Crystal
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+				Rarity Rare
 				ItemLevel >= 82
-				HasInfluence Elder Hunter Redeemer Warlord
-
-			Show
-				Class Belts
-				BaseType Leather
-				ItemLevel >= 84
-				HasInfluence Shaper
-
-			Show
-				Class Belts
-				BaseType Leather Heavy
-				ItemLevel >= 84
-				HasInfluence Elder Hunter
-
-			Show
-				Class Belts
-				BaseType Heavy Studded
-				ItemLevel >= 86
-				HasInfluence Shaper
 
 		# Vendor
 
@@ -1684,10 +991,10 @@
 		# Show normal items for using chance orbs hoping to hit a unique.
 		# Notable examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
 
-		#Show
-		#	BaseType "Glorious Plate"
-		#	Rarity Normal
-		#   Continue
+			#Show
+			#	BaseType "Glorious Plate"
+			#	Rarity Normal
+			#   Continue
 
 		# Vendor
 
