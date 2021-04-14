@@ -103,13 +103,13 @@
 
 		Show
 			Class "Map Fragments"
-			BaseType "of Emptiness" "of Terror" "of Knowledge" "of Shape" "Pure Breachstone" Simulacrum
+			BaseType "of Emptiness" "of Terror" "of Knowledge" "of Shape" "Pure Breachstone" Simulacrum Winged
 
-		# Ancient Reliquary Key / Timeworn Reliquary Key
+		# Ancient Reliquary Key / Timeworn Reliquary Key / Vaal Reliquary Key
 
 		Show
 			Class "Misc Map Items"
-			BaseType Key
+			BaseType "Reliquary Key"
 
 	# Uniques
 	# -------
@@ -204,7 +204,7 @@
 	# --------
 
 		Show
-			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Deafening Essence" "Remnant of Corruption" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Delirium Orb"
+			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Deafening Essence" "Remnant of Corruption" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Silver Oil" "Tainted Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Veiled Chaos Orb"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -250,7 +250,7 @@
 
 		Show
 			Class "Map Fragments" "Atlas Region Upgrade Item"
-			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Breachstone" "Emblem" Watchstone
+			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab" "Gilded Blight Scarab" "Gilded Abyss Scarab" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Breachstone" "Emblem" Watchstone "Sacred Blossom"
 
 	# Uniques
 	# -------
