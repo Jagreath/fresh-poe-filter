@@ -911,6 +911,7 @@
 	# TODO: Every base type. Explicit base types mean we can generally hide most of what didn't escape the filter, while still allowing the unknown to show up for unhandled (presumably new!) items.
 
 	Hide
+		ItemLevel < 68
 		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaves" "Gems"
 
 	Show
