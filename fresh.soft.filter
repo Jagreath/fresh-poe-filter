@@ -569,10 +569,27 @@
 
 			Show
 				Class Rings
-				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" 
+				BaseType Steel Opal Vermillion Cerulean
 				Rarity Rare
 
 		# Belts
+
+			Show
+				Class Belts
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+
+			Show
+				Class Belts
+				BaseType Crystal
+				Rarity Rare
+				ItemLevel >= 84
+
+			Show
+				Class Belts
+				BaseType Stygian
+				Rarity Rare
+				ItemLevel >= 85
 
 			Show
 				Class Belts
@@ -679,7 +696,7 @@
 		# Gloves
 
 			Show
-				BaseType "Slink Gloves" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
+				BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Slink Gloves" 
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -1057,10 +1074,10 @@
 		# Show normal items for using chance orbs hoping to hit a unique.
 		# Notable examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
 
-		#Show
-		#	BaseType "Glorious Plate"
-		#	Rarity Normal
-		#   Continue
+			#Show
+			#	BaseType "Glorious Plate"
+			#	Rarity Normal
+			#   Continue
 
 		# Vendor
 
