@@ -1,56 +1,10 @@
-# Global
-# ======
+# Level 0
+# =======
+
+	# Baseline rules, text background colors
 	
-	# Style Guide
-	# ===========
-
-		# 	MinimapIcon Emphasis:
-		# 		Highlighted: 2
-		# 		Interesting: 1
-		# 		Important: 0	
-
-		# 		Crafting
-		# 			MinimapIcon 2 Green Kite
-		# 			PlayEffect Green
-		# 		Rares
-		# 			MinimapIcon 2 Yellow Kite
-		# 			PlayEffect Yellow
-		# 		Uniques
-		# 			MinimapIcon 2 Purple Diamond
-		# 			PlayEffect Purple
-		# 		Currency
-		# 			MinimapIcon 2 Blue Circle
-		# 			PlayEffect Blue
-		# 		Gems
-		# 			MinimapIcon 2 Cyan Raindrop
-		# 			PlayEffect Cyan
-		# 		Maps
-		# 			MinimapIcon 2 Red Cross
-		# 			PlayEffect Red
-		# 		Divination Cards
-		# 			MinimapIcon 2 Grey Square
-		# 			PlayEffect Grey
-
-		#	Sounds:
-		# 		Audible: PlayAlertSoundPositional 14 200
-
-		# 		Highlighted: PlayAlertSoundPositional 3 225
-		# 		Interesting: PlayAlertSoundPositional 13 250
-		# 		Important: PlayAlertSoundPositional 10 275
-
-		# 		Required: PlayAlertSoundPositional 6 300
-		# 		Quest (Or unknown): PlayAlertSoundPositional 12 250
-
-		#	TextSize:
-		# 		Default: SetFontSize 26
-		# 		Average: SetFontSize 33
-		
-		# 		Highlighted: SetFontSize 38
-		#		Interesting: SetFontSize 42
-		#		Important: SetFontSize 45
-
 	Show
-		SetFontSize 26
+		SetFontSize 45
 		SetTextColor 22 22 22 255 
 		SetBorderColor 22 22 22 255 
 		DisableDropSound 
@@ -59,839 +13,315 @@
 	Show
 		Rarity <= Magic
 		SetBackgroundColor 97 182 83 255
+		MinimapIcon 0 Green Kite
+		PlayEffect Green
 		Continue
 
 	Show
 		Rarity Rare
 		SetBackgroundColor 210 198 82 255
+		MinimapIcon 0 Yellow Kite
+		PlayEffect Yellow
 		Continue
 
 	Show
 		Class Currency "Stackable Currency" "Delve Stackable Socketable Currency" Incubator 
 		SetBackgroundColor 73 160 240 255 
+		MinimapIcon 0 Blue Circle
+		PlayEffect Blue
 		Continue
 
 	Show
 		Class Gems
 		SetBackgroundColor 31 223 160 255
+		MinimapIcon 0 Cyan Raindrop
+		PlayEffect Cyan
 		Continue
 
 	Show
 		Class Maps "Misc Map Items" "Map Fragments" "Atlas Region Upgrade Item"
 		SetBackgroundColor 219 65 65 255
+		MinimapIcon 0 Red Cross
+		PlayEffect Red
 		Continue
 
 	Show
 		Class Divination
 		SetBackgroundColor 186 186 176 255
-		Continue
-
-	Show
-		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Heist Target"
-		SetFontSize 38
-		SetBackgroundColor 182 127 221 255
-		PlayAlertSoundPositional 12 250
-		MinimapIcon 0 Pink UpsideDownHouse
-		PlayEffect Pink
-		Continue
-
-	# Hide *most* items by default.
-	Hide
-		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaves" "Gems"
+		MinimapIcon 0 Grey Square
+		PlayEffect Grey
 		Continue
 
 	Show
 		Rarity Unique
 		SetBackgroundColor 182 127 221 255
-		Continue
-
-# Currency
-# ========
-
-	# Evergreen Currency
-
-	Show
-		BaseType "Scroll Fragment" "Transmutation Shard" "Alteration Shard"
+		MinimapIcon 0 Purple Diamond
+		PlayEffect Purple
 		Continue
 
 	Show
-		BaseType "Portal Scroll" "Scroll of Wisdom" "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard"
-		SetFontSize 33
-
-	Show
-		BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
-		SetFontSize 33
-
-	Show
-		BaseType "Blessed Orb" "Orb of Augmentation" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard"
-		SetFontSize 38
-
-	Show
 		Class Currency
-		BaseType Perandus
-		SetFontSize 38
-		PlayEffect Blue
+		BaseType Prophecy
+		SetBackgroundColor 97 182 83 255
+		MinimapIcon 0 Green Kite
+		PlayEffect Green
+		Continue
 
 	Show
-		BaseType  "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker"
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Blue Circle
-		PlayEffect Blue
+		Class "Metamorph Sample"
+		SetBackgroundColor 97 182 83 255
+		MinimapIcon 0 Green Kite
+		PlayEffect Green
+		Continue
+
+# Level 1
+# =======
 
 	Show
-		BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking"
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	Show
-		BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Exalted Orb" "Awakener's Orb" "Maven's Orb"
-		SetFontSize 45
 		PlayAlertSoundPositional 6 300
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
+		Continue
 
-	Show
-		BaseType "Mirror of Kalandra"
-		SetFontSize 45
-		PlayAlertSoundPositional ShMirror 300
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	# Essence
-
-	Show
-		Class Currency
-		BaseType "Essence of"
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Blue Circle
-		PlayEffect Blue
-
-	Show
-		Class Currency
-		BaseType "Deafening Essence" "Remnant of Corruption"
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	# Incursion
-
-	Show
-		Class "Stackable Currency"
-		BaseType Vial
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	# Delve
-
-	Show
-		Class "Stackable Currency"
-		BaseType "Fossil"
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Blue Circle
-		PlayEffect Blue
-
-	Show
-		Class "Stackable Currency"
-		BaseType "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil"
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	Show
-		Class "Stackable Currency"
-		BaseType "Fractured Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" 
-		SetFontSize 45
-		PlayAlertSoundPositional 6 300
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	Show
-		Class "Delve Stackable Socketable Currency" 
-		BaseType Potent Powerful Primitive
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Blue Circle
-		PlayEffect Blue
-
-	Show
-		Class "Delve Stackable Socketable Currency" 
-		BaseType Prime
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	# Legion
-
-	Show
-		Class Incubator
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Blue Circle
-		PlayEffect Blue
-
-	Show
-		Class Incubator
-		BaseType "Gemcutter" "Geomancer" "Time-Lost" "Thaumaturge" "Foreboding" "Diviner"
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	# Blight
-
-	Show
-		Class "Stackable Currency"
-		BaseType Oil
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Blue Circle
-		PlayEffect Blue
-
-	Show
-		Class "Stackable Currency"
-		BaseType "Silver Oil"
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	Show
-		Class "Stackable Currency"
-		BaseType "Golden Oil" 
-		SetFontSize 45
-		PlayAlertSoundPositional 6 300
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	# Metamorph
-
-	Show
-		Class "Stackable Currency"
-		BaseType Catalyst
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Blue Circle
-		PlayEffect Blue
-
-	Show
-		Class "Stackable Currency"
-		BaseType "Fertile Catalyst" "Prismatic Catalyst"
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	# Delirium
-
-	Show
-		Class "Stackable Currency"
-		BaseType "Delirium Orb"
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Blue Circle
-		PlayEffect Blue
-
-	# Ritual
-
-	Show
-		Class "Stackable Currency"
-		BaseType "Ritual Splinter" "Ritual Vessel" "Crescent Splinter"
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Blue Circle
-		PlayEffect Blue
-
-# Maps
-# ====
-
-	# Tiers
-	# =====
+	# Currency
+	# --------
 
 		Show
-			MapTier >= 1
-			Class Maps
-			SetFontSize 45
-			PlayAlertSoundPositional 10 275
-			MinimapIcon 0 Red Cross
-			PlayEffect Red
-			Continue
+			BaseType "Mirror of Kalandra"
+			PlayAlertSoundPositional ShMirror 300
 
 		Show
-			Class Maps
-			BlightedMap True
+			BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Exalted Orb" "Awakener's Orb" "Maven's Orb" "Fractured Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" "Golden Oil" 
 
 	# Fragments
-	# =========
-
-		Show
-			Class "Map Fragments"
-			BaseType "Offering to the Goddess"
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Red Cross
-			PlayEffect Red
-
-		Show
-			Class "Misc Map Items"
-			BaseType "Maven's Invitation"
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Red Cross
-			PlayEffect Red
-
-		Show 
-			Class "Map Fragments"
-			BaseType "Divine Vessel"
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Red Cross
-			PlayEffect Red
-
-		Show
-			Class "Map Fragments"
-			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at" "Maven's Writ"
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Red Cross
-			PlayEffect Red
-
-		Show
-
-			Class "Map Fragments"
-			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" 
-			SetFontSize 45
-			PlayAlertSoundPositional 10 275
-			MinimapIcon 0 Red Cross
-			PlayEffect Red
-
-		Show
-			Class "Map Fragments"
-			BaseType "of Emptiness" "of Terror" "of Knowledge" "of Shape"
-			SetFontSize 45
-			PlayAlertSoundPositional 6 300
-			MinimapIcon 0 Red Cross
-			PlayEffect Red
+	# ---------
 
 		# Ancient Reliquary Key / Timeworn Reliquary Key
 
 		Show
 			Class "Misc Map Items"
 			BaseType Key
-			SetFontSize 45
-			PlayAlertSoundPositional 6 300
-			MinimapIcon 0 Red Cross
-			PlayEffect Red
 
-		# Scarabs
-
-		Show 
-			Class "Map Fragments"
-			BaseType "Scarab"
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Red Cross
-			PlayEffect Red
-			Continue
+	# Uniques
+	# -------
 
 		Show
-			Class "Map Fragments"
-			BaseType "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab"
-			SetFontSize 45
-			PlayAlertSoundPositional 10 275
-			MinimapIcon 0 Red Cross
-			PlayEffect Red
-
-		# Watchstones
-
-		Show
-			BaseType "Watchstone"
-			SetFontSize 45
-			PlayAlertSoundPositional 10 275
-			MinimapIcon 0 Red Cross
-			PlayEffect Red
-
-		# Prophecy
-
-		Show
-			Class "Map Fragments"
-			BaseType "Eber's Key"
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Red Cross
-			PlayEffect Red
-
-		Show
-			Class "Map Fragments"
-			BaseType "Yriel's Key" "Inya's Key" "Volkuur's Key"
-			SetFontSize 45
-			PlayAlertSoundPositional 10 275
-			MinimapIcon 0 Red Cross
-			PlayEffect Red		
-
-		# Breach
-
-		Show
-			Class "Stackable Currency"
-			BaseType "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol"
-			SetFontSize 38
-			PlayAlertSoundPositional 3 225
-			MinimapIcon 2 Blue Circle
-			PlayEffect Blue
-
-		Show
-			Class "Stackable Currency"
-			BaseType "Splinter of Chayula"
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Blue Circle
-			PlayEffect Blue
-
-		Show
-			Class "Map Fragments"
-			BaseType "Breachstone" 
-			SetFontSize 45
-			PlayAlertSoundPositional 10 275
-			MinimapIcon 0 Red Cross
-			PlayEffect Red
-
-		# Legion
-
-		Show
-			Class "Stackable Currency"
-			BaseType "Timeless"
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Blue Circle
-			PlayEffect Blue
-
-		Show
-			Class "Map Fragments"
-			BaseType "Emblem"
-			SetFontSize 45
-			PlayAlertSoundPositional 10 275
-			MinimapIcon 0 Red Cross
-			PlayEffect Red
-
-		# Delirium
-
-		Show
-			Class "Stackable Currency"
-			BaseType "Simulacrum Splinter"
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Blue Circle
-			PlayEffect Blue
-
-		Show
-			Class "Map Fragments"
-			BaseType Simulacrum
-			SetFontSize 45
-			PlayAlertSoundPositional 10 275
-			MinimapIcon 0 Red Cross
-			PlayEffect Red
-
-		# Ritual
-
-		Show
-			Class "Map Fragment"
-			BaseType "Blood-filled Vessel"
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Blue Circle
-			PlayEffect Blue
-
-# Divination Cards
-# ================
-
-	Show
-		Class "Divination"
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Grey Square
-		PlayEffect Grey
-		Continue
-
-	Hide
-		Class "Divination"
-		BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon"
-		PlayAlertSoundPositional None
-		MinimapIcon -1
-		PlayEffect None
+			SocketGroup >= 6
+			Rarity Unique
 		
-
-# Crafting
-# ========
-
-	Show
-		Sockets 6
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Green Kite
-		PlayEffect Green
-		Continue
+# Level 2
+# =======
 
 	Show
-		Sockets 6
-		Rarity Rare
-		MinimapIcon 1 Yellow Kite
-		PlayEffect Yellow
-		Continue
-
-	Show
-		SocketGroup 5
-		Rarity <= Magic
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Green Kite
-		PlayEffect Green
-		Continue
-
-	Show
-		SocketGroup 6
-		Rarity <= Magic
-		SetFontSize 45
 		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Green Kite
-		PlayEffect Green
-		Continue
-
-	# Synthesis
-
-	Show
-		FracturedItem True
-		PlayAlertSoundPositional 14 200
-		MinimapIcon 2 Green Kite
-		PlayEffect Green
-		Continue
-
-	# Chancing.
-	# Show normal items for using chance orbs hoping to hit a unique.
-	# Notable examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
-
-	#Show
-	#	BaseType "Glorious Plate"
-	#	Rarity Normal
-	#   Continue
-
-	# glassblower fuel
-
-	Show
-		BaseType "Flask"
-		Quality >= 5
 		Continue
 
 	Show
-		BaseType "Flask"
-		Quality = 20
-		Rarity Normal
-		SetFontSize 38
-		Continue
-
-	# chisel fuel
-
-	Show
-		BaseType "Gavel" "Rock Breaker" "Stone Hammer"
-		Quality >= 10
-		Rarity Normal
+		Class Currency "Stackable Currency" "Delve Stackable Socketable Currency" Incubator 
+		MinimapIcon 1 Blue Circle
 		Continue
 
 	Show
-		BaseType "Gavel" "Rock Breaker" "Stone Hammer"
-		Quality >= 16
-		Continue
-
-	# Chromatic fuel
-
-	Show
-		SocketGroup RGB
-		Width <= 2
-		Height <= 2
-		Continue
-
-	# Gemcutter prism fuel
-
-	Show
-		Quality >= 7
 		Class Gems
+		MinimapIcon 1 Cyan Raindrop
 		Continue
 
-	# Prophecy
+	Show
+		Class Maps "Misc Map Items" "Map Fragments" "Atlas Region Upgrade Item"
+		MinimapIcon 1 Red Cross
+		Continue
+
+	Show
+		Class Divination
+		MinimapIcon 1 Grey Square
+		Continue
+
+	Show
+		Rarity Unique
+		MinimapIcon 1 Purple Diamond
+		Continue
 
 	Show
 		Class Currency
 		BaseType Prophecy
-		SetFontSize 42
-		SetBackgroundColor 97 182 83 255
-		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Green Kite
-		PlayEffect Green
-
-	# Metamorph
+		Continue
 
 	Show
 		Class "Metamorph Sample"
-		SetFontSize 42
-		SetBackgroundColor 97 182 83 255
-		PlayAlertSoundPositional 13 250
 		MinimapIcon 1 Green Kite
-		PlayEffect Green 
-
-	# Veiled
-
-	Show
-		HasExplicitMod "Veil"
-		PlayAlertSoundPositional 14 200
-		MinimapIcon 2 Yellow Kite
-		PlayEffect Yellow
 		Continue
 
-	# mods from incursion, delve, warbands, or T1 mods
+	# Currency
+	# --------
+
+		Show
+			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Deafening Essence" "Remnant of Corruption" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Delirium Orb"
+
+		Show
+			Class "Delve Stackable Socketable Currency" 
+			BaseType Prime
+
+		Show
+			Class Incubator
+			BaseType "Gemcutter" "Geomancer" "Time-Lost" "Thaumaturge" "Foreboding" "Diviner"
+
+	# Gems
+	# ----
+
+		Show
+			Quality >= 16
+			Class Gems
+
+		Show
+			Quality >= 6
+			Class Gems
+			BaseType "Empower" "Enlighten"
+
+		Show
+			GemLevel >= 21
+			Class Gems
+
+	# Maps
+	# ----
+
+		Show
+			Class Maps
+			BlightedMap True
+
+		Show
+			Class Maps
+			Rarity Unique
+
+	# Uniques
+	# -------
+
+		Show
+			SocketGroup >= 5
+			Rarity Unique
+
+	# Equipment
+	# ---------
+
+		# Vendor
+
+			Show
+				SocketGroup 6
+
+# Level 3
+# =======
 
 	Show
-		HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" 
-		Continue
-
-	Show
-		HasExplicitMod >=2  "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous"
-		Continue
-
-	# enchants
-
-	Show
-		AnyEnchantment True
-		Continue
-
-# Gems
-# ====
-
-	Show
-		Class Gems
-		Continue
-
-	Show
-		Class Gems
-		BaseType "Vaal" 
-		Continue
-
-	Show
-		Class Gems
-		BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
-		SetFontSize 38
-		PlayAlertSoundPositional 3 225
-		MinimapIcon 2 Cyan Raindrop
-		PlayEffect Cyan
-		Continue
-
-	Show
-		Class Gems
-		AlternateQuality True
-		SetFontSize 38
-		PlayAlertSoundPositional 3 225
-		MinimapIcon 2 Cyan Raindrop
-		PlayEffect Cyan
-		Continue
-
-	Show
-		Quality >= 11
-		Class Gems
-		SetFontSize 42
+		SetFontSize 43
 		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Cyan Raindrop
-		PlayEffect Cyan
 		Continue
 
 	Show
-		GemLevel >= 18
-		Class Gems
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Cyan Raindrop
-		PlayEffect Cyan
+		Class Currency "Stackable Currency" "Delve Stackable Socketable Currency" Incubator 
+		MinimapIcon 2 Blue Circle
 		Continue
 
 	Show
-		Quality >= 16
 		Class Gems
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Cyan Raindrop
-		PlayEffect Cyan
+		MinimapIcon 2 Cyan Raindrop
 		Continue
 
 	Show
-		Quality >= 6
-		Class Gems
-		BaseType "Empower" "Enlighten"
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Cyan Raindrop
-		PlayEffect Cyan
+		Class Maps "Misc Map Items" "Map Fragments" "Atlas Region Upgrade Item"
+		MinimapIcon 2 Red Cross
+		Continue
 
 	Show
-		GemLevel >= 21
-		Class Gems
-		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Cyan Raindrop
-		PlayEffect Cyan
+		Class Divination
+		MinimapIcon 2 Grey Square
+		Continue
 
 	Show
-		Class Gems
-		BaseType "Awakened"
-		SetFontSize 45
-		PlayAlertSoundPositional 6 300
-		MinimapIcon 0 Cyan Raindrop
-		PlayEffect Cyan
+		Rarity Unique
+		MinimapIcon 2 Purple Diamond
+		Continue
 
-# Equipment
-# =========
+	Show
+		Class Currency
+		BaseType Prophecy
+		MinimapIcon 2 Green Kite
+		Continue
 
-	# Experimental Bases
-	# ==================
+	Show
+		Class "Metamorph Sample"
+		MinimapIcon 2 Green Kite
+		Continue
 
-		Show
-			BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand" "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger" "Flickerflame Blade" "Flashfire Blade" "Infernal Blade" "Shadow Fangs" "Malign Fangs" "Void Fangs" "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe" "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade" "Flare Mace" "Crack Mace" "Boom Mace" "Oscillating Sceptre" "Stabilising Sceptre" "Alternating Sceptre" "Hedron Bow" "Foundry Bow" "Solarine Bow" "Transformer Staff" "Reciprocation Staff" "Battery Staff" "Capacity Rod" "Potentiality Rod" "Eventuality Rod" "Prime Cleaver" "Honed Cleaver" "Apex Cleaver" "Rebuking Blade" "Blasting Blade" "Banishing Blade" "Blunt Force Condenser" "Crushing Force Magnifier" "Impact Force Propagator" "Exhausting Spirit Shield" "Subsuming Spirit Shield" "Transfer-attuned Spirit Shield" "Endothermic Buckler" "Polar Buckler" "Cold-attuned Buckler" "Exothermic Tower Shield" "Magmatic Tower Shield" "Heat-attuned Tower Shield" "Micro-Distillery Belt" "Mechalarm Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
-			SetFontSize 38
-			PlayAlertSoundPositional 3 225
-			MinimapIcon 2 Green Kite
-			PlayEffect Green
-			Continue
+	Show
+		Class Currency
+		BaseType Prophecy
 
-		Show
-			BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand" "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger" "Flickerflame Blade" "Flashfire Blade" "Infernal Blade" "Shadow Fangs" "Malign Fangs" "Void Fangs" "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe" "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade" "Flare Mace" "Crack Mace" "Boom Mace" "Oscillating Sceptre" "Stabilising Sceptre" "Alternating Sceptre" "Hedron Bow" "Foundry Bow" "Solarine Bow" "Transformer Staff" "Reciprocation Staff" "Battery Staff" "Capacity Rod" "Potentiality Rod" "Eventuality Rod" "Prime Cleaver" "Honed Cleaver" "Apex Cleaver" "Rebuking Blade" "Blasting Blade" "Banishing Blade" "Blunt Force Condenser" "Crushing Force Magnifier" "Impact Force Propagator" "Exhausting Spirit Shield" "Subsuming Spirit Shield" "Transfer-attuned Spirit Shield" "Endothermic Buckler" "Polar Buckler" "Cold-attuned Buckler" "Exothermic Tower Shield" "Magmatic Tower Shield" "Heat-attuned Tower Shield" "Micro-Distillery Belt" "Mechalarm Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
-			Rarity Rare
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
+	Show
+		Class "Metamorph Sample"
 
-	# Defaults
-	# ========
+	# Currency
+	# --------
 
 		Show
-			Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-			Rarity Rare
-			DropLevel >= 0
-			AreaLevel < 15
-			SetFontSize 38
-			Continue
+			Class "Stackable Currency"
+			BaseType "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol"
 
 		Show
-			Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-			Rarity Rare
-			DropLevel >= 5
-			AreaLevel < 20
-			SetFontSize 38
-			Continue	
+			Class Currency "Stackable Currency"
+			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" 
 
 		Show
-			Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-			Rarity Rare
-			DropLevel >= 10
-			AreaLevel < 25
-			SetFontSize 38
-			Continue	
+			Class "Delve Stackable Socketable Currency" 
+			BaseType Potent Powerful Primitive
 
 		Show
-			Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-			Rarity Rare
-			DropLevel >= 15
-			AreaLevel < 30
-			SetFontSize 38
-			Continue
+			Class Incubator
+
+	# Divination Cards
+	# ----------------
+
+		Hide
+			Class "Divination"
+			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon"
+			PlayAlertSoundPositional None
+			MinimapIcon -1
+			PlayEffect None
 
 		Show
-			Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-			Rarity Rare
-			DropLevel >= 20
-			AreaLevel < 35
-			SetFontSize 38
-			Continue
+			Class Divination
+
+	# Gems
+	# ----
 
 		Show
-			Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-			Rarity Rare
-			DropLevel >= 25
-			AreaLevel < 40
-			SetFontSize 38
-			Continue
+			Quality >= 11
+			Class Gems
 
 		Show
-			Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-			Rarity Rare
-			DropLevel >= 30
-			AreaLevel < 45
-			SetFontSize 38
-			Continue
+			GemLevel >= 18
+			Class Gems
+
+	# Maps
+	# ----
 
 		Show
-			Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-			Rarity Rare
-			DropLevel >= 35
-			AreaLevel < 50
-			SetFontSize 38
-			Continue
+			Class Maps
+
+	# Fragments
+	# ---------
 
 		Show
-			Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-			Rarity Rare
-			DropLevel >= 40
-			AreaLevel < 55
-			SetFontSize 38
-			Continue
+			Class "Misc Map Items" "Map Fragments"
+			BaseType "Sacrifice at" "Divine Vessel" 
+
+	# Uniques
+	# -------
 
 		Show
-			Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-			Rarity Rare
-			DropLevel >= 45
-			AreaLevel < 60
-			SetFontSize 38
-			Continue
+			Rarity Unique
 
-		Show
-			Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-			Rarity Rare
-			DropLevel >= 50
-			AreaLevel < 65
-			SetFontSize 38
-			Continue
-
-		Show
-			Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-			Rarity Rare
-			DropLevel >= 55
-			AreaLevel < 70
-			SetFontSize 38
-			Continue
-
-		Show
-			Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-			Rarity Rare
-			DropLevel >= 60
-			AreaLevel >= 70
-			SetFontSize 38
-			Continue
-
-	# Additional
-	# ==========
+	# Equipment
+	# ---------
 
 		# Body Armours
-		# ============
-
-			Show
-				Class "Body Armours"
-				Rarity Rare
-				SetFontSize 38
-				Continue
 
 			Show
 				Class "Body Armours"
@@ -899,42 +329,14 @@
 				AreaLevel <= 48
 				ItemLevel <= 25
 				SocketGroup >= 3
-				SetFontSize 42
-				Continue
 
 			Show
 				Class "Body Armours"
 				Rarity Rare
 				AreaLevel <= 48
 				SocketGroup >= 4
-				SetFontSize 42
-				Continue
 
 		# Helmets
-		# =======
-
-			Show
-				Class Helmets
-				Rarity Rare
-				SetFontSize 33
-				Continue
-
-			Show
-				Class Helmets
-				Rarity <= Magic
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
-				SetFontSize 38
-				Continue
-
-			Show
-				Class Helmets
-				Rarity <= Magic
-				AreaLevel <= 48
-				SocketGroup >= 4
-				SetFontSize 38
-				Continue
 
 			Show
 				Class Helmets
@@ -942,42 +344,14 @@
 				AreaLevel <= 48
 				ItemLevel <= 25
 				SocketGroup >= 3
-				SetFontSize 42
-				Continue
 
 			Show
 				Class Helmets
 				Rarity Rare
 				AreaLevel <= 48
 				SocketGroup >= 4
-				SetFontSize 42
-				Continue
 
 		# Gloves
-		# ======
-
-			Show
-				Class Gloves
-				Rarity Rare
-				SetFontSize 33
-				Continue
-
-			Show
-				Class Gloves
-				Rarity <= Magic
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
-				SetFontSize 38
-				Continue
-
-			Show
-				Class Gloves
-				Rarity <= Magic
-				AreaLevel <= 48
-				SocketGroup >= 4
-				SetFontSize 38
-				Continue
 
 			Show
 				Class Gloves
@@ -985,415 +359,578 @@
 				AreaLevel <= 48
 				ItemLevel <= 25
 				SocketGroup >= 3
-				SetFontSize 42
-				Continue
 
 			Show
 				Class Gloves
 				Rarity Rare
 				AreaLevel <= 48
 				SocketGroup >= 4
-				SetFontSize 42
-				Continue
-
 
 		# Boots
-		# =====
+
+			Show
+				Class Boots
+				Rarity Rare
+				AreaLevel <= 48
+				ItemLevel <= 25
+				SocketGroup >= 3
+
+			Show
+				Class Boots
+				Rarity Rare
+				AreaLevel <= 48
+				SocketGroup >= 4
+
+		# Rings
+
+			Show
+				Class Rings
+				BaseType Sapphire Ruby Topaz Two-Stone Diamond Coral
+				Rarity Rare
+
+		# Jewels
+
+			Show
+				Class Jewel
+				BaseType "Cluster Jewel"
+				Rarity <= Magic
+
+			Show
+				Class Jewel
+				BaseType "Cluster Jewel"
+				Rarity Rare
+
+		# Heist 
+
+			Show
+				BaseType "Trinket"
+
+		# Vendor
+
+			Show
+				Sockets 6
+
+# Level 4
+# =======
+
+	Show
+		SetFontSize 40
+		# PlayAlertSoundPositional 3 225
+		PlayAlertSoundPositional None
+		MinimapIcon -1
+		PlayEffect None
+		Continue
+
+	# Currency
+	# --------
+
+		Show
+			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard" Perandus
+
+	# Gems
+	# ----
+
+		Show
+			Class Gems
+			BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
+
+		Show
+			Class Gems
+			AlternateQuality True
+
+	# Equipment
+	# ---------
+
+		# Defaults
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 0
+				AreaLevel < 15
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 5
+				AreaLevel < 20
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 10
+				AreaLevel < 25
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 15
+				AreaLevel < 30
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 20
+				AreaLevel < 35
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 25
+				AreaLevel < 40
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 30
+				AreaLevel < 45
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 35
+				AreaLevel < 50
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 40
+				AreaLevel < 55
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 45
+				AreaLevel < 60
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 50
+				AreaLevel < 65
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 55
+				AreaLevel < 70
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 60
+				AreaLevel >= 70
+
+		# Body Armours
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+
+		# Helmets
+
+			Show
+				Class Helmets
+				Rarity <= Magic
+				AreaLevel <= 48
+				ItemLevel <= 25
+				SocketGroup >= 3
+
+			Show
+				Class Helmets
+				Rarity <= Magic
+				AreaLevel <= 48
+				SocketGroup >= 4
+
+		# Gloves
+
+			Show
+				Class Gloves
+				Rarity <= Magic
+				AreaLevel <= 48
+				ItemLevel <= 25
+				SocketGroup >= 3
+
+			Show
+				Class Gloves
+				Rarity <= Magic
+				AreaLevel <= 48
+				SocketGroup >= 4
+
+		# Boots
+
+			Show
+				Class Boots
+				Rarity Rare
+
+			Show
+				Class Boots
+				Rarity <= Magic
+				AreaLevel <= 48
+				ItemLevel <= 25
+				SocketGroup >= 3
+
+			Show
+				Class Boots
+				Rarity <= Magic
+				AreaLevel <= 48
+				SocketGroup >= 4
+
+		# Rings
+
+			Show
+				Class Rings 
+				Rarity Rare
+
+		# Amulets
+
+			Show
+				Class Amulets 
+				Rarity Rare
+
+		# Belts
+
+			Show
+				Class Belts
+				Rarity Rare
+
+		# Jewels
+
+			Show
+				Class "Abyss Jewel"
+				Rarity Rare
+
+		# Flasks
+
+			Show
+				Class "Utility Flasks"
+				Rarity Normal
+				Quality >= 10
+
+			Show
+				Class "Utility Flasks"
+				Rarity Magic
+				Quality >= 18
+
+		# Heist
+
+			Show
+				BaseType "Contract" "Blueprint" "Trinket"
+
+			Show
+				Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+
+		# Vendor
+
+			Show
+				BaseType "Flask"
+				Quality = 20
+				Rarity Normal
+
+# Level 5
+# =======
+
+	Show
+		SetFontSize 35
+		# PlayAlertSoundPositional 14 200
+		# PlayEffect None
+		Continue
+
+	# Currency
+	# --------
+
+		Show
+			BaseType "Portal Scroll" "Scroll of Wisdom" "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Augmentation"
+
+	# Gems
+	# ----
+
+		Show
+			Quality >= 7
+			Class Gems
+
+	# Equipment
+	# ---------
+
+		Show
+			FracturedItem True
+
+		Show
+			HasExplicitMod "Veil"
+
+		# Helmets
+
+			Show
+				Class Helmets
+				Rarity Rare
+
+		# Gloves
+
+			Show
+				Class Gloves
+				Rarity Rare
+
+		# Boots
 
 			Show
 				Class Boots
 				Rarity Magic
 				AreaLevel <= 12
-				SetFontSize 33
-				Continue
 
-			Show
-				Class Boots
-				Rarity Rare
-				SetFontSize 38
-				Continue
+		# Body Armours
 
-			Show
-				Class Boots
-				Rarity <= Magic
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
-				SetFontSize 38
-				Continue
-
-			Show
-				Class Boots
-				Rarity <= Magic
-				AreaLevel <= 48
-				SocketGroup >= 4
-				SetFontSize 38
-				Continue
-
-			Show
-				Class Boots
-				Rarity Rare
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
-				SetFontSize 42
-				Continue
-
-			Show
-				Class Boots
-				Rarity Rare
-				AreaLevel <= 48
-				SocketGroup >= 4
-				SetFontSize 42
-				Continue
-
-		# Wands
-		# =====
+		# Weapons
 
 			Show
 				Class "Wands"
 				Rarity <= Magic
 				AreaLevel < 18
-				SetFontSize 33
-				Continue
-
-		# Sceptres
-		# ========
 
 			Show
 				Class "Sceptres"
 				Rarity <= Magic
 				AreaLevel < 18
-				SetFontSize 33
-				Continue
+
+		# Amulets
+
+			Show
+				Class Amulets
+				Rarity Rare
+
+		# Rings
+
+			Show
+				Class Rings
+				Rarity Rare
+
+		# Belts
+
+			Show
+				Class Belts
+				BaseType Leather Heavy Vanguard
+				Rarity Rare
+
+		# Jewels
+
+			Show
+				Class Jewel
+				Rarity Rare
+
+		# Flasks
+
+			Show
+				Class "Life Flask" "Mana Flask"
+				BaseType Small
+				AreaLevel < 6
+
+			Show
+				Class "Life Flask" "Mana Flask"
+				BaseType Medium
+				AreaLevel < 12
+
+			Show
+				Class "Life Flask" "Mana Flask"
+				BaseType Large
+				AreaLevel < 18
+
+			Show
+				Class "Life Flask" "Mana Flask"
+				BaseType Greater
+				AreaLevel < 24
+
+			Show
+				Class "Hybrid Flask"
+				BaseType Small
+				AreaLevel < 25
+
+			Show
+				Class "Life Flask" "Mana Flask"
+				BaseType Grand
+				AreaLevel < 30
+
+			Show
+				Class "Hybrid Flask"
+				BaseType Medium
+				AreaLevel < 35
+
+			Show
+				Class "Life Flask" "Mana Flask"
+				BaseType Giant
+				AreaLevel < 36
+
+			Show
+				Class "Life Flask" "Mana Flask"
+				BaseType Colossal
+				AreaLevel < 42
+
+			Show
+				Class "Hybrid Flask"
+				BaseType Large
+				AreaLevel < 45
+
+			Show
+				Class "Life Flask" "Mana Flask"
+				BaseType Sacred
+				AreaLevel < 50
+
+			Show
+				Class "Hybrid Flask"
+				BaseType Colossal
+				AreaLevel < 55
+
+			Show
+				Class "Life Flask" "Mana Flask"
+				BaseType Hallowed
+				AreaLevel < 60
+
+			Show
+				Class "Life Flask" "Mana Flask"
+				BaseType Sanctified
+				AreaLevel < 65
+
+			Show
+				Class "Hybrid Flask"
+				BaseType Sacred
+				AreaLevel < 65
+
+			Show
+				Class "Life Flask" "Mana Flask"
+				BaseType Divine Eternal
+
+			Show
+				Class "Hybrid Flask"
+				BaseType Hallowed
+
+# Level 6
+# =======
 
 	Show
-		SocketGroup 5
-		Rarity Rare
-		SetFontSize 42
-		PlayAlertSoundPositional 13 250
-		MinimapIcon 1 Yellow Kite
-		PlayEffect Yellow
+		SetFontSize 28
 		Continue
 
+	# Currency
+	# --------
+
+		Show
+			BaseType "Scroll Fragment" "Transmutation Shard" "Alteration Shard"
+
+	# Gems
+	# ----
+
+		Show
+			Class Gems
+
+	# Equipment
+	# ---------
+
+		Show
+			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" 
+
+		Show
+			HasExplicitMod >=2  "Esh's" "Ionising" "Tul's" "Cryomancer's" "Xoph's" "Pyroclastic" "of Finesse" "of Tzteosh" "of Haast" "of Ephij" "of Grandmastery" "Cheetah's" "Hellion's" "Rapturous"
+
+		Show
+			AnyEnchantment True
+
+		# Amulets
+
+			Show
+				Class Amulets
+				AreaLevel <= 10
+
+		# Rings
+
+			Show
+				Class Rings 
+				AreaLevel <= 10
+
+			Show
+				Class Rings
+				BaseType Sapphire Ruby Topaz
+				AreaLevel <= 28
+
+		# Belts
+
+			Show
+				Class Belts
+				AreaLevel <= 10
+
+		# Jewels
+
+			Show
+				Class Jewel
+				Rarity Magic
+
+			Show
+				Class "Abyss Jewel"
+				Rarity <= Magic
+
+		# Flasks
+
+			Show
+				Class "Utility Flasks"
+				Rarity <= Magic
+
+		# Chancing.
+		# Show normal items for using chance orbs hoping to hit a unique.
+		# Notable examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
+
+			#Show
+			#	BaseType "Glorious Plate"
+			#	Rarity Normal
+			#   Continue
+
+		# Vendor
+
+			Show
+				BaseType "Flask"
+				Quality >= 5
+
+			Show
+				BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+				Quality >= 10
+				Rarity Normal
+
+			Show
+				BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+				Quality >= 16
+
+			Show
+				SocketGroup RGB
+				Width <= 2
+				Height <= 2
+
+		# Strange Bases
+
+			Show
+				BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand" "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger" "Flickerflame Blade" "Flashfire Blade" "Infernal Blade" "Shadow Fangs" "Malign Fangs" "Void Fangs" "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe" "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade" "Flare Mace" "Crack Mace" "Boom Mace" "Oscillating Sceptre" "Stabilising Sceptre" "Alternating Sceptre" "Hedron Bow" "Foundry Bow" "Solarine Bow" "Transformer Staff" "Reciprocation Staff" "Battery Staff" "Capacity Rod" "Potentiality Rod" "Eventuality Rod" "Prime Cleaver" "Honed Cleaver" "Apex Cleaver" "Rebuking Blade" "Blasting Blade" "Banishing Blade" "Blunt Force Condenser" "Crushing Force Magnifier" "Impact Force Propagator" "Exhausting Spirit Shield" "Subsuming Spirit Shield" "Transfer-attuned Spirit Shield" "Endothermic Buckler" "Polar Buckler" "Cold-attuned Buckler" "Exothermic Tower Shield" "Magmatic Tower Shield" "Heat-attuned Tower Shield" "Micro-Distillery Belt" "Mechalarm Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask" 
+
+# The Final Level
+# ===============
+
+	# TODO: Every base type. Explicit base types mean we can generally hide most of what didn't escape the filter, while still allowing the unknown to show up for unhandled (presumably new!) items.
+
+	Hide
+		Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Flask" "Daggers" "Shields" "Belts" "Rings" "Amulets" "Jewel" "Rune Dagger" "Warstaves" "Gems"
+
 	Show
-		SocketGroup 6
-		Rarity Rare
 		SetFontSize 45
-		PlayAlertSoundPositional 10 275
-		MinimapIcon 0 Yellow Kite
-		PlayEffect Yellow
 		Continue
 
-	# Jewelry
-	# =======
+	# Quest (story) items
 
-		Show
-			Class Rings Amulets Belts
-			AreaLevel <= 10
-			Continue
+	Show
+		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Fishing Rod"
+		SetBackgroundColor 182 127 221 255
+		PlayAlertSoundPositional 12 250
+		MinimapIcon 0 Pink UpsideDownHouse
+		PlayEffect Pink
 
-		Show
-			Class Rings
-			BaseType Sapphire Ruby Topaz
-			AreaLevel <= 28
-			Continue
+	# Unhandled
 
-		Show
-			Class Rings Amulets Belts
-			Rarity Rare
-			SetFontSize 38
-			Continue
-
-		Show
-			Class Rings
-			BaseType Sapphire Ruby Topaz Two-Stone Diamond Coral
-			Rarity Rare
-			SetFontSize 42
-
-	# Jewels
-	# ======
-
-		Show
-			Class Jewel
-			Rarity Magic
-			Continue
-
-		Show
-			Class "Abyss Jewel"
-			Rarity <= Magic
-			Continue
-
-		Show
-			Class Jewel
-			Rarity Rare
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Abyss Jewel"
-			Rarity Rare
-			SetFontSize 38
-			Continue
-
-		Show
-			Class Jewel
-			BaseType "Cluster Jewel"
-			Rarity <= Magic
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Green Kite
-			PlayEffect Green
-			Continue
-
-		Show
-			Class Jewel
-			BaseType "Cluster Jewel"
-			Rarity Rare
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-	# Flasks
-	# ======
-
-		Show
-			Class "Life Flask" "Mana Flask"
-			BaseType Small
-			AreaLevel < 6
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Life Flask" "Mana Flask"
-			BaseType Medium
-			AreaLevel < 12
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Life Flask" "Mana Flask"
-			BaseType Large
-			AreaLevel < 18
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Life Flask" "Mana Flask"
-			BaseType Greater
-			AreaLevel < 24
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Hybrid Flask"
-			BaseType Small
-			AreaLevel < 25
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Life Flask" "Mana Flask"
-			BaseType Grand
-			AreaLevel < 30
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Hybrid Flask"
-			BaseType Medium
-			AreaLevel < 35
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Life Flask" "Mana Flask"
-			BaseType Giant
-			AreaLevel < 36
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Life Flask" "Mana Flask"
-			BaseType Colossal
-			AreaLevel < 42
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Hybrid Flask"
-			BaseType Large
-			AreaLevel < 45
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Life Flask" "Mana Flask"
-			BaseType Sacred
-			AreaLevel < 50
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Hybrid Flask"
-			BaseType Colossal
-			AreaLevel < 55
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Life Flask" "Mana Flask"
-			BaseType Hallowed
-			AreaLevel < 60
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Life Flask" "Mana Flask"
-			BaseType Sanctified
-			AreaLevel < 65
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Hybrid Flask"
-			BaseType Sacred
-			AreaLevel < 65
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Life Flask" "Mana Flask"
-			BaseType Divine Eternal
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Hybrid Flask"
-			BaseType Hallowed
-			SetFontSize 33
-			Continue
-
-		Show
-			Class "Utility Flasks"
-			Rarity <= Magic
-			Continue
-
-		Show
-			Class "Utility Flasks"
-			Rarity Normal
-			Quality >= 10
-			SetFontSize 38
-			Continue
-
-		Show
-			Class "Utility Flasks"
-			Rarity Magic
-			Quality >= 18
-			SetFontSize 38
-			Continue
-
-	# Heist
-	# =====
-
-		Show
-			BaseType "Contract" "Blueprint" "Trinket"
-			Rarity <= Magic
-			SetFontSize 38
-			PlayAlertSoundPositional 3 225
-			MinimapIcon 2 Green Kite
-			PlayEffect Green
-			Continue
-
-		Show
-			BaseType "Contract" "Blueprint" "Trinket"
-			Rarity Rare
-			SetFontSize 38
-			PlayAlertSoundPositional 3 225
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-			Continue
-
-		Show
-			BaseType "Contract" "Blueprint"
-			Rarity <= Magic
-			ItemLevel >= 83
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Green Kite
-			PlayEffect Green
-
-		Show
-			BaseType "Contract" "Blueprint"
-			Rarity Rare
-			ItemLevel >= 83
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Yellow Kite
-			PlayEffect Yellow
-
-		Show
-			BaseType "Trinket"
-			SetFontSize 42
-			PlayAlertSoundPositional 13 250
-			MinimapIcon 1 Yellow Kite
-			PlayEffect Yellow
-
-
-		Show
-			Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
-			Rarity <= Magic
-			SetFontSize 38
-			PlayAlertSoundPositional 3 225
-			MinimapIcon 2 Green Kite
-			PlayEffect Green
-
-		Show
-			Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
-			Rarity Rare
-			SetFontSize 38
-			PlayAlertSoundPositional 3 225
-			MinimapIcon 2 Yellow Kite
-			PlayEffect Yellow
-
-	# Uniques
-	# =======
-
-		Show
-			Rarity Unique
-			SetFontSize 45
-			PlayAlertSoundPositional 10 275
-			MinimapIcon 0 Purple Diamond
-			PlayEffect Purple
-			Continue
-
-		Show
-			SocketGroup >= 5
-			Rarity Unique
-			SetFontSize 45
-			PlayAlertSoundPositional 6 300
-			MinimapIcon 0 Purple Diamond
-			PlayEffect Purple
-			Continue
-
-		Show
-			SocketGroup == 6WWWWWW
-			BaseType "Simple Robe"
-			Rarity Unique
-			SetFontSize 45
-			PlayAlertSoundPositional 10 275
-			MinimapIcon 0 Purple Diamond
-			PlayEffect Purple
-			Continue
-
-	# Fishing
-	# =======
-
-		Show
-			Class "Fishing Rod"
-			SetFontSize 45
-			PlayAlertSoundPositional 6 300
-			MinimapIcon 0 Purple Diamond
-			PlayEffect Purple
+	Show
+		SetBackgroundColor 245 129 66 255
+		PlayAlertSoundPositional 12 250
+		MinimapIcon 0 Orange Moon
+		PlayEffect Orange
+		Continue
