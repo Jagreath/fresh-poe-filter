@@ -388,6 +388,13 @@
 				BaseType Sapphire Ruby Topaz Two-Stone Diamond Coral
 				Rarity Rare
 
+		# Belts
+
+			Show
+				Class Belts
+				BaseType Heavy Leather
+				Rarity Rare
+
 		# Jewels
 
 			Show
@@ -677,8 +684,6 @@
 				Rarity Magic
 				AreaLevel <= 12
 
-		# Body Armours
-
 		# Weapons
 
 			Show
@@ -691,26 +696,11 @@
 				Rarity <= Magic
 				AreaLevel < 18
 
-		# Amulets
-
-			Show
-				Class Amulets
-				Rarity Rare
-
-		# Rings
-
-			Show
-				Class Rings
-				Rarity Rare
-
-		# Belts
-
-			Show
-				Class Belts
-				BaseType Leather Heavy Vanguard
-				Rarity Rare
-
 		# Jewels
+
+			Show
+				Class "Abyss Jewel"
+				Rarity <= Magic
 
 			Show
 				Class Jewel
@@ -864,12 +854,12 @@
 		# Jewels
 
 			Show
-				Class Jewel
-				Rarity Magic
-
-			Show
 				Class "Abyss Jewel"
 				Rarity <= Magic
+
+			Show
+				Class Jewel
+				Rarity Magic
 
 		# Flasks
 

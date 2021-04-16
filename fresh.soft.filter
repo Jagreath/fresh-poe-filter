@@ -98,9 +98,6 @@
 			Class Gems
 			BaseType "Awakened"
 
-	# Maps
-	# ----
-
 	# Fragments
 	# ---------
 
@@ -123,6 +120,16 @@
 
 	# Equipment
 	# ---------
+
+		# Helmets
+
+		# Gloves
+
+		# Boots
+
+		# Body Armours
+
+		# Weapons
 
 		# Amulets
 
@@ -591,11 +598,6 @@
 				Rarity Rare
 				ItemLevel >= 85
 
-			Show
-				Class Belts
-				BaseType "Vanguard" "Crystal Belt" "Stygian Vise"
-				Rarity Rare
-
 		# Jewels
 
 			Show
@@ -633,6 +635,11 @@
 				EnchantmentPassiveNum <= 8
 				ItemLevel >= 75
 				Rarity Rare
+
+			Show
+				Class "Abyss Jewel"
+				Rarity Rare
+				ItemLevel >= 81
 
 		# Heist 
 
@@ -756,11 +763,11 @@
 				BaseType Cerulean Steel Opal Vermillion
 				Rarity Rare
 
-			Show
-				Class Rings
-				Rarity < Magic
-				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond" "Two-Stone"
-				ItemLevel >= 84
+			#Show
+			#	Class Rings
+			#	Rarity < Magic
+			#	BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond" "Two-Stone"
+			#	ItemLevel >= 84
 
 		# Belts
 
@@ -791,7 +798,7 @@
 
 			Show
 				Class "Abyss Jewel"
-				Rarity Rare
+				Rarity <= Rare
 				ItemLevel >= 77
 
 		# Flasks
@@ -941,13 +948,13 @@
 		# Jewels
 
 			Show
-				Class Jewel
-				Rarity Rare
+				Class "Abyss Jewel"
+				Rarity <= Rare
+				ItemLevel >= 65 
 
 			Show
-				Class "Abyss Jewel"
-				Rarity <= Magic
-				ItemLevel >= 77
+				Class Jewel
+				Rarity Rare
 
 		# Flasks
 
@@ -1061,12 +1068,11 @@
 		# Jewels
 
 			Show
-				Class Jewel
+				Class "Abyss Jewel"
+				Rarity <= Magic
 
 			Show
-				Class "Abyss Jewel"
-				Rarity Rare
-				ItemLevel >= 65
+				Class Jewel
 
 		# Flasks
 

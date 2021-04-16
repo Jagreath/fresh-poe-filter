@@ -204,6 +204,7 @@
 	# --------
 
 		Show
+			Class Currency "Stackable Currency"
 			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Deafening Essence" "Remnant of Corruption" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Silver Oil" "Tainted Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Veiled Chaos Orb"
 
 		Show
@@ -629,6 +630,11 @@
 				ItemLevel >= 75
 				Rarity Rare
 
+			Show
+				Class "Abyss Jewel"
+				Rarity Rare
+				ItemLevel >= 81
+
 		# Heist 
 
 			Show
@@ -696,6 +702,11 @@
 				ItemLevel >= 84
 
 		# Boots
+
+			Show
+				BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots"
+				Rarity Rare
+				ItemLevel >= 84
 
 			Show
 				Class Boots
@@ -768,8 +779,8 @@
 
 			Show
 				Class "Abyss Jewel"
-				Rarity Rare
-				ItemLevel >= 77
+				Rarity <= Rare
+				ItemLevel >= 77 
 
 		# Flasks
 
@@ -880,13 +891,13 @@
 		# Jewels
 
 			Show
+				Class "Abyss Jewel"
+				Rarity <= Rare
+				ItemLevel >= 65 
+				
+			Show
 				Class Jewel
 				Rarity Rare
-
-			Show
-				Class "Abyss Jewel"
-				Rarity <= Magic
-				ItemLevel >= 77
 
 		# Flasks
 
@@ -988,8 +999,10 @@
 
 			Show
 				Class "Abyss Jewel"
-				Rarity Rare
-				ItemLevel >= 65
+				Rarity <= Magic
+
+			Show
+				Class Jewel
 
 		# Flasks
 

@@ -633,7 +633,7 @@
 			Show
 				Class "Abyss Jewel"
 				Rarity Rare
-				ItemLevel >= 81
+				ItemLevel >= 83
 
 		# Heist 
 
@@ -779,7 +779,7 @@
 
 			Show
 				Class "Abyss Jewel"
-				Rarity <= Magic
+				Rarity <= Rare
 				ItemLevel >= 81
 
 		# Flasks
@@ -891,13 +891,13 @@
 		# Jewels
 
 			Show
-				Class Jewel
-				Rarity Rare
-
-			Show
 				Class "Abyss Jewel"
 				Rarity Rare
-				ItemLevel >= 65
+				ItemLevel >= 77
+
+			Show
+				Class Jewel
+				Rarity Rare
 
 		# Flasks
 
