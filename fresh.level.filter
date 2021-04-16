@@ -321,6 +321,59 @@
 	# Equipment
 	# ---------
 
+		# Jewels
+
+			Show
+				Class Jewel
+				BaseType "Cluster Jewel"
+				Rarity <= Magic
+
+			Show
+				Class Jewel
+				BaseType "Cluster Jewel"
+				Rarity Rare
+
+		# Heist 
+
+			Show
+				BaseType "Trinket"
+
+		# Vendor
+
+			Show
+				Sockets 6
+
+# Level 4
+# =======
+
+	Show
+		SetFontSize 40
+		# PlayAlertSoundPositional 3 225
+		PlayAlertSoundPositional None
+		MinimapIcon -1
+		PlayEffect None
+		Continue
+
+	# Currency
+	# --------
+
+		Show
+			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard" Perandus
+
+	# Gems
+	# ----
+
+		Show
+			Class Gems
+			BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
+
+		Show
+			Class Gems
+			AlternateQuality True
+
+	# Equipment
+	# ---------
+
 		# Body Armours
 
 			Show
@@ -398,63 +451,84 @@
 		# Jewels
 
 			Show
-				Class Jewel
-				BaseType "Cluster Jewel"
-				Rarity <= Magic
-
-			Show
-				Class Jewel
-				BaseType "Cluster Jewel"
+				Class "Abyss Jewel"
 				Rarity Rare
 
-		# Heist 
+		# Flasks
 
 			Show
-				BaseType "Trinket"
+				Class "Utility Flasks"
+				Rarity Normal
+				Quality >= 10
+
+			Show
+				Class "Utility Flasks"
+				Rarity Magic
+				Quality >= 18
+
+		# Heist
+
+			Show
+				BaseType "Contract" "Blueprint" "Trinket"
+
+			Show
+				Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
 
 		# Vendor
 
 			Show
-				Sockets 6
+				BaseType "Flask"
+				Quality = 20
+				Rarity Normal
 
-# Level 4
+# Level 5
 # =======
 
 	Show
-		SetFontSize 40
-		# PlayAlertSoundPositional 3 225
-		PlayAlertSoundPositional None
-		MinimapIcon -1
-		PlayEffect None
+		SetFontSize 35
+		# PlayAlertSoundPositional 14 200
+		# PlayEffect None
 		Continue
 
 	# Currency
 	# --------
 
 		Show
-			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard" Perandus
+			BaseType "Portal Scroll" "Scroll of Wisdom" "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Augmentation"
 
 	# Gems
 	# ----
 
 		Show
+			Quality >= 7
 			Class Gems
-			BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
-
-		Show
-			Class Gems
-			AlternateQuality True
 
 	# Equipment
 	# ---------
 
-		# Defaults
+		Show
+			FracturedItem True
+
+		Show
+			HasExplicitMod "Veil"
+
+		# Weapons
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 0
 				AreaLevel < 15
+
+			Show
+				Class "Wands"
+				Rarity <= Magic
+				AreaLevel < 18
+
+			Show
+				Class "Sceptres"
+				Rarity <= Magic
+				AreaLevel < 18
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
@@ -549,6 +623,10 @@
 				AreaLevel <= 48
 				SocketGroup >= 4
 
+			Show
+				Class Helmets
+				Rarity Rare
+
 		# Gloves
 
 			Show
@@ -564,11 +642,11 @@
 				AreaLevel <= 48
 				SocketGroup >= 4
 
-		# Boots
-
 			Show
-				Class Boots
+				Class Gloves
 				Rarity Rare
+
+		# Boots
 
 			Show
 				Class Boots
@@ -582,6 +660,10 @@
 				Rarity <= Magic
 				AreaLevel <= 48
 				SocketGroup >= 4
+
+			Show
+				Class Boots
+				Rarity Rare
 
 		# Rings
 
@@ -600,101 +682,6 @@
 			Show
 				Class Belts
 				Rarity Rare
-
-		# Jewels
-
-			Show
-				Class "Abyss Jewel"
-				Rarity Rare
-
-		# Flasks
-
-			Show
-				Class "Utility Flasks"
-				Rarity Normal
-				Quality >= 10
-
-			Show
-				Class "Utility Flasks"
-				Rarity Magic
-				Quality >= 18
-
-		# Heist
-
-			Show
-				BaseType "Contract" "Blueprint" "Trinket"
-
-			Show
-				Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
-
-		# Vendor
-
-			Show
-				BaseType "Flask"
-				Quality = 20
-				Rarity Normal
-
-# Level 5
-# =======
-
-	Show
-		SetFontSize 35
-		# PlayAlertSoundPositional 14 200
-		# PlayEffect None
-		Continue
-
-	# Currency
-	# --------
-
-		Show
-			BaseType "Portal Scroll" "Scroll of Wisdom" "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Augmentation"
-
-	# Gems
-	# ----
-
-		Show
-			Quality >= 7
-			Class Gems
-
-	# Equipment
-	# ---------
-
-		Show
-			FracturedItem True
-
-		Show
-			HasExplicitMod "Veil"
-
-		# Helmets
-
-			Show
-				Class Helmets
-				Rarity Rare
-
-		# Gloves
-
-			Show
-				Class Gloves
-				Rarity Rare
-
-		# Boots
-
-			Show
-				Class Boots
-				Rarity Magic
-				AreaLevel <= 12
-
-		# Weapons
-
-			Show
-				Class "Wands"
-				Rarity <= Magic
-				AreaLevel < 18
-
-			Show
-				Class "Sceptres"
-				Rarity <= Magic
-				AreaLevel < 18
 
 		# Jewels
 
@@ -827,6 +814,13 @@
 
 		Show
 			AnyEnchantment True
+
+		# Boots
+
+			Show
+				Class Boots
+				Rarity Magic
+				AreaLevel <= 12
 
 		# Amulets
 
