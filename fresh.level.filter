@@ -512,13 +512,23 @@
 		Show
 			HasExplicitMod "Veil"
 
-		# Defaults
+		# Weapons
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 0
 				AreaLevel < 15
+
+			Show
+				Class "Wands"
+				Rarity <= Magic
+				AreaLevel < 18
+
+			Show
+				Class "Sceptres"
+				Rarity <= Magic
+				AreaLevel < 18
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
@@ -640,10 +650,6 @@
 
 			Show
 				Class Boots
-				Rarity Rare
-
-			Show
-				Class Boots
 				Rarity <= Magic
 				AreaLevel <= 48
 				ItemLevel <= 25
@@ -654,6 +660,10 @@
 				Rarity <= Magic
 				AreaLevel <= 48
 				SocketGroup >= 4
+
+			Show
+				Class Boots
+				Rarity Rare
 
 		# Rings
 
@@ -672,18 +682,6 @@
 			Show
 				Class Belts
 				Rarity Rare
-
-		# Weapons
-
-			Show
-				Class "Wands"
-				Rarity <= Magic
-				AreaLevel < 18
-
-			Show
-				Class "Sceptres"
-				Rarity <= Magic
-				AreaLevel < 18
 
 		# Jewels
 
