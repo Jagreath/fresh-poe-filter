@@ -94,11 +94,11 @@
 	# Fragments
 	# ---------
 
-		# Ancient Reliquary Key / Timeworn Reliquary Key
+		# Ancient Reliquary Key / Timeworn Reliquary Key / Vaal Reliquary Key
 
 		Show
 			Class "Misc Map Items"
-			BaseType Key
+			BaseType "Reliquary Key"
 
 	# Uniques
 	# -------
@@ -154,7 +154,7 @@
 	# --------
 
 		Show
-			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Deafening Essence" "Remnant of Corruption" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Delirium Orb"
+			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Deafening Essence" "Remnant of Corruption" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Veiled Chaos Orb"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -386,6 +386,13 @@
 			Show
 				Class Rings
 				BaseType Sapphire Ruby Topaz Two-Stone Diamond Coral
+				Rarity Rare
+
+		# Belts
+
+			Show
+				Class Belts
+				BaseType Heavy Leather
 				Rarity Rare
 
 		# Jewels
@@ -677,8 +684,6 @@
 				Rarity Magic
 				AreaLevel <= 12
 
-		# Body Armours
-
 		# Weapons
 
 			Show
@@ -691,26 +696,11 @@
 				Rarity <= Magic
 				AreaLevel < 18
 
-		# Amulets
-
-			Show
-				Class Amulets
-				Rarity Rare
-
-		# Rings
-
-			Show
-				Class Rings
-				Rarity Rare
-
-		# Belts
-
-			Show
-				Class Belts
-				BaseType Leather Heavy Vanguard
-				Rarity Rare
-
 		# Jewels
+
+			Show
+				Class "Abyss Jewel"
+				Rarity <= Magic
 
 			Show
 				Class Jewel
@@ -864,12 +854,12 @@
 		# Jewels
 
 			Show
-				Class Jewel
-				Rarity Magic
-
-			Show
 				Class "Abyss Jewel"
 				Rarity <= Magic
+
+			Show
+				Class Jewel
+				Rarity Magic
 
 		# Flasks
 
