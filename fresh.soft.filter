@@ -400,7 +400,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" 
+			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -1158,7 +1158,7 @@
 		BaseType "Carving Knife" "Boot Knife" "Copper Kris" "Skean" "Imp Dagger" "Butcher Knife" "Boot Blade" "Golden Kris" "Royal Skean" "Fiend Dagger" "Slaughter Knife" "Ezomyte Dagger" "Platinum Kris" "Imperial Skean" "Demon Dagger"
 
 	Hide
-		BaseType "Two-Point Arrow Quiver" "Serrated Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver"
+		BaseType "Two-Point Arrow Quiver" "Serrated Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver" "Artillery Quiver"
 
 	Hide
 		BaseType "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Arena Plate" "Lordly Plate" "Bronze Plate" "Battle Plate" "Sun Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Crusader Plate" "Astral Plate" "Gladiator Plate" "Glorious Plate"
@@ -1257,7 +1257,7 @@
 		BaseType "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Marble Amulet" "Blue Pearl Amulet" "Talisman"
 
 	Hide
-		BaseType "Life Flask" "Mana Flask" "Hybrid Flask" "Quicksilver Flask" "Bismuth Flask" "Stibnite Flask" "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Silver Flask" "Aquamarine Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Sulphur Flask" "Basalt Flask" "Diamond Flask"
+		BaseType "Life Flask" "Mana Flask" "Hybrid Flask" "Quicksilver Flask" "Bismuth Flask" "Stibnite Flask" "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Silver Flask" "Aquamarine Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Sulphur Flask" "Basalt Flask" "Diamond Flask" "Gold Flask" "Corundum Flask" "Iron Flask"
 
 	Hide
 		BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel" "Small Cluster Jewel" "Medium Cluster Jewel" "Large Cluster Jewel" "Ghastly Eye Jewel" "Hypnotic Eye Jewel" "Murderous Eye Jewel" "Searching Eye Jewel"
@@ -1272,7 +1272,7 @@
 	# Quest (story) items
 
 	Show
-		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Fishing Rod"
+		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Fishing Rod" "Expedition Logbook"
 		SetBackgroundColor 182 127 221 255
 		PlayAlertSoundPositional 12 250
 		MinimapIcon 0 Pink UpsideDownHouse

@@ -266,7 +266,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" 
+			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -955,7 +955,7 @@
 
 	Hide
 		ItemLevel < 68
-		BaseType "Two-Point Arrow Quiver" "Serrated Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver"
+		BaseType "Two-Point Arrow Quiver" "Serrated Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver" "Artillery Quiver"
 
 	Hide
 		ItemLevel < 68
@@ -1087,7 +1087,7 @@
 
 	Hide
 		ItemLevel < 68
-		BaseType "Life Flask" "Mana Flask" "Hybrid Flask" "Quicksilver Flask" "Bismuth Flask" "Stibnite Flask" "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Silver Flask" "Aquamarine Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Sulphur Flask" "Basalt Flask" "Diamond Flask"
+		BaseType "Life Flask" "Mana Flask" "Hybrid Flask" "Quicksilver Flask" "Bismuth Flask" "Stibnite Flask" "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Silver Flask" "Aquamarine Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Sulphur Flask" "Basalt Flask" "Diamond Flask" "Gold Flask" "Corundum Flask" "Iron Flask"
 
 	Hide
 		ItemLevel < 68
@@ -1104,7 +1104,7 @@
 	# Quest (story) items
 
 	Show
-		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Fishing Rod"
+		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Fishing Rod" "Expedition Logbook"
 		SetBackgroundColor 182 127 221 255
 		PlayAlertSoundPositional 12 250
 		MinimapIcon 0 Pink UpsideDownHouse
