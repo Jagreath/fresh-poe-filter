@@ -143,7 +143,7 @@
 
 			Show
 				Class Rings
-				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring"
+				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring"
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				Rarity Rare
 				ItemLevel >= 86
@@ -246,6 +246,9 @@
 			Class Maps
 			MapTier >= 15
 
+		Show
+			Class "Expedition Logbook"
+
 	# Fragments
 	# ---------
 
@@ -270,26 +273,26 @@
 		# Helmets
 
 			Show
-				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet"
+				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet" "Runic Crown"
 				ItemLevel >= 84
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Gloves
 
 			Show
-				BaseType "Slink Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" 
+				BaseType "Slink Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Apothecary's Gloves" "Runic Gauntlets"
 				ItemLevel >= 84
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Boots
 
 			Show
-				BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots"
+				BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
 				Rarity Rare
 				ItemLevel >= 86
 
 			Show
-				BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots"
+				BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
 				ItemLevel >= 84
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
@@ -556,7 +559,7 @@
 
 			Show
 				Class Amulets
-				BaseType Marble "Blue Pearl" Amber Turquoise
+				BaseType Marble "Blue Pearl" Amber Turquoise Seaglass
 				Rarity Rare
 				ItemLevel >= 86
 
@@ -569,7 +572,7 @@
 
 			Show
 				Class Rings
-				BaseType Steel Opal Vermillion Cerulean
+				BaseType Steel Opal Vermillion Cerulean Iolite
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -690,21 +693,21 @@
 		# Helmets
 
 			Show
-				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Deicide Mask" "Nightmare Bascinet"
+				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Deicide Mask" "Nightmare Bascinet" "Runic Crown"
 				Rarity Rare
 				ItemLevel >= 84
 
 		# Gloves
 
 			Show
-				BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Slink Gloves" 
+				BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Slink Gloves" "Apothecary's Gloves" "Runic Gauntlets"
 				Rarity Rare
 				ItemLevel >= 84
 
 		# Boots
 
 			Show
-				BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots"
+				BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Fugitive Boots" "Runic Sabatons"
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -736,7 +739,7 @@
 
 			Show
 				Class Amulets
-				BaseType Onyx Marble "Blue Pearl"
+				BaseType Onyx Marble "Blue Pearl" Seaglass
 				Rarity Rare
 
 			Show
@@ -751,7 +754,7 @@
 
 			Show
 				Class Rings
-				BaseType Cerulean Steel Opal Vermillion
+				BaseType Cerulean Steel Opal Vermillion Iolite
 				Rarity Rare
 
 		# Belts
@@ -842,19 +845,19 @@
 		# Helmets
 
 			Show
-				BaseType "Royal Burgonet" "Hubris Circlet" "Bone Helmet"  
+				BaseType "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Runic Crown"
 				Rarity Rare
 
 		# Gloves
 
 			Show
-				BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves"  
+				BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Apothecary's Gloves" "Runic Gauntlets"
 				Rarity Rare
 
 		# Boots
 
 			Show
-				BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" 
+				BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
 				Rarity Rare
 
 		# Body Armours
@@ -1115,10 +1118,13 @@
 		BaseType "Rawhide Gloves" "Goathide Gloves" "Deerskin Gloves" "Nubuck Gloves" "Eelskin Gloves" "Sharkskin Gloves" "Shagreen Gloves" "Stealth Gloves" "Gripped Gloves" "Slink Gloves" "Wool Gloves" "Velvet Gloves" "Silk Gloves" "Embroidered Gloves" "Satin Gloves" "Samite Gloves" "Conjurer Gloves" "Arcanist Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves"
 
 	Hide
+		BaseType "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+
+	Hide
 		BaseType "Fishscale Gauntlets" "Ironscale Gauntlets" "Bronzescale Gauntlets" "Steelscale Gauntlets" "Serpentscale Gauntlets" "Wyrmscale Gauntlets" "Hydrascale Gauntlets" "Dragonscale Gauntlets"
 
 	Hide
-		BaseType "Chain Gloves" "Ringmail Gloves" "Mesh Gloves" "Riveted Gloves" "Zealot Gloves" "Soldier Gloves" "Legion Gloves" "Crusader Gloves"
+		BaseType "Chain Gloves" "Ringmail Gloves" "Mesh Gloves" "Riveted Gloves" "Zealot Gloves" "Soldier Gloves" "Legion Gloves" "Crusader Gloves" "Apothecary's Gloves"
 
 	Hide
 		BaseType "Wrapped Mitts" "Strapped Mitts" "Clasped Mitts" "Trapper Mitts" "Ambush Mitts" "Carnal Mitts" "Assassin's Mitts" "Murder Mitts"
@@ -1133,13 +1139,16 @@
 		BaseType "Wool Shoes" "Velvet Slippers" "Silk Slippers" "Scholar Boots" "Satin Slippers" "Samite Slippers" "Conjurer Boots" "Arcanist Slippers" "Sorcerer Boots"
 
 	Hide
+		BaseType "Runic Greaves" "Runic Sollerets" "Runic Sabatons"
+
+	Hide
 		BaseType "Leatherscale Boots" "Ironscale Boots" "Bronzescale Boots" "Steelscale Boots" "Serpentscale Boots" "Wyrmscale Boots" "Hydrascale Boots" "Dragonscale Boots" "Two-Toned Boots"
 
 	Hide
-		BaseType "Chain Boots" "Ringmail Boots" "Mesh Boots" "Riveted Boots" "Zealot Boots" "Soldier Boots" "Legion Boots" "Crusader Boots" "Two-Toned Boots"
+		BaseType "Chain Boots" "Ringmail Boots" "Mesh Boots" "Riveted Boots" "Zealot Boots" "Soldier Boots" "Legion Boots" "Crusader Boots"
 
 	Hide
-		BaseType "Wrapped Boots" "Strapped Boots" "Clasped Boots" "Shackled Boots" "Trapper Boots" "Ambush Boots" "Carnal Boots" "Assassin's Boots" "Murder Boots" "Two-Toned Boots"
+		BaseType "Wrapped Boots" "Strapped Boots" "Clasped Boots" "Shackled Boots" "Trapper Boots" "Ambush Boots" "Carnal Boots" "Assassin's Boots" "Murder Boots" "Fugitive Boots"
 
 	Hide
 		BaseType "Iron Hat" "Cone Helmet" "Barbute Helmet" "Close Helmet" "Gladiator Helmet" "Reaver Helmet" "Siege Helmet" "Samnite Helmet" "Ezomyte Burgonet" "Royal Burgonet" "Eternal Burgonet"
@@ -1148,7 +1157,9 @@
 		BaseType "Leather Cap" "Tricorne" "Leather Hood" "Wolf Pelt" "Hunter Hood" "Noble Tricorne" "Ursine Pelt" "Silken Hood" "Sinner Tricorne" "Lion Pelt"
 
 	Hide
-		BaseType "Vine Circlet" "Iron Circlet" "Torture Cage" "Tribal Circlet" "Bone Circlet" "Lunaris Circlet" "Steel Circlet" "Necromancer Circlet" "Solaris Circlet" "Mind Cage" "Hubris Circlet"
+		BaseType "Vine Circlet" "Iron Circlet" "Torture Cage" "Tribal Circlet" "Bone Circlet" "Lunaris Circlet" "Steel Circlet" "Necromancer Circlet" "Solaris Circlet" "Mind Cage" "Hubris Circlet" 
+	Hide
+		BaseType "Runic Helm" "Runic Crest" "Runic Crown"
 
 	Hide
 		BaseType "Battered Helm" "Sallet" "Visored Sallet" "Gilded Sallet" "Secutor Helm" "Fencer Helm" "Lacquered Helmet" "Fluted Bascinet" "Pig-Faced Bascinet" "Nightmare Bascinet"
@@ -1184,7 +1195,7 @@
 		BaseType "Breach Ring" "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring"
 
 	Hide
-		BaseType "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Marble Amulet" "Blue Pearl Amulet" "Talisman"
+		BaseType "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Marble Amulet" "Blue Pearl Amulet" "Talisman" "Seaglass Amulet"
 
 	Hide
 		BaseType "Life Flask" "Mana Flask" "Hybrid Flask" "Quicksilver Flask" "Bismuth Flask" "Stibnite Flask" "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Silver Flask" "Aquamarine Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Sulphur Flask" "Basalt Flask" "Diamond Flask" "Gold Flask" "Corundum Flask" "Iron Flask"
@@ -1202,7 +1213,7 @@
 	# Quest (story) items
 
 	Show
-		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Fishing Rod" "Expedition Logbook"
+		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Fishing Rod"
 		SetBackgroundColor 182 127 221 255
 		PlayAlertSoundPositional 12 250
 		MinimapIcon 0 Pink UpsideDownHouse
