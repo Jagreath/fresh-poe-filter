@@ -8,7 +8,7 @@ I made this filter because I (personally) found a lot of filters do a bit *too* 
 So I tried to generally limit my rules and use a palette of five colors only.
 
 ### The Base Filter
-The initial filter I made. Shows a reasonable number of items, with more focus on influened items and the "best" bases otherwise.
+The initial filter I made. Shows a reasonable number of items, with more focus on influenced items and the "best" bases otherwise.
 
 ### Soft Filter
 This version of the filter shows a lot of rares. I use this when starting a league, and often in SSF.
