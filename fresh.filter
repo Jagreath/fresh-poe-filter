@@ -744,18 +744,21 @@
 
 			Show
 				Class Amulets
+				Rarity Rare Normal
 				ItemLevel >= 86
 
 		# Rings
 
 			Show
 				Class Rings
-				ItemLevel >= 86
+				BaseType Cerulean Steel Opal Vermillion Iolite
+				Rarity Rare
 
 			Show
 				Class Rings
-				BaseType Cerulean Steel Opal Vermillion Iolite
-				Rarity Rare
+				BaseType Unset Sapphire Topaz Ruby Diamond Two-Stone Amethyst Prismatic Steel Vermillion Opal Cerulean Iolite
+				Rarity Rare Normal
+				ItemLevel >= 86
 
 		# Belts
 
@@ -772,7 +775,8 @@
 
 			Show
 				Class Belts
-				BaseType "Crystal Belt" "Stygian Vise" "Leather" "Heavy" "Vanguard Belt"
+				BaseType Crystal Stygian Leather Heavy Vanguard
+				Rarity Normal
 				ItemLevel >= 86
 
 		# Jewels
