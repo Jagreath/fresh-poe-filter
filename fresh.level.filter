@@ -1094,7 +1094,7 @@
 
 	Hide
 		ItemLevel < 68
-		BaseType "Breach Ring" "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring" "Opal Ring" "Cerulean Ring"
+		BaseType "Breach Ring" "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring" "Opal Ring" "Cerulean Ring" "Iolite Ring"
 
 	Hide
 		ItemLevel < 68
