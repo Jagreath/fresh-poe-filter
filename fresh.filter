@@ -89,7 +89,14 @@
 			PlayAlertSoundPositional ShMirror 300
 
 		Show
-			BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Exalted Orb" "Awakener's Orb" "Maven's Orb" "Fractured Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" "Golden Oil" 
+			BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Exalted Orb" "Awakener's Orb" "Maven's Orb" "Tempering Orb" "Tailoring Orb" "Regrading Lens" "Faceted Fossil" "Tainted Oil" 
+
+	# Divination Cards
+	# ----------------
+
+		Show
+			Class Divination
+			BaseType "House of Mirrors" "Unrequited Love" "The Doctor" "The Demon" "The Fiend" "Brother's Stash" "The Immortal" "Love Through Ice" "Succor of the Sinless" "The Cheater" "Seven Years Bad Luck" "Alluring Bounty" "Gift of Asenath" "The Nurse" "Luminous Trove" "Desecrated Virtue" "Beauty Through Death" "Wealth and Power" "The Dragon's Heart" "Abandoned Wealth" "Immortal Resolve" "The Samurai's Eye" "The Iron Bard" "Broken Promises" "The Enlightened"
 
 	# Gems
 	# ----
@@ -103,7 +110,7 @@
 
 		Show
 			Class "Map Fragments"
-			BaseType "of Emptiness" "of Terror" "of Knowledge" "of Shape" "Pure Breachstone" Simulacrum Winged
+			BaseType "of Emptiness" "of Terror" "of Knowledge" "of Shape" "Pure Breachstone" Simulacrum Winged "Maven's Writ"
 
 		# Ancient Reliquary Key / Timeworn Reliquary Key / Vaal Reliquary Key
 
@@ -205,7 +212,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Deafening Essence" "Remnant of Corruption" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Silver Oil" "Tainted Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Veiled Chaos Orb"
+			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Orb of Unmaking" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Veiled Chaos Orb"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -214,6 +221,13 @@
 		Show
 			Class Incubator
 			BaseType "Gemcutter" "Geomancer" "Time-Lost" "Thaumaturge" "Foreboding" "Diviner"
+
+	# Divination Cards
+	# ----------------
+
+		Show
+			Class Divination
+			BaseType "The Artist" "The Price of Loyalty" "Pride of the First Ones" "The Long Con" "Deadly Joy" "Nook's Crown" "The Sustenance" "Winter's Embrace" "The Saint's Treasure" "Dementophobia" "The Eye of Terror" "The Patient" "The White Knight" "The Astromancer" "The Damned" "The Gulf" "Ambitious Obsession" "The Enthusiasts" "The Bargain" "Fateful Meeting" "The Craving" "The Hoarder" "The Sephirot"
 
 	# Gems
 	# ----
@@ -504,7 +518,7 @@
 
 		Show
 			Class "Misc Map Items" "Map Fragments"
-			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at" "Offering to the Goddess" "Divine Vessel" Scarab "Eber's Key" "Maven's Invitation" "Maven's Writ" "Blood-filled Vessel" 
+			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at" "Offering to the Goddess" "Divine Vessel" Scarab "Eber's Key" "Maven's Invitation" "Blood-filled Vessel" 
 
 	# Uniques
 	# -------
