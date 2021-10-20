@@ -109,6 +109,13 @@
 			Class Gems
 			BaseType "Awakened"
 
+	# Maps
+	# ----
+
+		Show
+			Class Maps
+			UberBlightedMap True
+
 	# Fragments
 	# ---------
 
