@@ -223,7 +223,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Orb of Unmaking" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" 
+			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Orb of Unmaking" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" 
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -429,7 +429,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact"
+			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -663,34 +663,6 @@
 				Rarity Rare
 				ItemLevel >= 81
 
-		# Flasks
-
-			Show
-				Class "Utility Flasks"
-				Rarity Normal
-				Quality >= 10
-				ItemLevel >= 84
-
-			Show
-				Class "Utility Flasks"
-				Rarity Magic
-				Quality >= 18
-				ItemLevel >= 84
-
-			Show
-				Class Flask
-				BaseType "Divine" "Eternal"
-				Rarity Normal
-				Quality >= 10
-				ItemLevel >= 84
-
-			Show
-				Class Flask
-				BaseType "Divine" "Eternal"
-				Rarity Magic
-				Quality >= 18
-				ItemLevel >= 84
-
 		# Heist 
 
 			Show
@@ -721,6 +693,7 @@
 	# --------
 
 		Show
+			Class Currency "Stackable Currency"
 			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard" Perandus
 
 	# Gems
@@ -846,28 +819,13 @@
 
 			Show
 				Class "Utility Flasks"
-				Rarity Normal
-				# Quality >= 5
-				ItemLevel >= 84
-
-			Show
-				Class "Utility Flasks"
-				Rarity Magic
-				# Quality >= 16
+				Rarity >= Normal
 				ItemLevel >= 84
 
 			Show
 				Class Flask
 				BaseType "Divine" "Eternal"
-				Rarity Normal
-				# Quality >= 10
-				ItemLevel >= 84
-
-			Show
-				Class Flask
-				BaseType "Divine" "Eternal"
-				Rarity Magic
-				# Quality >= 18
+				Rarity >= Normal
 				ItemLevel >= 84
 
 			Show
@@ -893,7 +851,7 @@
 		# Vendor
 
 			Show
-				BaseType "Flask"
+				Class Flask
 				Quality = 20
 				Rarity Normal
 
