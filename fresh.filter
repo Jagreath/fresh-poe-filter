@@ -462,6 +462,10 @@
 			GemLevel >= 20
 			Class Gems
 
+		Show
+			Class Gems
+			AlternateQuality True
+
 	# Maps
 	# ----
 
@@ -625,43 +629,25 @@
 			Show
 				BaseType "Small Cluster Jewel"
 				EnchantmentPassiveNum <= 2
-				ItemLevel >= 75
-				Rarity <= Magic
-
-			Show
-				BaseType "Small Cluster Jewel"
-				EnchantmentPassiveNum <= 2
-				ItemLevel >= 75
-				Rarity Rare
+				ItemLevel >= 84
+				Rarity <= Rare
 
 			Show
 				BaseType "Medium Cluster Jewel"
 				EnchantmentPassiveNum <= 5
-				ItemLevel >= 75
-				Rarity <= Magic
-
-			Show
-				BaseType "Medium Cluster Jewel"
-				EnchantmentPassiveNum <= 5
-				ItemLevel >= 75
-				Rarity Rare
+				ItemLevel >= 84
+				Rarity <= Rare 
 
 			Show
 				BaseType "Large Cluster Jewel"
 				EnchantmentPassiveNum <= 8
-				ItemLevel >= 75
-				Rarity <= Magic
-
-			Show
-				BaseType "Large Cluster Jewel"
-				EnchantmentPassiveNum <= 8
-				ItemLevel >= 75
-				Rarity Rare
+				ItemLevel >= 84
+				Rarity <= Rare
 
 			Show
 				Class "Abyss Jewel"
 				Rarity Rare
-				ItemLevel >= 81
+				ItemLevel >= 84
 
 		# Heist 
 
@@ -702,10 +688,6 @@
 		Show
 			Class Gems
 			BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
-
-		Show
-			Class Gems
-			AlternateQuality True
 
 	# Maps
 	# ----
@@ -808,12 +790,27 @@
 		# Jewels
 
 			Show
-				BaseType "Cluster Jewel"
+				BaseType "Small Cluster Jewel"
+				EnchantmentPassiveNum <= 2
+				ItemLevel >= 75
+				Rarity <= Rare
 
 			Show
-				Class "Abyss Jewel"
+				BaseType "Medium Cluster Jewel"
+				EnchantmentPassiveNum <= 5
+				ItemLevel >= 75
 				Rarity <= Rare
-				ItemLevel >= 77 
+
+			Show
+				BaseType "Large Cluster Jewel"
+				EnchantmentPassiveNum <= 8
+				ItemLevel >= 75
+				Rarity <= Rare
+				
+			Show
+				Class "Abyss Jewel"
+				Rarity Rare
+				ItemLevel >= 81
 
 		# Flasks
 
@@ -935,10 +932,13 @@
 		# Jewels
 
 			Show
+				BaseType "Cluster Jewel"
+
+			Show
 				Class "Abyss Jewel"
 				Rarity <= Rare
-				ItemLevel >= 65 
-				
+				ItemLevel >= 77 
+
 			Show
 				Class Jewel
 				Rarity Rare
