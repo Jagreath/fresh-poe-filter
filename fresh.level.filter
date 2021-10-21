@@ -166,7 +166,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Orb of Unmaking" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" 
+			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Orb of Unmaking" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" 
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
