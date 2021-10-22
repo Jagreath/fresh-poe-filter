@@ -89,7 +89,11 @@
 			PlayAlertSoundPositional ShMirror 300
 
 		Show
-			BaseType "Mirror Shard" "Eternal Orb" "Albino Rhoa Feather" "Exalted Orb" "Awakener's Orb" "Maven's Orb" "Tempering Orb" "Tailoring Orb" "Regrading Lens" "Faceted Fossil" "Tainted Oil" 
+			BaseType "Albino Rhoa Feather"
+
+		Show
+			Class Currency "Stackable Currency"
+			BaseType "Eternal Orb" "Exalted Orb" "Awakener's Orb" "Maven's Orb" "Tempering Orb" "Tailoring Orb" "Regrading Lens" "Sacred Orb" "Mirror Shard" "Faceted Fossil" "Tainted Oil" 
 
 	# Divination Cards
 	# ----------------
@@ -105,12 +109,19 @@
 			Class Gems
 			BaseType "Awakened"
 
+	# Maps
+	# ----
+
+		Show
+			Class Maps
+			UberBlightedMap True
+
 	# Fragments
 	# ---------
 
 		Show
 			Class "Map Fragments"
-			BaseType "of Emptiness" "of Terror" "of Knowledge" "of Shape" "Pure Breachstone" Simulacrum Winged "Maven's Writ"
+			BaseType "of Emptiness" "of Terror" "of Knowledge" "of Shape" "Pure Breachstone" "Flawless Breachstone" Simulacrum Winged "Maven's Writ" "Timeless Maraketh Emblem" "Unrelenting Timeless" "Gift to the Goddess" "Sacred Blossom"
 
 		# Ancient Reliquary Key / Timeworn Reliquary Key / Vaal Reliquary Key
 
@@ -212,7 +223,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Orb of Unmaking" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Enchanted Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Veiled Chaos Orb"
+			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Orb of Unmaking" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" 
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -268,7 +279,7 @@
 
 		Show
 			Class "Map Fragments" "Atlas Region Upgrade Item"
-			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab" "Gilded Blight Scarab" "Gilded Abyss Scarab" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Breachstone" "Emblem" Watchstone "Sacred Blossom" "Tribute to the Goddess" "Dedication to the Goddess" "Gift to the Goddess"
+			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab" "Gilded Blight Scarab" "Gilded Abyss Scarab" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Breachstone" "Emblem" Watchstone "Tribute to the Goddess" "Dedication to the Goddess"
 
 	# Uniques
 	# -------
@@ -418,7 +429,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant"  "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact"
+			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -450,6 +461,10 @@
 		Show
 			GemLevel >= 20
 			Class Gems
+
+		Show
+			Class Gems
+			AlternateQuality True
 
 	# Maps
 	# ----
@@ -614,43 +629,25 @@
 			Show
 				BaseType "Small Cluster Jewel"
 				EnchantmentPassiveNum <= 2
-				ItemLevel >= 75
-				Rarity <= Magic
-
-			Show
-				BaseType "Small Cluster Jewel"
-				EnchantmentPassiveNum <= 2
-				ItemLevel >= 75
-				Rarity Rare
+				ItemLevel >= 84
+				Rarity <= Rare
 
 			Show
 				BaseType "Medium Cluster Jewel"
 				EnchantmentPassiveNum <= 5
-				ItemLevel >= 75
-				Rarity <= Magic
-
-			Show
-				BaseType "Medium Cluster Jewel"
-				EnchantmentPassiveNum <= 5
-				ItemLevel >= 75
-				Rarity Rare
+				ItemLevel >= 84
+				Rarity <= Rare 
 
 			Show
 				BaseType "Large Cluster Jewel"
 				EnchantmentPassiveNum <= 8
-				ItemLevel >= 75
-				Rarity <= Magic
-
-			Show
-				BaseType "Large Cluster Jewel"
-				EnchantmentPassiveNum <= 8
-				ItemLevel >= 75
-				Rarity Rare
+				ItemLevel >= 84
+				Rarity <= Rare
 
 			Show
 				Class "Abyss Jewel"
 				Rarity Rare
-				ItemLevel >= 81
+				ItemLevel >= 84
 
 		# Heist 
 
@@ -682,6 +679,7 @@
 	# --------
 
 		Show
+			Class Currency "Stackable Currency"
 			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard" Perandus
 
 	# Gems
@@ -690,10 +688,6 @@
 		Show
 			Class Gems
 			BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
-
-		Show
-			Class Gems
-			AlternateQuality True
 
 	# Maps
 	# ----
@@ -796,14 +790,40 @@
 		# Jewels
 
 			Show
-				BaseType "Cluster Jewel"
+				BaseType "Small Cluster Jewel"
+				EnchantmentPassiveNum <= 2
+				ItemLevel >= 75
+				Rarity <= Rare
 
 			Show
-				Class "Abyss Jewel"
+				BaseType "Medium Cluster Jewel"
+				EnchantmentPassiveNum <= 5
+				ItemLevel >= 75
 				Rarity <= Rare
-				ItemLevel >= 77 
+
+			Show
+				BaseType "Large Cluster Jewel"
+				EnchantmentPassiveNum <= 8
+				ItemLevel >= 75
+				Rarity <= Rare
+				
+			Show
+				Class "Abyss Jewel"
+				Rarity Rare
+				ItemLevel >= 81
 
 		# Flasks
+
+			Show
+				Class "Utility Flasks"
+				Rarity >= Normal
+				ItemLevel >= 84
+
+			Show
+				Class Flask
+				BaseType "Divine" "Eternal"
+				Rarity >= Normal
+				ItemLevel >= 84
 
 			Show
 				Class "Utility Flasks"
@@ -828,7 +848,7 @@
 		# Vendor
 
 			Show
-				BaseType "Flask"
+				Class Flask
 				Quality = 20
 				Rarity Normal
 
@@ -912,10 +932,13 @@
 		# Jewels
 
 			Show
+				BaseType "Cluster Jewel"
+
+			Show
 				Class "Abyss Jewel"
 				Rarity <= Rare
-				ItemLevel >= 65 
-				
+				ItemLevel >= 77 
+
 			Show
 				Class Jewel
 				Rarity Rare
