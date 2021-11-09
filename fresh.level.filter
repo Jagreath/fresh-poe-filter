@@ -117,6 +117,11 @@
 		Show
 			SocketGroup >= 6
 			Rarity Unique
+
+		Show
+			Sockets >= WWW
+			BaseType "Elegant Round Shield"
+			Rarity Unique
 		
 # Level 2
 # =======
@@ -218,6 +223,10 @@
 
 		Show
 			SocketGroup >= 5
+			Rarity Unique
+
+		Show
+			BaseType "Vaal Rapier" "Fiend Dagger" "Silk Gloves" "Saint's Hauberk" "Champion Kite Shield" "Occultist's Vestment" "Heavy Belt" "Leather Belt" "Studded Belt"
 			Rarity Unique
 
 	# Equipment
