@@ -817,12 +817,14 @@
 			Show
 				Class "Utility Flasks"
 				Rarity >= Normal
+				Quality >= 10
 				ItemLevel >= 84
 
 			Show
 				Class Flask
 				BaseType "Divine" "Eternal"
 				Rarity >= Normal
+				Quality >= 10
 				ItemLevel >= 84
 
 			Show
@@ -865,17 +867,18 @@
 	# --------
 
 		Show
-			BaseType "Portal Scroll" "Scroll of Wisdom"
+			BaseType "Portal Scroll" "Scroll of Wisdom" 
+			StackSize > 2
+
+		Show
+			BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
 			StackSize > 1
 
 		Show
-			BaseType "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Augmentation"
+			BaseType "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Augmentation"
 
 	# Equipment
 	# ---------
-
-		Show
-			FracturedItem True
 
 		Show
 			HasExplicitMod "Veil"
@@ -969,7 +972,7 @@
 	# --------
 
 		Hide
-			BaseType "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard" "Alteration Shard"
+			BaseType "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Transmutation Shard" "Alteration Shard"
 
 	# Gems
 	# ----
@@ -995,6 +998,12 @@
 
 		Show
 			AnyEnchantment True
+
+		Show
+			FracturedItem True
+
+		Show
+			SynthesisedItem True
 
 		# Helmets
 

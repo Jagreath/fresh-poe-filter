@@ -831,12 +831,14 @@
 			Show
 				Class "Utility Flasks"
 				Rarity >= Normal
+				Quality >= 10
 				ItemLevel >= 84
 
 			Show
 				Class Flask
 				BaseType "Divine" "Eternal"
 				Rarity >= Normal
+				Quality >= 10
 				ItemLevel >= 84
 
 			Show
@@ -883,9 +885,6 @@
 
 	# Equipment
 	# ---------
-
-		Show
-			FracturedItem True
 
 		Show
 			HasExplicitMod "Veil"
@@ -1047,6 +1046,12 @@
 
 		Show
 			AnyEnchantment True
+
+		Show
+			FracturedItem True
+
+		Show
+			SynthesisedItem True
 
 		# Helmets
 

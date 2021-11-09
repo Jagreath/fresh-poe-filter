@@ -530,9 +530,6 @@
 	# ---------
 
 		Show
-			FracturedItem True
-
-		Show
 			HasExplicitMod "Veil"
 
 		# Weapons
@@ -837,6 +834,12 @@
 
 		Show
 			AnyEnchantment True
+
+		Show
+			FracturedItem True
+
+		Show
+			SynthesisedItem True
 
 		# Boots
 

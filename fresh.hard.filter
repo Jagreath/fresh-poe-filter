@@ -817,12 +817,14 @@
 			Show
 				Class "Utility Flasks"
 				Rarity >= Normal
+				Quality >= 10
 				ItemLevel >= 84
 
 			Show
 				Class Flask
 				BaseType "Divine" "Eternal"
 				Rarity >= Normal
+				Quality >= 10
 				ItemLevel >= 84
 
 			Show
@@ -865,17 +867,18 @@
 	# --------
 
 		Show
-			BaseType "Portal Scroll" "Scroll of Wisdom" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
-			StackSize > 1
+			BaseType "Portal Scroll" "Scroll of Wisdom" 
+			StackSize > 6
+
+		Show
+			BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
+			StackSize > 2
 
 		Show
 			BaseType "Orb of Augmentation" "Regal Shard" "Alchemy Shard" "Engineer's Shard" "Horizon Shard" 
 
 	# Equipment
 	# ---------
-
-		Show
-			FracturedItem True
 
 		Show
 			HasExplicitMod "Veil"
@@ -914,12 +917,14 @@
 
 			Show
 				Class Amulets
+				BaseType Amber Jade Lapis Agate Citrine Turquoise Onyx Talisman
 				Rarity Rare
 
 		# Rings 
 
 			Show
 				Class Rings
+				BaseType "Breach Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring"
 				Rarity Rare
 
 		# Belts 
@@ -969,7 +974,7 @@
 	# --------
 
 		Hide
-			BaseType "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard" "Alteration Shard"
+			BaseType "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Transmutation Shard" "Alteration Shard"
 
 	# Gems
 	# ----
@@ -996,6 +1001,12 @@
 		Show
 			AnyEnchantment True
 
+		Show
+			FracturedItem True
+
+		Show
+			SynthesisedItem True
+
 		# Helmets
 
 		# Gloves
@@ -1014,10 +1025,6 @@
 		# Rings
 
 		# Belts
-
-			Show
-				Class Belts
-				Rarity Rare
 
 		# Jewels
 
