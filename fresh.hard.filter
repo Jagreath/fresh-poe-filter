@@ -136,6 +136,11 @@
 			SocketGroup >= 6
 			Rarity Unique
 
+		Show
+			Sockets >= WWW
+			BaseType "Elegant Round Shield"
+			Rarity Unique
+
 	# Equipment
 	# ---------
 
@@ -244,7 +249,7 @@
 	# ----
 
 		Show
-			Quality >= 18
+			Quality >= 20
 			Class Gems
 
 		Show
@@ -288,56 +293,51 @@
 			SocketGroup >= 5
 			Rarity Unique
 
+		Show
+			BaseType "Vaal Rapier" "Fiend Dagger" "Silk Gloves" "Saint's Hauberk" "Champion Kite Shield" "Occultist's Vestment" "Heavy Belt" "Leather Belt" "Studded Belt"
+			Rarity Unique
+
 	# Equipment
 	# ---------
-
-		Show
-			ItemLevel >= 86
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Helmets
 
 			Show
 				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet"
-				ItemLevel >= 84
+				ItemLevel >= 86
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Gloves
 
 			Show
 				BaseType "Slink Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Apothecary's Gloves" "Runic Gauntlets"
-				ItemLevel >= 84
+				ItemLevel >= 86
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Boots
 
 			Show
 				BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
-				Rarity Rare
 				ItemLevel >= 86
-
-			Show
-				BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
-				ItemLevel >= 84
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Body Armours
 
 			Show
 				BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb"
-				ItemLevel >= 84
+				ItemLevel >= 86
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Weapons
 
 			Show
 				BaseType "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw" "Ambusher" "Gutting Knife" "Sai" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Opal Wand" "Corsair Sword" "Legion Sword" "Tiger Hook" "Eternal Sword" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Apex Rapier" "Vaal Greatsword" "Reaver Sword" "Exquisite Blade" "Lion Sword" "Royal Axe" "Siege Axe" "Runic Hatchet" "Vaal Hatchet" "Vaal Axe" "Ezomyte Axe" "Fleshripper" "Void Axe" "Despot Axe" "Behemoth Mace" "Auric Mace" "Nightmare Mace" "Coronal Maul" "Meatgrinder" "Piledriver" "Harbinger Bow" "Thicket Bow" "Citadel Bow" "Maraketh Bow" "Imperial Bow" "Maelström Staff" "Judgement Staff" "Ezomyte Staff" "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
-				ItemLevel >= 83
+				ItemLevel >= 86
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 			Show
 				BaseType "Colossal Tower Shield" "Pinnacle Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Vaal Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield" "Eclipse Staff" "Imperial Staff" "Lathi" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver"
-				ItemLevel >= 84
+				ItemLevel >= 86
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Amulets
@@ -346,7 +346,7 @@
 				Class Amulets
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				Rarity Rare
-				ItemLevel >= 82
+				ItemLevel >= 84
 
 		# Rings
 
@@ -354,7 +354,7 @@
 				Class Rings
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				Rarity Rare
-				ItemLevel >= 82
+				ItemLevel >= 84
 
 		# Belts
 
@@ -362,7 +362,7 @@
 				Class Belts
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				Rarity Rare
-				ItemLevel >= 82
+				ItemLevel >= 84
 
 		# Vendor
 
@@ -443,7 +443,7 @@
 
 		Hide
 			Class "Divination"
-			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon"
+			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover"
 			PlayAlertSoundPositional None
 			MinimapIcon -1
 			PlayEffect None
@@ -455,11 +455,7 @@
 	# ----
 
 		Show
-			Quality >= 15
-			Class Gems
-
-		Show
-			GemLevel >= 20
+			Quality >= 17
 			Class Gems
 
 		Show
@@ -544,40 +540,54 @@
 	# Equipment
 	# ---------
 
+		Show
+			ItemLevel >= 86
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+
 		# Helmets
 
 			Show
-				Class Helmets 
-				ItemLevel >= 82
-				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet"
+				ItemLevel >= 84
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Gloves
 
 			Show
-				Class Gloves
-				ItemLevel >= 82
-				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+				BaseType "Slink Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Apothecary's Gloves" "Runic Gauntlets"
+				ItemLevel >= 84
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Boots
 
 			Show
-				Class Boots 
-				ItemLevel >= 82
-				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+				BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
+				Rarity Rare
+				ItemLevel >= 86
+
+			Show
+				BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
+				ItemLevel >= 84
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Body Armours
 
 			Show
-				Class "Body Armours"
-				ItemLevel >= 82
-				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+				BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb"
+				ItemLevel >= 84
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Weapons
 
 			Show
-				BaseType "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Elegant Round Shield" "Cardinal Round Shield" "Spiny Round Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield" "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw" "Ambusher" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Harpy Rapier" "Spiraled Foil" "Vaal Rapier" "Corsair Sword" "Royal Axe" "Siege Axe" "Vaal Hatchet" "Vaal Axe" 
-				ItemLevel >= 82
-				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+				BaseType "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw" "Ambusher" "Gutting Knife" "Sai" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Opal Wand" "Corsair Sword" "Legion Sword" "Tiger Hook" "Eternal Sword" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Apex Rapier" "Vaal Greatsword" "Reaver Sword" "Exquisite Blade" "Lion Sword" "Royal Axe" "Siege Axe" "Runic Hatchet" "Vaal Hatchet" "Vaal Axe" "Ezomyte Axe" "Fleshripper" "Void Axe" "Despot Axe" "Behemoth Mace" "Auric Mace" "Nightmare Mace" "Coronal Maul" "Meatgrinder" "Piledriver" "Harbinger Bow" "Thicket Bow" "Citadel Bow" "Maraketh Bow" "Imperial Bow" "Maelström Staff" "Judgement Staff" "Ezomyte Staff" "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
+				ItemLevel >= 83
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+
+			Show
+				BaseType "Colossal Tower Shield" "Pinnacle Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Vaal Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield" "Eclipse Staff" "Imperial Staff" "Lathi" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver"
+				ItemLevel >= 84
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Amulets
 
@@ -687,6 +697,10 @@
 
 		Show
 			Class Gems
+			GemLevel >= 20
+			
+		Show
+			Class Gems
 			BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance" 
 
 	# Maps
@@ -701,6 +715,11 @@
 		# Helmets
 
 			Show
+				Class Helmets 
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+
+			Show
 				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet"
 				Rarity Rare
 				ItemLevel >= 84
@@ -708,11 +727,21 @@
 		# Gloves
 
 			Show
+				Class Gloves
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
+
+			Show
 				BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Apothecary's Gloves" "Runic Gauntlets"
 				Rarity Rare
 				ItemLevel >= 84
 
 		# Boots
+
+			Show
+				Class Boots 
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
 
 			Show
 				BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Fugitive Boots" "Runic Sabatons"
@@ -727,11 +756,21 @@
 		# Body Armours
 
 			Show
+				Class "Body Armours"
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+
+			Show
 				BaseType "Astral Plate" "Vaal Regalia"
 				Rarity Rare
 				ItemLevel >= 84
 
 		# Weapons
+
+			Show
+				BaseType "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Elegant Round Shield" "Cardinal Round Shield" "Spiny Round Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield" "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw" "Ambusher" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Harpy Rapier" "Spiraled Foil" "Vaal Rapier" "Corsair Sword" "Royal Axe" "Siege Axe" "Vaal Hatchet" "Vaal Axe" 
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 
 			Show
 				BaseType "Imperial Skean" "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Siege Axe" "Sambar Sceptre"
@@ -817,25 +856,15 @@
 			Show
 				Class "Utility Flasks"
 				Rarity >= Normal
+				Quality >= 18
 				ItemLevel >= 84
 
 			Show
 				Class Flask
 				BaseType "Divine" "Eternal"
 				Rarity >= Normal
-				ItemLevel >= 84
-
-			Show
-				Class "Utility Flasks"
-				Rarity Normal
-				Quality >= 10
-				AreaLevel > 74
-
-			Show
-				Class "Utility Flasks"
-				Rarity Magic
 				Quality >= 18
-				AreaLevel > 74
+				ItemLevel >= 84
 
 		# Heist
 
@@ -865,8 +894,12 @@
 	# --------
 
 		Show
-			BaseType "Portal Scroll" "Scroll of Wisdom" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
-			StackSize > 1
+			BaseType "Portal Scroll" "Scroll of Wisdom" 
+			StackSize > 6
+
+		Show
+			BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
+			StackSize > 2
 
 		Show
 			BaseType "Orb of Augmentation" "Regal Shard" "Alchemy Shard" "Engineer's Shard" "Horizon Shard" 
@@ -875,51 +908,55 @@
 	# ---------
 
 		Show
-			FracturedItem True
-
-		Show
 			HasExplicitMod "Veil"
 
 		# Helmets
 
 			Show
 				BaseType "Hubris Circlet" "Bone Helmet"
+				BaseDefencePercentile >= 90
 				Rarity Rare
 
 		# Gloves
 
 			Show
 				BaseType "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Apothecary's Gloves" "Runic Gauntlets"
+				BaseDefencePercentile >= 90
 				Rarity Rare
 
 		# Boots
 
 			Show
 				BaseType "Sorcerer Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
+				BaseDefencePercentile >= 90
 				Rarity Rare
 
 		# Body Armours
 
 			Show
 				BaseType "Astral Plate" "Vaal Regalia" 
+				BaseDefencePercentile >= 90
 				Rarity Rare
 
 		# Weapons
 
 			Show
 				BaseType "Titanium Spirit Shield" "Convoking Wand" "Prophecy Wand" 
+				BaseDefencePercentile >= 90
 				Rarity Rare
 
 		# Amulets 
 
 			Show
 				Class Amulets
+				BaseType Amber Jade Lapis Agate Citrine Turquoise Onyx Talisman
 				Rarity Rare
 
 		# Rings 
 
 			Show
 				Class Rings
+				BaseType "Breach Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring"
 				Rarity Rare
 
 		# Belts 
@@ -969,7 +1006,7 @@
 	# --------
 
 		Hide
-			BaseType "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard" "Alteration Shard"
+			BaseType "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Transmutation Shard" "Alteration Shard"
 
 	# Gems
 	# ----
@@ -996,6 +1033,12 @@
 		Show
 			AnyEnchantment True
 
+		Show
+			FracturedItem True
+
+		Show
+			SynthesisedItem True
+
 		# Helmets
 
 		# Gloves
@@ -1014,10 +1057,6 @@
 		# Rings
 
 		# Belts
-
-			Show
-				Class Belts
-				Rarity Rare
 
 		# Jewels
 
@@ -1039,26 +1078,27 @@
 
 		# Vendor
 
+			#Show
+			#	BaseType "Flask"
+			#	Quality >= 15
+			#	Rarity Normal
+
+			#Show
+			#	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+			#	Quality >= 15
+			#	Rarity Normal
+
+			#Show
+			#	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+			#	Quality >= 16
+
+			#Show
+			#	SocketGroup RGB
+			#	Width <= 2
+			#	Height <= 2
+
 			Show
-				BaseType "Flask"
 				Quality >= 15
-
-			Show
-				BaseType "Gavel" "Rock Breaker" "Stone Hammer"
-				Quality >= 15
-				Rarity Normal
-
-			Show
-				BaseType "Gavel" "Rock Breaker" "Stone Hammer"
-				Quality >= 16
-
-			Show
-				SocketGroup RGB
-				Width <= 2
-				Height <= 2
-
-			Show
-				Quality >= 8
 				Class Gems
 
 # The Final Level

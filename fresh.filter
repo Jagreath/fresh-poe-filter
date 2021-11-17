@@ -136,6 +136,11 @@
 			SocketGroup >= 6
 			Rarity Unique
 
+		Show
+			Sockets >= WWW
+			BaseType "Elegant Round Shield"
+			Rarity Unique
+
 	# Equipment
 	# ---------
 
@@ -286,6 +291,10 @@
 
 		Show
 			SocketGroup >= 5
+			Rarity Unique
+
+		Show
+			BaseType "Vaal Rapier" "Fiend Dagger" "Silk Gloves" "Saint's Hauberk" "Champion Kite Shield" "Occultist's Vestment" "Heavy Belt" "Leather Belt" "Studded Belt"
 			Rarity Unique
 
 	# Equipment
@@ -443,7 +452,7 @@
 
 		Hide
 			Class "Divination"
-			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon"
+			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover"
 			PlayAlertSoundPositional None
 			MinimapIcon -1
 			PlayEffect None
@@ -456,10 +465,6 @@
 
 		Show
 			Quality >= 15
-			Class Gems
-
-		Show
-			GemLevel >= 20
 			Class Gems
 
 		Show
@@ -686,6 +691,10 @@
 	# ----
 
 		Show
+			GemLevel >= 19
+			Class Gems
+
+		Show
 			Class Gems
 			BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
 
@@ -817,18 +826,20 @@
 			Show
 				Class "Utility Flasks"
 				Rarity >= Normal
+				Quality >= 10
 				ItemLevel >= 84
 
 			Show
 				Class Flask
 				BaseType "Divine" "Eternal"
 				Rarity >= Normal
+				Quality >= 10
 				ItemLevel >= 84
 
 			Show
 				Class "Utility Flasks"
 				Rarity Normal
-				Quality >= 10
+				Quality >= 15
 				AreaLevel > 74
 
 			Show
@@ -865,17 +876,18 @@
 	# --------
 
 		Show
-			BaseType "Portal Scroll" "Scroll of Wisdom"
+			BaseType "Portal Scroll" "Scroll of Wisdom" 
+			StackSize > 2
+
+		Show
+			BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
 			StackSize > 1
 
 		Show
-			BaseType "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Augmentation"
+			BaseType "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Augmentation"
 
 	# Equipment
 	# ---------
-
-		Show
-			FracturedItem True
 
 		Show
 			HasExplicitMod "Veil"
@@ -969,7 +981,7 @@
 	# --------
 
 		Hide
-			BaseType "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Transmutation Shard" "Alteration Shard"
+			BaseType "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Transmutation Shard" "Alteration Shard"
 
 	# Gems
 	# ----
@@ -995,6 +1007,12 @@
 
 		Show
 			AnyEnchantment True
+
+		Show
+			FracturedItem True
+
+		Show
+			SynthesisedItem True
 
 		# Helmets
 
@@ -1064,6 +1082,7 @@
 			Show
 				BaseType "Flask"
 				Quality >= 15
+				Rarity Normal
 
 			Show
 				BaseType "Gavel" "Rock Breaker" "Stone Hammer"

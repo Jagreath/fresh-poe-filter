@@ -117,6 +117,11 @@
 		Show
 			SocketGroup >= 6
 			Rarity Unique
+
+		Show
+			Sockets >= WWW
+			BaseType "Elegant Round Shield"
+			Rarity Unique
 		
 # Level 2
 # =======
@@ -220,6 +225,10 @@
 			SocketGroup >= 5
 			Rarity Unique
 
+		Show
+			BaseType "Vaal Rapier" "Fiend Dagger" "Silk Gloves" "Saint's Hauberk" "Champion Kite Shield" "Occultist's Vestment" "Heavy Belt" "Leather Belt" "Studded Belt"
+			Rarity Unique
+
 	# Equipment
 	# ---------
 
@@ -302,7 +311,7 @@
 
 		Hide
 			Class "Divination"
-			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon"
+			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover"
 			PlayAlertSoundPositional None
 			MinimapIcon -1
 			PlayEffect None
@@ -528,9 +537,6 @@
 
 	# Equipment
 	# ---------
-
-		Show
-			FracturedItem True
 
 		Show
 			HasExplicitMod "Veil"
@@ -837,6 +843,12 @@
 
 		Show
 			AnyEnchantment True
+
+		Show
+			FracturedItem True
+
+		Show
+			SynthesisedItem True
 
 		# Boots
 
