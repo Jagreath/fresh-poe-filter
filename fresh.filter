@@ -452,7 +452,7 @@
 
 		Hide
 			Class "Divination"
-			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon"
+			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover"
 			PlayAlertSoundPositional None
 			MinimapIcon -1
 			PlayEffect None
@@ -465,10 +465,6 @@
 
 		Show
 			Quality >= 15
-			Class Gems
-
-		Show
-			GemLevel >= 20
 			Class Gems
 
 		Show
@@ -695,6 +691,10 @@
 	# ----
 
 		Show
+			GemLevel >= 19
+			Class Gems
+
+		Show
 			Class Gems
 			BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
 
@@ -839,7 +839,7 @@
 			Show
 				Class "Utility Flasks"
 				Rarity Normal
-				Quality >= 10
+				Quality >= 15
 				AreaLevel > 74
 
 			Show
@@ -1082,6 +1082,7 @@
 			Show
 				BaseType "Flask"
 				Quality >= 15
+				Rarity Normal
 
 			Show
 				BaseType "Gavel" "Rock Breaker" "Stone Hammer"
