@@ -671,9 +671,6 @@
 
 		# Vendor
 
-			Show
-				Sockets 6
-
 # Level 4
 # =======
 
@@ -721,6 +718,7 @@
 
 			Show
 				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet"
+				BaseDefencePercentile >= 90
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -733,6 +731,7 @@
 
 			Show
 				BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Apothecary's Gloves" "Runic Gauntlets"
+				BaseDefencePercentile >= 90
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -745,6 +744,7 @@
 
 			Show
 				BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Fugitive Boots" "Runic Sabatons"
+				BaseDefencePercentile >= 90
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -762,6 +762,7 @@
 
 			Show
 				BaseType "Astral Plate" "Vaal Regalia"
+				BaseDefencePercentile >= 90
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -881,6 +882,9 @@
 				Quality = 20
 				Rarity Normal
 
+			Show
+				Sockets 6
+
 # Level 5
 # =======
 
@@ -914,35 +918,35 @@
 
 			Show
 				BaseType "Hubris Circlet" "Bone Helmet"
-				BaseDefencePercentile >= 90
+				BaseDefencePercentile >= 95
 				Rarity Rare
 
 		# Gloves
 
 			Show
 				BaseType "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Apothecary's Gloves" "Runic Gauntlets"
-				BaseDefencePercentile >= 90
+				BaseDefencePercentile >= 95
 				Rarity Rare
 
 		# Boots
 
 			Show
 				BaseType "Sorcerer Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
-				BaseDefencePercentile >= 90
+				BaseDefencePercentile >= 95
 				Rarity Rare
 
 		# Body Armours
 
 			Show
 				BaseType "Astral Plate" "Vaal Regalia" 
-				BaseDefencePercentile >= 90
+				BaseDefencePercentile >= 95
 				Rarity Rare
 
 		# Weapons
 
 			Show
 				BaseType "Titanium Spirit Shield" "Convoking Wand" "Prophecy Wand" 
-				BaseDefencePercentile >= 90
+				BaseDefencePercentile >= 95
 				Rarity Rare
 
 		# Amulets 
