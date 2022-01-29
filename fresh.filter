@@ -12,9 +12,9 @@
 
 	Show
 		Rarity <= Magic
-		SetBackgroundColor 97 182 83 255
-		MinimapIcon 0 Green Kite
-		PlayEffect Green
+		SetBackgroundColor 186 186 176 255
+		MinimapIcon 0 Grey Square
+		PlayEffect Grey
 		Continue
 
 	Show
@@ -47,9 +47,9 @@
 
 	Show
 		Class Divination
-		SetBackgroundColor 186 186 176 255
-		MinimapIcon 0 Grey Square
-		PlayEffect Grey
+		SetBackgroundColor 97 182 83 255
+		MinimapIcon 0 Green Kite
+		PlayEffect Green
 		Continue
 
 	Show
@@ -60,18 +60,10 @@
 		Continue
 
 	Show
-		Class Currency
-		BaseType Prophecy
-		SetBackgroundColor 97 182 83 255
-		MinimapIcon 0 Green Kite
-		PlayEffect Green
-		Continue
-
-	Show
 		Class "Metamorph Sample"
-		SetBackgroundColor 97 182 83 255
-		MinimapIcon 0 Green Kite
-		PlayEffect Green
+		SetBackgroundColor 186 186 176 255
+		MinimapIcon 0 Grey Square
+		PlayEffect Grey
 		Continue
 
 # Level 1
@@ -159,7 +151,6 @@
 			Show
 				Class Amulets
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				Rarity Rare
 				ItemLevel >= 86
 
 		# Rings
@@ -168,7 +159,6 @@
 				Class Rings
 				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring"
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				Rarity Rare
 				ItemLevel >= 86
 
 		# Belts
@@ -177,7 +167,6 @@
 				Class Belts
 				BaseType "Crystal Belt"
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				Rarity Rare
 				ItemLevel >= 86
 
 # Level 2
@@ -204,7 +193,7 @@
 
 	Show
 		Class Divination
-		MinimapIcon 1 Grey Square
+		MinimapIcon 1 Green Kite
 		Continue
 
 	Show
@@ -213,14 +202,8 @@
 		Continue
 
 	Show
-		Class Currency
-		BaseType Prophecy
-		MinimapIcon 1 Green Kite
-		Continue
-
-	Show
 		Class "Metamorph Sample"
-		MinimapIcon 1 Green Kite
+		MinimapIcon 1 Grey Square
 		Continue
 
 	# Currency
@@ -354,7 +337,6 @@
 			Show
 				Class Amulets
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				Rarity Rare
 				ItemLevel >= 82
 
 		# Rings
@@ -362,7 +344,6 @@
 			Show
 				Class Rings
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				Rarity Rare
 				ItemLevel >= 82
 
 		# Belts
@@ -370,7 +351,6 @@
 			Show
 				Class Belts
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				Rarity Rare
 				ItemLevel >= 82
 
 		# Vendor
@@ -403,7 +383,7 @@
 
 	Show
 		Class Divination
-		MinimapIcon 2 Grey Square
+		MinimapIcon 2 Green Kite
 		Continue
 
 	Show
@@ -412,22 +392,9 @@
 		Continue
 
 	Show
-		Class Currency
-		BaseType Prophecy
-		MinimapIcon 2 Green Kite
-		Continue
-
-	Show
 		Class "Metamorph Sample"
-		MinimapIcon 2 Green Kite
+		MinimapIcon 2 Grey Square
 		Continue
-
-	Show
-		Class Currency
-		BaseType Prophecy
-
-	Show
-		Class "Metamorph Sample"
 
 	# Currency
 	# --------
