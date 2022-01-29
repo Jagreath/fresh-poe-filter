@@ -428,6 +428,9 @@
 			Show
 				Sockets 6
 
+			Show
+				SocketGroup >= 5
+
 # Level 4
 # =======
 
@@ -461,15 +464,213 @@
 			Show
 				Class "Body Armours"
 				Rarity Rare
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
+				AreaLevel <= 42
+				ItemLevel <= 40
+				SocketGroup >= 4
 
 			Show
 				Class "Body Armours"
 				Rarity Rare
-				AreaLevel <= 48
-				SocketGroup >= 4
+				DropLevel >= 1
+				AreaLevel < 16
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 6
+				AreaLevel < 21
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 8
+				AreaLevel < 23
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 9
+				AreaLevel < 24
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 11
+				AreaLevel < 26
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 17
+				AreaLevel < 32
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 18
+				AreaLevel < 33
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 21
+				AreaLevel < 36
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 25
+				AreaLevel < 40
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 28
+				AreaLevel < 43
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 32
+				AreaLevel < 47
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 35
+				AreaLevel < 50
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 37
+				AreaLevel < 52
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 38
+				AreaLevel < 53
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 39
+				AreaLevel < 54
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 40
+				AreaLevel < 55
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 41
+				AreaLevel < 56
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 42
+				AreaLevel < 57
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 43
+				AreaLevel < 58
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 44
+				AreaLevel < 59
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 45
+				AreaLevel < 60
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 46
+				AreaLevel < 61
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 47
+				AreaLevel < 62
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 48
+				AreaLevel < 63
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 49
+				AreaLevel < 64
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 50
+				AreaLevel < 65
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 51
+				AreaLevel < 66
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 52
+				AreaLevel < 67
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 53
+				AreaLevel < 68
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 54
+				AreaLevel < 69
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 55
+				AreaLevel < 70
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 56
+				AreaLevel < 71
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 57
+				AreaLevel < 72
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 58
+				AreaLevel < 73
 
 			Show
 				Class "Body Armours"
@@ -481,15 +682,225 @@
 			Show
 				Class Helmets
 				Rarity Rare
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
+				AreaLevel <= 42
+				ItemLevel <= 40
+				SocketGroup >= 4
 
 			Show
 				Class Helmets
 				Rarity Rare
-				AreaLevel <= 48
-				SocketGroup >= 4
+				DropLevel >= 1
+				AreaLevel < 16
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 5
+				AreaLevel < 20
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 7
+				AreaLevel < 22
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 8
+				AreaLevel < 23
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 10
+				AreaLevel < 25
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 12
+				AreaLevel < 27
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 13
+				AreaLevel < 28
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 17
+				AreaLevel < 32
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 18
+				AreaLevel < 33
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 20
+				AreaLevel < 35
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 22
+				AreaLevel < 37
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 23
+				AreaLevel < 38
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 26
+				AreaLevel < 41
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 28
+				AreaLevel < 43
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 30
+				AreaLevel < 45
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 31
+				AreaLevel < 46
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 33
+				AreaLevel < 48
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 34
+				AreaLevel < 49
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 35
+				AreaLevel < 50
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 36
+				AreaLevel < 51
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 37
+				AreaLevel < 52
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 38
+				AreaLevel < 53
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 39
+				AreaLevel < 54
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 40
+				AreaLevel < 55
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 41
+				AreaLevel < 56
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 43
+				AreaLevel < 58
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 44
+				AreaLevel < 59
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 45
+				AreaLevel < 60
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 47
+				AreaLevel < 62
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 48
+				AreaLevel < 63
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 51
+				AreaLevel < 66
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 52
+				AreaLevel < 67
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 53
+				AreaLevel < 68
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 54
+				AreaLevel < 69
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 55
+				AreaLevel < 70
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 57
+				AreaLevel < 72
 
 			Show
 				Class Helmets
@@ -501,15 +912,195 @@
 			Show
 				Class Gloves
 				Rarity Rare
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
+				AreaLevel <= 42
+				ItemLevel <= 40
+				SocketGroup >= 4
 
 			Show
 				Class Gloves
 				Rarity Rare
-				AreaLevel <= 48
-				SocketGroup >= 4
+				DropLevel >= 1
+				AreaLevel < 16
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 5
+				AreaLevel < 20
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 7
+				AreaLevel < 22
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 9
+				AreaLevel < 24
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 11
+				AreaLevel < 26
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 12
+				AreaLevel < 27
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 15
+				AreaLevel < 30
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 16
+				AreaLevel < 31
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 19
+				AreaLevel < 34
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 21
+				AreaLevel < 36
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 23
+				AreaLevel < 38
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 25
+				AreaLevel < 40
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 27
+				AreaLevel < 42
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 31
+				AreaLevel < 46
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 32
+				AreaLevel < 47
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 33
+				AreaLevel < 48
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 35
+				AreaLevel < 50
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 36
+				AreaLevel < 51
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 37
+				AreaLevel < 52
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 38
+				AreaLevel < 53
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 39
+				AreaLevel < 54
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 41
+				AreaLevel < 56
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 43
+				AreaLevel < 58
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 45
+				AreaLevel < 60
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 47
+				AreaLevel < 62
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 49
+				AreaLevel < 64
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 50
+				AreaLevel < 65
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 51
+				AreaLevel < 66
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 53
+				AreaLevel < 68
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 54
+				AreaLevel < 69
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 55
+				AreaLevel < 70
 
 			Show
 				Class Gloves
@@ -517,19 +1108,6 @@
 				DropLevel >= 57
 
 		# Boots
-
-			Show
-				Class Boots
-				Rarity Rare
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
-
-			Show
-				Class Boots
-				Rarity Rare
-				AreaLevel <= 48
-				SocketGroup >= 4
 
 			Show
 				Class Boots
@@ -621,151 +1199,360 @@
 		# Weapons
 
 			Show
-				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-				Rarity Rare
-				DropLevel >= 0
+				Class "Wands"
+				Rarity <= Rare
 				AreaLevel < 15
 
 			Show
-				Class "Wands"
-				Rarity <= Magic
-				AreaLevel < 18
-
-			Show
 				Class "Sceptres"
-				Rarity <= Magic
-				AreaLevel < 18
+				Rarity <= Rare
+				AreaLevel < 15
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 5
-				AreaLevel < 20
+				AreaLevel < 15
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 6
+				AreaLevel < 16
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 7
+				AreaLevel < 17
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 8
+				AreaLevel < 18
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 9
+				AreaLevel < 19
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 10
-				AreaLevel < 25
+				AreaLevel < 20
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 11
+				AreaLevel < 21
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 12
+				AreaLevel < 22
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 13
+				AreaLevel < 23
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 14
+				AreaLevel < 24
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 15
-				AreaLevel < 30
+				AreaLevel < 25
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 16
+				AreaLevel < 26
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 17
+				AreaLevel < 27
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 18
+				AreaLevel < 28
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 19
+				AreaLevel < 29
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 20
-				AreaLevel < 35
+				AreaLevel < 30
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 21
+				AreaLevel < 31
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 22
+				AreaLevel < 32
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 23
+				AreaLevel < 33
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 24
+				AreaLevel < 34
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 25
-				AreaLevel < 40
+				AreaLevel < 35
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 26
+				AreaLevel < 36
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 27
+				AreaLevel < 37
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 28
+				AreaLevel < 38
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 29
+				AreaLevel < 39
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 30
-				AreaLevel < 45
+				AreaLevel < 40
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 31
+				AreaLevel < 41
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 32
+				AreaLevel < 42
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 33
+				AreaLevel < 43
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 34
+				AreaLevel < 44
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 35
-				AreaLevel < 50
+				AreaLevel < 45
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 36
+				AreaLevel < 46
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 37
+				AreaLevel < 47
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 38
+				AreaLevel < 48
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 39
+				AreaLevel < 49
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 40
-				AreaLevel < 55
+				AreaLevel < 50
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 41
+				AreaLevel < 51
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 42
+				AreaLevel < 52
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 43
+				AreaLevel < 53
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 44
+				AreaLevel < 54
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 45
-				AreaLevel < 60
+				AreaLevel < 55
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 46
+				AreaLevel < 56
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 47
+				AreaLevel < 57
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 48
+				AreaLevel < 58
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 49
+				AreaLevel < 59
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 50
-				AreaLevel < 65
+				AreaLevel < 60
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 51
+				AreaLevel < 61
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 52
+				AreaLevel < 62
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 53
+				AreaLevel < 63
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 54
+				AreaLevel < 64
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 55
-				AreaLevel < 70
+				AreaLevel < 65
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
-				DropLevel >= 60
-				AreaLevel >= 70
+				DropLevel >= 56
+				AreaLevel < 66
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 57
 
 		# Body Armours
 
 			Show
 				Class "Body Armours"
-				Rarity Rare
+				Rarity < Rare
+				AreaLevel <= 42
+				ItemLevel <= 40
+				SocketGroup >= 4
 
 		# Helmets
 
 			Show
 				Class Helmets
-				Rarity <= Magic
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
-
-			Show
-				Class Helmets
-				Rarity <= Magic
-				AreaLevel <= 48
+				Rarity < Rare
+				AreaLevel <= 42
+				ItemLevel <= 40
 				SocketGroup >= 4
-
-			Show
-				Class Helmets
-				Rarity Rare
 
 		# Gloves
 
 			Show
 				Class Gloves
-				Rarity <= Magic
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
-
-			Show
-				Class Gloves
-				Rarity <= Magic
-				AreaLevel <= 48
+				Rarity < Rare
+				AreaLevel <= 42
+				ItemLevel <= 40
 				SocketGroup >= 4
-
-			Show
-				Class Gloves
-				Rarity Rare
 
 		# Boots
-
-			Show
-				Class Boots
-				Rarity <= Magic
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
-
-			Show
-				Class Boots
-				Rarity <= Magic
-				AreaLevel <= 48
-				SocketGroup >= 4
 
 			Show
 				Class Boots
@@ -927,12 +1714,30 @@
 		Show
 			SynthesisedItem True
 
+		# Body Armours
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+
+		# Helmets
+
+			Show
+				Class Helmets
+				Rarity Rare
+
+		# Gloves
+
+			Show
+				Class Gloves
+				Rarity Rare
+
 		# Boots
 
 			Show
 				Class Boots
 				Rarity Magic
-				AreaLevel <= 12
+				AreaLevel <= 15
 
 		# Amulets
 
