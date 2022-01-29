@@ -463,10 +463,17 @@
 
 			Show
 				Class "Body Armours"
-				Rarity Rare
+				#Rarity Rare
+				AreaLevel <= 29
+				ItemLevel <= 27
+				SocketGroup = 3
+
+			Show
+				Class "Body Armours"
+				#Rarity Rare
 				AreaLevel <= 42
 				ItemLevel <= 40
-				SocketGroup >= 4
+				SocketGroup = 4
 
 			Show
 				Class "Body Armours"
@@ -681,10 +688,17 @@
 
 			Show
 				Class Helmets
-				Rarity Rare
+				#Rarity Rare
+				AreaLevel <= 29
+				ItemLevel <= 27
+				SocketGroup = 3
+
+			Show
+				Class Helmets
+				#Rarity Rare
 				AreaLevel <= 42
 				ItemLevel <= 40
-				SocketGroup >= 4
+				SocketGroup = 4
 
 			Show
 				Class Helmets
@@ -911,10 +925,17 @@
 
 			Show
 				Class Gloves
-				Rarity Rare
+				#Rarity Rare
+				AreaLevel <= 29
+				ItemLevel <= 27
+				SocketGroup = 3
+
+			Show
+				Class Gloves
+				#Rarity Rare
 				AreaLevel <= 42
 				ItemLevel <= 40
-				SocketGroup >= 4
+				SocketGroup = 4
 
 			Show
 				Class Gloves
@@ -1199,12 +1220,7 @@
 		# Weapons
 
 			Show
-				Class "Wands"
-				Rarity <= Rare
-				AreaLevel < 15
-
-			Show
-				Class "Sceptres"
+				Class "Wands" "Sceptres"
 				Rarity <= Rare
 				AreaLevel < 15
 
