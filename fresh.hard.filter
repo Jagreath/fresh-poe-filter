@@ -136,16 +136,6 @@
 	# Equipment
 	# ---------
 
-		# Helmets
-
-		# Gloves
-
-		# Boots
-
-		# Body Armours
-
-		# Weapons
-
 		# Amulets
 
 			Show
@@ -286,7 +276,7 @@
 		# Helmets
 
 			Show
-				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet"
+				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet" "Runic Crown"
 				ItemLevel >= 86
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
@@ -435,61 +425,71 @@
 		Show
 			Class Maps
 			MapTier = 1
-			AreaLevel <= 72
+			AreaLevel <= 69
 
 		Show
 			Class Maps
 			MapTier = 2
-			AreaLevel <= 73
+			AreaLevel <= 70
 
 		Show
 			Class Maps
 			MapTier = 3
-			AreaLevel <= 74
+			AreaLevel <= 71
 
 		Show
 			Class Maps
 			MapTier = 4
-			AreaLevel <= 75
+			AreaLevel <= 72
 
 		Show
 			Class Maps
 			MapTier = 5
-			AreaLevel <= 76
+			AreaLevel <= 73
 
 		Show
 			Class Maps
 			MapTier = 6
-			AreaLevel <= 77
+			AreaLevel <= 74
 
 		Show
 			Class Maps
 			MapTier = 7
-			AreaLevel <= 78
+			AreaLevel <= 75
 
 		Show
 			Class Maps
 			MapTier = 8
-			AreaLevel <= 79
+			AreaLevel <= 76
 
 		Show
 			Class Maps
 			MapTier = 9
-			AreaLevel <= 80
+			AreaLevel <= 77
 
 		Show
 			Class Maps
 			MapTier = 10
-			AreaLevel <= 81
+			AreaLevel <= 78
 
 		Show
 			Class Maps
 			MapTier = 11
-			AreaLevel <= 82
+			AreaLevel <= 79
 
 		Show
 			Class Maps
-			MapTier >= 12
+			MapTier = 12
+			AreaLevel <= 80
+
+		Show
+			Class Maps
+			MapTier = 13
+			AreaLevel <= 81
+
+		Show
+			Class Maps
+			MapTier >= 14
 
 	# Fragments
 	# ---------
@@ -514,7 +514,7 @@
 		# Helmets
 
 			Show
-				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet"
+				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet" "Runic Crown"
 				ItemLevel >= 84
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
@@ -684,7 +684,7 @@
 				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
 
 			Show
-				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet"
+				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Runic Crown"
 				BaseDefencePercentile >= 90
 				Rarity Rare
 				ItemLevel >= 84
@@ -884,7 +884,7 @@
 		# Helmets
 
 			Show
-				BaseType "Hubris Circlet" "Bone Helmet"
+				BaseType "Hubris Circlet" "Bone Helmet" "Runic Crown"
 				BaseDefencePercentile >= 95
 				Rarity Rare
 
