@@ -39,7 +39,7 @@
 		Continue
 
 	Show
-		Class Maps "Misc Map Items" "Map Fragments" "Atlas Region Upgrade Item" "Expedition Logbook"
+		Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" "Expedition Logbook" Contract Blueprint
 		SetBackgroundColor 219 65 65 255
 		MinimapIcon 0 Red Cross
 		PlayEffect Red
@@ -85,7 +85,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Eternal Orb" "Exalted Orb" "Awakener's Orb" "Maven's Orb" "Tempering Orb" "Tailoring Orb" "Regrading Lens" "Sacred Orb" "Mirror Shard" "Faceted Fossil" "Tainted Oil" 
+			BaseType "Eternal Orb" "Exalted Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Regrading Lens" "Sacred Orb" "Mirror Shard" "Faceted Fossil" "Tainted Oil" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment"
 
 	# Divination Cards
 	# ----------------
@@ -177,7 +177,7 @@
 		Continue
 
 	Show
-		Class Maps "Misc Map Items" "Map Fragments" "Atlas Region Upgrade Item"
+		Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" Contract Blueprint
 		MinimapIcon 1 Red Cross
 		Continue
 
@@ -201,7 +201,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Orb of Unmaking" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" 
+			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Orb of Unmaking" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Greater Eldritch Ember" "Grand Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Orb of Conflict"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -252,12 +252,15 @@
 		Show
 			Class "Expedition Logbook"
 
+		Show
+			BaseType "Synthesised Map"
+
 	# Fragments
 	# ---------
 
 		Show
-			Class "Map Fragments" "Atlas Region Upgrade Item"
-			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab" "Gilded Blight Scarab" "Gilded Abyss Scarab" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Breachstone" "Emblem" Watchstone "Tribute to the Goddess" "Dedication to the Goddess"
+			Class "Map Fragments" "Atlas Upgrade Item"
+			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab" "Gilded Blight Scarab" "Gilded Abyss Scarab" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Breachstone" "Emblem" Voidstone "Tribute to the Goddess" "Dedication to the Goddess" "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest"
 
 	# Uniques
 	# -------
@@ -367,7 +370,7 @@
 		Continue
 
 	Show
-		Class Maps "Misc Map Items" "Map Fragments" "Atlas Region Upgrade Item"
+		Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" Contract Blueprint
 		MinimapIcon 2 Red Cross
 		Continue
 
@@ -395,7 +398,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact"
+			BaseType "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact" "Surveyor's Compass" "Charged Compass" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Scouting Report" "Oil Extractor"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -495,7 +498,7 @@
 
 		Show
 			Class "Misc Map Items" "Map Fragments"
-			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at" "Offering to the Goddess" "Divine Vessel" Scarab "Eber's Key" "Maven's Invitation" "Blood-filled Vessel" 
+			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at" "Offering to the Goddess" "Divine Vessel" Scarab "Eber's Key" "Invitation" "Blood-filled Vessel" 
 
 	# Uniques
 	# -------
@@ -642,7 +645,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard" Perandus
+			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard" Perandus
 
 	# Gems
 	# ----
