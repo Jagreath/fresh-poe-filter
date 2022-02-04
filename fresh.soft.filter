@@ -260,7 +260,7 @@
 
 		Show
 			Class "Map Fragments" "Atlas Upgrade Item"
-			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab" "Gilded Blight Scarab" "Gilded Abyss Scarab" "Yriel's Key" "Inya's Key" "Volkuur's Key" "Breachstone" "Emblem" Voidstone "Tribute to the Goddess" "Dedication to the Goddess" "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest"
+			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab" "Gilded Blight Scarab" "Gilded Abyss Scarab" "Breachstone" "Emblem" Voidstone "Tribute to the Goddess" "Dedication to the Goddess" "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest"
 
 	# Uniques
 	# -------
@@ -283,7 +283,7 @@
 		# Helmets
 
 			Show
-				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet"
+				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet" "Runic Crown"
 				ItemLevel >= 84
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
@@ -502,7 +502,7 @@
 
 		Show
 			Class "Misc Map Items" "Map Fragments"
-			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at" "Offering to the Goddess" "Divine Vessel" Scarab "Eber's Key" "Invitation" "Blood-filled Vessel"
+			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at" "Offering to the Goddess" "Divine Vessel" Scarab "Invitation" "Blood-filled Vessel"
 
 	# Uniques
 	# -------
@@ -677,7 +677,7 @@
 		# Helmets
 
 			Show
-				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Deicide Mask" "Nightmare Bascinet"
+				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Deicide Mask" "Nightmare Bascinet" "Runic Crown"
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -861,7 +861,7 @@
 		# Helmets
 
 			Show
-				BaseType "Royal Burgonet" "Hubris Circlet" "Bone Helmet"  
+				BaseType "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Runic Crown"
 				Rarity Rare
 
 			Show
@@ -1021,6 +1021,12 @@
 
 		Show
 			SynthesisedItem True
+
+		Show
+			HasSearingExarchImplicit >= 1
+
+		Show
+			HasEaterOfWorldsImplicit >= 1
 
 		# Helmets
 
