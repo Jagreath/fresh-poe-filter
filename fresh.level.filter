@@ -12,9 +12,9 @@
 
 	Show
 		Rarity <= Magic
-		SetBackgroundColor 97 182 83 255
-		MinimapIcon 0 Green Kite
-		PlayEffect Green
+		SetBackgroundColor 186 186 176 255
+		MinimapIcon 0 Grey Square
+		PlayEffect Grey
 		Continue
 
 	Show
@@ -39,7 +39,7 @@
 		Continue
 
 	Show
-		Class Maps "Misc Map Items" "Map Fragments" "Atlas Region Upgrade Item" "Expedition Logbook"
+		Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" "Expedition Logbook" Contract Blueprint
 		SetBackgroundColor 219 65 65 255
 		MinimapIcon 0 Red Cross
 		PlayEffect Red
@@ -47,9 +47,9 @@
 
 	Show
 		Class Divination
-		SetBackgroundColor 186 186 176 255
-		MinimapIcon 0 Grey Square
-		PlayEffect Grey
+		SetBackgroundColor 97 182 83 255
+		MinimapIcon 0 Green Kite
+		PlayEffect Green
 		Continue
 
 	Show
@@ -60,18 +60,10 @@
 		Continue
 
 	Show
-		Class Currency
-		BaseType Prophecy
-		SetBackgroundColor 97 182 83 255
-		MinimapIcon 0 Green Kite
-		PlayEffect Green
-		Continue
-
-	Show
 		Class "Metamorph Sample"
-		SetBackgroundColor 97 182 83 255
-		MinimapIcon 0 Green Kite
-		PlayEffect Green
+		SetBackgroundColor 186 186 176 255
+		MinimapIcon 0 Grey Square
+		PlayEffect Grey
 		Continue
 
 # Level 1
@@ -93,7 +85,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Eternal Orb" "Exalted Orb" "Awakener's Orb" "Maven's Orb" "Tempering Orb" "Tailoring Orb" "Regrading Lens" "Sacred Orb" "Mirror Shard" "Faceted Fossil" "Tainted Oil" 
+			BaseType "Eternal Orb" "Exalted Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Regrading Lens" "Sacred Orb" "Mirror Shard" "Faceted Fossil" "Tainted Oil" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment"
 
 	# Divination Cards
 	# ----------------
@@ -102,8 +94,26 @@
 			Class Divination
 			BaseType "House of Mirrors" "Unrequited Love" "The Doctor" "The Demon" "The Fiend" "Brother's Stash" "The Immortal" "Love Through Ice" "Succor of the Sinless" "The Cheater" "Seven Years Bad Luck" "Alluring Bounty" "Gift of Asenath" "The Nurse" "Luminous Trove" "Desecrated Virtue" "Beauty Through Death" "Wealth and Power" "The Dragon's Heart" "Abandoned Wealth" "Immortal Resolve" "The Samurai's Eye" "The Iron Bard" "Broken Promises" "The Enlightened"
 
+	# Gems
+	# ----
+
+		Show
+			Class Gems
+			BaseType "Awakened"
+
+	# Maps
+	# ----
+
+		Show
+			Class Maps
+			UberBlightedMap True
+
 	# Fragments
 	# ---------
+
+		Show
+			Class "Map Fragments"
+			BaseType "of Emptiness" "of Terror" "of Knowledge" "of Shape" "Pure Breachstone" "Flawless Breachstone" Simulacrum Winged "Maven's Writ" "Timeless Maraketh Emblem" "Unrelenting Timeless" "Gift to the Goddess" "Sacred Blossom"
 
 		# Ancient Reliquary Key / Timeworn Reliquary Key / Vaal Reliquary Key
 
@@ -122,6 +132,32 @@
 			Sockets >= WWW
 			BaseType "Elegant Round Shield"
 			Rarity Unique
+
+	# Equipment
+	# ---------
+
+		# Amulets
+
+			Show
+				Class Amulets
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+				ItemLevel >= 86
+
+		# Rings
+
+			Show
+				Class Rings
+				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring"
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+				ItemLevel >= 86
+
+		# Belts
+
+			Show
+				Class Belts
+				BaseType "Crystal Belt"
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+				ItemLevel >= 86
 		
 # Level 2
 # =======
@@ -141,13 +177,13 @@
 		Continue
 
 	Show
-		Class Maps "Misc Map Items" "Map Fragments" "Atlas Region Upgrade Item"
+		Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" Contract Blueprint
 		MinimapIcon 1 Red Cross
 		Continue
 
 	Show
 		Class Divination
-		MinimapIcon 1 Grey Square
+		MinimapIcon 1 Green Kite
 		Continue
 
 	Show
@@ -156,14 +192,8 @@
 		Continue
 
 	Show
-		Class Currency
-		BaseType Prophecy
-		MinimapIcon 1 Green Kite
-		Continue
-
-	Show
 		Class "Metamorph Sample"
-		MinimapIcon 1 Green Kite
+		MinimapIcon 1 Grey Square
 		Continue
 
 	# Currency
@@ -171,7 +201,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Orb of Unmaking" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" 
+			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Orb of Unmaking" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Greater Eldritch Ember" "Grand Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Orb of Conflict"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -216,7 +246,21 @@
 			Rarity Unique
 
 		Show
+			Class Maps
+			MapTier >= 15
+
+		Show
 			Class "Expedition Logbook"
+
+		Show
+			BaseType "Synthesised Map"
+
+	# Fragments
+	# ---------
+
+		Show
+			Class "Map Fragments" "Atlas Upgrade Item"
+			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab" "Gilded Blight Scarab" "Gilded Abyss Scarab" "Breachstone" "Emblem" Voidstone "Tribute to the Goddess" "Dedication to the Goddess" "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest"
 
 	# Uniques
 	# -------
@@ -231,6 +275,10 @@
 
 	# Equipment
 	# ---------
+
+		Show
+			ItemLevel >= 82
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Vendor
 
@@ -256,13 +304,13 @@
 		Continue
 
 	Show
-		Class Maps "Misc Map Items" "Map Fragments" "Atlas Region Upgrade Item"
+		Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" Contract Blueprint
 		MinimapIcon 2 Red Cross
 		Continue
 
 	Show
 		Class Divination
-		MinimapIcon 2 Grey Square
+		MinimapIcon 2 Green Kite
 		Continue
 
 	Show
@@ -271,22 +319,9 @@
 		Continue
 
 	Show
-		Class Currency
-		BaseType Prophecy
-		MinimapIcon 2 Green Kite
-		Continue
-
-	Show
 		Class "Metamorph Sample"
-		MinimapIcon 2 Green Kite
+		MinimapIcon 2 Grey Square
 		Continue
-
-	Show
-		Class Currency
-		BaseType Prophecy
-
-	Show
-		Class "Metamorph Sample"
 
 	# Currency
 	# --------
@@ -297,7 +332,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Cartographer's Chisel" "Simple Sextant" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Prime Sextant" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact"
+			BaseType "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact" "Surveyor's Compass" "Charged Compass" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Scouting Report" "Oil Extractor"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -345,7 +380,7 @@
 
 		Show
 			Class "Misc Map Items" "Map Fragments"
-			BaseType "Sacrifice at" "Divine Vessel" 
+			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at" "Offering to the Goddess" "Divine Vessel" Scarab "Invitation" "Blood-filled Vessel"
 
 	# Uniques
 	# -------
@@ -356,17 +391,35 @@
 	# Equipment
 	# ---------
 
+		Show
+			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+
+		# Amulets
+
+			Show
+				Class Amulets
+				BaseType Marble "Blue Pearl" Seaglass
+				Rarity Rare
+
+		# Rings
+
+			Show
+				Class Rings
+				BaseType Cerulean Steel Opal Vermillion Iolite
+				Rarity Rare
+
+		# Belts
+
+			Show
+				Class Belts
+				BaseType Crystal Stygian Vanguard
+				Rarity Rare
+
 		# Jewels
 
 			Show
 				Class Jewel
 				BaseType "Cluster Jewel"
-				Rarity <= Magic
-
-			Show
-				Class Jewel
-				BaseType "Cluster Jewel"
-				Rarity Rare
 
 		# Heist 
 
@@ -377,6 +430,9 @@
 
 			Show
 				Sockets 6
+
+			Show
+				SocketGroup >= 5
 
 # Level 4
 # =======
@@ -394,7 +450,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard" Perandus
+			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard" Perandus
 
 	# Gems
 	# ----
@@ -410,67 +466,690 @@
 
 			Show
 				Class "Body Armours"
-				Rarity Rare
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
+				#Rarity Rare
+				AreaLevel <= 29
+				ItemLevel <= 27
+				SocketGroup = 3
+
+			Show
+				Class "Body Armours"
+				#Rarity Rare
+				AreaLevel <= 42
+				ItemLevel <= 40
+				SocketGroup = 4
 
 			Show
 				Class "Body Armours"
 				Rarity Rare
-				AreaLevel <= 48
-				SocketGroup >= 4
+				DropLevel >= 1
+				AreaLevel < 16
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 6
+				AreaLevel < 21
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 8
+				AreaLevel < 23
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 9
+				AreaLevel < 24
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 11
+				AreaLevel < 26
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 17
+				AreaLevel < 32
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 18
+				AreaLevel < 33
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 21
+				AreaLevel < 36
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 25
+				AreaLevel < 40
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 28
+				AreaLevel < 43
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 32
+				AreaLevel < 47
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 35
+				AreaLevel < 50
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 37
+				AreaLevel < 52
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 38
+				AreaLevel < 53
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 39
+				AreaLevel < 54
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 40
+				AreaLevel < 55
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 41
+				AreaLevel < 56
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 42
+				AreaLevel < 57
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 43
+				AreaLevel < 58
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 44
+				AreaLevel < 59
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 45
+				AreaLevel < 60
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 46
+				AreaLevel < 61
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 47
+				AreaLevel < 62
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 48
+				AreaLevel < 63
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 49
+				AreaLevel < 64
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 50
+				AreaLevel < 65
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 51
+				AreaLevel < 66
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 52
+				AreaLevel < 67
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 53
+				AreaLevel < 68
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 54
+				AreaLevel < 69
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 55
+				AreaLevel < 70
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 56
+				AreaLevel < 71
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 57
+				AreaLevel < 72
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 58
+				AreaLevel < 73
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+				DropLevel >= 59
 
 		# Helmets
 
 			Show
 				Class Helmets
-				Rarity Rare
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
+				#Rarity Rare
+				AreaLevel <= 29
+				ItemLevel <= 27
+				SocketGroup = 3
+
+			Show
+				Class Helmets
+				#Rarity Rare
+				AreaLevel <= 42
+				ItemLevel <= 40
+				SocketGroup = 4
 
 			Show
 				Class Helmets
 				Rarity Rare
-				AreaLevel <= 48
-				SocketGroup >= 4
+				DropLevel >= 1
+				AreaLevel < 16
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 5
+				AreaLevel < 20
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 7
+				AreaLevel < 22
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 8
+				AreaLevel < 23
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 10
+				AreaLevel < 25
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 12
+				AreaLevel < 27
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 13
+				AreaLevel < 28
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 17
+				AreaLevel < 32
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 18
+				AreaLevel < 33
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 20
+				AreaLevel < 35
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 22
+				AreaLevel < 37
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 23
+				AreaLevel < 38
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 26
+				AreaLevel < 41
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 28
+				AreaLevel < 43
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 30
+				AreaLevel < 45
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 31
+				AreaLevel < 46
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 33
+				AreaLevel < 48
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 34
+				AreaLevel < 49
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 35
+				AreaLevel < 50
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 36
+				AreaLevel < 51
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 37
+				AreaLevel < 52
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 38
+				AreaLevel < 53
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 39
+				AreaLevel < 54
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 40
+				AreaLevel < 55
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 41
+				AreaLevel < 56
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 43
+				AreaLevel < 58
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 44
+				AreaLevel < 59
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 45
+				AreaLevel < 60
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 47
+				AreaLevel < 62
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 48
+				AreaLevel < 63
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 51
+				AreaLevel < 66
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 52
+				AreaLevel < 67
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 53
+				AreaLevel < 68
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 54
+				AreaLevel < 69
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 55
+				AreaLevel < 70
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 57
+				AreaLevel < 72
+
+			Show
+				Class Helmets
+				Rarity Rare
+				DropLevel >= 58
 
 		# Gloves
 
 			Show
 				Class Gloves
-				Rarity Rare
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
+				#Rarity Rare
+				AreaLevel <= 29
+				ItemLevel <= 27
+				SocketGroup = 3
+
+			Show
+				Class Gloves
+				#Rarity Rare
+				AreaLevel <= 42
+				ItemLevel <= 40
+				SocketGroup = 4
 
 			Show
 				Class Gloves
 				Rarity Rare
-				AreaLevel <= 48
-				SocketGroup >= 4
+				DropLevel >= 1
+				AreaLevel < 16
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 5
+				AreaLevel < 20
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 7
+				AreaLevel < 22
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 9
+				AreaLevel < 24
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 11
+				AreaLevel < 26
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 12
+				AreaLevel < 27
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 15
+				AreaLevel < 30
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 16
+				AreaLevel < 31
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 19
+				AreaLevel < 34
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 21
+				AreaLevel < 36
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 23
+				AreaLevel < 38
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 25
+				AreaLevel < 40
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 27
+				AreaLevel < 42
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 31
+				AreaLevel < 46
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 32
+				AreaLevel < 47
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 33
+				AreaLevel < 48
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 35
+				AreaLevel < 50
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 36
+				AreaLevel < 51
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 37
+				AreaLevel < 52
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 38
+				AreaLevel < 53
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 39
+				AreaLevel < 54
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 41
+				AreaLevel < 56
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 43
+				AreaLevel < 58
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 45
+				AreaLevel < 60
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 47
+				AreaLevel < 62
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 49
+				AreaLevel < 64
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 50
+				AreaLevel < 65
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 51
+				AreaLevel < 66
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 53
+				AreaLevel < 68
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 54
+				AreaLevel < 69
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 55
+				AreaLevel < 70
+
+			Show
+				Class Gloves
+				Rarity Rare
+				DropLevel >= 57
 
 		# Boots
 
 			Show
 				Class Boots
 				Rarity Rare
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
+				DropLevel >= 58
+
+		# Amulets
 
 			Show
-				Class Boots
+				Class Amulets
+				BaseType Onyx
 				Rarity Rare
-				AreaLevel <= 48
-				SocketGroup >= 4
 
 		# Rings
 
 			Show
 				Class Rings
-				BaseType Sapphire Ruby Topaz Two-Stone Diamond Coral
+				BaseType Sapphire Ruby Topaz Two-Stone Diamond Coral 
 				Rarity Rare
 
 		# Belts
@@ -544,151 +1223,355 @@
 		# Weapons
 
 			Show
-				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
-				Rarity Rare
-				DropLevel >= 0
+				Class "Wands" "Sceptres"
+				Rarity <= Rare
 				AreaLevel < 15
-
-			Show
-				Class "Wands"
-				Rarity <= Magic
-				AreaLevel < 18
-
-			Show
-				Class "Sceptres"
-				Rarity <= Magic
-				AreaLevel < 18
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 5
-				AreaLevel < 20
+				AreaLevel < 15
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 6
+				AreaLevel < 16
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 7
+				AreaLevel < 17
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 8
+				AreaLevel < 18
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 9
+				AreaLevel < 19
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 10
-				AreaLevel < 25
+				AreaLevel < 20
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 11
+				AreaLevel < 21
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 12
+				AreaLevel < 22
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 13
+				AreaLevel < 23
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 14
+				AreaLevel < 24
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 15
-				AreaLevel < 30
+				AreaLevel < 25
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 16
+				AreaLevel < 26
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 17
+				AreaLevel < 27
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 18
+				AreaLevel < 28
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 19
+				AreaLevel < 29
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 20
-				AreaLevel < 35
+				AreaLevel < 30
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 21
+				AreaLevel < 31
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 22
+				AreaLevel < 32
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 23
+				AreaLevel < 33
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 24
+				AreaLevel < 34
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 25
-				AreaLevel < 40
+				AreaLevel < 35
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 26
+				AreaLevel < 36
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 27
+				AreaLevel < 37
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 28
+				AreaLevel < 38
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 29
+				AreaLevel < 39
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 30
-				AreaLevel < 45
+				AreaLevel < 40
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 31
+				AreaLevel < 41
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 32
+				AreaLevel < 42
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 33
+				AreaLevel < 43
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 34
+				AreaLevel < 44
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 35
-				AreaLevel < 50
+				AreaLevel < 45
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 36
+				AreaLevel < 46
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 37
+				AreaLevel < 47
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 38
+				AreaLevel < 48
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 39
+				AreaLevel < 49
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 40
-				AreaLevel < 55
+				AreaLevel < 50
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 41
+				AreaLevel < 51
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 42
+				AreaLevel < 52
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 43
+				AreaLevel < 53
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 44
+				AreaLevel < 54
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 45
-				AreaLevel < 60
+				AreaLevel < 55
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 46
+				AreaLevel < 56
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 47
+				AreaLevel < 57
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 48
+				AreaLevel < 58
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 49
+				AreaLevel < 59
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 50
-				AreaLevel < 65
+				AreaLevel < 60
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 51
+				AreaLevel < 61
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 52
+				AreaLevel < 62
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 53
+				AreaLevel < 63
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 54
+				AreaLevel < 64
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
 				DropLevel >= 55
-				AreaLevel < 70
+				AreaLevel < 65
 
 			Show
 				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
 				Rarity Rare
-				DropLevel >= 60
-				AreaLevel >= 70
+				DropLevel >= 56
+				AreaLevel < 66
+
+			Show
+				Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Quivers" "Daggers" "Shields" "Rune Dagger" "Warstaves"
+				Rarity Rare
+				DropLevel >= 57
 
 		# Body Armours
 
 			Show
 				Class "Body Armours"
-				Rarity Rare
+				Rarity < Rare
+				AreaLevel <= 42
+				ItemLevel <= 40
+				SocketGroup >= 4
 
 		# Helmets
 
 			Show
 				Class Helmets
-				Rarity <= Magic
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
-
-			Show
-				Class Helmets
-				Rarity <= Magic
-				AreaLevel <= 48
+				Rarity < Rare
+				AreaLevel <= 42
+				ItemLevel <= 40
 				SocketGroup >= 4
-
-			Show
-				Class Helmets
-				Rarity Rare
 
 		# Gloves
 
 			Show
 				Class Gloves
-				Rarity <= Magic
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
-
-			Show
-				Class Gloves
-				Rarity <= Magic
-				AreaLevel <= 48
+				Rarity < Rare
+				AreaLevel <= 42
+				ItemLevel <= 40
 				SocketGroup >= 4
-
-			Show
-				Class Gloves
-				Rarity Rare
 
 		# Boots
-
-			Show
-				Class Boots
-				Rarity <= Magic
-				AreaLevel <= 48
-				ItemLevel <= 25
-				SocketGroup >= 3
-
-			Show
-				Class Boots
-				Rarity <= Magic
-				AreaLevel <= 48
-				SocketGroup >= 4
 
 			Show
 				Class Boots
@@ -850,12 +1733,36 @@
 		Show
 			SynthesisedItem True
 
+		Show
+			HasSearingExarchImplicit >= 1
+
+		Show
+			HasEaterOfWorldsImplicit >= 1
+
+		# Body Armours
+
+			Show
+				Class "Body Armours"
+				Rarity Rare
+
+		# Helmets
+
+			Show
+				Class Helmets
+				Rarity Rare
+
+		# Gloves
+
+			Show
+				Class Gloves
+				Rarity Rare
+
 		# Boots
 
 			Show
 				Class Boots
 				Rarity Magic
-				AreaLevel <= 12
+				AreaLevel <= 15
 
 		# Amulets
 
@@ -929,219 +1836,164 @@
 # ===============
 
 	Hide
-		ItemLevel < 68
 		BaseType "Stone Axe" "Jade Chopper" "Woodsplitter" "Poleaxe" "Double Axe" "Gilded Axe" "Shadow Axe" "Dagger Axe" "Jasper Chopper" "Timber Axe" "Headsman Axe" "Labrys" "Noble Axe" "Abyssal Axe" "Karui Chopper" "Talon Axe" "Sundering Axe" "Ezomyte Axe" "Vaal Axe" "Despot Axe" "Void Axe" "Fleshripper" 
 
 	Hide
-		ItemLevel < 68
 		BaseType "Driftwood Maul" "Tribal Maul" "Mallet" "Sledgehammer" "Jagged Maul" "Brass Maul" "Fright Maul" "Morning Star" "Totemic Maul" "Great Mallet" "Steelhead" "Spiny Maul" "Plated Maul" "Dread Maul" "Solar Maul" "Karui Maul" "Colossus Mallet" "Piledriver" "Meatgrinder" "Imperial Maul" "Terror Maul" "Coronal Maul" 
 
 	Hide
-		ItemLevel < 68
 		BaseType "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Exquisite Blade"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Crude Bow" "Short Bow" "Long Bow" "Composite Bow" "Recurve Bow" "Bone Bow" "Royal Bow" "Death Bow" "Grove Bow" "Reflex Bow" "Decurve Bow" "Compound Bow" "Sniper Bow" "Ivory Bow" "Highborn Bow" "Decimation Bow" "Thicket Bow" "Steelwood Bow" "Citadel Bow" "Ranger Bow" "Assassin Bow" "Spine Bow" "Imperial Bow" "Harbinger Bow" "Maraketh Bow"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Rusted Hatchet" "Jade Hatchet" "Boarding Axe" "Cleaver" "Broad Axe" "Arming Axe" "Decorative Axe" "Spectral Axe" "Etched Hatchet" "Jasper Axe" "Tomahawk" "Wrist Chopper" "War Axe" "Chest Splitter" "Ceremonial Axe" "Wraith Axe" "Engraved Hatchet" "Karui Axe" "Siege Axe" "Reaver Axe" "Butcher Axe" "Vaal Hatchet" "Royal Axe" "Infernal Axe" "Runic Hatchet" 
 
 	Hide
-		ItemLevel < 68
 		BaseType "Driftwood Club" "Tribal Club" "Spiked Club" "Stone Hammer" "War Hammer" "Bladed Mace" "Ceremonial Mace" "Dream Mace" "Wyrm Mace" "Petrified Club" "Barbed Club" "Rock Breaker" "Battle Hammer" "Flanged Mace" "Ornate Mace" "Phantom Mace" "Dragon Mace" "Ancestral Club" "Tenderizer" "Gavel" "Legion Hammer" "Pernach" "Auric Mace" "Nightmare Mace" "Behemoth Mace"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Rusted Sword" "Copper Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Battle Sword" "Elder Sword" "Graceful Sword" "Twilight Blade" "Grappler" "Gemstone Sword" "Corsair Sword" "Gladius" "Legion Sword" "Vaal Blade" "Eternal Sword" "Midnight Blade" "Tiger Hook"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Pecoraro" "Spiraled Foil" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Dragoon Sword"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Serpent Wand" "Omen Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand" "Prophecy Wand" "Profane Wand" "Convoking Wand"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Driftwood Sceptre" "Darkwood Sceptre" "Bronze Sceptre" "Quartz Sceptre" "Iron Sceptre" "Ochre Sceptre" "Ritual Sceptre" "Shadow Sceptre" "Grinning Fetish" "Horned Sceptre" "Sekhem" "Crystal Sceptre" "Lead Sceptre" "Blood Sceptre" "Royal Sceptre" "Abyssal Sceptre" "Stag Sceptre" "Karui Sceptre" "Tyrant's Sekhem" "Opal Sceptre" "Platinum Sceptre" "Vaal Sceptre" "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Gnarled Branch" "Primitive Staff" "Long Staff" "Royal Staff" "Crescent Staff" "Woodful Staff" "Quarterstaff" "Highborn Staff" "Moon Staff" "Primordial Staff" "Lathi" "Imperial Staff" "Eclipse Staff" 
 
 	Hide
-		ItemLevel < 68
 		BaseType "Iron Staff" "Coiled Staff" "Vile Staff" "Military Staff" "Serpentine Staff" "Foul Staff" "Ezomyte Staff" "Maelström Staff" "Judgement Staff"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Nailed Fist" "Sharktooth Claw" "Awl" "Cat's Paw" "Blinder" "Timeworn Claw" "Sparkling Claw" "Fright Claw" "Double Claw" "Thresher Claw" "Gouger" "Tiger's Paw" "Gut Ripper" "Prehistoric Claw" "Noble Claw" "Eagle Claw" "Twin Claw" "Great White Claw" "Throat Stabber" "Hellion's Paw" "Eye Gouger" "Vaal Claw" "Imperial Claw" "Terror Claw" "Gemini Claw"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Glass Shank" "Skinning Knife" "Stiletto" "Flaying Knife" "Prong Dagger" "Poignard" "Trisula" "Gutting Knife" "Ambusher" "Sai"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Carving Knife" "Boot Knife" "Copper Kris" "Skean" "Imp Dagger" "Butcher Knife" "Boot Blade" "Golden Kris" "Royal Skean" "Fiend Dagger" "Slaughter Knife" "Ezomyte Dagger" "Platinum Kris" "Imperial Skean" "Demon Dagger"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Two-Point Arrow Quiver" "Serrated Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver" "Artillery Quiver"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Arena Plate" "Lordly Plate" "Bronze Plate" "Battle Plate" "Sun Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Crusader Plate" "Astral Plate" "Gladiator Plate" "Glorious Plate"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Exquisite Leather" "Zodiac Leather" "Assassin's Garb"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Mage's Vestment" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Occultist's Vestment" "Widowsilk Robe" "Vaal Regalia"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Full Scale Armour" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Full Wyrmscale" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Holy Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Conquest Chainmail" "Elegant Ringmail" "Saint's Hauberk" "Saintly Chainmail"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Padded Vest" "Oiled Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat" "Blood Raiment" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Iron Gauntlets" "Plated Gauntlets" "Bronze Gauntlets" "Steel Gauntlets" "Antique Gauntlets" "Ancient Gauntlets" "Goliath Gauntlets" "Vaal Gauntlets" "Titan Gauntlets" "Spiked Gloves"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Rawhide Gloves" "Goathide Gloves" "Deerskin Gloves" "Nubuck Gloves" "Eelskin Gloves" "Sharkskin Gloves" "Shagreen Gloves" "Stealth Gloves" "Gripped Gloves" "Slink Gloves" "Wool Gloves" "Velvet Gloves" "Silk Gloves" "Embroidered Gloves" "Satin Gloves" "Samite Gloves" "Conjurer Gloves" "Arcanist Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Runic Gloves" "Runic Gages" "Runic Gauntlets"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Fishscale Gauntlets" "Ironscale Gauntlets" "Bronzescale Gauntlets" "Steelscale Gauntlets" "Serpentscale Gauntlets" "Wyrmscale Gauntlets" "Hydrascale Gauntlets" "Dragonscale Gauntlets"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Chain Gloves" "Ringmail Gloves" "Mesh Gloves" "Riveted Gloves" "Zealot Gloves" "Soldier Gloves" "Legion Gloves" "Crusader Gloves" "Apothecary's Gloves"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Wrapped Mitts" "Strapped Mitts" "Clasped Mitts" "Trapper Mitts" "Ambush Mitts" "Carnal Mitts" "Assassin's Mitts" "Murder Mitts"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Iron Greaves" "Steel Greaves" "Plated Greaves" "Reinforced Greaves" "Antique Greaves" "Ancient Greaves" "Goliath Greaves" "Vaal Greaves" "Titan Greaves"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Rawhide Boots" "Goathide Boots" "Deerskin Boots" "Nubuck Boots" "Eelskin Boots" "Sharkskin Boots" "Shagreen Boots" "Stealth Boots" "Slink Boots"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Wool Shoes" "Velvet Slippers" "Silk Slippers" "Scholar Boots" "Satin Slippers" "Samite Slippers" "Conjurer Boots" "Arcanist Slippers" "Sorcerer Boots"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Runic Greaves" "Runic Sollerets" "Runic Sabatons"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Leatherscale Boots" "Ironscale Boots" "Bronzescale Boots" "Steelscale Boots" "Serpentscale Boots" "Wyrmscale Boots" "Hydrascale Boots" "Dragonscale Boots" "Two-Toned Boots"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Chain Boots" "Ringmail Boots" "Mesh Boots" "Riveted Boots" "Zealot Boots" "Soldier Boots" "Legion Boots" "Crusader Boots"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Wrapped Boots" "Strapped Boots" "Clasped Boots" "Shackled Boots" "Trapper Boots" "Ambush Boots" "Carnal Boots" "Assassin's Boots" "Murder Boots" "Fugitive Boots"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Iron Hat" "Cone Helmet" "Barbute Helmet" "Close Helmet" "Gladiator Helmet" "Reaver Helmet" "Siege Helmet" "Samnite Helmet" "Ezomyte Burgonet" "Royal Burgonet" "Eternal Burgonet"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Leather Cap" "Tricorne" "Leather Hood" "Wolf Pelt" "Hunter Hood" "Noble Tricorne" "Ursine Pelt" "Silken Hood" "Sinner Tricorne" "Lion Pelt"
 
 	Hide
-		ItemLevel < 68
-		BaseType "Vine Circlet" "Iron Circlet" "Torture Cage" "Tribal Circlet" "Bone Circlet" "Lunaris Circlet" "Steel Circlet" "Necromancer Circlet" "Solaris Circlet" "Mind Cage" "Hubris Circlet"
-
+		BaseType "Vine Circlet" "Iron Circlet" "Torture Cage" "Tribal Circlet" "Bone Circlet" "Lunaris Circlet" "Steel Circlet" "Necromancer Circlet" "Solaris Circlet" "Mind Cage" "Hubris Circlet" 
 	Hide
-		ItemLevel < 68
 		BaseType "Runic Helm" "Runic Crest" "Runic Crown"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Battered Helm" "Sallet" "Visored Sallet" "Gilded Sallet" "Secutor Helm" "Fencer Helm" "Lacquered Helmet" "Fluted Bascinet" "Pig-Faced Bascinet" "Nightmare Bascinet"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Rusted Coif" "Soldier Helmet" "Great Helmet" "Crusader Helmet" "Aventail Helmet" "Zealot Helmet" "Great Crown" "Magistrate Crown" "Prophet Crown" "Praetor Crown" "Bone Helmet"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Scare Mask" "Plague Mask" "Iron Mask" "Festival Mask" "Golden Mask" "Raven Mask" "Callous Mask" "Regicide Mask" "Harlequin Mask" "Vaal Mask" "Deicide Mask"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Splintered Tower Shield" "Corroded Tower Shield" "Rawhide Tower Shield" "Cedar Tower Shield" "Copper Tower Shield" "Reinforced Tower Shield" "Painted Tower Shield" "Buckskin Tower Shield" "Mahogany Tower Shield" "Bronze Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield" "Ebony Tower Shield" "Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler" "Vaal Buckler" "Crusader Buckler" "Imperial Buckler"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Rotted Round Shield" "Fir Round Shield" "Studded Round Shield" "Scarlet Round Shield" "Splendid Round Shield" "Maple Round Shield" "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield" "Teak Round Shield" "Spiny Round Shield" "Cardinal Round Shield" "Elegant Round Shield"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Chain Belt" "Rustic Sash" "Stygian Vise" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt" "Vanguard Belt" "Crystal Belt"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Breach Ring" "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring" "Opal Ring" "Cerulean Ring" "Iolite Ring"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Marble Amulet" "Blue Pearl Amulet" "Talisman" "Seaglass Amulet"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Life Flask" "Mana Flask" "Hybrid Flask" "Quicksilver Flask" "Bismuth Flask" "Stibnite Flask" "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Silver Flask" "Aquamarine Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Sulphur Flask" "Basalt Flask" "Diamond Flask" "Gold Flask" "Corundum Flask" "Iron Flask"
 
 	Hide
-		ItemLevel < 68
 		BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel" "Small Cluster Jewel" "Medium Cluster Jewel" "Large Cluster Jewel" "Ghastly Eye Jewel" "Hypnotic Eye Jewel" "Murderous Eye Jewel" "Searching Eye Jewel"
 
 	Hide
-		ItemLevel < 68
 		Class "Gems"
 
 	Show
