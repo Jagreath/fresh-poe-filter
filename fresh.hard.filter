@@ -514,6 +514,14 @@
 			ItemLevel >= 86
 			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
+		Show
+			HasSearingExarchImplicit >= 4
+			ItemLevel >= 81
+
+		Show
+			HasEaterOfWorldsImplicit >= 4
+			ItemLevel >= 81
+
 		# Helmets
 
 			Show
@@ -1012,12 +1020,6 @@
 
 		Show
 			SynthesisedItem True
-
-		Show
-			HasSearingExarchImplicit >= 1
-
-		Show
-			HasEaterOfWorldsImplicit >= 1
 
 		# Helmets
 

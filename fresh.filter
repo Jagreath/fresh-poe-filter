@@ -437,61 +437,71 @@
 		Show
 			Class Maps
 			MapTier = 1
-			AreaLevel <= 72
+			AreaLevel <= 70
 
 		Show
 			Class Maps
 			MapTier = 2
-			AreaLevel <= 73
+			AreaLevel <= 71
 
 		Show
 			Class Maps
 			MapTier = 3
-			AreaLevel <= 74
+			AreaLevel <= 72
 
 		Show
 			Class Maps
 			MapTier = 4
-			AreaLevel <= 75
+			AreaLevel <= 73
 
 		Show
 			Class Maps
 			MapTier = 5
-			AreaLevel <= 76
+			AreaLevel <= 74
 
 		Show
 			Class Maps
 			MapTier = 6
-			AreaLevel <= 77
+			AreaLevel <= 75
 
 		Show
 			Class Maps
 			MapTier = 7
-			AreaLevel <= 78
+			AreaLevel <= 76
 
 		Show
 			Class Maps
 			MapTier = 8
-			AreaLevel <= 79
+			AreaLevel <= 77
 
 		Show
 			Class Maps
 			MapTier = 9
-			AreaLevel <= 80
+			AreaLevel <= 78
 
 		Show
 			Class Maps
 			MapTier = 10
-			AreaLevel <= 81
+			AreaLevel <= 79
 
 		Show
 			Class Maps
 			MapTier = 11
+			AreaLevel <= 80
+
+		Show
+			Class Maps
+			MapTier = 12
+			AreaLevel <= 81
+
+		Show
+			Class Maps
+			MapTier = 13
 			AreaLevel <= 82
 
 		Show
 			Class Maps
-			MapTier >= 12
+			MapTier >= 14
 
 	# Fragments
 	# ---------
@@ -508,6 +518,14 @@
 
 	# Equipment
 	# ---------
+
+		Show
+			HasSearingExarchImplicit >= 3
+			ItemLevel >= 81
+
+		Show
+			HasEaterOfWorldsImplicit >= 3
+			ItemLevel >= 81
 
 		# Helmets
 
@@ -973,12 +991,6 @@
 
 		Show
 			SynthesisedItem True
-
-		Show
-			HasSearingExarchImplicit >= 1
-
-		Show
-			HasEaterOfWorldsImplicit >= 1
 
 		# Helmets
 

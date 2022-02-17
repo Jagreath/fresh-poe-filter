@@ -1733,12 +1733,6 @@
 		Show
 			SynthesisedItem True
 
-		Show
-			HasSearingExarchImplicit >= 1
-
-		Show
-			HasEaterOfWorldsImplicit >= 1
-
 		# Body Armours
 
 			Show

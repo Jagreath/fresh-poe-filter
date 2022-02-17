@@ -513,6 +513,12 @@
 	# Equipment
 	# ---------
 
+		Show
+			HasSearingExarchImplicit >= 2
+
+		Show
+			HasEaterOfWorldsImplicit >= 2
+
 		# Helmets
 
 			Show
@@ -1021,12 +1027,6 @@
 
 		Show
 			SynthesisedItem True
-
-		Show
-			HasSearingExarchImplicit >= 1
-
-		Show
-			HasEaterOfWorldsImplicit >= 1
 
 		# Helmets
 
