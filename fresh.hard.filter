@@ -85,7 +85,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Eternal Orb" "Exalted Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Regrading Lens" "Sacred Orb" "Mirror Shard" "Faceted Fossil" "Tainted Oil" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment"
+			BaseType "Eternal Orb" "Exalted Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Regrading Lens" "Sacred Orb" "Mirror Shard" "Faceted Fossil" "Tainted Oil" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor"
 
 	# Divination Cards
 	# ----------------
@@ -201,7 +201,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Orb of Unmaking" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Greater Eldritch Ember" "Grand Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Orb of Conflict"
+			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Greater Eldritch Ember" "Grand Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Orb of Conflict" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment" "Elevated Sextant"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -247,7 +247,7 @@
 
 		Show
 			Class Maps
-			MapTier >= 15
+			MapTier >= 16
 
 		Show
 			Class "Expedition Logbook"
@@ -389,7 +389,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact" "Surveyor's Compass" "Charged Compass" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Scouting Report" "Oil Extractor"
+			BaseType "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact" "Surveyor's Compass" "Charged Compass" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Scouting Report" "Oil Extractor" "Orb of Unmaking" 
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -403,7 +403,7 @@
 
 		Hide
 			Class "Divination"
-			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover"
+			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity"
 			PlayAlertSoundPositional None
 			MinimapIcon -1
 			PlayEffect None
@@ -421,78 +421,6 @@
 		Show
 			Class Gems
 			AlternateQuality True
-
-	# Maps
-	# ----
-
-		Show
-			Class Maps
-			MapTier = 1
-			AreaLevel <= 69
-
-		Show
-			Class Maps
-			MapTier = 2
-			AreaLevel <= 70
-
-		Show
-			Class Maps
-			MapTier = 3
-			AreaLevel <= 71
-
-		Show
-			Class Maps
-			MapTier = 4
-			AreaLevel <= 72
-
-		Show
-			Class Maps
-			MapTier = 5
-			AreaLevel <= 73
-
-		Show
-			Class Maps
-			MapTier = 6
-			AreaLevel <= 74
-
-		Show
-			Class Maps
-			MapTier = 7
-			AreaLevel <= 75
-
-		Show
-			Class Maps
-			MapTier = 8
-			AreaLevel <= 76
-
-		Show
-			Class Maps
-			MapTier = 9
-			AreaLevel <= 77
-
-		Show
-			Class Maps
-			MapTier = 10
-			AreaLevel <= 78
-
-		Show
-			Class Maps
-			MapTier = 11
-			AreaLevel <= 79
-
-		Show
-			Class Maps
-			MapTier = 12
-			AreaLevel <= 80
-
-		Show
-			Class Maps
-			MapTier = 13
-			AreaLevel <= 81
-
-		Show
-			Class Maps
-			MapTier >= 14
 
 	# Fragments
 	# ---------
@@ -683,6 +611,72 @@
 
 		Show
 			Class Maps
+			MapTier = 1
+			AreaLevel <= 69
+
+		Show
+			Class Maps
+			MapTier = 2
+			AreaLevel <= 70
+
+		Show
+			Class Maps
+			MapTier = 3
+			AreaLevel <= 71
+
+		Show
+			Class Maps
+			MapTier = 4
+			AreaLevel <= 72
+
+		Show
+			Class Maps
+			MapTier = 5
+			AreaLevel <= 73
+
+		Show
+			Class Maps
+			MapTier = 6
+			AreaLevel <= 74
+
+		Show
+			Class Maps
+			MapTier = 7
+			AreaLevel <= 75
+
+		Show
+			Class Maps
+			MapTier = 8
+			AreaLevel <= 76
+
+		Show
+			Class Maps
+			MapTier = 9
+			AreaLevel <= 77
+
+		Show
+			Class Maps
+			MapTier = 10
+			AreaLevel <= 78
+
+		Show
+			Class Maps
+			MapTier = 11
+			AreaLevel <= 79
+
+		Show
+			Class Maps
+			MapTier = 12
+			AreaLevel <= 80
+
+		Show
+			Class Maps
+			MapTier = 13
+			AreaLevel <= 81
+
+		Show
+			Class Maps
+			MapTier >= 14
 
 	# Equipment
 	# ---------
@@ -699,6 +693,7 @@
 				BaseDefencePercentile >= 90
 				Rarity Rare
 				ItemLevel >= 84
+				Identified False
 
 		# Gloves
 
@@ -712,6 +707,7 @@
 				BaseDefencePercentile >= 90
 				Rarity Rare
 				ItemLevel >= 84
+				Identified False
 
 		# Boots
 
@@ -725,11 +721,13 @@
 				BaseDefencePercentile >= 90
 				Rarity Rare
 				ItemLevel >= 84
+				Identified False
 
 			Show
 				Class Boots
 				Rarity Rare
 				ItemLevel >= 86
+				Identified False
 
 		# Body Armours
 
@@ -743,6 +741,7 @@
 				BaseDefencePercentile >= 90
 				Rarity Rare
 				ItemLevel >= 84
+				Identified False
 
 		# Weapons
 
@@ -755,11 +754,13 @@
 				BaseType "Imperial Skean" "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Siege Axe" "Sambar Sceptre"
 				Rarity Rare
 				ItemLevel >= 83
+				Identified False
 
 			Show
 				BaseType "Titanium Spirit Shield" "Fossilised Spirit Shield" "Gemini Claw"
 				Rarity Rare
 				ItemLevel >= 84
+				Identified False
 
 		# Amulets
 
@@ -767,6 +768,7 @@
 				Class Amulets
 				BaseType Onyx Marble "Blue Pearl" Seaglass
 				Rarity Rare
+				Identified False
 
 			Show
 				Class Amulets
@@ -779,6 +781,7 @@
 				Class Rings
 				BaseType Cerulean Steel Opal Vermillion Iolite
 				Rarity Rare
+				Identified False
 
 			Show
 				Class Rings
@@ -792,12 +795,14 @@
 				Class Belts
 				BaseType Crystal Stygian
 				Rarity Rare
+				Identified False
 
 			Show
 				Class Belts
 				BaseType Leather Heavy Vanguard
 				Rarity Rare
 				ItemLevel >= 84
+				Identified False
 
 			Show
 				Class Belts
@@ -886,6 +891,12 @@
 		Show
 			BaseType "Orb of Augmentation" "Regal Shard" "Alchemy Shard" "Engineer's Shard" "Horizon Shard" 
 
+	# Maps
+	# ----
+
+		Show
+			Class Maps
+
 	# Equipment
 	# ---------
 
@@ -898,6 +909,7 @@
 				BaseType "Hubris Circlet" "Bone Helmet" "Runic Crown"
 				BaseDefencePercentile >= 95
 				Rarity Rare
+				Identified False
 
 		# Gloves
 
@@ -905,6 +917,7 @@
 				BaseType "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Apothecary's Gloves" "Runic Gauntlets"
 				BaseDefencePercentile >= 95
 				Rarity Rare
+				Identified False
 
 		# Boots
 
@@ -912,6 +925,7 @@
 				BaseType "Sorcerer Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
 				BaseDefencePercentile >= 95
 				Rarity Rare
+				Identified False
 
 		# Body Armours
 
@@ -919,6 +933,7 @@
 				BaseType "Astral Plate" "Vaal Regalia" 
 				BaseDefencePercentile >= 95
 				Rarity Rare
+				Identified False
 
 		# Weapons
 
@@ -926,20 +941,35 @@
 				BaseType "Titanium Spirit Shield" "Convoking Wand" "Prophecy Wand" 
 				BaseDefencePercentile >= 95
 				Rarity Rare
+				Identified False
 
 		# Amulets 
 
 			Show
 				Class Amulets
-				BaseType Amber Jade Lapis Agate Citrine Turquoise Onyx Talisman
+				BaseType Amber Jade Lapis Agate Citrine Turquoise Onyx
 				Rarity Rare
+				Identified False
+
+			Show
+				Class Amulets
+				BaseType Talisman
+				Rarity Rare
+				Identified False
 
 		# Rings 
 
 			Show
 				Class Rings
-				BaseType "Breach Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring"
+				BaseType "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring"
 				Rarity Rare
+				Identified False
+
+			Show
+				Class Rings
+				BaseType "Breach Ring"
+				Rarity Rare
+				ItemLevel >= 84
 
 		# Belts 
 
@@ -947,6 +977,7 @@
 				Class Belts
 				BaseType Leather Heavy Vanguard
 				Rarity Rare
+				Identified False
 
 		# Jewels
 
