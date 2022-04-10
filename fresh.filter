@@ -970,19 +970,7 @@
 
 	# Equipment
 	# ---------
-
-		Show
-			HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Prime" "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting" "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's" "Merciless" "Tyrannical" "Cremating" "Entombing" "Electrocuting" "of Celebration" "of Destruction" "Glyphic" "Runic" "of Unmaking" 
-
-		Show
-			HasExplicitMod >=2  "Virile" "Athlete's" "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Exile" "of Bameth" "of the Titan" "of the Gods" "of the Godslayer" "of the Phantom" "of the Wind" "of the Blur" "of the Virtuoso" "of the Genius" "of the Polymath"
-
-		Show
-			HasExplicitMod >=2  "Emperor's" "Dictator's" "Bloodthirsty" "Cruel" "Tyrannical" "Merciless" "Razor-sharp" "Tempered" "Flaring" "Annealed" "of Infamy" "of Celebration" "of Fame" "of Penetrating" "of Incision" "of Ferocity" "of Destruction"
-
-		Show
-			HasExplicitMod >=2 "Glyphic" "Runic" "Pyroclastic" "Xoph's" "Cryomancer's" "Tul's" "Ionising" "Esh's" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Blasting" "Cremating" "Polar" "Entombing" "Discharging" "Electrocuting" "Disintegrating" "Heartstopping" "Fanatical" "of Ferocity" "of Destruction" "Lava Conjurer's" "Winter Beckoner's" "Tempest Master's" "Splintermind's" "Tecton's"
-
+		
 		Show
 			AnyEnchantment True
 
@@ -992,19 +980,18 @@
 		Show
 			SynthesisedItem True
 
-		# Helmets
+		# Helmets / Gloves / Boots
+
+			Show
+				HasExplicitMod >=3 "Virile" "Athlete's" "Fecund" "Girded" "Impregnable" "Encased" "Enveloped" "Nightmare's" "Mirage's" "Vaporous" "Elusory" "Seething" "Blazing" "Indomitable" "Unassailable" "Hero's" "Legend's" "Durable" "Sturdy" "Interpolated" "Inspired" "Hallowed" "Beatified" "Unreal" "Illusory" "Cherub's" "Spirit's" "Necromancer's" "of the Gods" "of the Genius" "of the Polymath" "of the Wind" "of the Blur" "of Lioneye" "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Exile" "of Bameth" "of Nullification" "of Puhuarte" "Subterranean" "of the Underground" "Cheetah's" "Hellion's" "Matatl's" "Essences" "of the Essence"
 
 			Show
 				BaseType "Deicide Mask" "Nightmare Bascinet"
 				Rarity Rare
 
-		# Gloves
-
 			Show
 				BaseType "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Slink Gloves"
 				Rarity Rare
-
-		# Boots
 
 			Show
 				BaseType "Slink Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots"
@@ -1013,11 +1000,29 @@
 		# Body Armours
 
 			Show
+				HasExplicitMod >=3 "Guatelitzi's" "of Tacati" "Vigorous" "Rapturous" "Prime" "Impregnable" "Impenetrable" "Unmoving" "Impervious" "Mirage's" "Illusion's" "Lissome" "Fugitive" "Incandescent" "Resplendent" "Unassailable" "Unfaltering" "Legend's" "Victor's" "Adaptable" "Versatile" "Inspired" "Interpermeated" "Saintly" "Godly" "Illusory" "Incorporeal" "Apparition's" "Phantasm's" "of the Gods" "of the Genius" "of the Polymath" "of the Wind" "of the Blur" "of Lioneye" "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Exile" "of Bameth" "of Nullification" "Subterranean" "of the Underground" "Essences" "of the Essence" "of the Protector" "of the Conservator" 
+
+			Show
 				BaseType "Sacrificial Garb"
 
 			Show
 				BaseType "Sadist Garb" "Zodiac Leather" 
 				Rarity Rare
+
+		# Shields
+
+			Show
+				HasExplicitMod >=3 "Fecund" "Vigorous" "Impregnable" "Impenetrable" "Abating" "Unmoving" "Mirage's" "Illusion's" "Adroit" "Lissome" "Scintillating" "Incandescent" "Unassailable" "Unfaltering" "Legend's" "Victor's" "Resilient" "Adaptable" "Inspired" "Interpermeated" "Consecrated" "Saintly" "Illusory" "Incorporeal" "Eidolon's" "Apparition's" "Glyphic" "Runic" "Pyroclastic" "Xoph's" "Cryomancer's" "Tul's" "Ionising" "Esh's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "of the Sentinel" "of the Citadel" "of the Sempiternal" "of the Deathless" "of Abjuration" "of Nullification" "Subterranean" "of the Underground" "Topotante's" "of Tacati"
+
+		# Attack Weapons
+
+			Show
+				HasExplicitMod >=3 "Cruel" "Tyrannical" "Merciless" "Razor-sharp" "Tempered" "Flaring" "Cremating" "Carbonising" "Entombing" "Crystalising" "Electrocuting" "Vapourising" "Malicious" "of Infamy" "of Celebration" "of Penetrating" "of Incision" "of Ferocity" "of Destruction" "Fletcher's" "Sharpshooter's" "of Splintering" "of Many" "of Melting" "of Dissolution" "Topotante's" "Tacati's" "of Tacati" 
+
+		# Caster Weapons
+
+			Show
+				HasExplicitMod >=3 "Glyphic" "Runic" "Pyroclastic" "Xoph's" "Cryomancer's" "Tul's" "Ionising" "Esh's" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Lava Conjurer's" "Winter Beckoner's" "Tempest Master's" "Splintermind's" "Tecton's" "Blasting" "Cremating" "Polar" "Entombing" "Discharging" "Electrocuting" "of Sortilege" "of Finesse" "of Ferocity" "of Destruction" "of Dissolution" "of Atrophying" "of Disintegrating" "of the Gelid" "of Heartstopping" "of the Zealous" "of the Fanatical" "of Hemorrhaging" "of Exsanguinating" "Subterranean" "of the Underground" "Topotante's" "Matatl's" "Tacati's" "of Tacati"
 
 		# Weapons
 
