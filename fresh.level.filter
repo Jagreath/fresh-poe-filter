@@ -434,6 +434,16 @@
 			Show
 				SocketGroup >= 5
 
+	# Sentinel
+	# --------
+
+		Show
+			Class "Sentinel Drone"
+
+		Show
+			Class "Stackable Currency"
+			BaseType "Power Core" "Recombinator"
+
 # Level 4
 # =======
 
