@@ -582,6 +582,7 @@
 
 		Show
 			Class "Sentinel Drone"
+			Rarity >= Rare
 
 		Show
 			Class "Stackable Currency"
@@ -1127,6 +1128,12 @@
 			Show
 				Quality >= 15
 				Class Gems
+
+	# Sentinel
+	# --------
+
+		Show
+			Class "Sentinel Drone"
 
 # The Final Level
 # ===============

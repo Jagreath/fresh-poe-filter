@@ -439,6 +439,7 @@
 
 		Show
 			Class "Sentinel Drone"
+			Rarity >= Rare
 
 		Show
 			Class "Stackable Currency"
@@ -1843,6 +1844,12 @@
 				SocketGroup RGB
 				Width <= 2
 				Height <= 2
+
+	# Sentinel
+	# --------
+
+		Show
+			Class "Sentinel Drone"
 
 # The Final Level
 # ===============
