@@ -85,7 +85,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Eternal Orb" "Exalted Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Regrading Lens" "Sacred Orb" "Mirror Shard" "Faceted Fossil" "Tainted Oil" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor"
+			BaseType "Eternal Orb" "Exalted Orb" "Divine Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Regrading Lens" "Sacred Orb" "Mirror Shard" "Faceted Fossil" "Tainted Oil" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor"
 
 	# Divination Cards
 	# ----------------
@@ -201,7 +201,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Stacked Deck" "Harbinger's Orb" "Divine Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Greater Eldritch Ember" "Grand Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Orb of Conflict" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment" "Elevated Sextant"
+			BaseType "Stacked Deck" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Exalted Shard" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Greater Eldritch Ember" "Grand Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Orb of Conflict" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment" "Elevated Sextant"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -403,7 +403,7 @@
 
 		Hide
 			Class "Divination"
-			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity"
+			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity" "The Incantation" "The Witch"
 			PlayAlertSoundPositional None
 			MinimapIcon -1
 			PlayEffect None
