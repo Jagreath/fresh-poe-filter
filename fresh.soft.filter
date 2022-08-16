@@ -646,17 +646,6 @@
 			Show
 				Sockets 6
 
-	# Sentinel
-	# --------
-
-		Show
-			Class "Sentinel Drone"
-			Rarity >= Rare
-
-		Show
-			Class "Stackable Currency"
-			BaseType "Power Core" "Recombinator"
-
 # Level 4
 # =======
 
@@ -1142,12 +1131,6 @@
 			Show
 				Quality >= 3
 				Class Gems
-
-	# Sentinel
-	# --------
-
-		Show
-			Class "Sentinel Drone"
 
 # The Final Level
 # ===============

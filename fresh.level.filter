@@ -434,17 +434,6 @@
 			Show
 				SocketGroup >= 5
 
-	# Sentinel
-	# --------
-
-		Show
-			Class "Sentinel Drone"
-			Rarity >= Rare
-
-		Show
-			Class "Stackable Currency"
-			BaseType "Power Core" "Recombinator"
-
 # Level 4
 # =======
 
@@ -1844,12 +1833,6 @@
 				SocketGroup RGB
 				Width <= 2
 				Height <= 2
-
-	# Sentinel
-	# --------
-
-		Show
-			Class "Sentinel Drone"
 
 # The Final Level
 # ===============
