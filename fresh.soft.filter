@@ -226,7 +226,6 @@
 			Class Gems
 
 		Show
-			Quality >= 6
 			Class Gems
 			BaseType "Empower" "Enlighten"
 
@@ -430,6 +429,10 @@
 		Show
 			GemLevel >= 19
 			Class Gems
+
+		Show
+			Class Gems
+			BaseType "Enhance"
 
 		Show
 			Class Gems
@@ -669,7 +672,7 @@
 
 		Show
 			Class Gems
-			BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance"
+			BaseType "Portal" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" 
 
 	# Maps
 	# ----
@@ -1019,7 +1022,7 @@
 		# Helmets / Gloves / Boots
 
 			Show
-				HasExplicitMod >=4 "Virile" "Athlete's" "Fecund" "Girded" "Impregnable" "Encased" "Enveloped" "Nightmare's" "Mirage's" "Vaporous" "Elusory" "Seething" "Blazing" "Indomitable" "Unassailable" "Hero's" "Legend's" "Durable" "Sturdy" "Interpolated" "Inspired" "Hallowed" "Beatified" "Unreal" "Illusory" "Cherub's" "Spirit's" "Necromancer's" "of the Gods" "of the Genius" "of the Polymath" "of the Wind" "of the Blur" "of Lioneye" "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Exile" "of Bameth" "of Nullification" "of Puhuarte" "Subterranean" "of the Underground" "Cheetah's" "Hellion's" "Matatl's" "Essences" "of the Essence"
+				HasExplicitMod >=4 "Virile" "Athlete's" "Fecund" "Girded" "Impregnable" "Encased" "Enveloped" "Nightmare's" "Mirage's" "Vaporous" "Elusory" "Seething" "Blazing" "Indomitable" "Unassailable" "Hero's" "Legend's" "Durable" "Sturdy" "Interpolated" "Inspired" "Hallowed" "Beatified" "Unreal" "Illusory" "Cherub's" "Spirit's" "Necromancer's" "of the Gods" "of the Genius" "of the Polymath" "of the Wind" "of the Blur" "of Lioneye" "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Exile" "of Bameth" "of Abjuration" "of Nullification" "of Puhuarte" "Subterranean" "of the Underground" "Cheetah's" "Hellion's" "Matatl's" "Essences" "of the Essence"
 
 			Show
 				BaseType "Bone Helmet"

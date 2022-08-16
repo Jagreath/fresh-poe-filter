@@ -226,7 +226,6 @@
 			Class Gems
 
 		Show
-			Quality >= 10
 			Class Gems
 			BaseType "Empower" "Enlighten"
 
@@ -420,6 +419,10 @@
 
 		Show
 			Class Gems
+			BaseType "Enhance"
+
+		Show
+			Class Gems
 			AlternateQuality True
 
 	# Fragments
@@ -604,7 +607,7 @@
 			
 		Show
 			Class Gems
-			BaseType "Portal" "Empower" "Enlighten" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" "Enhance" 
+			BaseType "Portal" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Item Quantity" "Vaal Breach" 
 
 	# Maps
 	# ----
@@ -612,71 +615,81 @@
 		Show
 			Class Maps
 			MapTier = 1
-			AreaLevel <= 69
+			AreaLevel <= 68
 
 		Show
 			Class Maps
 			MapTier = 2
-			AreaLevel <= 70
+			AreaLevel <= 69
 
 		Show
 			Class Maps
 			MapTier = 3
-			AreaLevel <= 71
+			AreaLevel <= 70
 
 		Show
 			Class Maps
 			MapTier = 4
-			AreaLevel <= 72
+			AreaLevel <= 71
 
 		Show
 			Class Maps
 			MapTier = 5
-			AreaLevel <= 73
+			AreaLevel <= 72
 
 		Show
 			Class Maps
 			MapTier = 6
-			AreaLevel <= 74
+			AreaLevel <= 73
 
 		Show
 			Class Maps
 			MapTier = 7
-			AreaLevel <= 75
+			AreaLevel <= 74
 
 		Show
 			Class Maps
 			MapTier = 8
-			AreaLevel <= 76
+			AreaLevel <= 75
 
 		Show
 			Class Maps
 			MapTier = 9
-			AreaLevel <= 77
+			AreaLevel <= 76
 
 		Show
 			Class Maps
 			MapTier = 10
-			AreaLevel <= 78
+			AreaLevel <= 77
 
 		Show
 			Class Maps
 			MapTier = 11
-			AreaLevel <= 79
+			AreaLevel <= 78
 
 		Show
 			Class Maps
 			MapTier = 12
-			AreaLevel <= 80
+			AreaLevel <= 79
 
 		Show
 			Class Maps
 			MapTier = 13
+			AreaLevel <= 80
+
+		Show
+			Class Maps
+			MapTier = 14
 			AreaLevel <= 81
 
 		Show
 			Class Maps
-			MapTier >= 14
+			MapTier = 15
+			AreaLevel <= 82
+
+		Show
+			Class Maps
+			MapTier >= 16
 
 	# Equipment
 	# ---------
@@ -1044,7 +1057,7 @@
 		# Helmets / Gloves / Boots
 
 			Show
-				HasExplicitMod >=3 "Virile" "Athlete's" "Fecund" "Girded" "Impregnable" "Encased" "Enveloped" "Nightmare's" "Mirage's" "Vaporous" "Elusory" "Seething" "Blazing" "Indomitable" "Unassailable" "Hero's" "Legend's" "Durable" "Sturdy" "Interpolated" "Inspired" "Hallowed" "Beatified" "Unreal" "Illusory" "Cherub's" "Spirit's" "Necromancer's" "of the Gods" "of the Genius" "of the Polymath" "of the Wind" "of the Blur" "of Lioneye" "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Exile" "of Bameth" "of Nullification" "of Puhuarte" "Subterranean" "of the Underground" "Cheetah's" "Hellion's" "Matatl's" "Essences" "of the Essence"
+				HasExplicitMod >=3 "Virile" "Athlete's" "Fecund" "Girded" "Impregnable" "Encased" "Enveloped" "Nightmare's" "Mirage's" "Vaporous" "Elusory" "Seething" "Blazing" "Indomitable" "Unassailable" "Hero's" "Legend's" "Durable" "Sturdy" "Interpolated" "Inspired" "Hallowed" "Beatified" "Unreal" "Illusory" "Cherub's" "Spirit's" "Necromancer's" "of the Gods" "of the Genius" "of the Polymath" "of the Wind" "of the Blur" "of Lioneye" "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Exile" "of Bameth" "of Abjuration" "of Nullification" "of Puhuarte" "Subterranean" "of the Underground" "Cheetah's" "Hellion's" "Matatl's" "Essences" "of the Essence"
 
 		# Body Armours
 
