@@ -147,7 +147,7 @@
 
 			Show
 				Class Rings
-				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring"
+				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring" "Bone Ring"
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				ItemLevel >= 86
 
@@ -531,7 +531,7 @@
 
 			Show
 				Class Rings
-				BaseType Steel Opal Vermillion Cerulean Iolite
+				BaseType Steel Opal Vermillion Cerulean Iolite Bone
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -803,13 +803,13 @@
 
 			Show
 				Class Rings
-				BaseType Cerulean Steel Opal Vermillion Iolite
+				BaseType Cerulean Steel Opal Vermillion Iolite Bone
 				Rarity Rare
 				Identified False
 
 			Show
 				Class Rings
-				BaseType Unset Sapphire Topaz Ruby Diamond Two-Stone Amethyst Prismatic Steel Vermillion Opal Cerulean Iolite
+				BaseType Unset Sapphire Topaz Ruby Diamond Two-Stone Amethyst Prismatic Steel Vermillion Opal Cerulean Iolite Bone 
 				Rarity Rare Normal
 				ItemLevel >= 86
 
@@ -1170,7 +1170,7 @@
 		BaseType "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Pecoraro" "Spiraled Foil" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Dragoon Sword"
 
 	Hide
-		BaseType "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Serpent Wand" "Omen Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand" "Prophecy Wand" "Profane Wand" "Convoking Wand"
+		BaseType "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Serpent Wand" "Omen Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand" "Prophecy Wand" "Profane Wand" "Convoking Wand" "Calling Wand" "Convening Wand"
 
 	Hide
 		BaseType "Driftwood Sceptre" "Darkwood Sceptre" "Bronze Sceptre" "Quartz Sceptre" "Iron Sceptre" "Ochre Sceptre" "Ritual Sceptre" "Shadow Sceptre" "Grinning Fetish" "Horned Sceptre" "Sekhem" "Crystal Sceptre" "Lead Sceptre" "Blood Sceptre" "Royal Sceptre" "Abyssal Sceptre" "Stag Sceptre" "Karui Sceptre" "Tyrant's Sekhem" "Opal Sceptre" "Platinum Sceptre" "Vaal Sceptre" "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre"
@@ -1293,7 +1293,7 @@
 		BaseType "Chain Belt" "Rustic Sash" "Stygian Vise" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt" "Vanguard Belt" "Crystal Belt"
 
 	Hide
-		BaseType "Breach Ring" "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring" "Opal Ring" "Cerulean Ring" "Iolite Ring"
+		BaseType "Breach Ring" "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring" "Opal Ring" "Cerulean Ring" "Iolite Ring" "Bone Ring"
 
 	Hide
 		BaseType "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Marble Amulet" "Blue Pearl Amulet" "Talisman" "Seaglass Amulet"
