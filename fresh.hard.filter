@@ -531,7 +531,7 @@
 
 			Show
 				Class Rings
-				BaseType Steel Opal Vermillion Cerulean Iolite Bone
+				BaseType Steel Opal Vermillion Cerulean Iolite
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -803,7 +803,7 @@
 
 			Show
 				Class Rings
-				BaseType Cerulean Steel Opal Vermillion Iolite Bone
+				BaseType Cerulean Steel Opal Vermillion Iolite
 				Rarity Rare
 				Identified False
 
@@ -923,9 +923,6 @@
 
 	# Equipment
 	# ---------
-
-		Show
-			HasExplicitMod "Veil"
 
 		# Helmets
 
@@ -1064,6 +1061,9 @@
 
 		Show
 			SynthesisedItem True
+
+		Show
+			HasExplicitMod "Veil"
 
 		# Helmets / Gloves / Boots
 
