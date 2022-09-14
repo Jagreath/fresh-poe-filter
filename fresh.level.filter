@@ -39,7 +39,7 @@
 		Continue
 
 	Show
-		Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" "Expedition Logbook" Contract Blueprint
+		Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" "Expedition Logbook" Contract Blueprint Memory
 		SetBackgroundColor 219 65 65 255
 		MinimapIcon 0 Red Cross
 		PlayEffect Red
@@ -89,6 +89,13 @@
 
 	# Divination Cards
 	# ----------------
+
+		Hide
+			Class Divination
+			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity" "The Incantation" "The Witch" "The Demoness"
+			PlayAlertSoundPositional None
+			MinimapIcon -1
+			PlayEffect None
 
 		Show
 			Class Divination
@@ -345,13 +352,6 @@
 
 	# Divination Cards
 	# ----------------
-
-		Hide
-			Class "Divination"
-			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity" "The Incantation" "The Witch"
-			PlayAlertSoundPositional None
-			MinimapIcon -1
-			PlayEffect None
 
 		Show
 			Class Divination
