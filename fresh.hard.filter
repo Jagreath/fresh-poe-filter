@@ -880,6 +880,7 @@
 				BaseType "Contract" "Blueprint" "Trinket"
 
 			Show
+				BaseType "Precise Arrowhead" "Obsidian Sharpening Stone" "Burst Band" "Standard Sharpening Stone" "Master Lockpick" "Steel Bracers" "Thaumetic Blowtorch" "Silkweave Sole" "Thaumaturgical Ward" "Thaumaturgical Sensing Charm" "Thaumetic Flashpowder" "Grandmaster Keyring" "Regicide Disguise Kit" "Trarthan Flashpowder" "Foliate Brooch" "Whisper-woven Cloak" "Tattered Cloak" "Golden Brooch"
 				Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
 
 		# Vendor
