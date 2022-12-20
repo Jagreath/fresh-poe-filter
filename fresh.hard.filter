@@ -859,21 +859,6 @@
 				Rarity Rare
 				ItemLevel >= 81
 
-		# Flasks
-
-			Show
-				Class "Utility Flasks"
-				Rarity >= Normal
-				Quality >= 18
-				ItemLevel >= 84
-
-			Show
-				Class Flask
-				BaseType "Divine" "Eternal"
-				Rarity >= Normal
-				Quality >= 18
-				ItemLevel >= 84
-
 		# Heist
 
 			Show
@@ -1019,14 +1004,21 @@
 
 			Show
 				Class "Utility Flasks"
-				Rarity Normal
-				AreaLevel <= 74
-				AreaLevel >= 65
+				Rarity >= Normal
+				Quality >= 16
+				ItemLevel >= 84
+
+			Show
+				Class Flask
+				BaseType "Divine" "Eternal"
+				Rarity >= Normal
+				Quality >= 16
+				ItemLevel >= 84
 
 			Show
 				Class "Utility Flasks"
-				Rarity Magic
-				Quality >= 16
+				Rarity >= Normal
+				Quality >= 18
 				AreaLevel <= 74
 				AreaLevel >= 65
 

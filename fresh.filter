@@ -809,33 +809,6 @@
 				Rarity Rare
 				ItemLevel >= 81
 
-		# Flasks
-
-			Show
-				Class "Utility Flasks"
-				Rarity >= Normal
-				Quality >= 10
-				ItemLevel >= 84
-
-			Show
-				Class Flask
-				BaseType "Divine" "Eternal"
-				Rarity >= Normal
-				Quality >= 10
-				ItemLevel >= 84
-
-			Show
-				Class "Utility Flasks"
-				Rarity Normal
-				Quality >= 15
-				AreaLevel > 74
-
-			Show
-				Class "Utility Flasks"
-				Rarity Magic
-				Quality >= 18
-				AreaLevel > 74
-
 		# Heist
 
 			Show
@@ -945,14 +918,21 @@
 
 			Show
 				Class "Utility Flasks"
-				Rarity Normal
-				AreaLevel <= 74
-				AreaLevel >= 65
+				Rarity >= Normal
+				Quality >= 10
+				ItemLevel >= 84
+
+			Show
+				Class Flask
+				BaseType "Divine" "Eternal"
+				Rarity >= Normal
+				Quality >= 10
+				ItemLevel >= 84
 
 			Show
 				Class "Utility Flasks"
-				Rarity Magic
-				Quality >= 16
+				Rarity >= Normal
+				Quality >= 15
 				AreaLevel <= 74
 				AreaLevel >= 65
 
@@ -1073,10 +1053,10 @@
 
 		# Vendor
 
-			Show
-				BaseType "Flask"
-				Quality >= 15
-				Rarity Normal
+			#Show
+			#	BaseType "Flask"
+			#	Quality >= 15
+			#	Rarity Normal
 
 			Show
 				BaseType "Gavel" "Rock Breaker" "Stone Hammer"
