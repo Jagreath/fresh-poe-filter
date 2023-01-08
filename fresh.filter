@@ -360,6 +360,12 @@
 			Show
 				SocketGroup 6
 
+	# Sanctum
+	# -------
+
+		Show
+			BaseType "Lycia's Invocation"
+
 # Level 3
 # =======
 
@@ -815,39 +821,13 @@
 				Rarity Rare
 				ItemLevel >= 81
 
-		# Flasks
-
-			Show
-				Class "Utility Flasks"
-				Rarity >= Normal
-				Quality >= 10
-				ItemLevel >= 84
-
-			Show
-				Class Flask
-				BaseType "Divine" "Eternal"
-				Rarity >= Normal
-				Quality >= 10
-				ItemLevel >= 84
-
-			Show
-				Class "Utility Flasks"
-				Rarity Normal
-				Quality >= 15
-				AreaLevel > 74
-
-			Show
-				Class "Utility Flasks"
-				Rarity Magic
-				Quality >= 18
-				AreaLevel > 74
-
 		# Heist
 
 			Show
 				BaseType "Contract" "Blueprint" "Trinket"
 
 			Show
+				BaseType "Precise Arrowhead" "Obsidian Sharpening Stone" "Burst Band" "Standard Sharpening Stone" "Master Lockpick" "Steel Bracers" "Thaumetic Blowtorch" "Silkweave Sole" "Thaumaturgical Ward" "Thaumaturgical Sensing Charm" "Thaumetic Flashpowder" "Grandmaster Keyring" "Regicide Disguise Kit" "Trarthan Flashpowder" "Foliate Brooch" "Whisper-woven Cloak" "Tattered Cloak" "Golden Brooch"
 				Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
 
 		# Vendor
@@ -956,14 +936,21 @@
 
 			Show
 				Class "Utility Flasks"
-				Rarity Normal
-				AreaLevel <= 74
-				AreaLevel >= 65
+				Rarity >= Normal
+				Quality >= 10
+				ItemLevel >= 84
+
+			Show
+				Class Flask
+				BaseType "Divine" "Eternal"
+				Rarity >= Normal
+				Quality >= 10
+				ItemLevel >= 84
 
 			Show
 				Class "Utility Flasks"
-				Rarity Magic
-				Quality >= 16
+				Rarity >= Normal
+				Quality >= 15
 				AreaLevel <= 74
 				AreaLevel >= 65
 
@@ -1084,10 +1071,10 @@
 
 		# Vendor
 
-			Show
-				BaseType "Flask"
-				Quality >= 15
-				Rarity Normal
+			#Show
+			#	BaseType "Flask"
+			#	Quality >= 15
+			#	Rarity Normal
 
 			Show
 				BaseType "Gavel" "Rock Breaker" "Stone Hammer"
@@ -1271,6 +1258,9 @@
 	Hide
 		Class "Gems"
 
+	Hide
+		Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+
 	Show
 		SetFontSize 45
 		Continue
@@ -1278,7 +1268,7 @@
 	# Quest (story) items
 
 	Show
-		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Fishing Rod"
+		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Fishing Rod" "Heist target"
 		SetBackgroundColor 182 127 221 255
 		PlayAlertSoundPositional 12 250
 		MinimapIcon 0 Pink UpsideDownHouse

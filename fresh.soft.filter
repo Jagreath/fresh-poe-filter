@@ -360,6 +360,12 @@
 			Show
 				SocketGroup 6
 
+	# Sanctum
+	# -------
+
+		Show
+			BaseType "Lycia's Invocation"
+
 # Level 3
 # =======
 
@@ -1319,6 +1325,9 @@
 	Hide
 		Class "Gems"
 
+	Hide
+		Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+
 	Show
 		SetFontSize 45
 		Continue
@@ -1326,7 +1335,7 @@
 	# Quest (story) items
 
 	Show
-		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Fishing Rod"
+		Class Quest "Incursion Item" "Pantheon Soul" "Labyrinth Item" "Fishing Rod" "Heist target"
 		SetBackgroundColor 182 127 221 255
 		PlayAlertSoundPositional 12 250
 		MinimapIcon 0 Pink UpsideDownHouse
