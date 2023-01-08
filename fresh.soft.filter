@@ -360,6 +360,12 @@
 			Show
 				SocketGroup 6
 
+	# Sanctum
+	# -------
+
+		Show
+			BaseType "Lycia's Invocation"
+
 # Level 3
 # =======
 
@@ -656,6 +662,12 @@
 			Show
 				Sockets 6
 
+	# Sanctum
+	# -------
+
+		Show
+			Class "Sanctified Relic"
+
 # Level 4
 # =======
 
@@ -852,6 +864,12 @@
 				Class Flask
 				Quality = 20
 				Rarity Normal
+
+	# Sanctum
+	# -------
+
+		Show
+			Class "Relic"
 
 # Level 5
 # =======
