@@ -92,7 +92,7 @@
 
 		Hide
 			Class Divination
-			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity" "The Incantation" "The Witch" "The Demoness"
+			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity" "The Incantation" "The Witch" "The Demoness" "The Blazing Fire" "The Journalist" "The Scarred Meadow" "The Sun" "rain Tempter"
 			PlayAlertSoundPositional None
 			MinimapIcon -1
 			PlayEffect None
@@ -619,7 +619,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard" Perandus
+			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" Perandus
 
 	# Gems
 	# ----
@@ -917,7 +917,7 @@
 			StackSize > 4
 
 		Show
-			BaseType "Orb of Augmentation" "Regal Shard" "Alchemy Shard" "Engineer's Shard" "Horizon Shard" 
+			BaseType "Orb of Augmentation" "Regal Shard" "Engineer's Shard" "Horizon Shard" 
 
 	# Maps
 	# ----
@@ -1051,7 +1051,7 @@
 	# --------
 
 		Hide
-			BaseType "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Transmutation Shard" "Alteration Shard"
+			BaseType "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Transmutation Shard" "Alteration Shard" "Binding Shard" "Alchemy Shard"
 
 	# Gems
 	# ----
