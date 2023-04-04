@@ -92,7 +92,7 @@
 
 		Hide
 			Class Divination
-			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity" "The Incantation" "The Witch" "The Demoness" "The Blazing Fire" "The Journalist" "The Scarred Meadow" "The Sun" "rain Tempter"
+			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity" "The Incantation" "The Witch" "The Demoness" "The Blazing Fire" "The Journalist" "The Scarred Meadow" "The Sun" "Rain Tempter" "The Scholar" "Rain of Chaos"
 			PlayAlertSoundPositional None
 			MinimapIcon -1
 			PlayEffect None
