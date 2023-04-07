@@ -39,7 +39,7 @@
 		Continue
 
 	Show
-		Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" "Expedition Logbook" Contract Blueprint Memory Breachstone
+		Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" "Expedition Logbook" Contract Blueprint Memory Breachstone "Vault Key"
 		SetBackgroundColor 219 65 65 255
 		MinimapIcon 0 Red Cross
 		PlayEffect Red
@@ -129,7 +129,7 @@
 		# Ancient Reliquary Key / Timeworn Reliquary Key / Vaal Reliquary Key
 
 		Show
-			Class "Misc Map Items"
+			Class "Misc Map Items" "Vault Key"
 			BaseType "Reliquary Key"
 
 	# Uniques
