@@ -169,6 +169,13 @@
 				BaseType "Crystal Belt"
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				ItemLevel >= 86
+
+	# Ancestor
+	# --------
+
+		Show
+			Class "Stackable Currency"
+			BaseType "Hinekora's Lock"
 		
 # Level 2
 # =======
@@ -306,11 +313,12 @@
 			Show
 				SocketGroup 6
 
-	# Sanctum
-	# -------
+	# Ancestor
+	# --------
 
 		Show
-			BaseType "Lycia's Invocation"
+			Class "Stackable Currency"
+			BaseType "Tattoo of the Ngamahu" "Tattoo of the Kitava" "Tattoo of the Tukohama" "Tattoo of the Rongokurai" "Tattoo of the Tasalio" "Tattoo of the Arohongui" "Tattoo of the Ramako" "Tattoo of the Hinekora" "Tattoo of the Tawhoa" "Tattoo of the Valako" "Honoured Tattoo of the" "Omen of" "Loyalty Tattoo"
 
 # Level 3
 # =======
@@ -472,6 +480,13 @@
 		Show
 			Class Relic
 			BaseType "Censer Relic" "Processional Relic" "Candlestick Relic" "Urn Relic" "Coffer Relic" "Tome Relic" "Papyrus Relic"
+
+	# Ancestor
+	# --------
+
+		Show
+			Class "Stackable Currency"
+			BaseType "Silver Coin"
 
 # Level 4
 # =======
