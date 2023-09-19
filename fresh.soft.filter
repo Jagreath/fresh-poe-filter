@@ -264,7 +264,7 @@
 
 		Show
 			Class Maps
-			MapTier >= 15
+			MapTier >= 14
 
 		Show
 			Class "Expedition Logbook"
@@ -298,7 +298,7 @@
 			Rarity Unique
 
 		Show
-			BaseType "Vaal Rapier" "Fiend Dagger" "Silk Gloves" "Saint's Hauberk" "Champion Kite Shield" "Occultist's Vestment" "Heavy Belt" "Leather Belt" "Studded Belt"
+			BaseType "Siege Axe" "Crude Bow" "Imperial Skean" "Sage's Robe" "Heavy Belt" "Leather Belt"
 			Rarity Unique
 
 	# Equipment
