@@ -225,10 +225,6 @@
 			Class "Delve Stackable Socketable Currency" 
 			BaseType Prime
 
-		Show
-			Class Incubator
-			BaseType "Gemcutter" "Geomancer" "Time-Lost" "Thaumaturge" "Foreboding" "Diviner"
-
 	# Divination Cards
 	# ----------------
 
@@ -441,6 +437,7 @@
 
 		Show
 			Class Incubator
+			BaseType "Diviner" "Ornate" "Kalguuran" "Skittering" "Geomancer" "Infused" "Blighted" "Foreboding" "Fossilised" "Obscured" "Thaumaturge" "Fragmented"
 
 	# Divination Cards
 	# ----------------
@@ -1406,6 +1403,10 @@
 
 	Hide
 		Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+
+	Hide
+		Class Incubator
+		BaseType "Abyssal" "Cartographer" "Maddening" "Morphing" "Mysterious" "Celestial" "Otherworldly" "Primal" "Singular" "Enchanted"
 
 	Show
 		SetFontSize 45

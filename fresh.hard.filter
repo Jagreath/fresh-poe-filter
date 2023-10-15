@@ -105,8 +105,8 @@
 	# ----
 
 		Show
-			Class Gems
-			BaseType "Awakened"
+			Class Gem
+			BaseType "Awakened Empower" "Awakened Multistrike" "Awakened Greater Multiple Projectiles" "Awakened Enhance" "Awakened Spell Cascade" "Awakened Spell Echo" "Awakened Unleash" "Awakened Chain" "Awakened Fork" "Awakened Increased Area of Effect" "Awakened Arrow Nova" "Awakened Arrow Nova" "Awakened Cast on Critical Strike" "Awakened Generosity" "Awakened Void Manipulation" "Awakened Elemental Focus" "Awakened Unbound Ailments"
 
 	# Maps
 	# ----
@@ -225,10 +225,6 @@
 			Class "Delve Stackable Socketable Currency" 
 			BaseType Prime
 
-		Show
-			Class Incubator
-			BaseType "Gemcutter" "Geomancer" "Time-Lost" "Thaumaturge" "Foreboding" "Diviner"
-
 	# Divination Cards
 	# ----------------
 
@@ -250,6 +246,10 @@
 		Show
 			GemLevel >= 21
 			Class Gems
+
+		Show
+			Class Gems
+			BaseType Awakened
 
 	# Maps
 	# ----
@@ -365,11 +365,6 @@
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				ItemLevel >= 84
 
-		# Vendor
-
-			Show
-				SocketGroup 6
-
 	# Ancestor
 	# --------
 
@@ -432,6 +427,7 @@
 
 		Show
 			Class Incubator
+			BaseType "Diviner" "Ornate" "Kalguuran" "Skittering" "Geomancer" "Infused" "Blighted" "Foreboding" "Fossilised" "Obscured" "Thaumaturge" "Fragmented"
 
 	# Divination Cards
 	# ----------------
@@ -624,6 +620,9 @@
 
 		# Vendor
 
+			Show
+				SocketGroup 6
+
 	# Sanctum
 	# -------
 
@@ -807,14 +806,21 @@
 				ItemLevel >= 82
 				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 
-			Show
-				BaseType "Imperial Skean" "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Siege Axe" "Sambar Sceptre"
-				Rarity Rare
-				ItemLevel >= 83
-				Identified False
+			#Show
+			#	BaseType "Imperial Skean" "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Siege Axe" "Sambar Sceptre"
+			#	Rarity Rare
+			#	ItemLevel >= 83
+			#	Identified False
+
+			#Show
+			#	BaseType "Gemini Claw"
+			#	Rarity Rare
+			#	ItemLevel >= 84
+			#	Identified False
 
 			Show
-				BaseType "Titanium Spirit Shield" "Fossilised Spirit Shield" "Gemini Claw"
+				BaseType "Titanium Spirit Shield" "Fossilised Spirit Shield" 
+				BaseDefencePercentile >= 90
 				Rarity Rare
 				ItemLevel >= 84
 				Identified False
@@ -1388,6 +1394,10 @@
 
 	Hide
 		Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+
+	Hide
+		Class Incubator
+		BaseType "Abyssal" "Cartographer" "Maddening" "Morphing" "Mysterious" "Celestial" "Otherworldly" "Primal" "Singular" "Enchanted"
 
 	Show
 		SetFontSize 45
