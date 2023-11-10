@@ -39,7 +39,7 @@
 		Continue
 
 	Show
-		Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" "Expedition Logbook" Contract Blueprint Memory Breachstone "Vault Key"
+		Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" "Expedition Logbook" Contract Blueprint Memory Breachstone "Vault Key" "Sanctum Research"
 		SetBackgroundColor 219 65 65 255
 		MinimapIcon 0 Red Cross
 		PlayEffect Red
@@ -99,7 +99,7 @@
 
 		Show
 			Class Divination
-			BaseType "House of Mirrors" "Unrequited Love" "The Doctor" "The Demon" "The Fiend" "Brother's Stash" "The Immortal" "Love Through Ice" "Succor of the Sinless" "The Cheater" "Seven Years Bad Luck" "Alluring Bounty" "Gift of Asenath" "The Nurse" "Luminous Trove" "Desecrated Virtue" "Beauty Through Death" "Wealth and Power" "The Dragon's Heart" "Abandoned Wealth" "Immortal Resolve" "The Samurai's Eye" "The Rusted Bard" "Broken Promises" "The Enlightened"
+			BaseType "The Apothecary" "House of Mirrors" "The Price of Devotion" "The Insane Cat" "Unrequited Love" "The Doctor" "The Demon" "The Fiend" "Brother's Gift" "The Immortal" "Love Through Ice" "The Nurse" "The Price of Loyalty" "The Shieldbearer" "The Cheater" "Choking Guilt" "Fire of Unknown Origin" "Seven Years Bad Luck" "The Chosen" "Wealth and Power" "The Sephirot" "The Endless Darkness" "Doryani's Epiphany" "Divine Beauty" "The Samurai's Eye" "Desecrated Virtue" "Succor of the Sinless"
 
 	# Gems
 	# ----
@@ -169,6 +169,13 @@
 				BaseType "Crystal Belt"
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				ItemLevel >= 86
+
+	# Ancestor
+	# --------
+
+		Show
+			Class "Stackable Currency"
+			BaseType "Hinekora's Lock"
 		
 # Level 2
 # =======
@@ -218,16 +225,12 @@
 			Class "Delve Stackable Socketable Currency" 
 			BaseType Prime
 
-		Show
-			Class Incubator
-			BaseType "Gemcutter" "Geomancer" "Time-Lost" "Thaumaturge" "Foreboding" "Diviner"
-
 	# Divination Cards
 	# ----------------
 
 		Show
 			Class Divination
-			BaseType "The Artist" "The Price of Loyalty" "Pride of the First Ones" "The Long Con" "Deadly Joy" "Nook's Crown" "The Sustenance" "Winter's Embrace" "The Saint's Treasure" "Dementophobia" "The Eye of Terror" "The Patient" "The White Knight" "The Astromancer" "The Damned" "The Gulf" "Ambitious Obsession" "The Enthusiasts" "The Bargain" "Fateful Meeting" "The Craving" "The Hoarder" "The Sephirot"
+			BaseType "The Dragon's Heart" "The Artist" "Brother's Stash" "The Soul" "Deadly Joy" "The Patient" "Darker Half" "The Eye of Terror" "Beauty Through Death" "The Enlightened" "A Fate Worse Than Death" "Broken Promises" "Home" "Imperfect Memories" "Matryoshka" "The Fortunate" "The Gulf" "Gemcutter's Mercy" "Luminous Trove" "The Destination" "The Garish Power" "The Last One Standing" "Monochrome" "Eternal Bonds" "Silence and Frost"
 
 	# Gems
 	# ----
@@ -257,7 +260,7 @@
 
 		Show
 			Class Maps
-			MapTier >= 15
+			MapTier >= 14
 
 		Show
 			Class "Expedition Logbook"
@@ -267,6 +270,11 @@
 
 		Show
 			Class Memory
+
+		Show
+			Class "Sanctum Research"
+			BaseType "Forbidden Tome" "Research"
+			AreaLevel > 82
 
 	# Fragments
 	# ---------
@@ -286,7 +294,7 @@
 			Rarity Unique
 
 		Show
-			BaseType "Vaal Rapier" "Fiend Dagger" "Silk Gloves" "Saint's Hauberk" "Champion Kite Shield" "Occultist's Vestment" "Heavy Belt" "Leather Belt" "Studded Belt"
+			BaseType "Siege Axe" "Crude Bow" "Imperial Skean" "Sage's Robe" "Heavy Belt" "Leather Belt"
 			Rarity Unique
 
 	# Equipment
@@ -367,11 +375,12 @@
 			Show
 				SocketGroup 6
 
-	# Sanctum
-	# -------
+	# Ancestor
+	# --------
 
 		Show
-			BaseType "Lycia's Invocation"
+			Class "Stackable Currency"
+			BaseType "Tattoo of the Ngamahu" "Tattoo of the Kitava" "Tattoo of the Tukohama" "Tattoo of the Rongokurai" "Tattoo of the Tasalio" "Tattoo of the Arohongui" "Tattoo of the Ramako" "Tattoo of the Hinekora" "Tattoo of the Tawhoa" "Tattoo of the Valako" "Honoured Tattoo of the" "Omen of" "Loyalty Tattoo"
 
 # Level 3
 # =======
@@ -428,12 +437,14 @@
 
 		Show
 			Class Incubator
+			BaseType "Diviner" "Ornate" "Kalguuran" "Skittering" "Geomancer" "Infused" "Blighted" "Foreboding" "Fossilised" "Obscured" "Thaumaturge" "Fragmented"
 
 	# Divination Cards
 	# ----------------
 
 		Show
 			Class Divination
+			BaseType "A Chilling Wind" "A Dab of Ink" "A Dusty Memory" "A Familiar Call" "A Modest Request" "A Mother's Parting Gift" "A Note in the Wind" "A Sea of Blue" "A Stone Perfected" "Abandoned Wealth" "Acclimatisation" "Akil's Prophecy" "Alivia's Grace" "Alluring Bounty" "Alone in the Darkness" "Altered Perception" "Ambitious Obsession" "Anarchy's Price" "Arrogance of the Vaal" "Assassin's Favour" "Astral Protection" "Atziri's Arsenal" "Audacity" "Auspicious Ambitions" "Azure Rage" "Azyran's Reward" "Baited Expectations" "Bijoux" "Blind Venture" "Boon of Justice" "Boon of the First Ones" "Boundless Realms" "Bowyer's Dream" "Broken Truce" "Brotherhood in Exile" "Brush, Paint and Palette" "Buried Treasure" "Burning Blood" "Call to the First Ones" "Cameria's Cut" "Cartographer's Delight" "Chaotic Disposition" "Chasing Risk" "Checkmate" "Costly Curio" "Council of Cats" "Coveted Possession" "Cursed Words" "Dark Dreams" "Dark Temptation" "Death" "Deathly Designs" "Dementophobia" "Demigod's Wager" "Desperate Crusade" "Destined to Crumble" "Dialla's Subjugation" "Disdain" "Divine Justice" "Doedre's Madness" "Draped in Dreams" "Duality" "Dying Anguish" "Dying Light" "Earth Drinker" "Echoes of Love" "Emperor of Purity" "Emperor's Luck" "Endless Night" "Etched in Blood" "Ever-Changing" "Fateful Meeting" "Forbidden Power" "From Bone to Ashes" "Further Invention" "Gemcutter's Promise" "Gift of Asenath" "Gift of the Gemling Queen" "Glimmer of Hope" "Grave Knowledge" "Guardian's Challenge" "Harmony of Souls" "Haunting Shadows" "Her Mask" "Heterochromia" "Hope" "Hubris" "Humility" "Hunter's Resolve" "Hunter's Reward" "Immortal Resolve" "Imperial Legacy" "Jack in the Box" "Judging Voices" "Justified Ambition" "Keeper's Corruption" "Lachrymal Necrosis" "Last Hope" "Left to Fate" "Lethean Temptation" "Light and Truth" "Lingering Remnants" "Lost Worlds" "Loyalty" "Lucky Connections" "Lucky Deck" "Lysah's Respite" "Magnum Opus" "Man With Bear" "Mawr Blaidd" "Merciless Armament" "Might is Right" "Misery in Darkness" "Mitts" "More is Never Enough" "No Traces" "Nook's Crown" "Parasitic Passengers" "Peaceful Moments" "Perfection" "Poisoned Faith" "Prejudice" "Pride Before the Fall" "Pride of the First Ones" "Prometheus' Armoury" "Rats" "Rebirth" "Rebirth and Renewal" "Reckless Ambition" "Remembrance" "Sambodhi's Vow" "Sambodhi's Wisdom" "Scholar of the Seas" "Shard of Fate" "Society's Remorse" "Something Dark" "Soul Quenched" "Terrible Secret of Space" "The Academic" "The Admirer" "The Adventuring Spirit" "The Aesthete" "The Archmage's Right Hand" "The Arena Champion" "The Army of Blood" "The Aspirant" "The Astromancer" "The Avenger" "The Awakened" "The Battle Born" "The Bear Woman" "The Beast" "The Betrayal" "The Bitter Blossom" "The Blessing of Moosh" "The Body" "The Bones" "The Brawny Battle Mage" "The Breach" "The Brittle Emperor" "The Cache" "The Cacophony" "The Calling" "The Card Sharp" "The Cartographer" "The Cataclysm" "The Catalyst" "The Catch" "The Celestial Justicar" "The Celestial Stone" "The Chains that Bind" "The Coming Storm" "The Conduit" "The Craving" "The Cursed King" "The Damned" "The Dapper Prodigy" "The Dark Mage" "The Darkest Dream" "The Deal" "The Deceiver" "The Deep Ones" "The Doppelganger" "The Dragon" "The Dreamer" "The Dreamland" "The Drunken Aristocrat" "The Dungeon Master" "The Easy Stroll" "The Eldritch Decay" "The Emptiness" "The Encroaching Darkness" "The Endurance" "The Enforcer" "The Enthusiasts" "The Escape" "The Eternal War" "The Ethereal" "The Explorer" "The Eye of the Dragon" "The Fathomless Depths" "The Feast" "The Finishing Touch" "The Fishmonger" "The Fletcher" "The Flora's Gift" "The Fool" "The Forgotten Treasure" "The Formless Sea" "The Forsaken" "The Forward Gaze" "The Fox" "The Fox in the Brambles" "The Gambler" "The Gemcutter" "The Gentleman" "The Gladiator" "The Golden Era" "The Greatest Intentions" "The Hale Heart" "The Harvester" "The Hermit" "The Heroic Shot" "The Hive of Knowledge" "The Hoarder" "The Hook" "The Hunger" "The Innocent" "The Inoculated" "The Insatiable" "The Inventor" "The Jester" "The Jeweller's Boon" "The Journey" "The King's Heart" "The Landing" "The Last Supper" "The Leviathan" "The Lich" "The Life Thief" "The Lion" "The Long Con" "The Lord in Black" "The Lord of Celebration" "The Lunaris Priestess" "The Mad King" "The Magma Crab" "The Master" "The Master Artisan" "The Mercenary" "The Messenger" "The Metalsmith's Gift" "The Mind's Eyes" "The Mountain" "The Oath" "The Obscured" "The Offering" "The Offspring" "The Old Man" "The One That Got Away" "The One With All" "The Opulent" "The Pack Leader" "The Pact" "The Penitent" "The Poet" "The Polymath" "The Porcupine" "The Price of Prescience" "The Price of Protection" "The Primordial" "The Prince of Darkness" "The Professor" "The Progeny of Lunaris" "The Puzzle" "The Queen" "The Rabbit's Foot" "The Rabid Rhoa" "The Realm" "The Return of the Rat" "The Risk" "The Rite of Elements" "The Road to Power" "The Rusted Bard" "The Ruthless Ceinture" "The Sacrifice" "The Saint's Treasure" "The Scavenger" "The Scout" "The Seeker" "The Shepherd's Sandals" "The Shortcut" "The Side Quest" "The Sigil" "The Siren" "The Skeleton" "The Spark and the Flame" "The Spoiled Prince" "The Standoff" "The Stormcaller" "The Strategist" "The Summoner" "The Surveyor" "The Survivalist" "The Sword King's Salute" "The Thaumaturgist" "The Throne" "The Tinkerer's Table" "The Tireless Extractor" "The Tower" "The Traitor" "The Transformation" "The Trial" "The Tumbleweed" "The Twilight Moon" "The Twins" "The Tyrant" "The Undaunted" "The Undisputed" "The Unexpected Prize" "The Union" "The Valkyrie" "The Vast" "The Visionary" "The Void" "The Warden" "The Warlord" "The Watcher" "The Web" "The Wedding Gift" "The White Knight" "The Whiteout" "The Wilted Rose" "The Wind" "The Wolf" "The Wolf's Legacy" "The Wolf's Shadow" "The Wolven King's Bite" "The Wolverine" "The World Eater" "The Wrath" "The Wretched" "Thirst for Knowledge" "Three Faces in the Dark" "Three Voices" "Time-Lost Relic" "Tranquillity" "Treasure Hunter" "Triskaidekaphobia" "Turn the Other Cheek" "Unchained" "Underground Forest" "Vanity" "Vile Power" "Vinia's Token" "Void of the Elements" "Volatile Power" "Winter's Embrace"
 
 	# Gems
 	# ----
@@ -519,6 +530,10 @@
 		Show
 			Class "Misc Map Items"
 			BaseType "Mirrored Tablet"
+
+		Show
+			Class "Sanctum Research"
+			BaseType "Forbidden Tome" "Research"
 
 	# Fragments
 	# ---------
@@ -673,7 +688,15 @@
 	# -------
 
 		Show
-			Class "Sanctified Relic"
+			Class Relic
+			BaseType "Censer Relic" "Processional Relic" "Candlestick Relic" "Urn Relic" "Coffer Relic" "Tome Relic" "Papyrus Relic"
+
+	# Ancestor
+	# --------
+
+		Show
+			Class "Stackable Currency"
+			BaseType "Silver Coin"
 
 # Level 4
 # =======
@@ -871,12 +894,6 @@
 				Class Flask
 				Quality = 20
 				Rarity Normal
-
-	# Sanctum
-	# -------
-
-		Show
-			Class "Relic"
 
 # Level 5
 # =======
@@ -1171,169 +1188,226 @@
 # ===============
 
 	Hide
+		Class "Two Hand Axe"
 		BaseType "Stone Axe" "Jade Chopper" "Woodsplitter" "Poleaxe" "Double Axe" "Gilded Axe" "Shadow Axe" "Dagger Axe" "Jasper Chopper" "Timber Axe" "Headsman Axe" "Labrys" "Noble Axe" "Abyssal Axe" "Karui Chopper" "Talon Axe" "Sundering Axe" "Ezomyte Axe" "Vaal Axe" "Despot Axe" "Void Axe" "Fleshripper" 
 
 	Hide
+		Class "Two Hand Mace"
 		BaseType "Driftwood Maul" "Tribal Maul" "Mallet" "Sledgehammer" "Jagged Maul" "Brass Maul" "Fright Maul" "Morning Star" "Totemic Maul" "Great Mallet" "Steelhead" "Spiny Maul" "Plated Maul" "Dread Maul" "Solar Maul" "Karui Maul" "Colossus Mallet" "Piledriver" "Meatgrinder" "Imperial Maul" "Terror Maul" "Coronal Maul" 
 
 	Hide
+		Class "Two Hand Sword"
 		BaseType "Corroded Blade" "Longsword" "Bastard Sword" "Two-Handed Sword" "Etched Greatsword" "Ornate Sword" "Spectral Sword" "Curved Blade" "Butcher Sword" "Footman Sword" "Highland Blade" "Engraved Greatsword" "Tiger Sword" "Wraith Sword" "Lithe Blade" "Headman's Sword" "Reaver Sword" "Ezomyte Blade" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Exquisite Blade"
 
 	Hide
+		Class Bow
 		BaseType "Crude Bow" "Short Bow" "Long Bow" "Composite Bow" "Recurve Bow" "Bone Bow" "Royal Bow" "Death Bow" "Grove Bow" "Reflex Bow" "Decurve Bow" "Compound Bow" "Sniper Bow" "Ivory Bow" "Highborn Bow" "Decimation Bow" "Thicket Bow" "Steelwood Bow" "Citadel Bow" "Ranger Bow" "Assassin Bow" "Spine Bow" "Imperial Bow" "Harbinger Bow" "Maraketh Bow"
 
 	Hide
+		Class "One Hand Axe"
 		BaseType "Rusted Hatchet" "Jade Hatchet" "Boarding Axe" "Cleaver" "Broad Axe" "Arming Axe" "Decorative Axe" "Spectral Axe" "Etched Hatchet" "Jasper Axe" "Tomahawk" "Wrist Chopper" "War Axe" "Chest Splitter" "Ceremonial Axe" "Wraith Axe" "Engraved Hatchet" "Karui Axe" "Siege Axe" "Reaver Axe" "Butcher Axe" "Vaal Hatchet" "Royal Axe" "Infernal Axe" "Runic Hatchet" 
 
 	Hide
+		Class "One Hand Mace"
 		BaseType "Driftwood Club" "Tribal Club" "Spiked Club" "Stone Hammer" "War Hammer" "Bladed Mace" "Ceremonial Mace" "Dream Mace" "Wyrm Mace" "Petrified Club" "Barbed Club" "Rock Breaker" "Battle Hammer" "Flanged Mace" "Ornate Mace" "Phantom Mace" "Dragon Mace" "Ancestral Club" "Tenderizer" "Gavel" "Legion Hammer" "Pernach" "Auric Mace" "Nightmare Mace" "Behemoth Mace"
 
 	Hide
+		Class "One Hand Sword"
 		BaseType "Rusted Sword" "Copper Sword" "Sabre" "Broad Sword" "War Sword" "Ancient Sword" "Elegant Sword" "Dusk Blade" "Hook Sword" "Variscite Blade" "Cutlass" "Baselard" "Battle Sword" "Elder Sword" "Graceful Sword" "Twilight Blade" "Grappler" "Gemstone Sword" "Corsair Sword" "Gladius" "Legion Sword" "Vaal Blade" "Eternal Sword" "Midnight Blade" "Tiger Hook"
 
 	Hide
+		Class "One Hand Sword"
 		BaseType "Rusted Spike" "Whalebone Rapier" "Battered Foil" "Basket Rapier" "Jagged Foil" "Antique Rapier" "Elegant Foil" "Thorn Rapier" "Smallsword" "Wyrmbone Rapier" "Burnished Foil" "Estoc" "Serrated Foil" "Primeval Rapier" "Fancy Foil" "Apex Rapier" "Courtesan Sword" "Dragonbone Rapier" "Tempered Foil" "Pecoraro" "Spiraled Foil" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Dragoon Sword"
 
 	Hide
+		Class Wand
 		BaseType "Driftwood Wand" "Goat's Horn" "Carved Wand" "Quartz Wand" "Spiraled Wand" "Sage Wand" "Pagan Wand" "Faun's Horn" "Engraved Wand" "Crystal Wand" "Coiled Wand" "Omen Wand" "Heathen Wand" "Demon's Horn" "Imbued Wand" "Opal Wand" "Tornado Wand" "Prophecy Wand" "Profane Wand" "Convoking Wand" "Calling Wand" "Convening Wand"
 
 	Hide
+		Class Sceptre
 		BaseType "Driftwood Sceptre" "Darkwood Sceptre" "Bronze Sceptre" "Quartz Sceptre" "Iron Sceptre" "Ochre Sceptre" "Ritual Sceptre" "Shadow Sceptre" "Grinning Fetish" "Horned Sceptre" "Sekhem" "Crystal Sceptre" "Lead Sceptre" "Blood Sceptre" "Royal Sceptre" "Abyssal Sceptre" "Stag Sceptre" "Karui Sceptre" "Tyrant's Sekhem" "Opal Sceptre" "Platinum Sceptre" "Vaal Sceptre" "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre"
 
 	Hide
+		Class Stave
 		BaseType "Gnarled Branch" "Primitive Staff" "Long Staff" "Royal Staff" "Crescent Staff" "Woodful Staff" "Quarterstaff" "Highborn Staff" "Moon Staff" "Primordial Staff" "Lathi" "Imperial Staff" "Eclipse Staff" 
 
 	Hide
+		Class Warstaves
 		BaseType "Iron Staff" "Coiled Staff" "Vile Staff" "Military Staff" "Serpentine Staff" "Foul Staff" "Ezomyte Staff" "Maelström Staff" "Judgement Staff"
 
 	Hide
+		Class Claw
 		BaseType "Nailed Fist" "Sharktooth Claw" "Awl" "Cat's Paw" "Blinder" "Timeworn Claw" "Sparkling Claw" "Fright Claw" "Double Claw" "Thresher Claw" "Gouger" "Tiger's Paw" "Gut Ripper" "Prehistoric Claw" "Noble Claw" "Eagle Claw" "Twin Claw" "Great White Claw" "Throat Stabber" "Hellion's Paw" "Eye Gouger" "Vaal Claw" "Imperial Claw" "Terror Claw" "Gemini Claw"
 
 	Hide
+		Class Dagger
 		BaseType "Glass Shank" "Skinning Knife" "Stiletto" "Flaying Knife" "Prong Dagger" "Poignard" "Trisula" "Gutting Knife" "Ambusher" "Sai"
 
 	Hide
+		Class "Rune Dagger"
 		BaseType "Carving Knife" "Boot Knife" "Copper Kris" "Skean" "Imp Dagger" "Butcher Knife" "Boot Blade" "Golden Kris" "Royal Skean" "Fiend Dagger" "Slaughter Knife" "Ezomyte Dagger" "Platinum Kris" "Imperial Skean" "Demon Dagger"
 
 	Hide
+		Class Quiver
 		BaseType "Two-Point Arrow Quiver" "Serrated Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver" "Artillery Quiver" "Feathered Arrow Quiver" "Blazing Arrow Quiver" "Vile Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver"
 
 	Hide
+		Class "Body Armours"
 		BaseType "Plate Vest" "Chestplate" "Copper Plate" "War Plate" "Full Plate" "Arena Plate" "Lordly Plate" "Bronze Plate" "Battle Plate" "Sun Plate" "Colosseum Plate" "Majestic Plate" "Golden Plate" "Crusader Plate" "Astral Plate" "Gladiator Plate" "Glorious Plate"
 
 	Hide
+		Class "Body Armours"
 		BaseType "Shabby Jerkin" "Strapped Leather" "Buckskin Tunic" "Wild Leather" "Full Leather" "Sun Leather" "Thief's Garb" "Eelskin Tunic" "Frontier Leather" "Glorious Leather" "Coronal Leather" "Cutthroat's Garb" "Sharkskin Tunic" "Destiny Leather" "Exquisite Leather" "Zodiac Leather" "Assassin's Garb"
 
 	Hide
+		Class "Body Armours"
 		BaseType "Simple Robe" "Silken Vest" "Scholar's Robe" "Silken Garb" "Mage's Vestment" "Silk Robe" "Cabalist Regalia" "Sage's Robe" "Silken Wrap" "Conjurer's Vestment" "Spidersilk Robe" "Destroyer Regalia" "Savant's Robe" "Necromancer Silks" "Occultist's Vestment" "Widowsilk Robe" "Vaal Regalia"
 
 	Hide
+		Class "Body Armours"
 		BaseType "Scale Vest" "Light Brigandine" "Scale Doublet" "Infantry Brigandine" "Full Scale Armour" "Soldier's Brigandine" "Field Lamellar" "Wyrmscale Doublet" "Hussar Brigandine" "Full Wyrmscale" "Commander's Brigandine" "Battle Lamellar" "Dragonscale Doublet" "Desert Brigandine" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar"
 
 	Hide
+		Class "Body Armours"
 		BaseType "Chainmail Vest" "Chainmail Tunic" "Ringmail Coat" "Chainmail Doublet" "Full Ringmail" "Full Chainmail" "Holy Chainmail" "Latticed Ringmail" "Crusader Chainmail" "Ornate Ringmail" "Chain Hauberk" "Devout Chainmail" "Loricated Ringmail" "Conquest Chainmail" "Elegant Ringmail" "Saint's Hauberk" "Saintly Chainmail"
 
 	Hide
+		Class "Body Armours"
 		BaseType "Padded Vest" "Oiled Vest" "Padded Jacket" "Oiled Coat" "Scarlet Raiment" "Waxed Garb" "Bone Armour" "Quilted Jacket" "Sleek Coat" "Crimson Raiment" "Lacquered Garb" "Crypt Armour" "Sentinel Jacket" "Varnished Coat" "Blood Raiment" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
 
 	Hide
+		Class Gloves
 		BaseType "Iron Gauntlets" "Plated Gauntlets" "Bronze Gauntlets" "Steel Gauntlets" "Antique Gauntlets" "Ancient Gauntlets" "Goliath Gauntlets" "Vaal Gauntlets" "Titan Gauntlets" "Spiked Gloves"
 
 	Hide
+		Class Gloves
 		BaseType "Rawhide Gloves" "Goathide Gloves" "Deerskin Gloves" "Nubuck Gloves" "Eelskin Gloves" "Sharkskin Gloves" "Shagreen Gloves" "Stealth Gloves" "Gripped Gloves" "Slink Gloves" "Wool Gloves" "Velvet Gloves" "Silk Gloves" "Embroidered Gloves" "Satin Gloves" "Samite Gloves" "Conjurer Gloves" "Arcanist Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves"
 
 	Hide
+		Class Gloves
 		BaseType "Runic Gloves" "Runic Gages" "Runic Gauntlets"
 
 	Hide
+		Class Gloves
 		BaseType "Fishscale Gauntlets" "Ironscale Gauntlets" "Bronzescale Gauntlets" "Steelscale Gauntlets" "Serpentscale Gauntlets" "Wyrmscale Gauntlets" "Hydrascale Gauntlets" "Dragonscale Gauntlets"
 
 	Hide
+		Class Gloves
 		BaseType "Chain Gloves" "Ringmail Gloves" "Mesh Gloves" "Riveted Gloves" "Zealot Gloves" "Soldier Gloves" "Legion Gloves" "Crusader Gloves" "Apothecary's Gloves"
 
 	Hide
+		Class Gloves
 		BaseType "Wrapped Mitts" "Strapped Mitts" "Clasped Mitts" "Trapper Mitts" "Ambush Mitts" "Carnal Mitts" "Assassin's Mitts" "Murder Mitts"
 
 	Hide
+		Class Boots
 		BaseType "Iron Greaves" "Steel Greaves" "Plated Greaves" "Reinforced Greaves" "Antique Greaves" "Ancient Greaves" "Goliath Greaves" "Vaal Greaves" "Titan Greaves"
 
 	Hide
+		Class Boots
 		BaseType "Rawhide Boots" "Goathide Boots" "Deerskin Boots" "Nubuck Boots" "Eelskin Boots" "Sharkskin Boots" "Shagreen Boots" "Stealth Boots" "Slink Boots"
 
 	Hide
+		Class Boots
 		BaseType "Wool Shoes" "Velvet Slippers" "Silk Slippers" "Scholar Boots" "Satin Slippers" "Samite Slippers" "Conjurer Boots" "Arcanist Slippers" "Sorcerer Boots"
 
 	Hide
+		Class Boots
 		BaseType "Runic Greaves" "Runic Sollerets" "Runic Sabatons"
 
 	Hide
+		Class Boots
 		BaseType "Leatherscale Boots" "Ironscale Boots" "Bronzescale Boots" "Steelscale Boots" "Serpentscale Boots" "Wyrmscale Boots" "Hydrascale Boots" "Dragonscale Boots" "Two-Toned Boots"
 
 	Hide
-		BaseType "Chain Boots" "Ringmail Boots" "Mesh Boots" "Riveted Boots" "Zealot Boots" "Soldier Boots" "Legion Boots" "Crusader Boots" 
+		Class Boots
+		BaseType "Chain Boots" "Ringmail Boots" "Mesh Boots" "Riveted Boots" "Zealot Boots" "Soldier Boots" "Legion Boots" "Crusader Boots"
 
 	Hide
+		Class Boots
 		BaseType "Wrapped Boots" "Strapped Boots" "Clasped Boots" "Shackled Boots" "Trapper Boots" "Ambush Boots" "Carnal Boots" "Assassin's Boots" "Murder Boots" "Fugitive Boots"
 
 	Hide
+		Class Helmets
 		BaseType "Iron Hat" "Cone Helmet" "Barbute Helmet" "Close Helmet" "Gladiator Helmet" "Reaver Helmet" "Siege Helmet" "Samnite Helmet" "Ezomyte Burgonet" "Royal Burgonet" "Eternal Burgonet"
 
 	Hide
+		Class Helmets
 		BaseType "Leather Cap" "Tricorne" "Leather Hood" "Wolf Pelt" "Hunter Hood" "Noble Tricorne" "Ursine Pelt" "Silken Hood" "Sinner Tricorne" "Lion Pelt"
 
 	Hide
-		BaseType "Vine Circlet" "Iron Circlet" "Torture Cage" "Tribal Circlet" "Bone Circlet" "Lunaris Circlet" "Steel Circlet" "Necromancer Circlet" "Solaris Circlet" "Mind Cage" "Hubris Circlet"
+		Class Helmets
+		BaseType "Vine Circlet" "Iron Circlet" "Torture Cage" "Tribal Circlet" "Bone Circlet" "Lunaris Circlet" "Steel Circlet" "Necromancer Circlet" "Solaris Circlet" "Mind Cage" "Hubris Circlet" 
 
 	Hide
+		Class Helmets
 		BaseType "Runic Helm" "Runic Crest" "Runic Crown"
 
 	Hide
+		Class Helmets
 		BaseType "Battered Helm" "Sallet" "Visored Sallet" "Gilded Sallet" "Secutor Helm" "Fencer Helm" "Lacquered Helmet" "Fluted Bascinet" "Pig-Faced Bascinet" "Nightmare Bascinet"
 
 	Hide
+		Class Helmets
 		BaseType "Rusted Coif" "Soldier Helmet" "Great Helmet" "Crusader Helmet" "Aventail Helmet" "Zealot Helmet" "Great Crown" "Magistrate Crown" "Prophet Crown" "Praetor Crown" "Bone Helmet"
 
 	Hide
+		Class Helmets
 		BaseType "Scare Mask" "Plague Mask" "Iron Mask" "Festival Mask" "Golden Mask" "Raven Mask" "Callous Mask" "Regicide Mask" "Harlequin Mask" "Vaal Mask" "Deicide Mask"
 
 	Hide
+		Class Shields
 		BaseType "Splintered Tower Shield" "Corroded Tower Shield" "Rawhide Tower Shield" "Cedar Tower Shield" "Copper Tower Shield" "Reinforced Tower Shield" "Painted Tower Shield" "Buckskin Tower Shield" "Mahogany Tower Shield" "Bronze Tower Shield" "Girded Tower Shield" "Crested Tower Shield" "Shagreen Tower Shield" "Ebony Tower Shield" "Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield"
 
 	Hide
+		Class Shields
 		BaseType "Goathide Buckler" "Pine Buckler" "Painted Buckler" "Hammered Buckler" "War Buckler" "Gilded Buckler" "Oak Buckler" "Enameled Buckler" "Corrugated Buckler" "Battle Buckler" "Golden Buckler" "Ironwood Buckler" "Lacquered Buckler" "Vaal Buckler" "Crusader Buckler" "Imperial Buckler"
 
 	Hide
+		Class Shields
 		BaseType "Twig Spirit Shield" "Yew Spirit Shield" "Bone Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Brass Spirit Shield" "Walnut Spirit Shield" "Ivory Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Thorium Spirit Shield" "Lacewood Spirit Shield" "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield"
 
 	Hide
+		Class Shields
 		BaseType "Rotted Round Shield" "Fir Round Shield" "Studded Round Shield" "Scarlet Round Shield" "Splendid Round Shield" "Maple Round Shield" "Spiked Round Shield" "Crimson Round Shield" "Baroque Round Shield" "Teak Round Shield" "Spiny Round Shield" "Cardinal Round Shield" "Elegant Round Shield"
 
 	Hide
+		Class Shields
 		BaseType "Plank Kite Shield" "Linden Kite Shield" "Reinforced Kite Shield" "Layered Kite Shield" "Ceremonial Kite Shield" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Angelic Kite Shield" "Branded Kite Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield"
 
 	Hide
+		Class Shields
 		BaseType "Spiked Bundle" "Driftwood Spiked Shield" "Alloyed Spiked Shield" "Burnished Spiked Shield" "Ornate Spiked Shield" "Redwood Spiked Shield" "Compound Spiked Shield" "Polished Spiked Shield" "Sovereign Spiked Shield" "Alder Spiked Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
 
 	Hide
+		Class Belts
 		BaseType "Chain Belt" "Rustic Sash" "Stygian Vise" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt" "Vanguard Belt" "Crystal Belt"
 
 	Hide
+		Class Rings
 		BaseType "Breach Ring" "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring" "Opal Ring" "Cerulean Ring" "Iolite Ring" "Bone Ring"
 
 	Hide
+		Class Amulets
 		BaseType "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Marble Amulet" "Blue Pearl Amulet" "Talisman" "Seaglass Amulet"
 
 	Hide
+		Class Flask
 		BaseType "Life Flask" "Mana Flask" "Hybrid Flask" "Quicksilver Flask" "Bismuth Flask" "Stibnite Flask" "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Silver Flask" "Aquamarine Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Sulphur Flask" "Basalt Flask" "Diamond Flask" "Gold Flask" "Corundum Flask" "Iron Flask"
 
 	Hide
+		Class Jewel
 		BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel" "Small Cluster Jewel" "Medium Cluster Jewel" "Large Cluster Jewel" "Ghastly Eye Jewel" "Hypnotic Eye Jewel" "Murderous Eye Jewel" "Searching Eye Jewel"
 
 	Hide
-		Class "Gems"
+		Class "Gem"
 
 	Hide
 		Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+
+	Hide
+		Class Incubator
+		BaseType "Abyssal" "Cartographer" "Maddening" "Morphing" "Mysterious" "Celestial" "Otherworldly" "Primal" "Singular" "Enchanted"
 
 	Show
 		SetFontSize 45
