@@ -92,7 +92,7 @@
 
 		Hide
 			Class Divination
-			BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity" "The Incantation" "The Witch" "The Demoness" "The Blazing Fire" "The Journalist" "The Scarred Meadow" "The Sun" "Rain Tempter" "The Scholar" "Rain of Chaos" "The Stormcaller"
+			BaseType "The Demoness" 
 			PlayAlertSoundPositional None
 			MinimapIcon -1
 			PlayEffect None
@@ -1399,6 +1399,10 @@
 	Hide
 		Class Incubator
 		BaseType "Abyssal" "Cartographer" "Maddening" "Morphing" "Mysterious" "Celestial" "Otherworldly" "Primal" "Singular" "Enchanted"
+
+	Hide
+		Class Divination
+		BaseType "Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity" "The Incantation" "The Witch" "The Blazing Fire" "The Journalist" "The Scarred Meadow" "The Sun" "Rain Tempter" "The Scholar" "Rain of Chaos" "The Stormcaller"
 
 	Show
 		SetFontSize 45
