@@ -77,15 +77,27 @@
 	# --------
 
 		Show
-			BaseType "Mirror of Kalandra"
+			BaseType == "Mirror of Kalandra"
 			PlayAlertSoundPositional ShMirror 300
 
 		Show
-			BaseType "Albino Rhoa Feather"
+			BaseType == "Albino Rhoa Feather"
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Eternal Orb" "Divine Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Regrading Lens" "Sacred Orb" "Mirror Shard" "Faceted Fossil" "Tainted Oil" "Reflective Oil" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Sacred Crystallised Lifeforce" "Fracturing Orb"
+			BaseType == "Eternal Orb" "Divine Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Prime Regrading Lens" "Secondary Regrading Lens" "Mirror Shard" "Fracturing Orb" "Tainted Divine Teardrop" "Hunter's Exalted Orb" "Hinekora's Lock"
+
+		Show
+			Class Currency
+			BaseType == "Tainted Oil"
+
+		Show
+			Class Currency
+			BaseType == "Sacred Crystallised Lifeforce" 
+
+		Show
+			Class Currency
+			BaseType == "Blessing of Chayula" "Blessing of Esh" "Blessing of Xoph" "Blessing of Tul" "Blessing of Uul-Netol" 
 
 	# Divination Cards
 	# ----------------
@@ -98,8 +110,8 @@
 	# ----
 
 		Show
-			Class Gems
-			BaseType "Awakened"
+			Class Gem
+			BaseType == "Awakened Empower Support" "Awakened Multistrike Support" "Awakened Greater Multiple Projectiles Support" "Awakened Enhance Support" "Awakened Spell Cascade Support" "Awakened Spell Echo Support" "Awakened Unleash Support" "Awakened Chain Support" "Awakened Fork Support" "Awakened Increased Area of Effect Support" "Awakened Arrow Nova Support" "Awakened Cast on Critical Strike Support" "Awakened Generosity Support" "Awakened Void Manipulation Support" "Awakened Elemental Focus Support" "Awakened Unbound Ailments Support"
 
 	# Maps
 	# ----
@@ -140,35 +152,38 @@
 	# Equipment
 	# ---------
 
-		# Amulets
+		# Jewels
 
 			Show
-				Class Amulets
-				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				ItemLevel >= 86
-
-		# Rings
-
-			Show
-				Class Rings
-				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring" "Bone Ring"
-				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				ItemLevel >= 86
-
-		# Belts
+				BaseType "Small Cluster Jewel"
+				EnchantmentPassiveNum == 3
+				EnchantmentPassiveNode "Reservation Efficiency"
+				ItemLevel >= 84
 
 			Show
-				Class Belts
-				BaseType "Crystal Belt"
-				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				ItemLevel >= 86
+				BaseType "Medium Cluster Jewel"
+				EnchantmentPassiveNum == 6
+				EnchantmentPassiveNode "Flask Duration"
+				ItemLevel >= 84
 
-	# Ancestor
-	# --------
+			Show
+				BaseType "Large Cluster Jewel"
+				EnchantmentPassiveNum <= 8
+				EnchantmentPassiveNode "Cold Damage" "Bow Damage"
+				ItemLevel >= 84
 
-		Show
-			Class "Stackable Currency"
-			BaseType "Hinekora's Lock"
+			Show
+				BaseType "Large Cluster Jewel"
+				EnchantmentPassiveNum <= 8
+				EnchantmentPassiveNode "Fire Damage" "Bow Damage"
+				ItemLevel >= 50
+				ItemLevel < 68
+
+			Show
+				BaseType "Large Cluster Jewel"
+				EnchantmentPassiveNum >= 12
+				EnchantmentPassiveNode "Bow Damage" "Minion Damage"
+				ItemLevel >= 84
 		
 # Level 2
 # =======
@@ -212,7 +227,49 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Exalted Orb" "Stacked Deck" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Greater Eldritch Ember" "Grand Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Orb of Conflict" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment" "Elevated Sextant" "Crystallised Lifeforce" "Fracturing Shard"
+			BaseType == "Fracturing Shard" "Sacred Orb" "Exalted Orb" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Veiled Chaos Orb" "Tainted Blessing" "Elevated Sextant" "Redeemer's Exalted Orb" "Warlord's Exalted Orb" "Crusader's Exalted Orb"
+
+		Show
+			Class Currency
+			BaseType == "Primal Crystallised Lifeforce" "Wild Crystallised Lifeforce"
+			StackSize > 250
+
+		Show
+			Class Currency
+			BaseType == "Vivid Crystallised Lifeforce" 
+			StackSize > 100
+
+		Show
+			Class Currency
+			BaseType == "Tainted Exalted Orb" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb"
+
+		Show
+			Class Currency
+			BaseType == "Glyphic Fossil" "Faceted Fossil" "Hollow Fossil" "Fractured Fossil" "Perfect Fossil" "Sanctified Fossil" "Shuddering Fossil"
+			
+		Show
+			Class Currency
+			BaseType == "Essence of Horror" "Essence of Delirium" "Essence of Hysteria" "Essence of Insanity" "Deafening Essence of Loathing" "Deafening Essence of Contempt" "Deafening Essence of Scorn"
+
+		Show
+			Class Currency
+			BaseType == "Golden Oil" "Silver Oil"
+
+		Show
+			Class Currency
+			BaseType == "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst"
+
+		Show
+			Class Currency
+			BaseType "Delirium Orb"
+
+		Show
+			Class Currency
+			BaseType == "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Greater Eldritch Ember" "Grand Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Orb of Conflict" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment"
+
+		Show
+			Class Currency
+			BaseType == "Vial of Transcendence" "Vial of Consequence" "Vial of Summoning" "Vial of Awakening" "Vial of Dominance"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -239,6 +296,10 @@
 		Show
 			GemLevel >= 21
 			Class Gems
+
+		Show
+			Class Gems
+			BaseType Awakened
 
 	# Maps
 	# ----
@@ -292,6 +353,29 @@
 
 	# Equipment
 	# ---------
+
+		# Amulets
+
+			Show
+				Class Amulets
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+				ItemLevel >= 86
+
+		# Rings
+
+			Show
+				Class Rings
+				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring" "Bone Ring"
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+				ItemLevel >= 86
+
+		# Belts
+
+			Show
+				Class Belts
+				BaseType "Crystal Belt"
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+				ItemLevel >= 86
 
 		Show
 			ItemLevel >= 82
@@ -352,11 +436,25 @@
 
 		Show
 			Class "Stackable Currency"
-			BaseType "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol"
+			BaseType == "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Chayula"
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact" "Surveyor's Compass" "Charged Compass" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Scouting Report" "Oil Extractor" "Orb of Unmaking" 
+			BaseType "Stacked Deck" "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact" "Surveyor's Compass" "Charged Compass" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Scouting Report" "Oil Extractor" "Orb of Unmaking" "Vial of Fate" "Vial of the Ritual"
+
+		Show
+			Class Currency
+			BaseType == "Primal Crystallised Lifeforce" "Wild Crystallised Lifeforce"
+			StackSize > 25
+
+		Show
+			Class Currency
+			BaseType == "Vivid Crystallised Lifeforce" 
+			StackSize > 10
+
+		Show
+			Class Currency
+			BaseType Deafening Shrieking "Remnant of Corruption" 
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -495,7 +593,15 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Binding Shard" Perandus
+			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" Perandus
+
+		Show
+			Class Currency
+			BaseType == "Primal Crystallised Lifeforce" "Wild Crystallised Lifeforce" "Vivid Crystallised Lifeforce" 
+
+		Show
+			Class Currency
+			BaseType "Essence of"
 
 	# Gems
 	# ----

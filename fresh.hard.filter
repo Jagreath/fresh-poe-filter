@@ -77,16 +77,28 @@
 	# --------
 
 		Show
-			BaseType "Mirror of Kalandra"
+			BaseType == "Mirror of Kalandra"
 			PlayAlertSoundPositional ShMirror 300
 
 		Show
-			BaseType "Albino Rhoa Feather"
+			BaseType == "Albino Rhoa Feather"
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Eternal Orb" "Divine Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Regrading Lens" "Sacred Orb" "Mirror Shard" "Faceted Fossil" "Tainted Oil" "Reflective Oil" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Sacred Crystallised Lifeforce" "Fracturing Orb"
+			BaseType == "Eternal Orb" "Divine Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Prime Regrading Lens" "Secondary Regrading Lens" "Mirror Shard" "Fracturing Orb" "Tainted Divine Teardrop" "Hunter's Exalted Orb" "Hinekora's Lock"
 
+		Show
+			Class Currency
+			BaseType == "Tainted Oil"
+
+		Show
+			Class Currency
+			BaseType == "Sacred Crystallised Lifeforce" 
+
+		Show
+			Class Currency
+			BaseType == "Blessing of Chayula" "Blessing of Esh" "Blessing of Xoph" "Blessing of Tul" "Blessing of Uul-Netol" 
+			
 	# Divination Cards
 	# ----------------
 
@@ -99,7 +111,7 @@
 
 		Show
 			Class Gem
-			BaseType "Awakened Empower" "Awakened Multistrike" "Awakened Greater Multiple Projectiles" "Awakened Enhance" "Awakened Spell Cascade" "Awakened Spell Echo" "Awakened Unleash" "Awakened Chain" "Awakened Fork" "Awakened Increased Area of Effect" "Awakened Arrow Nova" "Awakened Arrow Nova" "Awakened Cast on Critical Strike" "Awakened Generosity" "Awakened Void Manipulation" "Awakened Elemental Focus" "Awakened Unbound Ailments"
+			BaseType == "Awakened Empower Support" "Awakened Multistrike Support" "Awakened Greater Multiple Projectiles Support" "Awakened Enhance Support" "Awakened Spell Cascade Support" "Awakened Spell Echo Support" "Awakened Unleash Support" "Awakened Chain Support" "Awakened Fork Support" "Awakened Increased Area of Effect Support" "Awakened Arrow Nova Support" "Awakened Cast on Critical Strike Support" "Awakened Generosity Support" "Awakened Void Manipulation Support" "Awakened Elemental Focus Support" "Awakened Unbound Ailments Support"
 
 	# Maps
 	# ----
@@ -140,36 +152,39 @@
 	# Equipment
 	# ---------
 
-		# Amulets
+		# Jewels
 
 			Show
-				Class Amulets
-				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				ItemLevel >= 86
-
-		# Rings
-
-			Show
-				Class Rings
-				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring" "Bone Ring"
-				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				ItemLevel >= 86
-
-		# Belts
+				BaseType "Small Cluster Jewel"
+				EnchantmentPassiveNum == 3
+				EnchantmentPassiveNode "Reservation Efficiency"
+				ItemLevel >= 84
 
 			Show
-				Class Belts
-				BaseType "Crystal Belt"
-				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				ItemLevel >= 86
+				BaseType "Medium Cluster Jewel"
+				EnchantmentPassiveNum == 6
+				EnchantmentPassiveNode "Flask Duration"
+				ItemLevel >= 84
 
-	# Ancestor
-	# --------
+			Show
+				BaseType "Large Cluster Jewel"
+				EnchantmentPassiveNum <= 8
+				EnchantmentPassiveNode "Cold Damage" "Bow Damage"
+				ItemLevel >= 84
 
-		Show
-			Class "Stackable Currency"
-			BaseType "Hinekora's Lock"
-		
+			Show
+				BaseType "Large Cluster Jewel"
+				EnchantmentPassiveNum <= 8
+				EnchantmentPassiveNode "Fire Damage" "Bow Damage"
+				ItemLevel >= 50
+				ItemLevel < 68
+
+			Show
+				BaseType "Large Cluster Jewel"
+				EnchantmentPassiveNum >= 12
+				EnchantmentPassiveNode "Bow Damage" "Minion Damage"
+				ItemLevel >= 84
+
 # Level 2
 # =======
 
@@ -212,7 +227,49 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Exalted Orb" "Stacked Deck" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Unshaping Orb" "Cartographer's Seal" "Blessing of Chayula" "Veiled Chaos Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Deafening Essence" "Remnant of Corruption" "Fractured Fossil" "Bloodstained Fossil" "Hollow Fossil" "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Serrated Fossil" "Perfect Fossil" "Glyphic Fossil" "Vial of" "Golden Oil" "Silver Oil" "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Delirium Orb" "Greater Eldritch Ember" "Grand Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Orb of Conflict" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment" "Elevated Sextant" "Crystallised Lifeforce" "Fracturing Shard"
+			BaseType == "Fracturing Shard" "Sacred Orb" "Exalted Orb" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Veiled Chaos Orb" "Tainted Blessing" "Elevated Sextant" "Redeemer's Exalted Orb" "Warlord's Exalted Orb" "Crusader's Exalted Orb"
+
+		Show
+			Class Currency
+			BaseType == "Primal Crystallised Lifeforce" "Wild Crystallised Lifeforce"
+			StackSize > 250
+
+		Show
+			Class Currency
+			BaseType == "Vivid Crystallised Lifeforce" 
+			StackSize > 100
+
+		Show
+			Class Currency
+			BaseType == "Tainted Exalted Orb" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb"
+
+		Show
+			Class Currency
+			BaseType == "Glyphic Fossil" "Faceted Fossil" "Hollow Fossil" "Fractured Fossil" "Perfect Fossil" "Sanctified Fossil" "Shuddering Fossil"
+			
+		Show
+			Class Currency
+			BaseType == "Essence of Horror" "Essence of Delirium" "Essence of Hysteria" "Essence of Insanity" "Deafening Essence of Loathing" "Deafening Essence of Contempt" "Deafening Essence of Scorn"
+
+		Show
+			Class Currency
+			BaseType == "Golden Oil" "Silver Oil"
+
+		Show
+			Class Currency
+			BaseType == "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst"
+
+		Show
+			Class Currency
+			BaseType "Delirium Orb"
+
+		Show
+			Class Currency
+			BaseType == "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Greater Eldritch Ember" "Grand Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Orb of Conflict" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment"
+
+		Show
+			Class Currency
+			BaseType == "Vial of Transcendence" "Vial of Consequence" "Vial of Summoning" "Vial of Awakening" "Vial of Dominance"
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -342,21 +399,23 @@
 			Show
 				Class Amulets
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				ItemLevel >= 84
+				ItemLevel >= 86
 
 		# Rings
 
 			Show
 				Class Rings
+				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring" "Bone Ring"
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				ItemLevel >= 84
+				ItemLevel >= 86
 
 		# Belts
 
 			Show
 				Class Belts
+				BaseType "Crystal Belt"
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				ItemLevel >= 84
+				ItemLevel >= 86
 
 	# Ancestor
 	# --------
@@ -408,11 +467,25 @@
 
 		Show
 			Class "Stackable Currency"
-			BaseType "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol"
+			BaseType == "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Chayula"
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" Blessing "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Splinter of Chayula" "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact" "Surveyor's Compass" "Charged Compass" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Scouting Report" "Oil Extractor" "Orb of Unmaking" 
+			BaseType "Stacked Deck" "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact" "Surveyor's Compass" "Charged Compass" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Scouting Report" "Oil Extractor" "Orb of Unmaking" "Vial of Fate" "Vial of the Ritual"
+
+		Show
+			Class Currency
+			BaseType == "Primal Crystallised Lifeforce" "Wild Crystallised Lifeforce"
+			StackSize > 25
+
+		Show
+			Class Currency
+			BaseType == "Vivid Crystallised Lifeforce" 
+			StackSize > 10
+
+		Show
+			Class Currency
+			BaseType Deafening Shrieking "Remnant of Corruption" 
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -427,7 +500,7 @@
 
 		Show
 			Class Divination
-			BaseType == "A Chilling Wind" "A Dab of Ink" "A Dusty Memory" "A Familiar Call" "A Modest Request" "A Mother's Parting Gift" "A Note in the Wind" "A Sea of Blue" "A Stone Perfected" "Abandoned Wealth" "Acclimatisation" "Akil's Prophecy" "Alivia's Grace" "Alluring Bounty" "Alone in the Darkness" "Altered Perception" "Ambitious Obsession" "Anarchy's Price" "Arrogance of the Vaal" "Assassin's Favour" "Astral Protection" "Atziri's Arsenal" "Audacity" "Auspicious Ambitions" "Azure Rage" "Azyran's Reward" "Baited Expectations" "Bijoux" "Blind Venture" "Boon of Justice" "Boon of the First Ones" "Boundless Realms" "Bowyer's Dream" "Broken Truce" "Brotherhood in Exile" "Brush, Paint and Palette" "Buried Treasure" "Burning Blood" "Call to the First Ones" "Cameria's Cut" "Cartographer's Delight" "Chaotic Disposition" "Chasing Risk" "Checkmate" "Costly Curio" "Council of Cats" "Coveted Possession" "Cursed Words" "Dark Dreams" "Dark Temptation" "Death" "Deathly Designs" "Dementophobia" "Demigod's Wager" "Desperate Crusade" "Destined to Crumble" "Dialla's Subjugation" "Disdain" "Divine Justice" "Doedre's Madness" "Draped in Dreams" "Duality" "Dying Anguish" "Dying Light" "Earth Drinker" "Echoes of Love" "Emperor of Purity" "Emperor's Luck" "Endless Night" "Etched in Blood" "Ever-Changing" "Fateful Meeting" "Forbidden Power" "From Bone to Ashes" "Further Invention" "Gemcutter's Promise" "Gift of Asenath" "Gift of the Gemling Queen" "Glimmer of Hope" "Grave Knowledge" "Guardian's Challenge" "Harmony of Souls" "Haunting Shadows" "Her Mask" "Heterochromia" "Hope" "Hubris" "Humility" "Hunter's Resolve" "Hunter's Reward" "Immortal Resolve" "Imperial Legacy" "Jack in the Box" "Judging Voices" "Justified Ambition" "Keeper's Corruption" "Lachrymal Necrosis" "Last Hope" "Left to Fate" "Lethean Temptation" "Light and Truth" "Lingering Remnants" "Lost Worlds" "Loyalty" "Lucky Connections" "Lucky Deck" "Lysah's Respite" "Magnum Opus" "Man With Bear" "Mawr Blaidd" "Merciless Armament" "Might is Right" "Misery in Darkness" "Mitts" "More is Never Enough" "No Traces" "Nook's Crown" "Parasitic Passengers" "Peaceful Moments" "Perfection" "Poisoned Faith" "Prejudice" "Pride Before the Fall" "Pride of the First Ones" "Prometheus' Armoury" "Rats" "Rebirth" "Rebirth and Renewal" "Reckless Ambition" "Remembrance" "Sambodhi's Vow" "Sambodhi's Wisdom" "Scholar of the Seas" "Shard of Fate" "Society's Remorse" "Something Dark" "Soul Quenched" "Terrible Secret of Space" "The Academic" "The Admirer" "The Adventuring Spirit" "The Aesthete" "The Archmage's Right Hand" "The Arena Champion" "The Army of Blood" "The Aspirant" "The Astromancer" "The Avenger" "The Awakened" "The Battle Born" "The Bear Woman" "The Beast" "The Betrayal" "The Bitter Blossom" "The Blessing of Moosh" "The Body" "The Bones" "The Brawny Battle Mage" "The Breach" "The Brittle Emperor" "The Cache" "The Cacophony" "The Calling" "The Card Sharp" "The Cartographer" "The Cataclysm" "The Catalyst" "The Catch" "The Celestial Justicar" "The Celestial Stone" "The Chains that Bind" "The Coming Storm" "The Conduit" "The Craving" "The Cursed King" "The Damned" "The Dapper Prodigy" "The Dark Mage" "The Darkest Dream" "The Deal" "The Deceiver" "The Deep Ones" "The Doppelganger" "The Dragon" "The Dreamer" "The Dreamland" "The Drunken Aristocrat" "The Dungeon Master" "The Easy Stroll" "The Eldritch Decay" "The Emptiness" "The Encroaching Darkness" "The Endurance" "The Enforcer" "The Enthusiasts" "The Escape" "The Eternal War" "The Ethereal" "The Explorer" "The Eye of the Dragon" "The Fathomless Depths" "The Feast" "The Finishing Touch" "The Fishmonger" "The Fletcher" "The Flora's Gift" "The Fool" "The Forgotten Treasure" "The Formless Sea" "The Forsaken" "The Forward Gaze" "The Fox" "The Fox in the Brambles" "The Gambler" "The Gemcutter" "The Gentleman" "The Gladiator" "The Golden Era" "The Greatest Intentions" "The Hale Heart" "The Harvester" "The Hermit" "The Heroic Shot" "The Hive of Knowledge" "The Hoarder" "The Hook" "The Hunger" "The Innocent" "The Inoculated" "The Insatiable" "The Inventor" "The Jester" "The Jeweller's Boon" "The Journey" "The King's Heart" "The Landing" "The Last Supper" "The Leviathan" "The Lich" "The Life Thief" "The Lion" "The Long Con" "The Lord in Black" "The Lord of Celebration" "The Lunaris Priestess" "The Mad King" "The Magma Crab" "The Master" "The Master Artisan" "The Mercenary" "The Messenger" "The Metalsmith's Gift" "The Mind's Eyes" "The Mountain" "The Oath" "The Obscured" "The Offering" "The Offspring" "The Old Man" "The One That Got Away" "The One With All" "The Opulent" "The Pack Leader" "The Pact" "The Penitent" "The Poet" "The Polymath" "The Porcupine" "The Price of Prescience" "The Price of Protection" "The Primordial" "The Prince of Darkness" "The Professor" "The Progeny of Lunaris" "The Puzzle" "The Queen" "The Rabbit's Foot" "The Rabid Rhoa" "The Realm" "The Return of the Rat" "The Risk" "The Rite of Elements" "The Road to Power" "The Rusted Bard" "The Ruthless Ceinture" "The Sacrifice" "The Saint's Treasure" "The Scavenger" "The Scout" "The Seeker" "The Shepherd's Sandals" "The Shortcut" "The Side Quest" "The Sigil" "The Siren" "The Skeleton" "The Spark and the Flame" "The Spoiled Prince" "The Standoff" "The Strategist" "The Summoner" "The Surveyor" "The Survivalist" "The Sword King's Salute" "The Thaumaturgist" "The Throne" "The Tinkerer's Table" "The Tireless Extractor" "The Tower" "The Traitor" "The Transformation" "The Trial" "The Tumbleweed" "The Twilight Moon" "The Twins" "The Tyrant" "The Undaunted" "The Undisputed" "The Unexpected Prize" "The Union" "The Valkyrie" "The Vast" "The Visionary" "The Void" "The Warden" "The Warlord" "The Watcher" "The Web" "The Wedding Gift" "The White Knight" "The Whiteout" "The Wilted Rose" "The Wind" "The Wolf" "The Wolf's Legacy" "The Wolf's Shadow" "The Wolven King's Bite" "The Wolverine" "The World Eater" "The Wrath" "The Wretched" "Thirst for Knowledge" "Three Faces in the Dark" "Three Voices" "Time-Lost Relic" "Tranquillity" "Treasure Hunter" "Triskaidekaphobia" "Turn the Other Cheek" "Unchained" "Underground Forest" "Vanity" "Vile Power" "Vinia's Token" "Void of the Elements" "Volatile Power" "Winter's Embrace"
+			BaseType == "A Chilling Wind" "A Dab of Ink" "A Dusty Memory" "A Familiar Call" "A Modest Request" "A Mother's Parting Gift" "A Note in the Wind" "A Sea of Blue" "A Stone Perfected" "Abandoned Wealth" "Acclimatisation" "Akil's Prophecy" "Alivia's Grace" "Alluring Bounty" "Alone in the Darkness" "Altered Perception" "Ambitious Obsession" "Anarchy's Price" "Arrogance of the Vaal" "Assassin's Favour" "Astral Protection" "Atziri's Arsenal" "Audacity" "Auspicious Ambitions" "Azure Rage" "Azyran's Reward" "Baited Expectations" "Bijoux" "Blind Venture" "Boon of Justice" "Boon of the First Ones" "Boundless Realms" "Bowyer's Dream" "Broken Truce" "Brotherhood in Exile" "Brush, Paint and Palette" "Buried Treasure" "Burning Blood" "Call to the First Ones" "Cameria's Cut" "Cartographer's Delight" "Chaotic Disposition" "Chasing Risk" "Checkmate" "Costly Curio" "Council of Cats" "Coveted Possession" "Cursed Words" "Dark Dreams" "Dark Temptation" "Death" "Deathly Designs" "Dementophobia" "Demigod's Wager" "Desperate Crusade" "Destined to Crumble" "Dialla's Subjugation" "Disdain" "Divine Justice" "Doedre's Madness" "Draped in Dreams" "Duality" "Dying Anguish" "Dying Light" "Earth Drinker" "Echoes of Love" "Emperor of Purity" "Emperor's Luck" "Endless Night" "Etched in Blood" "Ever-Changing" "Fateful Meeting" "Forbidden Power" "From Bone to Ashes" "Further Invention" "Gemcutter's Promise" "Gift of Asenath" "Gift of the Gemling Queen" "Glimmer of Hope" "Grave Knowledge" "Guardian's Challenge" "Harmony of Souls" "Haunting Shadows" "Her Mask" "Heterochromia" "Hope" "Hubris" "Humility" "Hunter's Resolve" "Hunter's Reward" "Immortal Resolve" "Imperial Legacy" "Jack in the Box" "Judging Voices" "Justified Ambition" "Keeper's Corruption" "Lachrymal Necrosis" "Last Hope" "Left to Fate" "Lethean Temptation" "Light and Truth" "Lingering Remnants" "Lost Worlds" "Loyalty" "Lucky Connections" "Lucky Deck" "Lysah's Respite" "Magnum Opus" "Man With Bear" "Mawr Blaidd" "Merciless Armament" "Might is Right" "Misery in Darkness" "Mitts" "More is Never Enough" "No Traces" "Nook's Crown" "Parasitic Passengers" "Peaceful Moments" "Perfection" "Poisoned Faith" "Prejudice" "Pride Before the Fall" "Pride of the First Ones" "Prometheus' Armoury" "Rats" "Rebirth" "Rebirth and Renewal" "Reckless Ambition" "Remembrance" "Sambodhi's Vow" "Sambodhi's Wisdom" "Scholar of the Seas" "Shard of Fate" "Society's Remorse" "Something Dark" "Soul Quenched" "Terrible Secret of Space" "The Academic" "The Admirer" "The Adventuring Spirit" "The Aesthete" "The Archmage's Right Hand" "The Arena Champion" "The Army of Blood" "The Aspirant" "The Astromancer" "The Avenger" "The Awakened" "The Battle Born" "The Bear Woman" "The Beast" "The Betrayal" "The Bitter Blossom" "The Blessing of Moosh" "The Body" "The Bones" "The Brawny Battle Mage" "The Breach" "The Brittle Emperor" "The Cache" "The Cacophony" "The Calling" "The Card Sharp" "The Cartographer" "The Cataclysm" "The Catalyst" "The Catch" "The Celestial Justicar" "The Celestial Stone" "The Chains that Bind" "The Coming Storm" "The Conduit" "The Craving" "The Cursed King" "The Damned" "The Dapper Prodigy" "The Dark Mage" "The Darkest Dream" "The Deal" "The Deceiver" "The Deep Ones" "The Doppelganger" "The Dragon" "The Dreamer" "The Dreamland" "The Drunken Aristocrat" "The Dungeon Master" "The Easy Stroll" "The Eldritch Decay" "The Emptiness" "The Encroaching Darkness" "The Endurance" "The Enforcer" "The Enthusiasts" "The Escape" "The Eternal War" "The Ethereal" "The Explorer" "The Eye of the Dragon" "The Fathomless Depths" "The Feast" "The Finishing Touch" "The Fishmonger" "The Fletcher" "The Flora's Gift" "The Fool" "The Forgotten Treasure" "The Formless Sea" "The Forsaken" "The Forward Gaze" "The Fox" "The Fox in the Brambles" "The Gambler" "The Gemcutter" "The Gentleman" "The Gladiator" "The Golden Era" "The Greatest Intentions" "The Hale Heart" "The Harvester" "The Hermit" "The Heroic Shot" "The Hive of Knowledge" "The Hoarder" "The Hook" "The Hunger" "The Innocent" "The Inoculated" "The Insatiable" "The Inventor" "The Jester" "The Jeweller's Boon" "The Journey" "The King's Heart" "The Landing" "The Last Supper" "The Leviathan" "The Lich" "The Life Thief" "The Lion" "The Long Con" "The Lord in Black" "The Lord of Celebration" "The Lunaris Priestess" "The Mad King" "The Magma Crab" "The Master" "The Master Artisan" "The Mercenary" "The Messenger" "The Metalsmith's Gift" "The Mind's Eyes" "The Mountain" "The Oath" "The Obscured" "The Offering" "The Offspring" "The Old Man" "The One That Got Away" "The One With All" "The Opulent" "The Pack Leader" "The Pact" "The Penitent" "The Poet" "The Polymath" "The Porcupine" "The Price of Prescience" "The Price of Protection" "The Primordial" "The Prince of Darkness" "The Professor" "The Progeny of Lunaris" "The Puzzle" "The Queen" "The Rabbit's Foot" "The Rabid Rhoa" "The Return of the Rat" "The Risk" "The Rite of Elements" "The Road to Power" "The Rusted Bard" "The Ruthless Ceinture" "The Sacrifice" "The Saint's Treasure" "The Scavenger" "The Scout" "The Seeker" "The Shepherd's Sandals" "The Shortcut" "The Side Quest" "The Sigil" "The Siren" "The Skeleton" "The Spark and the Flame" "The Spoiled Prince" "The Standoff" "The Strategist" "The Summoner" "The Surveyor" "The Survivalist" "The Sword King's Salute" "The Thaumaturgist" "The Throne" "The Tinkerer's Table" "The Tireless Extractor" "The Tower" "The Traitor" "The Transformation" "The Trial" "The Tumbleweed" "The Twilight Moon" "The Twins" "The Tyrant" "The Undaunted" "The Undisputed" "The Unexpected Prize" "The Union" "The Valkyrie" "The Vast" "The Visionary" "The Void" "The Warden" "The Warlord" "The Watcher" "The Web" "The Wedding Gift" "The White Knight" "The Whiteout" "The Wilted Rose" "The Wind" "The Wolf" "The Wolf's Legacy" "The Wolf's Shadow" "The Wolven King's Bite" "The Wolverine" "The World Eater" "The Wrath" "The Wretched" "Thirst for Knowledge" "Three Faces in the Dark" "Three Voices" "Time-Lost Relic" "Tranquillity" "Treasure Hunter" "Triskaidekaphobia" "Turn the Other Cheek" "Unchained" "Underground Forest" "Vanity" "Vile Power" "Vinia's Token" "Void of the Elements" "Volatile Power" "Winter's Embrace"
 
 	# Gems
 	# ----
@@ -536,46 +609,22 @@
 
 			Show
 				Class Amulets
-				ItemLevel >= 82
-				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
-
-			Show
-				Class Amulets
-				BaseType Marble "Blue Pearl" Amber Turquoise Seaglass
-				Rarity Rare
-				ItemLevel >= 86
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+				ItemLevel >= 84
 
 		# Rings
 
 			Show
 				Class Rings
-				ItemLevel >= 82
-				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
-
-			Show
-				Class Rings
-				BaseType Steel Opal Vermillion Cerulean Iolite
-				Rarity Rare
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				ItemLevel >= 84
 
 		# Belts
 
 			Show
 				Class Belts
-				ItemLevel >= 82
-				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
-
-			Show
-				Class Belts
-				BaseType Crystal
-				Rarity Rare
+				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				ItemLevel >= 84
-
-			Show
-				Class Belts
-				BaseType Stygian
-				Rarity Rare
-				ItemLevel >= 85
 
 		# Jewels
 
@@ -648,6 +697,14 @@
 		Show
 			Class Currency "Stackable Currency"
 			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" Perandus
+
+		Show
+			Class Currency
+			BaseType == "Primal Crystallised Lifeforce" "Wild Crystallised Lifeforce" "Vivid Crystallised Lifeforce" 
+
+		Show
+			Class Currency
+			BaseType "Essence of"
 
 	# Gems
 	# ----
@@ -823,49 +880,46 @@
 
 			Show
 				Class Amulets
-				BaseType Onyx Marble "Blue Pearl" Seaglass
-				Rarity Rare
-				Identified False
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
 
 			Show
 				Class Amulets
-				Rarity Rare Normal
+				BaseType Marble "Blue Pearl" Amber Turquoise Seaglass
+				Rarity Rare
 				ItemLevel >= 86
 
 		# Rings
 
 			Show
 				Class Rings
-				BaseType Cerulean Steel Opal Vermillion Iolite
-				Rarity Rare
-				Identified False
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
 
 			Show
 				Class Rings
-				BaseType Unset Sapphire Topaz Ruby Diamond Two-Stone Amethyst Prismatic Steel Vermillion Opal Cerulean Iolite Bone 
-				Rarity Rare Normal
-				ItemLevel >= 86
+				BaseType Steel Opal Vermillion Cerulean Iolite
+				Rarity Rare
+				ItemLevel >= 84
 
 		# Belts
 
 			Show
 				Class Belts
-				BaseType Crystal Stygian
-				Rarity Rare
-				Identified False
+				ItemLevel >= 82
+				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
 
 			Show
 				Class Belts
-				BaseType Leather Heavy Vanguard
+				BaseType Crystal
 				Rarity Rare
 				ItemLevel >= 84
-				Identified False
 
 			Show
 				Class Belts
-				BaseType Crystal Stygian Leather Heavy Vanguard
-				Rarity Normal
-				ItemLevel >= 86
+				BaseType Stygian
+				Rarity Rare
+				ItemLevel >= 85
 
 		# Jewels
 
@@ -983,41 +1037,53 @@
 				Rarity Rare
 				Identified False
 
-		# Amulets 
+		# Amulets
 
 			Show
 				Class Amulets
-				BaseType Amber Jade Lapis Agate Citrine Turquoise Onyx
+				BaseType Onyx Marble "Blue Pearl" Seaglass
 				Rarity Rare
 				Identified False
 
 			Show
 				Class Amulets
-				BaseType Talisman
-				Rarity Rare
-				Identified False
+				Rarity Rare Normal
+				ItemLevel >= 86
 
-		# Rings 
-
-			Show
-				Class Rings
-				BaseType "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring"
-				Rarity Rare
-				Identified False
+		# Rings
 
 			Show
 				Class Rings
-				BaseType "Breach Ring"
+				BaseType Cerulean Steel Opal Vermillion Iolite
 				Rarity Rare
-				ItemLevel >= 84
+				Identified False
 
-		# Belts 
+			Show
+				Class Rings
+				BaseType Unset Sapphire Topaz Ruby Diamond Two-Stone Amethyst Prismatic Steel Vermillion Opal Cerulean Iolite Bone 
+				Rarity Rare Normal
+				ItemLevel >= 86
+
+		# Belts
+
+			Show
+				Class Belts
+				BaseType Crystal Stygian
+				Rarity Rare
+				Identified False
 
 			Show
 				Class Belts
 				BaseType Leather Heavy Vanguard
 				Rarity Rare
+				ItemLevel >= 84
 				Identified False
+
+			Show
+				Class Belts
+				BaseType Crystal Stygian Leather Heavy Vanguard
+				Rarity Normal
+				ItemLevel >= 86
 
 		# Jewels
 
@@ -1119,11 +1185,36 @@
 			Show
 				HasExplicitMod >=3 "Glyphic" "Runic" "Pyroclastic" "Xoph's" "Cryomancer's" "Tul's" "Ionising" "Esh's" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Lava Conjurer's" "Winter Beckoner's" "Tempest Master's" "Splintermind's" "Tecton's" "Blasting" "Cremating" "Polar" "Entombing" "Discharging" "Electrocuting" "of Sortilege" "of Finesse" "of Ferocity" "of Destruction" "of Dissolution" "of Atrophying" "of Disintegrating" "of the Gelid" "of Heartstopping" "of the Zealous" "of the Fanatical" "of Hemorrhaging" "of Exsanguinating" "Subterranean" "of the Underground" "Topotante's" "Matatl's" "Tacati's" "of Tacati"
 
-		# Amulets
+		# Amulets 
 
-		# Rings
+			Show
+				Class Amulets
+				BaseType Amber Jade Lapis Agate Citrine Turquoise Onyx
+				Rarity Rare
+				Identified False
 
-		# Belts
+		# Rings 
+
+			Show
+				Class Rings
+				BaseType "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring"
+				Rarity Rare
+				Identified False
+
+			Show
+				Class Rings
+				BaseType "Breach Ring"
+				Rarity Rare
+				ItemLevel >= 84
+
+		# Belts 
+
+			Show
+				Class Belts
+				BaseType Leather Heavy Vanguard
+				Rarity Rare
+				Identified False
+
 
 		# Jewels
 
@@ -1395,7 +1486,7 @@
 
 	Hide
 		Class Divination
-		BaseType == "The Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity" "The Incantation" "The Witch" "The Blazing Fire" "The Journalist" "The Scarred Meadow" "The Sun" "Rain Tempter" "The Scholar" "Rain of Chaos" "The Stormcaller" "The Demoness"
+		BaseType == "The Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity" "The Incantation" "The Witch" "The Blazing Fire" "The Journalist" "The Scarred Meadow" "The Sun" "Rain Tempter" "The Scholar" "Rain of Chaos" "The Stormcaller" "The Demoness" "The Realm"
 
 	Show
 		SetFontSize 45
