@@ -120,12 +120,16 @@
 			Class Maps
 			UberBlightedMap True
 
+		Show
+			Class Memory
+			BaseType "Einhar's Memory"
+
 	# Fragments
 	# ---------
 
 		Show
 			Class "Map Fragments"
-			BaseType "of Emptiness" "of Terror" "of Knowledge" "of Shape" Simulacrum Winged "Maven's Writ" "Timeless Maraketh Emblem" "Unrelenting Timeless" "Gift to the Goddess" "Sacred Blossom"
+			BaseType "of Knowledge" "of Shape" "Maven's Writ" "Gift to the Goddess" "Sacred Blossom"
 
 		Show
 			Class Breachstone
@@ -265,7 +269,7 @@
 
 		Show
 			Class Currency
-			BaseType == "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Greater Eldritch Ember" "Grand Eldritch Ember" "Greater Eldritch Ichor" "Grand Eldritch Ichor" "Orb of Conflict" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment"
+			BaseType == "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Grand Eldritch Ember" "Grand Eldritch Ichor" "Orb of Conflict" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment"
 
 		Show
 			Class Currency
@@ -335,7 +339,7 @@
 
 		Show
 			Class "Map Fragments" "Atlas Upgrade Item"
-			BaseType "Mortal Ignorance" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab" "Gilded Blight Scarab" "Gilded Abyss Scarab" "Emblem" Voidstone "Tribute to the Goddess" "Dedication to the Goddess" "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest"
+			BaseType Simulacrum "Unrelenting Timeless" "of Emptiness" "of Terror" "of Eradication" "of Enslavement" "of Constriction" "of Purification" "of the Chimera" "of the Minotaur" "of the Phoenix" "of the Hydra" Winged Voidstone "Tribute to the Goddess" "Dedication to the Goddess" "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest"
 
 		Show
 			Class Breachstone
@@ -471,7 +475,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Stacked Deck" "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact" "Surveyor's Compass" "Charged Compass" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Scouting Report" "Oil Extractor" "Orb of Unmaking" "Vial of Fate" "Vial of the Ritual"
+			BaseType "Stacked Deck" "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact" "Surveyor's Compass" "Charged Compass" "Greater Eldritch Ember" "Greater Eldritch Ichor" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Scouting Report" "Oil Extractor" "Orb of Unmaking" "Vial of Fate" "Vial of the Ritual"
 
 		Show
 			Class Currency
@@ -537,7 +541,7 @@
 
 		Show
 			Class "Misc Map Items" "Map Fragments"
-			BaseType "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at" "Offering to the Goddess" "Divine Vessel" Scarab "Invitation" "Blood-filled Vessel"
+			BaseType "Mortal Ignorance" "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at" "Offering to the Goddess" "Divine Vessel" "Emblem" "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab" "Gilded Blight Scarab" "Gilded Abyss Scarab" "Invitation" "Blood-filled Vessel" 
 
 	# Uniques
 	# -------
@@ -784,6 +788,13 @@
 			Class Maps
 			MapTier = 13
 			AreaLevel <= 80
+
+	# Fragments
+	# ---------
+
+		Show
+			Class "Misc Map Items" "Map Fragments"
+			BaseType Scarab
 
 	# Equipment
 	# ---------
