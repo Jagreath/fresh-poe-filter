@@ -78,11 +78,11 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType == "Eternal Orb" "Divine Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Prime Regrading Lens" "Secondary Regrading Lens" "Mirror Shard" "Fracturing Orb" "Tainted Divine Teardrop" "Hunter's Exalted Orb" "Hinekora's Lock"
+			BaseType == "Eternal Orb" "Divine Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Mirror Shard" "Fracturing Orb" "Hunter's Exalted Orb" "Hinekora's Lock"
 
 		Show
 			Class Currency
-			BaseType == "Tainted Oil"
+			BaseType == "Tainted Oil" "Tainted Divine Teardrop" "Tainted Exalted Orb" 
 
 		Show
 			Class Currency
@@ -122,7 +122,7 @@
 
 		Show
 			Class "Map Fragments"
-			BaseType "of Knowledge" "of Shape" "Maven's Writ" "Gift to the Goddess" "Sacred Blossom"
+			BaseType == "Fragment of Knowledge" "Fragment of Shape" "Maven's Writ" "Gift to the Goddess" "Sacred Blossom"
 
 		Show
 			Class Breachstone
@@ -152,32 +152,32 @@
 		# Jewels
 
 			Show
-				BaseType "Small Cluster Jewel"
+				BaseType == "Small Cluster Jewel"
 				EnchantmentPassiveNum == 3
 				EnchantmentPassiveNode "Reservation Efficiency"
 				ItemLevel >= 84
 
 			Show
-				BaseType "Medium Cluster Jewel"
+				BaseType == "Medium Cluster Jewel"
 				EnchantmentPassiveNum == 6
 				EnchantmentPassiveNode "Flask Duration"
 				ItemLevel >= 84
 
 			Show
-				BaseType "Large Cluster Jewel"
+				BaseType == "Large Cluster Jewel"
 				EnchantmentPassiveNum <= 8
 				EnchantmentPassiveNode "Cold Damage" "Bow Damage"
 				ItemLevel >= 84
 
 			Show
-				BaseType "Large Cluster Jewel"
+				BaseType == "Large Cluster Jewel"
 				EnchantmentPassiveNum <= 8
 				EnchantmentPassiveNode "Fire Damage" "Bow Damage"
 				ItemLevel >= 50
 				ItemLevel < 68
 
 			Show
-				BaseType "Large Cluster Jewel"
+				BaseType == "Large Cluster Jewel"
 				EnchantmentPassiveNum >= 12
 				EnchantmentPassiveNode "Bow Damage" "Minion Damage"
 				ItemLevel >= 84
@@ -219,7 +219,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType == "Fracturing Shard" "Sacred Orb" "Exalted Orb" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Veiled Chaos Orb" "Tainted Blessing" "Elevated Sextant" "Redeemer's Exalted Orb" "Warlord's Exalted Orb" "Crusader's Exalted Orb"
+			BaseType == "Fracturing Shard" "Sacred Orb" "Exalted Orb" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Veiled Chaos Orb" "Elevated Sextant" "Redeemer's Exalted Orb" "Warlord's Exalted Orb" "Crusader's Exalted Orb"
 
 		Show
 			Class Currency
@@ -233,7 +233,7 @@
 
 		Show
 			Class Currency
-			BaseType == "Tainted Exalted Orb" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb"
+			BaseType == "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Mythic Orb" "Tainted Chaos Orb"
 
 		Show
 			Class Currency
@@ -340,7 +340,7 @@
 			Rarity Unique
 
 		Show
-			BaseType "Siege Axe" "Crude Bow" "Imperial Skean" "Sage's Robe" "Heavy Belt" "Leather Belt"
+			BaseType == "Siege Axe" "Crude Bow" "Imperial Skean" "Sage's Robe" "Heavy Belt" "Leather Belt"
 			Rarity Unique
 
 	# Equipment
@@ -357,7 +357,7 @@
 
 			Show
 				Class Rings
-				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring" "Bone Ring"
+				BaseType == "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring" "Bone Ring"
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				ItemLevel >= 86
 
@@ -365,7 +365,7 @@
 
 			Show
 				Class Belts
-				BaseType "Crystal Belt"
+				BaseType == "Crystal Belt"
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				ItemLevel >= 86
 
@@ -377,13 +377,6 @@
 
 			Show
 				SocketGroup 6
-
-	# Ancestor
-	# --------
-
-		Show
-			Class "Stackable Currency"
-			BaseType "Tattoo of the Ngamahu" "Tattoo of the Kitava" "Tattoo of the Tukohama" "Tattoo of the Rongokurai" "Tattoo of the Tasalio" "Tattoo of the Arohongui" "Tattoo of the Ramako" "Tattoo of the Hinekora" "Tattoo of the Tawhoa" "Tattoo of the Valako" "Honoured Tattoo of the" "Omen of" "Loyalty Tattoo"
 
 # Level 3
 # =======
@@ -427,7 +420,15 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Stacked Deck" "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact" "Surveyor's Compass" "Charged Compass" "Greater Eldritch Ember" "Greater Eldritch Ichor" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Scouting Report" "Oil Extractor" "Orb of Unmaking" "Vial of Fate" "Vial of the Ritual"
+			BaseType == "Stacked Deck" "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Rogue's Marker" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Surveyor's Compass" "Charged Compass" "Greater Eldritch Ember" "Greater Eldritch Ichor" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Oil Extractor" "Orb of Unmaking" "Vial of Fate" "Vial of the Ritual"
+
+		Show
+			Class Currency "Stackable Currency"
+			BaseType "Fossil" Oil Catalyst "Timeless" "Scouting Report"
+
+		Show
+			Class Currency
+			BaseType == "Tainted Jeweller's Orb" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap"
 
 		Show
 			Class Currency
@@ -441,7 +442,7 @@
 
 		Show
 			Class Currency
-			BaseType Deafening Shrieking "Remnant of Corruption" 
+			BaseType "Deafening Essence of" "Shrieking Essence of" "Remnant of Corruption" 
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -472,10 +473,6 @@
 		Show
 			Class Gems
 			BaseType "Enhance"
-
-		Show
-			Class Gems
-			AlternateQuality True
 
 	# Maps
 	# ----
@@ -514,21 +511,21 @@
 
 			Show
 				Class Amulets
-				BaseType Marble "Blue Pearl" Seaglass
+				BaseType == "Marble Amulet" "Blue Pearl Amulet" "Seaglass Amulet"
 				Rarity Rare
 
 		# Rings
 
 			Show
 				Class Rings
-				BaseType Cerulean Steel Opal Vermillion Iolite
+				BaseType == "Cerulean Ring" "Steel Ring" "Opal Ring" "Vermillion Ring" "Iolite Ring"
 				Rarity Rare
 
 		# Belts
 
 			Show
 				Class Belts
-				BaseType Crystal Stygian Vanguard
+				BaseType == "Crystal Belt" "Stygian Vise" "Vanguard Belt"
 				Rarity Rare
 
 		# Jewels
@@ -573,7 +570,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" Perandus
+			BaseType == "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Perandus Coin"
 
 		Show
 			Class Currency
@@ -1280,21 +1277,21 @@
 
 			Show
 				Class Amulets
-				BaseType Onyx
+				BaseType == "Onyx Amulet"
 				Rarity Rare
 
 		# Rings
 
 			Show
 				Class Rings
-				BaseType Sapphire Ruby Topaz Two-Stone Diamond Coral 
+				BaseType == "Sapphire Ring" "Ruby Ring" "Topaz Ring" "Two-Stone Ring" "Diamond Ring" "Coral Ring" 
 				Rarity Rare
 
 		# Belts
 
 			Show
 				Class Belts
-				BaseType Heavy Leather
+				BaseType == "Heavy Belt" "Leather Belt"
 				Rarity Rare
 
 		# Jewels
@@ -1343,7 +1340,7 @@
 	# --------
 
 		Show
-			BaseType "Portal Scroll" "Scroll of Wisdom" "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Augmentation"
+			BaseType == "Portal Scroll" "Scroll of Wisdom" "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Augmentation"
 
 	# Gems
 	# ----
@@ -1839,7 +1836,7 @@
 	# --------
 
 		Show
-			BaseType "Scroll Fragment" "Transmutation Shard" "Alteration Shard"
+			BaseType == "Scroll Fragment" "Transmutation Shard" "Alteration Shard"
 
 	# Gems
 	# ----
@@ -1918,7 +1915,7 @@
 
 			Show
 				Class Rings
-				BaseType Sapphire Ruby Topaz
+				BaseType == "Sapphire Ring" "Ruby Ring" "Topaz Ring"
 				AreaLevel <= 28
 
 		# Belts
@@ -1948,7 +1945,7 @@
 		# Notable examples are "Glorious Plate" (Kaom's Heart), "Sorcerer Boots" (Skyforth), or "Prophecy Wand" (Void Battery)
 
 			#Show
-			#	BaseType "Glorious Plate"
+			#	BaseType == "Glorious Plate"
 			#	Rarity Normal
 			#   Continue
 
@@ -1959,12 +1956,12 @@
 				Quality >= 5
 
 			Show
-				BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+				BaseType == "Gavel" "Rock Breaker" "Stone Hammer"
 				Quality >= 10
 				Rarity Normal
 
 			Show
-				BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+				BaseType == "Gavel" "Rock Breaker" "Stone Hammer"
 				Quality >= 16
 
 			Show
@@ -2169,25 +2166,34 @@
 
 	Hide
 		Class Belts
-		BaseType "Chain Belt" "Rustic Sash" "Stygian Vise" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt" "Vanguard Belt" "Crystal Belt"
+		BaseType == "Chain Belt" "Rustic Sash" "Stygian Vise" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt" "Vanguard Belt" "Crystal Belt"
 
 	Hide
 		Class Rings
-		BaseType "Breach Ring" "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring" "Opal Ring" "Cerulean Ring" "Iolite Ring" "Bone Ring"
+		BaseType == "Breach Ring" "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring" "Opal Ring" "Cerulean Ring" "Iolite Ring" "Bone Ring"
 
 	Hide
 		Class Amulets
-		BaseType "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Marble Amulet" "Blue Pearl Amulet" "Talisman" "Seaglass Amulet"
+		BaseType == "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Marble Amulet" "Blue Pearl Amulet" "Seaglass Amulet"
+
+	Hide
+		Class Amulets
+		BaseType == "Ashscale Talisman" "Avian Twins Talisman" "Black Maw Talisman" "Bonespire Talisman" "Breakrib Talisman" "Chrysalis Talisman" "Clutching Talisman" "Deadhand Talisman" "Deep One Talisman" "Fangjaw Talisman" "Hexclaw Talisman" "Horned Talisman" "Lone Antler Talisman" "Longtooth Talisman" "Mandible Talisman" "Monkey Paw Talisman" "Monkey Twins Talisman" "Primal Skull Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Splitnewt Talisman" "Three Hands Talisman" "Three Rat Talisman" "Undying Flesh Talisman" "Wereclaw Talisman" "Writhing Talisman"
 
 	Hide
 		Class Flask
-		BaseType "Life Flask" "Mana Flask" "Hybrid Flask" "Quicksilver Flask" "Bismuth Flask" "Stibnite Flask" "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Silver Flask" "Aquamarine Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Sulphur Flask" "Basalt Flask" "Diamond Flask" "Gold Flask" "Corundum Flask" "Iron Flask"
+		BaseType == "Quicksilver Flask" "Bismuth Flask" "Stibnite Flask" "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Silver Flask" "Aquamarine Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Sulphur Flask" "Basalt Flask" "Diamond Flask" "Gold Flask" "Corundum Flask" "Iron Flask"
+
+	Hide
+		Class Flask
+		BaseType "Life Flask" "Mana Flask" "Hybrid Flask" 
 
 	Hide
 		Class Jewel
-		BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel" "Small Cluster Jewel" "Medium Cluster Jewel" "Large Cluster Jewel" "Ghastly Eye Jewel" "Hypnotic Eye Jewel" "Murderous Eye Jewel" "Searching Eye Jewel"
+		BaseType == "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel" "Small Cluster Jewel" "Medium Cluster Jewel" "Large Cluster Jewel" "Ghastly Eye Jewel" "Hypnotic Eye Jewel" "Murderous Eye Jewel" "Searching Eye Jewel"
 
 	Hide
+		TransfiguredGem False
 		Class "Gem"
 
 	Hide
@@ -2195,7 +2201,7 @@
 
 	Hide
 		Class Incubator
-		BaseType "Abyssal" "Cartographer" "Maddening" "Mysterious" "Celestial" "Otherworldly" "Primal" "Singular" "Enchanted"
+		BaseType == "Abyssal Incubator" "Cartographer Incubator" "Maddening Incubator" "Mysterious Incubator" "Celestial Incubator" "Otherworldly Incubator" "Primal Incubator" "Singular Incubator" 
 
 	Hide
 		Class Divination

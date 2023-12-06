@@ -78,11 +78,11 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType == "Eternal Orb" "Divine Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Prime Regrading Lens" "Secondary Regrading Lens" "Mirror Shard" "Fracturing Orb" "Tainted Divine Teardrop" "Hunter's Exalted Orb" "Hinekora's Lock"
+			BaseType == "Eternal Orb" "Divine Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Mirror Shard" "Fracturing Orb" "Hunter's Exalted Orb" "Hinekora's Lock"
 
 		Show
 			Class Currency
-			BaseType == "Tainted Oil"
+			BaseType == "Tainted Oil" "Tainted Divine Teardrop" "Tainted Exalted Orb" 
 
 		Show
 			Class Currency
@@ -122,7 +122,7 @@
 
 		Show
 			Class "Map Fragments"
-			BaseType "of Knowledge" "of Shape" "Maven's Writ" "Gift to the Goddess" "Sacred Blossom"
+			BaseType == "Fragment of Knowledge" "Fragment of Shape" "Maven's Writ" "Gift to the Goddess" "Sacred Blossom"
 
 		Show
 			Class Breachstone
@@ -143,7 +143,7 @@
 
 		Show
 			Sockets >= WWW
-			BaseType "Elegant Round Shield"
+			BaseType == "Elegant Round Shield"
 			Rarity Unique
 
 	# Equipment
@@ -152,32 +152,32 @@
 		# Jewels
 
 			Show
-				BaseType "Small Cluster Jewel"
+				BaseType == "Small Cluster Jewel"
 				EnchantmentPassiveNum == 3
 				EnchantmentPassiveNode "Reservation Efficiency"
 				ItemLevel >= 84
 
 			Show
-				BaseType "Medium Cluster Jewel"
+				BaseType == "Medium Cluster Jewel"
 				EnchantmentPassiveNum == 6
 				EnchantmentPassiveNode "Flask Duration"
 				ItemLevel >= 84
 
 			Show
-				BaseType "Large Cluster Jewel"
+				BaseType == "Large Cluster Jewel"
 				EnchantmentPassiveNum <= 8
 				EnchantmentPassiveNode "Cold Damage" "Bow Damage"
 				ItemLevel >= 84
 
 			Show
-				BaseType "Large Cluster Jewel"
+				BaseType == "Large Cluster Jewel"
 				EnchantmentPassiveNum <= 8
 				EnchantmentPassiveNode "Fire Damage" "Bow Damage"
 				ItemLevel >= 50
 				ItemLevel < 68
 
 			Show
-				BaseType "Large Cluster Jewel"
+				BaseType == "Large Cluster Jewel"
 				EnchantmentPassiveNum >= 12
 				EnchantmentPassiveNode "Bow Damage" "Minion Damage"
 				ItemLevel >= 84
@@ -219,7 +219,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType == "Fracturing Shard" "Sacred Orb" "Exalted Orb" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Veiled Chaos Orb" "Tainted Blessing" "Elevated Sextant" "Redeemer's Exalted Orb" "Warlord's Exalted Orb" "Crusader's Exalted Orb"
+			BaseType == "Fracturing Shard" "Sacred Orb" "Exalted Orb" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Veiled Chaos Orb" "Elevated Sextant" "Redeemer's Exalted Orb" "Warlord's Exalted Orb" "Crusader's Exalted Orb"
 
 		Show
 			Class Currency
@@ -233,7 +233,7 @@
 
 		Show
 			Class Currency
-			BaseType == "Tainted Exalted Orb" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Mythic Orb" "Tainted Chaos Orb"
+			BaseType == "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Mythic Orb" "Tainted Chaos Orb"
 
 		Show
 			Class Currency
@@ -353,45 +353,45 @@
 		# Helmets
 
 			Show
-				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet" "Runic Crown"
+				BaseType == "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Deicide Mask" "Nightmare Bascinet" "Runic Crown"
 				ItemLevel >= 84
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Gloves
 
 			Show
-				BaseType "Slink Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Apothecary's Gloves" "Runic Gauntlets"
+				BaseType == "Slink Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Apothecary's Gloves" "Runic Gauntlets"
 				ItemLevel >= 84
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Boots
 
 			Show
-				BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
+				BaseType == "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
 				Rarity Rare
 				ItemLevel >= 86
 
 			Show
-				BaseType "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
+				BaseType == "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
 				ItemLevel >= 84
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Body Armours
 
 			Show
-				BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb"
+				BaseType == "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Carnal Armour" "Sadist Garb"
 				ItemLevel >= 84
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Weapons
 
 			Show
-				BaseType "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw" "Ambusher" "Gutting Knife" "Sai" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Opal Wand" "Corsair Sword" "Legion Sword" "Tiger Hook" "Eternal Sword" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Apex Rapier" "Vaal Greatsword" "Reaver Sword" "Exquisite Blade" "Lion Sword" "Royal Axe" "Siege Axe" "Runic Hatchet" "Vaal Hatchet" "Vaal Axe" "Ezomyte Axe" "Fleshripper" "Void Axe" "Despot Axe" "Behemoth Mace" "Auric Mace" "Nightmare Mace" "Coronal Maul" "Meatgrinder" "Piledriver" "Harbinger Bow" "Thicket Bow" "Citadel Bow" "Maraketh Bow" "Imperial Bow" "Maelström Staff" "Judgement Staff" "Ezomyte Staff" "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
+				BaseType == "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw" "Ambusher" "Gutting Knife" "Sai" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Opal Wand" "Corsair Sword" "Legion Sword" "Tiger Hook" "Eternal Sword" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Apex Rapier" "Vaal Greatsword" "Reaver Sword" "Exquisite Blade" "Lion Sword" "Royal Axe" "Siege Axe" "Runic Hatchet" "Vaal Hatchet" "Vaal Axe" "Ezomyte Axe" "Fleshripper" "Void Axe" "Despot Axe" "Behemoth Mace" "Auric Mace" "Nightmare Mace" "Coronal Maul" "Meatgrinder" "Piledriver" "Harbinger Bow" "Thicket Bow" "Citadel Bow" "Maraketh Bow" "Imperial Bow" "Maelström Staff" "Judgement Staff" "Ezomyte Staff" "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre"
 				ItemLevel >= 83
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 			Show
-				BaseType "Colossal Tower Shield" "Pinnacle Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Vaal Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield" "Eclipse Staff" "Imperial Staff" "Lathi" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver"
+				BaseType == "Colossal Tower Shield" "Pinnacle Tower Shield" "Crusader Buckler" "Lacquered Buckler" "Vaal Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield" "Eclipse Staff" "Imperial Staff" "Lathi" "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver"
 				ItemLevel >= 84
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
@@ -406,7 +406,7 @@
 
 			Show
 				Class Rings
-				BaseType "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring" "Bone Ring"
+				BaseType == "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring" "Bone Ring"
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				ItemLevel >= 86
 
@@ -414,7 +414,7 @@
 
 			Show
 				Class Belts
-				BaseType "Crystal Belt"
+				BaseType == "Crystal Belt"
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 				ItemLevel >= 86
 
@@ -422,13 +422,6 @@
 
 			Show
 				SocketGroup 6
-
-	# Ancestor
-	# --------
-
-		Show
-			Class "Stackable Currency"
-			BaseType "Tattoo of the Ngamahu" "Tattoo of the Kitava" "Tattoo of the Tukohama" "Tattoo of the Rongokurai" "Tattoo of the Tasalio" "Tattoo of the Arohongui" "Tattoo of the Ramako" "Tattoo of the Hinekora" "Tattoo of the Tawhoa" "Tattoo of the Valako" "Honoured Tattoo of the" "Omen of" "Loyalty Tattoo"
 
 # Level 3
 # =======
@@ -472,7 +465,15 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Stacked Deck" "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Rogue's Marker" "Essence of" "Fossil" Oil Catalyst "Timeless" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Broken Circle Artifact" "Black Scythe Artifact" "Order Artifact" "Sun Artifact" "Surveyor's Compass" "Charged Compass" "Greater Eldritch Ember" "Greater Eldritch Ichor" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Scouting Report" "Oil Extractor" "Orb of Unmaking" "Vial of Fate" "Vial of the Ritual"
+			BaseType == "Stacked Deck" "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Rogue's Marker" "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter" "Ritual Vessel" "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion" "Surveyor's Compass" "Charged Compass" "Greater Eldritch Ember" "Greater Eldritch Ichor" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Oil Extractor" "Orb of Unmaking" "Vial of Fate" "Vial of the Ritual"
+
+		Show
+			Class Currency "Stackable Currency"
+			BaseType "Fossil" Oil Catalyst "Timeless" "Scouting Report"
+
+		Show
+			Class Currency
+			BaseType == "Tainted Jeweller's Orb" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap"
 
 		Show
 			Class Currency
@@ -486,7 +487,7 @@
 
 		Show
 			Class Currency
-			BaseType Deafening Shrieking "Remnant of Corruption" 
+			BaseType "Deafening Essence of" "Shrieking Essence of" "Remnant of Corruption" 
 
 		Show
 			Class "Delve Stackable Socketable Currency" 
@@ -513,10 +514,6 @@
 		Show
 			Class Gems
 			BaseType "Enhance"
-
-		Show
-			Class Gems
-			AlternateQuality True
 
 	# Maps
 	# ----
@@ -653,7 +650,7 @@
 		# Weapons
 
 			Show
-				BaseType "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Elegant Round Shield" "Cardinal Round Shield" "Spiny Round Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield" "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw" "Ambusher" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Harpy Rapier" "Spiraled Foil" "Vaal Rapier" "Corsair Sword" "Royal Axe" "Siege Axe" "Vaal Hatchet" "Vaal Axe"
+				BaseType == "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Crusader Buckler" "Imperial Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Elegant Round Shield" "Cardinal Round Shield" "Spiny Round Shield" "Archon Kite Shield" "Champion Kite Shield" "Supreme Spiked Shield" "Mirrored Spiked Shield" "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw" "Ambusher" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Harpy Rapier" "Spiraled Foil" "Vaal Rapier" "Corsair Sword" "Royal Axe" "Siege Axe" "Vaal Hatchet" "Vaal Axe"
 				ItemLevel >= 82
 				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
 
@@ -681,19 +678,19 @@
 		# Jewels
 
 			Show
-				BaseType "Small Cluster Jewel"
+				BaseType == "Small Cluster Jewel"
 				EnchantmentPassiveNum <= 2
 				ItemLevel >= 84
 				Rarity <= Rare
 
 			Show
-				BaseType "Medium Cluster Jewel"
+				BaseType == "Medium Cluster Jewel"
 				EnchantmentPassiveNum <= 5
 				ItemLevel >= 84
 				Rarity <= Rare 
 
 			Show
-				BaseType "Large Cluster Jewel"
+				BaseType == "Large Cluster Jewel"
 				EnchantmentPassiveNum <= 8
 				ItemLevel >= 84
 				Rarity <= Rare
@@ -741,7 +738,7 @@
 
 		Show
 			Class Currency "Stackable Currency"
-			BaseType "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" Perandus
+			BaseType == "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Perandus Coin"
 
 		Show
 			Class Currency
@@ -781,21 +778,21 @@
 		# Helmets
 
 			Show
-				BaseType "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Deicide Mask" "Nightmare Bascinet" "Runic Crown"
+				BaseType == "Lion Pelt" "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Deicide Mask" "Nightmare Bascinet" "Runic Crown"
 				Rarity Rare
 				ItemLevel >= 84
 
 		# Gloves
 
 			Show
-				BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Slink Gloves" "Apothecary's Gloves" "Runic Gauntlets"
+				BaseType == "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Slink Gloves" "Apothecary's Gloves" "Runic Gauntlets"
 				Rarity Rare
 				ItemLevel >= 84
 
 		# Boots
 
 			Show
-				BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Fugitive Boots" "Runic Sabatons"
+				BaseType == "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Fugitive Boots" "Runic Sabatons"
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -807,19 +804,19 @@
 		# Body Armours
 
 			Show
-				BaseType "Astral Plate" "Vaal Regalia" "Sadist Garb" "Zodiac Leather"
+				BaseType == "Astral Plate" "Vaal Regalia" "Sadist Garb" "Zodiac Leather"
 				Rarity Rare
 				ItemLevel >= 84
 
 		# Weapons
 
 			Show
-				BaseType "Ambusher" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Harpy Rapier" "Spiraled Foil" "Vaal Rapier" "Corsair Sword" "Royal Axe" "Siege Axe" "Vaal Hatchet" "Vaal Axe" "Eclipse Staff" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" 
+				BaseType == "Ambusher" "Demon Dagger" "Platinum Kris" "Imperial Skean" "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand" "Imbued Wand" "Prophecy Wand" "Jewelled Foil" "Harpy Rapier" "Spiraled Foil" "Vaal Rapier" "Corsair Sword" "Royal Axe" "Siege Axe" "Vaal Hatchet" "Vaal Axe" "Eclipse Staff" "Void Sceptre" "Sambar Sceptre" "Opal Sceptre" 
 				Rarity Rare
 				ItemLevel >= 83
 
 			Show
-				BaseType "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw"
+				BaseType == "Crusader Buckler" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Gemini Claw" "Imperial Claw" "Great White Claw" "Terror Claw" "Vaal Claw"
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -832,7 +829,7 @@
 
 			Show
 				Class Amulets
-				BaseType Marble "Blue Pearl" Amber Turquoise Seaglass
+				BaseType == "Marble Amulet" "Blue Pearl Amulet" "Amber Amulet" "Turquoise Amulet" "Seaglass Amulet"
 				Rarity Rare
 				ItemLevel >= 86
 
@@ -845,7 +842,7 @@
 
 			Show
 				Class Rings
-				BaseType Steel Opal Vermillion Cerulean Iolite
+				BaseType == "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Iolite Ring"
 				Rarity Rare
 				ItemLevel >= 84
 
@@ -858,32 +855,32 @@
 
 			Show
 				Class Belts
-				BaseType Crystal
+				BaseType == "Crystal Belt"
 				Rarity Rare
 				ItemLevel >= 84
 
 			Show
 				Class Belts
-				BaseType Stygian
+				BaseType == "Stygian Vise"
 				Rarity Rare
 				ItemLevel >= 85
 
 		# Jewels
 
 			Show
-				BaseType "Small Cluster Jewel"
+				BaseType == "Small Cluster Jewel"
 				EnchantmentPassiveNum <= 2
 				ItemLevel >= 75
 				Rarity <= Rare
 
 			Show
-				BaseType "Medium Cluster Jewel"
+				BaseType == "Medium Cluster Jewel"
 				EnchantmentPassiveNum <= 5
 				ItemLevel >= 75
 				Rarity <= Rare
 
 			Show
-				BaseType "Large Cluster Jewel"
+				BaseType == "Large Cluster Jewel"
 				EnchantmentPassiveNum <= 8
 				ItemLevel >= 75
 				Rarity <= Rare
@@ -922,15 +919,15 @@
 	# --------
 
 		Show
-			BaseType "Portal Scroll" "Scroll of Wisdom" 
+			BaseType == "Portal Scroll" "Scroll of Wisdom" 
 			StackSize > 3
 
 		Show
-			BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
+			BaseType == "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
 			StackSize > 2
 
 		Show
-			BaseType "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Augmentation"
+			BaseType == "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Augmentation"
 
 	# Equipment
 	# ---------
@@ -938,38 +935,38 @@
 		# Helmets
 
 			Show
-				BaseType "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Runic Crown"
+				BaseType == "Royal Burgonet" "Hubris Circlet" "Bone Helmet" "Runic Crown"
 				Rarity Rare
 
 		# Gloves
 
 			Show
-				BaseType "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Apothecary's Gloves" "Runic Gauntlets"
+				BaseType == "Titan Gauntlets" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Sorcerer Gloves" "Apothecary's Gloves" "Runic Gauntlets"
 				Rarity Rare
 
 		# Boots
 
 			Show
-				BaseType "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
+				BaseType == "Titan Greaves" "Sorcerer Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
 				Rarity Rare
 
 		# Body Armours
 
 			Show
-				BaseType "Astral Plate" "Vaal Regalia" 
+				BaseType == "Astral Plate" "Vaal Regalia" 
 				Rarity Rare
 
 		# Weapons
 
 			Show
-				BaseType "Gemini Claw" "Imperial Claw" "Great White Claw" "Ambusher" "Demon Dagger" "Platinum Kris" "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand" "Jewelled Foil" "Spiraled Foil" "Harpy Rapier" "Royal Axe" "Siege Axe" "Void Sceptre" 
+				BaseType == "Gemini Claw" "Imperial Claw" "Great White Claw" "Ambusher" "Demon Dagger" "Platinum Kris" "Demon's Horn" "Profane Wand" "Convoking Wand" "Opal Wand" "Jewelled Foil" "Spiraled Foil" "Harpy Rapier" "Royal Axe" "Siege Axe" "Void Sceptre" 
 				Rarity Rare
 
 		# Amulets
 
 			Show
 				Class Amulets
-				BaseType Onyx Marble "Blue Pearl" Seaglass
+				BaseType == "Onyx Amulet" "Marble Amulet" "Blue Pearl Amulet" "Seaglass Amulet"
 				Rarity Rare
 
 			Show
@@ -981,12 +978,12 @@
 
 			Show
 				Class Rings
-				BaseType Cerulean Steel Opal Vermillion Iolite
+				BaseType == "Cerulean Ring" "Steel Ring" "Opal Ring" "Vermillion Ring" "Iolite Ring"
 				Rarity Rare
 
 			Show
 				Class Rings
-				BaseType Unset Sapphire Topaz Ruby Diamond Two-Stone Amethyst Prismatic Steel Vermillion Opal Cerulean Iolite Bone
+				BaseType == "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring" "Opal Ring" "Cerulean Ring" "Iolite Ring" "Bone Ring"
 				Rarity Rare Normal
 				ItemLevel >= 86
 
@@ -994,25 +991,25 @@
 
 			Show
 				Class Belts
-				BaseType Crystal Stygian
+				BaseType == "Crystal Belt" "Stygian Vise"
 				Rarity Rare
 
 			Show
 				Class Belts
-				BaseType Leather Heavy Vanguard
+				BaseType == "Leather Belt" "Heavy Belt" "Vanguard Belt"
 				Rarity Rare
 				ItemLevel >= 84
 
 			Show
 				Class Belts
-				BaseType Crystal Stygian Leather Heavy Vanguard
+				BaseType == "Crystal Belt" "Stygian Vise" "Leather Belt" "Heavy Belt" "Vanguard Belt"
 				Rarity Normal
 				ItemLevel >= 86
 
 		# Jewels
 
 			Show
-				BaseType "Cluster Jewel"
+				BaseType == "Small Cluster Jewel" "Medium Cluster Jewel" "Large Cluster Jewel"
 
 			Show
 				Class "Abyss Jewel"
@@ -1033,7 +1030,7 @@
 
 			Show
 				Class Flask
-				BaseType "Divine" "Eternal"
+				BaseType == "Divine Life Flask" "Divine Mana Flask" "Eternal Life Flask" "Eternal Mana Flask"
 				Rarity >= Normal
 				Quality >= 10
 				ItemLevel >= 84
@@ -1056,7 +1053,7 @@
 	# --------
 
 		Hide
-			BaseType "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Transmutation Shard" "Alteration Shard"
+			BaseType == "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Transmutation Shard" "Alteration Shard"
 
 	# Gems
 	# ----
@@ -1086,15 +1083,15 @@
 				HasExplicitMod >=3 "Virile" "Athlete's" "Fecund" "Girded" "Impregnable" "Encased" "Enveloped" "Nightmare's" "Mirage's" "Vaporous" "Elusory" "Seething" "Blazing" "Indomitable" "Unassailable" "Hero's" "Legend's" "Durable" "Sturdy" "Interpolated" "Inspired" "Hallowed" "Beatified" "Unreal" "Illusory" "Cherub's" "Spirit's" "Necromancer's" "of the Gods" "of the Genius" "of the Polymath" "of the Wind" "of the Blur" "of Lioneye" "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Exile" "of Bameth" "of Abjuration" "of Nullification" "of Puhuarte" "Subterranean" "of the Underground" "Cheetah's" "Hellion's" "Matatl's" "Essences" "of the Essence"
 
 			Show
-				BaseType "Deicide Mask" "Nightmare Bascinet"
+				BaseType == "Deicide Mask" "Nightmare Bascinet"
 				Rarity Rare
 
 			Show
-				BaseType "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Slink Gloves"
+				BaseType == "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Slink Gloves"
 				Rarity Rare
 
 			Show
-				BaseType "Slink Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots"
+				BaseType == "Slink Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots"
 				Rarity Rare
 
 		# Body Armours
@@ -1103,10 +1100,10 @@
 				HasExplicitMod >=3 "Guatelitzi's" "of Tacati" "Vigorous" "Rapturous" "Prime" "Impregnable" "Impenetrable" "Unmoving" "Impervious" "Mirage's" "Illusion's" "Lissome" "Fugitive" "Incandescent" "Resplendent" "Unassailable" "Unfaltering" "Legend's" "Victor's" "Adaptable" "Versatile" "Inspired" "Interpermeated" "Saintly" "Godly" "Illusory" "Incorporeal" "Apparition's" "Phantasm's" "of the Gods" "of the Genius" "of the Polymath" "of the Wind" "of the Blur" "of Lioneye" "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Exile" "of Bameth" "of Nullification" "Subterranean" "of the Underground" "Essences" "of the Essence" "of the Protector" "of the Conservator" 
 
 			Show
-				BaseType "Sacrificial Garb"
+				BaseType == "Sacrificial Garb"
 
 			Show
-				BaseType "Sadist Garb" "Zodiac Leather" 
+				BaseType == "Sadist Garb" "Zodiac Leather" 
 				Rarity Rare
 
 		# Shields
@@ -1395,25 +1392,34 @@
 
 	Hide
 		Class Belts
-		BaseType "Chain Belt" "Rustic Sash" "Stygian Vise" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt" "Vanguard Belt" "Crystal Belt"
+		BaseType == "Chain Belt" "Rustic Sash" "Stygian Vise" "Heavy Belt" "Leather Belt" "Cloth Belt" "Studded Belt" "Vanguard Belt" "Crystal Belt"
 
 	Hide
 		Class Rings
-		BaseType "Breach Ring" "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring" "Opal Ring" "Cerulean Ring" "Iolite Ring" "Bone Ring"
+		BaseType == "Breach Ring" "Coral Ring" "Iron Ring" "Paua Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Gold Ring" "Moonstone Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring" "Opal Ring" "Cerulean Ring" "Iolite Ring" "Bone Ring"
 
 	Hide
 		Class Amulets
-		BaseType "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Marble Amulet" "Blue Pearl Amulet" "Talisman" "Seaglass Amulet"
+		BaseType == "Coral Amulet" "Paua Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Gold Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Marble Amulet" "Blue Pearl Amulet" "Seaglass Amulet"
+
+	Hide
+		Class Amulets
+		BaseType == "Ashscale Talisman" "Avian Twins Talisman" "Black Maw Talisman" "Bonespire Talisman" "Breakrib Talisman" "Chrysalis Talisman" "Clutching Talisman" "Deadhand Talisman" "Deep One Talisman" "Fangjaw Talisman" "Hexclaw Talisman" "Horned Talisman" "Lone Antler Talisman" "Longtooth Talisman" "Mandible Talisman" "Monkey Paw Talisman" "Monkey Twins Talisman" "Primal Skull Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Splitnewt Talisman" "Three Hands Talisman" "Three Rat Talisman" "Undying Flesh Talisman" "Wereclaw Talisman" "Writhing Talisman"
 
 	Hide
 		Class Flask
-		BaseType "Life Flask" "Mana Flask" "Hybrid Flask" "Quicksilver Flask" "Bismuth Flask" "Stibnite Flask" "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Silver Flask" "Aquamarine Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Sulphur Flask" "Basalt Flask" "Diamond Flask" "Gold Flask" "Corundum Flask" "Iron Flask"
+		BaseType == "Quicksilver Flask" "Bismuth Flask" "Stibnite Flask" "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Silver Flask" "Aquamarine Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Sulphur Flask" "Basalt Flask" "Diamond Flask" "Gold Flask" "Corundum Flask" "Iron Flask"
+
+	Hide
+		Class Flask
+		BaseType "Life Flask" "Mana Flask" "Hybrid Flask" 
 
 	Hide
 		Class Jewel
-		BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel" "Small Cluster Jewel" "Medium Cluster Jewel" "Large Cluster Jewel" "Ghastly Eye Jewel" "Hypnotic Eye Jewel" "Murderous Eye Jewel" "Searching Eye Jewel"
+		BaseType == "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel" "Small Cluster Jewel" "Medium Cluster Jewel" "Large Cluster Jewel" "Ghastly Eye Jewel" "Hypnotic Eye Jewel" "Murderous Eye Jewel" "Searching Eye Jewel"
 
 	Hide
+		TransfiguredGem False
 		Class "Gem"
 
 	Hide
@@ -1421,7 +1427,7 @@
 
 	Hide
 		Class Incubator
-		BaseType "Abyssal" "Cartographer" "Maddening" "Mysterious" "Celestial" "Otherworldly" "Primal" "Singular" "Enchanted"
+		BaseType == "Abyssal Incubator" "Cartographer Incubator" "Maddening Incubator" "Mysterious Incubator" "Celestial Incubator" "Otherworldly Incubator" "Primal Incubator" "Singular Incubator" 
 
 	Hide
 		Class Divination
