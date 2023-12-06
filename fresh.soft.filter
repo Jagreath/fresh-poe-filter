@@ -59,13 +59,6 @@
 		PlayEffect Purple
 		Continue
 
-	Show
-		Class "Metamorph Sample"
-		SetBackgroundColor 186 186 176 255
-		MinimapIcon 0 Grey Square
-		PlayEffect Grey
-		Continue
-
 # Level 1
 # =======
 
@@ -219,11 +212,6 @@
 	Show
 		Rarity Unique
 		MinimapIcon 1 Purple Diamond
-		Continue
-
-	Show
-		Class "Metamorph Sample"
-		MinimapIcon 1 Grey Square
 		Continue
 
 	# Currency
@@ -473,11 +461,6 @@
 	Show
 		Rarity Unique
 		MinimapIcon 2 Purple Diamond
-		Continue
-
-	Show
-		Class "Metamorph Sample"
-		MinimapIcon 2 Grey Square
 		Continue
 
 	# Currency
@@ -744,13 +727,6 @@
 		Show
 			Class Relic
 			BaseType "Censer Relic" "Processional Relic" "Candlestick Relic" "Urn Relic" "Coffer Relic" "Tome Relic" "Papyrus Relic"
-
-	# Ancestor
-	# --------
-
-		Show
-			Class "Stackable Currency"
-			BaseType "Silver Coin"
 
 # Level 4
 # =======
@@ -1513,7 +1489,7 @@
 
 	Hide
 		Class Incubator
-		BaseType "Abyssal" "Cartographer" "Maddening" "Morphing" "Mysterious" "Celestial" "Otherworldly" "Primal" "Singular" "Enchanted"
+		BaseType "Abyssal" "Cartographer" "Maddening" "Mysterious" "Celestial" "Otherworldly" "Primal" "Singular" "Enchanted"
 
 	Hide
 		Class Divination
