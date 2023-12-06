@@ -79,7 +79,7 @@
 		Show # Basic
 			BaseType == "Eternal Orb" "Divine Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Mirror Shard" "Fracturing Orb" "Hunter's Exalted Orb" "Hinekora's Lock"
 
-		Show # Beyond
+		Show # Exotic Beyond
 			BaseType == "Tainted Divine Teardrop" "Tainted Exalted Orb" 
 
 		Show # Oils
@@ -243,12 +243,10 @@
 			BaseType == "Glyphic Fossil" "Faceted Fossil" "Hollow Fossil" "Fractured Fossil" "Perfect Fossil" "Sanctified Fossil" "Shuddering Fossil"
 			
 		Show # Resonators
-			Class "Delve Stackable Socketable Currency" 
-			BaseType Prime
+			BaseType == "Prime Chaotic Resonator"
 
 		Show # Delirium
-			Class Currency
-			BaseType "Delirium Orb"
+			BaseType == "Abyssal Delirium Orb" "Armoursmith's Delirium Orb" "Blacksmith's Delirium Orb" "Blighted Delirium Orb" "Cartographer's Delirium Orb" "Diviner's Delirium Orb" "Fine Delirium Orb" "Foreboding Delirium Orb" "Fossilised Delirium Orb" "Fragmented Delirium Orb" "Jeweller's Delirium Orb" "Obscured Delirium Orb" "Singular Delirium Orb" "Skittering Delirium Orb" "Thaumaturge's Delirium Orb" "Timeless Delirium Orb" "Whispering Delirium Orb"
 
 		Show # Vials
 			BaseType == "Vial of Transcendence" "Vial of Consequence" "Vial of Summoning" "Vial of Awakening" "Vial of Dominance"
@@ -348,31 +346,6 @@
 
 	# Equipment
 	# ---------
-
-		# Amulets
-
-			Show
-				Class Amulets
-				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				ItemLevel >= 86
-
-		# Rings
-
-			Show
-				BaseType == "Steel Ring" "Opal Ring" "Vermillion Ring" "Cerulean Ring" "Diamond Ring" "Two-Stone Ring" "Iolite Ring" "Bone Ring"
-				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				ItemLevel >= 86
-
-		# Belts
-
-			Show
-				BaseType == "Crystal Belt"
-				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-				ItemLevel >= 86
-
-		Show
-			ItemLevel >= 82
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Vendor
 
@@ -529,9 +502,6 @@
 
 	# Equipment
 	# ---------
-
-		Show
-			HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Amulets
 
