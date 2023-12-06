@@ -489,8 +489,7 @@
 			BaseType == "Aberrant Fossil" "Aetheric Fossil" "Bloodstained Fossil" "Bound Fossil" "Corroded Fossil" "Deft Fossil" "Dense Fossil" "Frigid Fossil" "Fundamental Fossil" "Gilded Fossil" "Jagged Fossil" "Lucent Fossil" "Metallic Fossil" "Prismatic Fossil" "Pristine Fossil" "Scorched Fossil" "Serrated Fossil" "Tangled Fossil"
 
 		Show # Resonators
-			Class "Delve Stackable Socketable Currency" 
-			BaseType Potent Powerful Primitive
+			BaseType == "Potent Chaotic Resonator" "Powerful Chaotic Resonator" "Primitive Chaotic Resonator"
 
 		Show # Legion
 			Class Incubator
