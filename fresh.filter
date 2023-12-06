@@ -312,6 +312,7 @@
 			Class "Expedition Logbook"
 
 		Show
+			Class Maps
 			BaseType "Synthesised Map"
 
 		Show
@@ -340,7 +341,7 @@
 			Rarity Unique
 
 		Show
-			BaseType "Siege Axe" "Crude Bow" "Imperial Skean" "Sage's Robe" "Heavy Belt" "Leather Belt"
+			BaseType == "Siege Axe" "Crude Bow" "Imperial Skean" "Sage's Robe" "Heavy Belt" "Leather Belt"
 			Rarity Unique
 
 	# Equipment
@@ -1178,12 +1179,12 @@
 			#	Rarity Normal
 
 			Show
-				BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+				BaseType == "Gavel" "Rock Breaker" "Stone Hammer"
 				Quality >= 10
 				Rarity Normal
 
 			Show
-				BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+				BaseType == "Gavel" "Rock Breaker" "Stone Hammer"
 				Quality >= 16
 
 			Show
@@ -1412,7 +1413,15 @@
 
 	Hide
 		Class Flask
-		BaseType "Life Flask" "Mana Flask" "Hybrid Flask" 
+		BaseType == "Small Life Flask" "Medium Life Flask" "Large Life Flask" "Greater Life Flask" "Grand Life Flask" "Giant Life Flask" "Colossal Life Flask" "Sacred Life Flask" "Hallowed Life Flask" "Sanctified Life Flask" "Divine Life Flask" "Eternal Life Flask"
+
+	Hide
+		Class Flask
+		BaseType == "Small Mana Flask" "Medium Mana Flask" "Large Mana Flask" "Greater Mana Flask" "Grand Mana Flask" "Giant Mana Flask" "Colossal Mana Flask" "Sacred Mana Flask" "Hallowed Mana Flask" "Sanctified Mana Flask" "Divine Mana Flask" "Eternal Mana Flask"
+
+	Hide
+		Class Flask
+		BaseType == "Small Hybrid Flask" "Medium Hybrid Flask" "Large Hybrid Flask" "Colossal Hybrid Flask" "Sacred Hybrid Flask" "Hallowed Hybrid Flask"
 
 	Hide
 		Class Jewel
