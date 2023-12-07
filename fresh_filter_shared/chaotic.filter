@@ -69,7 +69,7 @@
 
     Show # Legion
         Class Incubator
-        BaseType "Diviner" "Ornate" "Kalguuran" "Skittering" "Geomancer" "Infused" "Blighted" "Foreboding" "Fossilised" "Obscured" "Thaumaturge" "Fragmented"
+        BaseType "Diviner" "Ornate" "Kalguuran" "Skittering" "Geomancer" "Infused" "Blighted" "Foreboding" "Fossilised" "Obscured" "Thaumaturge" "Fragmented" "Challenging"
 
     Show # Artifacts
         BaseType == "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion"
