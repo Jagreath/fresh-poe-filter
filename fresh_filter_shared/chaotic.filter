@@ -1,0 +1,135 @@
+# Appearance
+# ----------
+
+    Show
+        SetFontSize 38
+        PlayAlertSoundPositional 11 250
+        Continue
+
+    Show
+        Class Currency "Stackable Currency" "Delve Stackable Socketable Currency" Incubator 
+        MinimapIcon 2 Blue Circle
+        Continue
+
+    Show
+        Class Gems
+        MinimapIcon 2 Cyan Raindrop
+        Continue
+
+    Show
+        Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" Contract Blueprint
+        MinimapIcon 2 Red Cross
+        Continue
+
+    Show
+        Class Divination
+        MinimapIcon 2 Green Kite
+        Continue
+
+    Show
+        Rarity Unique
+        MinimapIcon 2 Purple Diamond
+        Continue
+
+# Currency
+# --------
+
+    Show # Basic
+        BaseType == "Stacked Deck" "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Rogue's Marker" "Enkindling Orb" "Instilling Orb" "Surveyor's Compass" "Charged Compass" "Orb of Unmaking"
+
+    Show # Exotic
+        BaseType == "Greater Eldritch Ember" "Greater Eldritch Ichor" "Lesser Eldritch Ember" "Lesser Eldritch Ichor"
+
+    Show # Exotic Beyond
+        BaseType == "Tainted Jeweller's Orb" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap"
+
+    Show # Essence
+        Class Currency
+        BaseType "Deafening Essence of" "Shrieking Essence of" "Remnant of Corruption" 
+
+    Show # Catalyst
+        BaseType == "Abrasive Catalyst" "Accelerating Catalyst" "Imbued Catalyst" "Intrinsic Catalyst" "Noxious Catalyst" "Tempering Catalyst" "Turbulent Catalyst" 
+
+    Show # Harvest
+        BaseType == "Primal Crystallised Lifeforce" "Wild Crystallised Lifeforce"
+        StackSize > 25
+
+    Show # Harvest
+        BaseType == "Vivid Crystallised Lifeforce" 
+        StackSize > 10
+
+    Show # Oils
+        BaseType == "Oil Extractor" "Opalescent Oil" "Black Oil" "Crimson Oil" "Violet Oil" "Indigo Oil" "Azure Oil" "Teal Oil" "Verdant Oil" "Amber Oil" "Sepia Oil" "Reflective Oil" "Clear Oil"
+
+    Show # Fossils
+        BaseType == "Aberrant Fossil" "Aetheric Fossil" "Bloodstained Fossil" "Bound Fossil" "Corroded Fossil" "Deft Fossil" "Dense Fossil" "Frigid Fossil" "Fundamental Fossil" "Gilded Fossil" "Jagged Fossil" "Lucent Fossil" "Metallic Fossil" "Prismatic Fossil" "Pristine Fossil" "Scorched Fossil" "Serrated Fossil" "Tangled Fossil"
+
+    Show # Resonators
+        BaseType == "Potent Chaotic Resonator" "Powerful Chaotic Resonator" "Primitive Chaotic Resonator"
+
+    Show # Legion
+        Class Incubator
+        BaseType "Diviner" "Ornate" "Kalguuran" "Skittering" "Geomancer" "Infused" "Blighted" "Foreboding" "Fossilised" "Obscured" "Thaumaturge" "Fragmented"
+
+    Show # Artifacts
+        BaseType == "Exotic Coinage" "Astragali" "Scrap Metal" "Burial Medallion"
+
+    Show # Breach Splinters
+        BaseType == "Splinter of Xoph" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Chayula"
+
+    Show # Legion Splinters
+        BaseType == "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Maraketh Splinter" "Timeless Templar Splinter" "Timeless Vaal Splinter"
+
+    Show # Misc Splinters
+        BaseType == "Simulacrum Splinter" "Crescent Splinter" "Ritual Splinter"
+
+    Show # Atlas
+        BaseType == "Blighted Scouting Report" "Comprehensive Scouting Report" "Delirious Scouting Report" "Explorer's Scouting Report" "Influenced Scouting Report" "Operative's Scouting Report" "Otherworldly Scouting Report" "Singular Scouting Report" "Vaal Scouting Report"
+
+    Show # Vials
+        BaseType == "Vial of Fate" "Vial of the Ritual"
+
+# Divination Cards
+# ----------------
+
+    Show
+        Class Divination
+        BaseType == "A Chilling Wind" "A Dab of Ink" "A Dusty Memory" "A Familiar Call" "A Modest Request" "A Mother's Parting Gift" "A Note in the Wind" "A Sea of Blue" "A Stone Perfected" "Abandoned Wealth" "Acclimatisation" "Akil's Prophecy" "Alivia's Grace" "Alluring Bounty" "Alone in the Darkness" "Altered Perception" "Ambitious Obsession" "Anarchy's Price" "Arrogance of the Vaal" "Assassin's Favour" "Astral Protection" "Atziri's Arsenal" "Audacity" "Auspicious Ambitions" "Azure Rage" "Azyran's Reward" "Baited Expectations" "Bijoux" "Blind Venture" "Boon of Justice" "Boon of the First Ones" "Boundless Realms" "Bowyer's Dream" "Broken Truce" "Brotherhood in Exile" "Brush, Paint and Palette" "Buried Treasure" "Burning Blood" "Call to the First Ones" "Cameria's Cut" "Cartographer's Delight" "Chaotic Disposition" "Chasing Risk" "Checkmate" "Costly Curio" "Council of Cats" "Coveted Possession" "Cursed Words" "Dark Dreams" "Dark Temptation" "Death" "Deathly Designs" "Dementophobia" "Demigod's Wager" "Desperate Crusade" "Destined to Crumble" "Dialla's Subjugation" "Disdain" "Divine Justice" "Doedre's Madness" "Draped in Dreams" "Duality" "Dying Anguish" "Dying Light" "Earth Drinker" "Echoes of Love" "Emperor of Purity" "Emperor's Luck" "Endless Night" "Etched in Blood" "Ever-Changing" "Fateful Meeting" "Forbidden Power" "From Bone to Ashes" "Further Invention" "Gemcutter's Promise" "Gift of Asenath" "Gift of the Gemling Queen" "Glimmer of Hope" "Grave Knowledge" "Guardian's Challenge" "Harmony of Souls" "Haunting Shadows" "Her Mask" "Heterochromia" "Hope" "Hubris" "Humility" "Hunter's Resolve" "Hunter's Reward" "Immortal Resolve" "Imperial Legacy" "Jack in the Box" "Judging Voices" "Justified Ambition" "Keeper's Corruption" "Lachrymal Necrosis" "Last Hope" "Left to Fate" "Lethean Temptation" "Light and Truth" "Lingering Remnants" "Lost Worlds" "Loyalty" "Lucky Connections" "Lucky Deck" "Lysah's Respite" "Magnum Opus" "Man With Bear" "Mawr Blaidd" "Merciless Armament" "Might is Right" "Misery in Darkness" "Mitts" "More is Never Enough" "No Traces" "Nook's Crown" "Parasitic Passengers" "Peaceful Moments" "Perfection" "Poisoned Faith" "Prejudice" "Pride Before the Fall" "Pride of the First Ones" "Prometheus' Armoury" "Rats" "Rebirth" "Rebirth and Renewal" "Reckless Ambition" "Remembrance" "Sambodhi's Vow" "Sambodhi's Wisdom" "Scholar of the Seas" "Shard of Fate" "Society's Remorse" "Something Dark" "Soul Quenched" "Terrible Secret of Space" "The Academic" "The Admirer" "The Adventuring Spirit" "The Aesthete" "The Archmage's Right Hand" "The Arena Champion" "The Army of Blood" "The Aspirant" "The Astromancer" "The Avenger" "The Awakened" "The Battle Born" "The Bear Woman" "The Beast" "The Betrayal" "The Bitter Blossom" "The Blessing of Moosh" "The Body" "The Bones" "The Brawny Battle Mage" "The Breach" "The Brittle Emperor" "The Cache" "The Cacophony" "The Calling" "The Card Sharp" "The Cartographer" "The Cataclysm" "The Catalyst" "The Catch" "The Celestial Justicar" "The Celestial Stone" "The Chains that Bind" "The Coming Storm" "The Conduit" "The Craving" "The Cursed King" "The Damned" "The Dapper Prodigy" "The Dark Mage" "The Darkest Dream" "The Deal" "The Deceiver" "The Deep Ones" "The Doppelganger" "The Dragon" "The Dreamer" "The Dreamland" "The Drunken Aristocrat" "The Dungeon Master" "The Easy Stroll" "The Eldritch Decay" "The Emptiness" "The Encroaching Darkness" "The Endurance" "The Enforcer" "The Enthusiasts" "The Escape" "The Eternal War" "The Ethereal" "The Explorer" "The Eye of the Dragon" "The Fathomless Depths" "The Feast" "The Finishing Touch" "The Fishmonger" "The Fletcher" "The Flora's Gift" "The Fool" "The Forgotten Treasure" "The Formless Sea" "The Forsaken" "The Forward Gaze" "The Fox" "The Fox in the Brambles" "The Gambler" "The Gemcutter" "The Gentleman" "The Gladiator" "The Golden Era" "The Greatest Intentions" "The Hale Heart" "The Harvester" "The Hermit" "The Heroic Shot" "The Hive of Knowledge" "The Hoarder" "The Hook" "The Hunger" "The Innocent" "The Inoculated" "The Insatiable" "The Inventor" "The Jester" "The Jeweller's Boon" "The Journey" "The King's Heart" "The Landing" "The Last Supper" "The Leviathan" "The Lich" "The Life Thief" "The Lion" "The Long Con" "The Lord in Black" "The Lord of Celebration" "The Lunaris Priestess" "The Mad King" "The Magma Crab" "The Master" "The Master Artisan" "The Mercenary" "The Messenger" "The Metalsmith's Gift" "The Mind's Eyes" "The Mountain" "The Oath" "The Obscured" "The Offering" "The Offspring" "The Old Man" "The One That Got Away" "The One With All" "The Opulent" "The Pack Leader" "The Pact" "The Penitent" "The Poet" "The Polymath" "The Porcupine" "The Price of Prescience" "The Price of Protection" "The Primordial" "The Prince of Darkness" "The Professor" "The Progeny of Lunaris" "The Puzzle" "The Queen" "The Rabbit's Foot" "The Rabid Rhoa" "The Realm" "The Return of the Rat" "The Risk" "The Rite of Elements" "The Road to Power" "The Rusted Bard" "The Ruthless Ceinture" "The Sacrifice" "The Saint's Treasure" "The Scavenger" "The Scout" "The Seeker" "The Shepherd's Sandals" "The Shortcut" "The Side Quest" "The Sigil" "The Siren" "The Skeleton" "The Spark and the Flame" "The Spoiled Prince" "The Standoff" "The Stormcaller" "The Strategist" "The Summoner" "The Surveyor" "The Survivalist" "The Sword King's Salute" "The Thaumaturgist" "The Throne" "The Tinkerer's Table" "The Tireless Extractor" "The Tower" "The Traitor" "The Transformation" "The Trial" "The Tumbleweed" "The Twilight Moon" "The Twins" "The Tyrant" "The Undaunted" "The Undisputed" "The Unexpected Prize" "The Union" "The Valkyrie" "The Vast" "The Visionary" "The Void" "The Warden" "The Warlord" "The Watcher" "The Web" "The Wedding Gift" "The White Knight" "The Whiteout" "The Wilted Rose" "The Wind" "The Wolf" "The Wolf's Legacy" "The Wolf's Shadow" "The Wolven King's Bite" "The Wolverine" "The World Eater" "The Wrath" "The Wretched" "Thirst for Knowledge" "Three Faces in the Dark" "Three Voices" "Time-Lost Relic" "Tranquillity" "Treasure Hunter" "Triskaidekaphobia" "Turn the Other Cheek" "Unchained" "Underground Forest" "Vanity" "Vile Power" "Vinia's Token" "Void of the Elements" "Volatile Power" "Winter's Embrace" "The Scholar"
+
+# Gems
+# ----
+
+    Show
+        BaseType == "Enhance Support"
+
+# Fragments
+# ---------
+
+    Show # Invitations
+        BaseType == "Maven's Invitation: The Feared" "Maven's Invitation: The Hidden" "Maven's Invitation: The Forgotten" "Maven's Invitation: The Atlas" "Polaric Invitation" "Writhing Invitation"
+
+    Show # Fragments
+        BaseType == "Mortal Ignorance" "Mortal Hope" "Mortal Rage" "Mortal Grief" "Sacrifice at Dusk" "Sacrifice at Dawn" "Sacrifice at Noon" "Sacrifice at Midnight" "Offering to the Goddess" "Divine Vessel" "Ritual Vessel" "Blood-filled Vessel" 
+
+    Show # Scarabs
+        BaseType == "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Harbinger Scarab" "Polished Sulphite Scarab" "Gilded Bestiary Scarab" "Rusted Sulphite Scarab" "Polished Legion Scarab" "Gilded Divination Scarab" "Gilded Ambush Scarab" "Gilded Breach Scarab" "Polished Harbinger Scarab" "Polished Bestiary Scarab" "Rusted Legion Scarab" "Gilded Cartography Scarab" "Gilded Blight Scarab" "Gilded Abyss Scarab"
+
+    Show # Legion
+        BaseType == "Timeless Eternal Emblem" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
+
+# Equipment
+# ---------
+
+    Show # Uniques
+        Rarity Unique
+
+    # Vendor
+
+        Show
+            Sockets 6
+
+# Sanctum
+# -------
+
+    Show # Relics
+        BaseType == "Censer Relic" "Processional Relic" "Candlestick Relic" "Urn Relic" "Coffer Relic" "Tome Relic" "Papyrus Relic"

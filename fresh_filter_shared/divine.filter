@@ -1,0 +1,117 @@
+# Appearance
+# ----------
+
+    Show
+        PlayAlertSoundPositional 6 300
+        Continue
+
+# Currency
+# --------
+
+    Show # Mirror
+        BaseType == "Mirror of Kalandra"
+        PlayAlertSoundPositional ShMirror 300
+
+    Show
+        BaseType == "Albino Rhoa Feather"
+
+    Show # Basic
+        BaseType == "Eternal Orb" "Divine Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Mirror Shard" "Fracturing Orb" "Hunter's Exalted Orb" "Hinekora's Lock"
+
+    Show # Exotic Beyond
+        BaseType == "Tainted Divine Teardrop" "Tainted Exalted Orb" 
+
+    Show # Oils
+        BaseType == "Tainted Oil" 
+
+    Show # Harvest
+        BaseType == "Sacred Crystallised Lifeforce" 
+
+    Show # Breach Blessings
+        BaseType == "Blessing of Chayula" "Blessing of Esh" "Blessing of Xoph" "Blessing of Tul" "Blessing of Uul-Netol" 
+
+# Divination Cards
+# ----------------
+
+    Show
+        Class Divination
+        BaseType == "The Apothecary" "House of Mirrors" "The Price of Devotion" "The Insane Cat" "Unrequited Love" "The Doctor" "The Demon" "The Fiend" "Brother's Gift" "The Immortal" "Love Through Ice" "The Nurse" "The Price of Loyalty" "The Shieldbearer" "The Cheater" "Choking Guilt" "Fire of Unknown Origin" "Seven Years Bad Luck" "The Chosen" "Wealth and Power" "The Sephirot" "The Endless Darkness" "Doryani's Epiphany" "Divine Beauty" "The Samurai's Eye" "Desecrated Virtue" "Succor of the Sinless"
+
+# Gems
+# ----
+
+    Show
+        BaseType == "Awakened Empower Support" "Awakened Multistrike Support" "Awakened Greater Multiple Projectiles Support" "Awakened Enhance Support" "Awakened Spell Cascade Support" "Awakened Spell Echo Support" "Awakened Unleash Support" "Awakened Chain Support" "Awakened Fork Support" "Awakened Increased Area of Effect Support" "Awakened Arrow Nova Support" "Awakened Cast on Critical Strike Support" "Awakened Generosity Support" "Awakened Void Manipulation Support" "Awakened Elemental Focus Support" "Awakened Unbound Ailments Support" "Item Quantity Support"
+
+# Maps
+# ----
+
+    Show
+        Class Maps
+        UberBlightedMap True
+
+    Show
+        Class Memory
+        BaseType "Einhar's Memory"
+
+# Fragments
+# ---------
+
+    Show # Invitations
+        BaseType == "Incandescent Invitation" "Screaming Invitation"
+
+    Show # Fragments
+        BaseType == "Fragment of Knowledge" "Fragment of Shape" "Maven's Writ" "Gift to the Goddess" "Sacred Blossom"
+
+    Show # Breach
+        BaseType == "Xoph's Flawless Breachstone" "Tul's Flawless Breachstone" "Esh's Flawless Breachstone" "Uul-Netol's Flawless Breachstone" "Chayula's Flawless Breachstone"
+
+    Show # Keys
+        BaseType == "Archive Reliquary Key" "Cosmic Reliquary Key" "Decaying Reliquary Key" "Forgotten Reliquary Key" "Oubliette Reliquary Key" "Shiny Reliquary Key" "Visceral Reliquary Key" "Voidborn Reliquary Key" "Ancient Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key"
+
+	# Equipment
+	# ---------
+
+		# Uniques
+
+			Show # unique six links
+				SocketGroup >= 6
+				Rarity Unique
+
+			Show # the squire
+				Sockets >= WWW
+				BaseType == "Elegant Round Shield"
+				Rarity Unique
+
+		# Jewels
+
+			Show
+				BaseType == "Small Cluster Jewel"
+				EnchantmentPassiveNum == 3
+				EnchantmentPassiveNode "Reservation Efficiency"
+				ItemLevel >= 84
+
+			Show
+				BaseType == "Medium Cluster Jewel"
+				EnchantmentPassiveNum == 6
+				EnchantmentPassiveNode "Flask Duration"
+				ItemLevel >= 84
+
+			Show
+				BaseType == "Large Cluster Jewel"
+				EnchantmentPassiveNum <= 8
+				EnchantmentPassiveNode "Cold Damage" "Bow Damage"
+				ItemLevel >= 84
+
+			Show
+				BaseType == "Large Cluster Jewel"
+				EnchantmentPassiveNum <= 8
+				EnchantmentPassiveNode "Fire Damage" "Bow Damage"
+				ItemLevel >= 50
+				ItemLevel < 68
+
+			Show
+				BaseType == "Large Cluster Jewel"
+				EnchantmentPassiveNum >= 12
+				EnchantmentPassiveNode "Bow Damage" "Minion Damage"
+				ItemLevel >= 84

@@ -1,0 +1,8 @@
+# Appearance
+# ----------
+
+    Show
+        SetFontSize 27
+        # PlayAlertSoundPositional 14 200
+        # PlayEffect None
+        Continue

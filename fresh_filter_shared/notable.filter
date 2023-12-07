@@ -1,0 +1,31 @@
+# Appearance
+# ----------
+
+    Show
+        SetFontSize 33
+        # PlayAlertSoundPositional 14 225
+        PlayAlertSoundPositional None
+        MinimapIcon -1
+        PlayEffect None
+        Continue
+
+# Currency
+# --------
+
+    Show # Basic
+        BaseType == "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Perandus Coin"
+
+    Show # Essence
+        Class Currency
+        BaseType "Essence of"
+
+    Show # Harvest
+        BaseType == "Primal Crystallised Lifeforce" "Wild Crystallised Lifeforce" "Vivid Crystallised Lifeforce" 
+
+# Fragments
+# ---------
+
+    Show # Scarabs
+        Class "Map Fragments"
+        BaseType Scarab
+        BaseType Rusted Polished Gilded Winged
