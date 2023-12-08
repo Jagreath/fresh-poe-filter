@@ -1,0 +1,166 @@
+# Appearance
+# ----------    
+
+    Show
+        SetFontSize 42
+        PlayAlertSoundPositional 10 250
+        Continue
+
+    Show
+        Class Currency "Stackable Currency" "Delve Stackable Socketable Currency" Incubator 
+        MinimapIcon 1 Blue Circle
+        Continue
+
+    Show
+        Class Gems
+        MinimapIcon 1 Cyan Raindrop
+        Continue
+
+    Show
+        Class Maps "Misc Map Items" "Map Fragments" "Atlas Upgrade Item" Contract Blueprint
+        MinimapIcon 1 Red Cross
+        Continue
+
+    Show
+        Class Divination
+        MinimapIcon 1 Green Kite
+        Continue
+
+    Show
+        Rarity Unique
+        MinimapIcon 1 Purple Diamond
+        Continue
+
+
+# Currency
+# --------
+
+    Show # Basic
+        BaseType == "Fracturing Shard" "Sacred Orb" "Exalted Orb" "Harbinger's Orb" "Orb of Annulment" "Ancient Orb" "Veiled Chaos Orb" "Elevated Sextant" "Redeemer's Exalted Orb" "Warlord's Exalted Orb" "Crusader's Exalted Orb"
+
+    Show # Exotic
+        BaseType == "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Grand Eldritch Ember" "Grand Eldritch Ichor" "Orb of Conflict" "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment"
+
+    Show # Exotic Beyond
+        BaseType == "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Mythic Orb" "Tainted Chaos Orb"
+
+    Show # Essence
+        BaseType == "Essence of Horror" "Essence of Delirium" "Essence of Hysteria" "Essence of Insanity" "Deafening Essence of Loathing" "Deafening Essence of Contempt" "Deafening Essence of Scorn"
+
+    Show # Catalysts
+        BaseType == "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst"
+
+    Show # Harvest
+        BaseType == "Primal Crystallised Lifeforce" "Wild Crystallised Lifeforce"
+        StackSize > 250
+
+    Show # Harvest
+        BaseType == "Vivid Crystallised Lifeforce" 
+        StackSize > 100
+
+    Show # Oils
+        BaseType == "Golden Oil" "Silver Oil"
+
+    Show # Fossils
+        BaseType == "Glyphic Fossil" "Faceted Fossil" "Hollow Fossil" "Fractured Fossil" "Perfect Fossil" "Sanctified Fossil" "Shuddering Fossil"
+        
+    Show # Resonators
+        BaseType == "Prime Chaotic Resonator"
+
+    Show # Delirium
+        BaseType == "Abyssal Delirium Orb" "Armoursmith's Delirium Orb" "Blacksmith's Delirium Orb" "Blighted Delirium Orb" "Cartographer's Delirium Orb" "Diviner's Delirium Orb" "Fine Delirium Orb" "Foreboding Delirium Orb" "Fossilised Delirium Orb" "Fragmented Delirium Orb" "Jeweller's Delirium Orb" "Obscured Delirium Orb" "Singular Delirium Orb" "Skittering Delirium Orb" "Thaumaturge's Delirium Orb" "Timeless Delirium Orb" "Whispering Delirium Orb" "Challenging Delirium Orb"
+
+    Show # Vials
+        BaseType == "Vial of Transcendence" "Vial of Consequence" "Vial of Summoning" "Vial of Awakening" "Vial of Dominance"
+
+# Divination Cards
+# ----------------
+
+    Show
+        Class Divination
+        BaseType == "The Dragon's Heart" "The Artist" "Brother's Stash" "The Soul" "Deadly Joy" "The Patient" "Darker Half" "The Eye of Terror" "Beauty Through Death" "The Enlightened" "A Fate Worse Than Death" "Broken Promises" "Home" "Imperfect Memories" "Matryoshka" "The Fortunate" "The Gulf" "Gemcutter's Mercy" "Luminous Trove" "The Destination" "The Garish Power" "The Last One Standing" "Monochrome" "Eternal Bonds" "Silence and Frost"
+
+# Gems
+# ----
+        
+    Show
+        BaseType == "Empower Support" "Enlighten Support"
+
+    Show
+        Class Gems
+        GemLevel >= 21
+
+    Show
+        Class Gems
+        BaseType Awakened
+
+# Maps
+# ----
+
+    Show
+        Class Maps
+        BlightedMap True
+
+    Show
+        Class Maps
+        Rarity Unique
+
+    Show
+        Class "Expedition Logbook"
+
+    Show
+        Class Maps
+        BaseType "Synthesised Map"
+
+    Show
+        Class Memory
+
+    Show
+        Class "Sanctum Research"
+        BaseType "Forbidden Tome" "Research"
+        AreaLevel > 82
+
+# Fragments
+# ---------
+
+    Show # Voidstones
+        BaseType == "Ceremonial Voidstone" "Decayed Voidstone" "Grasping Voidstone" "Omniscient Voidstone"
+
+    Show # Invitations
+        BaseType == "Maven's Invitation: The Elderslayers" "Maven's Invitation: The Twisted" "Maven's Invitation: The Formed"
+
+    Show # Fragments
+        BaseType == "Fragment of Emptiness" "Fragment of Terror" "Fragment of Eradication" "Fragment of Enslavement" "Fragment of Constriction" "Fragment of Purification" "Fragment of the Chimera" "Fragment of the Minotaur" "Fragment of the Phoenix" "Fragment of the Hydra" "Tribute to the Goddess" "Dedication to the Goddess" "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest"
+
+    Show # Scarabs
+        BaseType == "Winged Abyss Scarab" "Winged Ambush Scarab" "Winged Bestiary Scarab" "Winged Blight Scarab" "Winged Breach Scarab" "Winged Cartography Scarab" "Winged Divination Scarab" "Winged Elder Scarab" "Winged Expedition Scarab" "Winged Harbinger Scarab" "Winged Legion Scarab" "Winged Reliquary Scarab" "Winged Shaper Scarab" "Winged Sulphite Scarab" "Winged Torment Scarab" "Winged Ultimatum Scarab"
+
+    Show # Delirium
+        BaseType == Simulacrum
+
+    Show # Legion
+        BaseType == "Unrelenting Timeless Eternal Emblem" "Unrelenting Timeless Karui Emblem" "Unrelenting Timeless Maraketh Emblem" "Unrelenting Timeless Templar Emblem" "Unrelenting Timeless Vaal Emblem"
+    
+    Show # Breach
+        BaseType == "Xoph's Breachstone" "Tul's Breachstone" "Esh's Breachstone" "Uul-Netol's Breachstone" "Chayula's Breachstone"
+
+    Show
+        BaseType == "Inscribed Ultimatum"
+
+# Equipment
+# ---------
+
+    # Uniques
+
+        Show # Unique five links
+            SocketGroup >= 5
+            Rarity Unique
+
+        Show
+            BaseType == "Siege Axe" "Crude Bow" "Imperial Skean" "Sage's Robe" "Heavy Belt" "Leather Belt"
+            Rarity Unique
+
+    # Vendor
+
+        Show # six links
+            SocketGroup 6
