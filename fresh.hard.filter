@@ -1,14 +1,14 @@
-import "fresh_filter_shared/pre.filter"
+Import "fresh_filter_shared/pre.filter"
 
 # Divine
 # ======
 
-	import "fresh_filter_shared/divine.filter"
+	Import "fresh_filter_shared/divine.filter"
 
 # Exalted
 # =======
 
-	import "fresh_filter_shared/exalted.filter"
+	Import "fresh_filter_shared/exalted.filter"
 
 	# Gems
 	# ----
@@ -91,7 +91,7 @@ import "fresh_filter_shared/pre.filter"
 # Chaotic
 # =======
 
-	import "fresh_filter_shared/chaotic.filter"
+	Import "fresh_filter_shared/chaotic.filter"
 
 	# Gems
 	# ----
@@ -234,7 +234,7 @@ import "fresh_filter_shared/pre.filter"
 # Notable
 # =======
 
-	import "fresh_filter_shared/notable.filter"
+	Import "fresh_filter_shared/notable.filter"
 
 	# Gems
 	# ----
@@ -413,7 +413,7 @@ import "fresh_filter_shared/pre.filter"
 				HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord 
 
 			Show
-				BaseType == "Marble Amulet "Blue Pearl Amulet" "Amber Amulet" "Turquoise Amulet" "Seaglass Amulet"
+				BaseType == "Marble Amulet" "Blue Pearl Amulet" "Amber Amulet" "Turquoise Amulet" "Seaglass Amulet"
 				Rarity Rare
 				ItemLevel >= 86
 
@@ -491,7 +491,7 @@ import "fresh_filter_shared/pre.filter"
 # Interesting
 # =========== 
 
-	import "fresh_filter_shared/interesting.filter"
+	Import "fresh_filter_shared/interesting.filter"
 
 	# Currency
 	# --------
@@ -636,7 +636,7 @@ import "fresh_filter_shared/pre.filter"
 # Common
 # ======
 
-	import "fresh_filter_shared/common.filter"
+	Import "fresh_filter_shared/common.filter"
 
 	# Gems
 	# ----
@@ -712,4 +712,4 @@ import "fresh_filter_shared/pre.filter"
 				Quality >= 10
 				Class Gems
 
-import "fresh_filter_shared/post.filter"
+Import "fresh_filter_shared/post.filter"

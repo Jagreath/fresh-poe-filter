@@ -61,7 +61,7 @@
         BaseType == "Incandescent Invitation" "Screaming Invitation"
 
     Show # Fragments
-        BaseType == "Fragment of Knowledge" "Fragment of Shape" "Maven's Writ" "Gift to the Goddess" "Sacred Blossom"
+        BaseType == "Fragment of Knowledge" "Fragment of Shape" "The Maven's Writ" "Gift to the Goddess" "Sacred Blossom"
 
     Show # Breach
         BaseType == "Xoph's Flawless Breachstone" "Tul's Flawless Breachstone" "Esh's Flawless Breachstone" "Uul-Netol's Flawless Breachstone" "Chayula's Flawless Breachstone"
