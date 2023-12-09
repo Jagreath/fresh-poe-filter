@@ -2,7 +2,7 @@
 # ----------
 
     Show
-        SetFontSize 27
+        SetFontSize 31
         # PlayAlertSoundPositional 14 200
         # PlayEffect None
         Continue
