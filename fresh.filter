@@ -296,6 +296,12 @@ Import "fresh_filter_shared/pre.filter"
 
 	Import "fresh_filter_shared/notable.filter"
 
+	# Divination Cards
+	# ----------------
+
+		Show
+			BaseType == "Rain of Chaos" "The Blazing Fire" "The Journalist"
+
 	# Gems
 	# ----
 
