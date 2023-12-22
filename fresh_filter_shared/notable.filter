@@ -29,3 +29,19 @@
         Class "Map Fragments"
         BaseType Scarab
         BaseType Rusted Polished Gilded Winged
+
+# Equipment
+# ---------
+
+    Show # Uniques
+        Rarity Unique
+
+    # Vendor
+
+        Show # six links
+            SocketGroup 6
+
+    # Vendor
+
+        Show
+            Sockets 6

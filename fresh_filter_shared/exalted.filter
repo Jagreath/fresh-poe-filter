@@ -159,8 +159,3 @@
         Show
             BaseType == "Siege Axe" "Crude Bow" "Imperial Skean" "Sage's Robe" "Heavy Belt" "Leather Belt"
             Rarity Unique
-
-    # Vendor
-
-        Show # six links
-            SocketGroup 6

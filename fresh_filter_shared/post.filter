@@ -93,7 +93,7 @@
         BaseType == "Abyssal Incubator" "Cartographer's Incubator" "Maddening Incubator" "Mysterious Incubator" "Celestial Jeweller's Incubator" "Celestial Blacksmith's Incubator" "Celestial Armoursmith's Incubator" "Otherworldly Incubator" "Primal Incubator" "Singular Incubator" 
 
     Hide # Divination
-        BaseType == "The Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity" "The Incantation" "The Witch" "The Demoness"
+        BaseType == "The Carrion Crow" "Thunderous Skies" "The King's Blade" "Struck by Lightning" "The Surgeon" "The Lover" "Lantador's Lost Love" "Prosperity" "The Incantation" "The Witch" "The Demoness" "The Blazing Fire" "Rain of Chaos" "The Scarred Meadow" "The Sun" "The Journalist" "Rain Tempter"
 
 # Unhandled
 # ---------
