@@ -24,17 +24,22 @@
     # Shields
 
         Show
-            HasExplicitMod >=3 "Veiled" "of the Veil" "Fecund" "Vigorous" "Impregnable" "Impenetrable" "Abating" "Unmoving" "Mirage's" "Illusion's" "Adroit" "Lissome" "Scintillating" "Incandescent" "Unassailable" "Unfaltering" "Legend's" "Victor's" "Resilient" "Adaptable" "Inspired" "Interpermeated" "Consecrated" "Saintly" "Illusory" "Incorporeal" "Eidolon's" "Apparition's" "Glyphic" "Runic" "Pyroclastic" "Xoph's" "Cryomancer's" "Tul's" "Ionising" "Esh's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "of the Sentinel" "of the Citadel" "of the Sempiternal" "of the Deathless" "of Abjuration" "of Nullification" "Subterranean" "of the Underground" "Topotante's" "of Tacati"
+            HasExplicitMod >=3 "Veiled" "of the Veil" "Fecund" "Vigorous" "Impregnable" "Impenetrable" "Abating" "Unmoving" "Mirage's" "Illusion's" "Adroit" "Lissome" "Scintillating" "Incandescent" "Unassailable" "Unfaltering" "Legend's" "Victor's" "Resilient" "Adaptable" "Inspired" "Interpermeated" "Consecrated" "Saintly" "Illusory" "Incorporeal" "Eidolon's" "Apparition's" "Glyphic" "Runic" "Pyroclastic" "Xoph's" "Cryomancer's" "Tul's" "Ionising" "Esh's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "of the Sentinel" "of the Citadel" "of the Sempiternal" "of the Deathless" "of Abjuration" "of Nullification" "Subterranean" "of the Underground" "Topotante's" "of Tacati" "Essences" "of the Essence"
 
     # Attack Weapons
 
         Show
-            HasExplicitMod >=3 "Veiled" "of the Veil" "Cruel" "Tyrannical" "Merciless" "Razor-sharp" "Tempered" "Flaring" "Cremating" "Carbonising" "Entombing" "Crystalising" "Electrocuting" "Vapourising" "Malicious" "of Infamy" "of Celebration" "of Penetrating" "of Incision" "of Ferocity" "of Destruction" "Fletcher's" "Sharpshooter's" "of Splintering" "of Many" "of Melting" "of Dissolution" "Topotante's" "Tacati's" "of Tacati" 
+            HasExplicitMod >=3 "Veiled" "of the Veil" "Cruel" "Tyrannical" "Merciless" "Razor-sharp" "Tempered" "Flaring" "Cremating" "Carbonising" "Entombing" "Crystalising" "Electrocuting" "Vapourising" "Malicious" "of Infamy" "of Celebration" "of Penetrating" "of Incision" "of Ferocity" "of Destruction" "Fletcher's" "Sharpshooter's" "of Splintering" "of Many" "of Melting" "of Dissolution" "Topotante's" "Tacati's" "of Tacati" "Essences" "of the Essence"
 
     # Caster Weapons
 
         Show
-            HasExplicitMod >=3 "Veiled" "of the Veil" "Glyphic" "Runic" "Pyroclastic" "Xoph's" "Cryomancer's" "Tul's" "Ionising" "Esh's" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Lava Conjurer's" "Winter Beckoner's" "Tempest Master's" "Splintermind's" "Tecton's" "Blasting" "Cremating" "Polar" "Entombing" "Discharging" "Electrocuting" "of Sortilege" "of Finesse" "of Ferocity" "of Destruction" "of Dissolution" "of Atrophying" "of Disintegrating" "of the Gelid" "of Heartstopping" "of the Zealous" "of the Fanatical" "of Hemorrhaging" "of Exsanguinating" "Subterranean" "of the Underground" "Topotante's" "Matatl's" "Tacati's" "of Tacati"
+            HasExplicitMod >=3 "Veiled" "of the Veil" "Glyphic" "Runic" "Pyroclastic" "Xoph's" "Cryomancer's" "Tul's" "Ionising" "Esh's" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Lava Conjurer's" "Winter Beckoner's" "Tempest Master's" "Splintermind's" "Tecton's" "Blasting" "Cremating" "Polar" "Entombing" "Discharging" "Electrocuting" "of Sortilege" "of Finesse" "of Ferocity" "of Destruction" "of Dissolution" "of Atrophying" "of Disintegrating" "of the Gelid" "of Heartstopping" "of the Zealous" "of the Fanatical" "of Hemorrhaging" "of Exsanguinating" "Subterranean" "of the Underground" "Topotante's" "Matatl's" "Tacati's" "of Tacati" "Essences" "of the Essence"
+
+    # Other
+
+        Show
+            HasExplicitMod >=3 "Veiled" "of the Veil" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "Virile" "Rotund" "Athlete's" "Fecund" "Tempered" "Flaring" "Blasting" "Cremating" "Polar" "Entombing" "Discharging" "Electrocuting" "Overpowering" "Devastating" "Wizard's" "Parched" "Thirsty" "of the Titan" "of the Gods" "of the Godslayer" "of the Phantom" "of the Wind" "of the Virtuoso" "of the Genius" "of the Infinite" "of the Multiverse" "of Legerdemain" "of the Ranger" "of the Magma" "of Tzteosh" "of the Ice" "of Haast" "of the Lightning" "of Ephij" "of Exile" "of Bameth" "of the Span" "of Ferocity" "of Destruction" "of Flames" "of Immolation" "of Rime" "of Floe" "of Voltage" "of Discharge" "of Melting" "of Dissolution" "Essences" "of the Essence" "Encased" "Enveloped" "Magnifying" "of Overflowing" "of Reveling"
 
     # Chancing.
     # Show normal items for using chance orbs hoping to hit a unique.
