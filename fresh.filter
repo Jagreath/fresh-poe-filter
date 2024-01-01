@@ -445,7 +445,7 @@ Import "fresh_filter_shared/pre.filter"
 
 			Show
 				Class Flask
-				Quality = 20
+				Quality >= 20
 				Rarity Normal
 
 # Interesting
