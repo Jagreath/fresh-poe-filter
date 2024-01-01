@@ -323,7 +323,7 @@ Import "fresh_filter_shared/pre.filter"
 			FracturedItem True
 
 		Show
-			HasExplicitMod "Veil"
+			HasExplicitMod "Veiled" "of the Veil"
 
 		# Helmets
 

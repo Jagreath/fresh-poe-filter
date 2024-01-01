@@ -150,6 +150,9 @@
 # Equipment
 # ---------
 
+    Show
+        HasExplicitMod "Janus'" "Korell's"
+
     # Uniques
 
         Show # Unique five links

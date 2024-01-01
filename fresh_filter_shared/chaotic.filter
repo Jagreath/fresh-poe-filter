@@ -120,6 +120,9 @@
 # Equipment
 # ---------
 
+    Show
+        HasExplicitMod "Elreon's" "Gravicius'" "Guff's" 
+
     Show # Uniques
         Rarity Unique
 

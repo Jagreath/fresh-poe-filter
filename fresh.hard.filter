@@ -650,14 +650,14 @@ Import "fresh_filter_shared/pre.filter"
 
 		Show
 			FracturedItem True
-			Class Amulets Rings Belts Jewel Maps Contract Blueprint
+			Class == Amulets Rings Belts Jewel Maps Contract Blueprint Sceptres Staves Wands "Rune Daggers" Bows
 
 		Show
 			FracturedItem True
-			#BaseType ==
+			DropLevel >= 50
 
 		Show
-			HasExplicitMod "Aisling's" "Cameria's" "Elreon's" "Gravicius'" "Guff's" "Haku's" "Hillock's" "It That Fled's" "Janus'" "Korell's" "Leo's" "Riker's" "Rin's" "Tora's" "Vagan's" "Vorici's" "Catarina's"
+			HasExplicitMod "Aisling's" "Cameria's" "Haku's" "Hillock's" "It That Fled's" "Leo's" "Riker's" "Rin's" "Tora's" "Vagan's" "Vorici's" "Catarina's"
 
 		# Body Armours
 
