@@ -9,13 +9,7 @@
 # ---------
     
     Show
-        FracturedItem True
-
-    Show
         SynthesisedItem True
-
-    Show
-        HasExplicitMod "Veil"
 
     # Helmets / Gloves / Boots
 

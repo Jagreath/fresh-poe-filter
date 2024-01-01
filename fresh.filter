@@ -587,6 +587,12 @@ Import "fresh_filter_shared/pre.filter"
 
 	# Equipment
 	# ---------
+
+		Show
+			FracturedItem True
+
+		Show
+			HasExplicitMod "Veil"
 		
 		# Helmets / Gloves / Boots
 

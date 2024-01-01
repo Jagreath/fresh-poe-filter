@@ -35,7 +35,7 @@
 
     Show
         Class Divination
-        BaseType == "The Apothecary" "House of Mirrors" "The Price of Devotion" "The Insane Cat" "Unrequited Love" "The Doctor" "The Demon" "The Fiend" "Brother's Gift" "The Immortal" "Love Through Ice" "The Nurse" "The Price of Loyalty" "The Shieldbearer" "The Cheater" "Choking Guilt" "Fire of Unknown Origin" "Seven Years Bad Luck" "The Chosen" "Wealth and Power" "The Sephirot" "The Endless Darkness" "Doryani's Epiphany" "Divine Beauty" "The Samurai's Eye" "Desecrated Virtue" "Succor of the Sinless"
+        BaseType == "The Apothecary" "House of Mirrors" "The Price of Devotion" "The Insane Cat" "Unrequited Love" "The Doctor" "The Demon" "The Fiend" "Brother's Gift" "The Immortal" "Love Through Ice" "The Nurse" "The Price of Loyalty" "The Shieldbearer" "The Cheater" "Choking Guilt" "Fire of Unknown Origin" "Seven Years Bad Luck" "The Chosen" "Wealth and Power" "The Sephirot" "The Endless Darkness" "Doryani's Epiphany" "Divine Beauty" "The Samurai's Eye" "Desecrated Virtue" "Succor of the Sinless" "I See Brothers"
 
 # Gems
 # ----
@@ -82,6 +82,10 @@
 				Sockets >= WWW
 				BaseType == "Elegant Round Shield"
 				Rarity Unique
+
+            Show
+                BaseType == "Ring"
+                Rarity Unique
 
 		# Jewels
 

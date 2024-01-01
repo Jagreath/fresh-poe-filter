@@ -648,6 +648,17 @@ Import "fresh_filter_shared/pre.filter"
 	# Equipment
 	# ---------
 
+		Show
+			FracturedItem True
+			Class Amulets Rings Belts Jewel Maps Contract Blueprint
+
+		Show
+			FracturedItem True
+			#BaseType ==
+
+		Show
+			HasExplicitMod "Aisling's" "Cameria's" "Elreon's" "Gravicius'" "Guff's" "Haku's" "Hillock's" "It That Fled's" "Janus'" "Korell's" "Leo's" "Riker's" "Rin's" "Tora's" "Vagan's" "Vorici's" "Catarina's"
+
 		# Body Armours
 
 			Show

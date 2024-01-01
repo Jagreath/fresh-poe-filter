@@ -48,7 +48,7 @@
         BaseType == "Essence of Horror" "Essence of Delirium" "Essence of Hysteria" "Essence of Insanity" "Deafening Essence of Loathing" "Deafening Essence of Contempt" "Deafening Essence of Scorn"
 
     Show # Catalysts
-        BaseType == "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst"
+        BaseType == "Fertile Catalyst" "Prismatic Catalyst" "Unstable Catalyst" "Tainted Catalyst"
 
     Show # Harvest
         BaseType == "Primal Crystallised Lifeforce" "Wild Crystallised Lifeforce"
