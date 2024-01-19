@@ -16,7 +16,7 @@
         BaseType == "Albino Rhoa Feather"
 
     Show # Basic
-        BaseType == "Eternal Orb" "Divine Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Mirror Shard" "Fracturing Orb" "Hunter's Exalted Orb" "Hinekora's Lock"
+        BaseType == "Eternal Orb" "Divine Orb" "Awakener's Orb" "Orb of Dominance" "Tempering Orb" "Tailoring Orb" "Mirror Shard" "Fracturing Orb" "Hunter's Exalted Orb" "Hinekora's Lock" "Valdo's Puzzle Box"
 
     Show # Exotic Beyond
         BaseType == "Tainted Divine Teardrop" "Tainted Exalted Orb" 
