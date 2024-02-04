@@ -13,7 +13,7 @@
 # --------
 
     Show # Basic
-        BaseType == "Blessed Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Binding" "Regal Orb" "Chromatic Orb" "Orb of Alteration" "Orb of Alchemy" "Engineer's Orb" "Orb of Chance" "Chaos Shard" "Perandus Coin"
+        BaseType == "Perandus Coin"
 
     Show # Essence
         Class Currency

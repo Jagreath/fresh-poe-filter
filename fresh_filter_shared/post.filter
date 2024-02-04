@@ -2,7 +2,7 @@
 # ----
 
     Hide # Small Currency
-        BaseType == "Scroll Fragment" "Portal Scroll" "Scroll of Wisdom" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Transmutation Shard" "Alteration Shard" "Binding Shard" "Alchemy Shard"
+        BaseType == "Scroll Fragment" "Scroll of Wisdom" "Portal Scroll" "Transmutation Shard" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Binding Shard" "Alchemy Shard" "Alteration Shard" "Orb of Alteration" "Orb of Augmentation" "Horizon Shard" "Engineer's Shard" "Orb of Binding" "Orb of Alchemy" "Jeweller's Orb" "Blessed Orb" "Glassblower's Bauble" "Regal Orb" "Chromatic Orb" "Engineer's Orb" "Orb of Chance" "Chaos Shard"
 
     Hide # Two Hand Axe
         BaseType == "Stone Axe" "Jade Chopper" "Woodsplitter" "Poleaxe" "Double Axe" "Gilded Axe" "Shadow Axe" "Dagger Axe" "Jasper Chopper" "Timber Axe" "Headsman Axe" "Labrys" "Noble Axe" "Abyssal Axe" "Karui Chopper" "Talon Axe" "Sundering Axe" "Ezomyte Axe" "Vaal Axe" "Despot Axe" "Void Axe" "Fleshripper" 

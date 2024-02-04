@@ -847,7 +847,7 @@ Import "fresh_filter_shared/pre.filter"
 	# --------
 
 		Show
-			BaseType == "Portal Scroll" "Scroll of Wisdom" "Alchemy Shard" "Engineer's Shard" "Horizon Shard" "Regal Shard" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Augmentation"
+			BaseType == "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Chromatic Orb" "Orb of Chance" "Orb of Augmentation" "Orb of Alteration" "Chaos Shard" "Orb of Binding" "Orb of Alchemy" "Jeweller's Orb" "Blessed Orb" "Glassblower's Bauble" "Regal Orb" "Engineer's Orb" 
 
 	# Gems
 	# ----
@@ -1338,7 +1338,7 @@ Import "fresh_filter_shared/pre.filter"
 	# --------
 
 		Show
-			BaseType == "Scroll Fragment" "Transmutation Shard" "Alteration Shard"
+			BaseType == "Portal Scroll" "Scroll of Wisdom" "Regal Shard" "Engineer's Shard" "Horizon Shard" "Engineer's Shard"
 
 	# Gems
 	# ----

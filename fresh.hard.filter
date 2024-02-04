@@ -149,6 +149,7 @@ Import "fresh_filter_shared/pre.filter"
 			Show
 				BaseType == "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
 				Rarity Rare
+				Identified False
 				ItemLevel >= 86
 
 			Show
@@ -485,7 +486,7 @@ Import "fresh_filter_shared/pre.filter"
 
 			Show
 				Class Flask
-				Quality >= 20
+				Quality > 20
 				Rarity Normal
 
 # Interesting
@@ -497,15 +498,12 @@ Import "fresh_filter_shared/pre.filter"
 	# --------
 
 		Show
-			BaseType == "Portal Scroll" "Scroll of Wisdom" 
-			StackSize > 8
+			BaseType == "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Chromatic Orb" "Orb of Chance" "Orb of Augmentation" "Orb of Alteration" "Chaos Shard"
+			StackSize > 5
 
 		Show
-			BaseType == "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
-			StackSize > 4
-
-		Show
-			BaseType == "Orb of Augmentation" "Regal Shard" "Engineer's Shard" "Horizon Shard" 
+			BaseType ==  "Orb of Binding" "Orb of Alchemy" "Jeweller's Orb" "Blessed Orb" "Glassblower's Bauble" "Regal Orb" "Engineer's Orb" 
+			StackSize > 2
 
 	# Maps
 	# ----
@@ -565,7 +563,13 @@ Import "fresh_filter_shared/pre.filter"
 
 			Show
 				Class Amulets
-				Rarity Rare Normal
+				Rarity Rare
+				Identified False
+				ItemLevel >= 86
+
+			Show
+				Class Amulets
+				Rarity Normal
 				ItemLevel >= 86
 
 		# Rings
@@ -577,7 +581,13 @@ Import "fresh_filter_shared/pre.filter"
 
 			Show
 				BaseType == "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring" "Opal Ring" "Cerulean Ring" "Iolite Ring" "Bone Ring" 
-				Rarity Rare Normal
+				Rarity Rare
+				Identified False
+				ItemLevel >= 86
+
+			Show
+				BaseType == "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring" "Opal Ring" "Cerulean Ring" "Iolite Ring" "Bone Ring" 
+				Rarity Normal
 				ItemLevel >= 86
 
 		# Belts
@@ -638,6 +648,17 @@ Import "fresh_filter_shared/pre.filter"
 
 	Import "fresh_filter_shared/common.filter"
 
+	# Currency
+	# --------
+
+		Show
+			BaseType == "Portal Scroll" "Scroll of Wisdom" 
+			StackSize > 8
+
+		Show
+			BaseType ==  "Regal Shard" "Engineer's Shard" "Horizon Shard" "Engineer's Shard"
+			StackSize > 2
+
 	# Gems
 	# ----
 
@@ -669,14 +690,14 @@ Import "fresh_filter_shared/pre.filter"
 		# Amulets 
 
 			Show
-				BaseType == "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"
+				BaseType == "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet"
 				Rarity Rare
 				Identified False
 
 		# Rings 
 
 			Show
-				BaseType == "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Diamond Ring" "Two-Stone Ring" "Amethyst Ring" "Prismatic Ring"
+				BaseType == "Unset Ring" "Diamond Ring" "Amethyst Ring" "Prismatic Ring"
 				Rarity Rare
 				Identified False
 
