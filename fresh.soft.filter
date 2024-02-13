@@ -102,6 +102,12 @@ Import "fresh_filter_shared/pre.filter"
 
 	Import "fresh_filter_shared/chaotic.filter"
 
+	# Currency
+	# --------
+
+		Show # Basic Currency
+        	BaseType == "Stacked Deck" "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Rogue's Marker" "Enkindling Orb" "Instilling Orb" "Surveyor's Compass" "Charged Compass" "Orb of Unmaking"
+
 	# Gems
 	# ----
 
@@ -321,9 +327,11 @@ Import "fresh_filter_shared/pre.filter"
 
 		Show
 			FracturedItem True
+			Corrupted False
 
 		Show
 			HasExplicitMod "Veiled" "of the Veil"
+			Corrupted False
 
 		# Helmets
 

@@ -93,6 +93,13 @@ Import "fresh_filter_shared/pre.filter"
 
 	Import "fresh_filter_shared/chaotic.filter"
 
+	# Currency
+	# --------
+
+		Show # Basic Currency
+        	BaseType == "Stacked Deck" "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Rogue's Marker" "Enkindling Orb" "Instilling Orb" "Surveyor's Compass" "Charged Compass" "Orb of Unmaking"
+			StackSize > 1
+
 	# Gems
 	# ----
 
@@ -145,12 +152,6 @@ Import "fresh_filter_shared/pre.filter"
 				HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
 
 		# Boots
-
-			Show
-				BaseType == "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
-				Rarity Rare
-				Identified False
-				ItemLevel >= 86
 
 			Show
 				BaseType == "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
@@ -361,10 +362,10 @@ Import "fresh_filter_shared/pre.filter"
 				Identified False
 
 			Show
-				Class Boots
+				BaseType == "Slink Boots" "Titan Greaves" "Sorcerer Boots" "Dragonscale Boots" "Crusader Boots" "Murder Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
 				Rarity Rare
-				ItemLevel >= 86
 				Identified False
+				ItemLevel >= 86
 
 		# Body Armours
 
@@ -486,8 +487,8 @@ Import "fresh_filter_shared/pre.filter"
 
 			Show
 				Class Flask
-				Quality > 20
-				Rarity Normal
+				Quality > 27
+				#Rarity Normal
 
 # Interesting
 # =========== 
@@ -536,6 +537,12 @@ Import "fresh_filter_shared/pre.filter"
 				BaseType == "Sorcerer Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons"
 				BaseDefencePercentile >= 95
 				Rarity Rare
+				Identified False
+
+			Show
+				BaseType == "Vaal Greaves" "Goliath Greaves" "Stealth Boots" "Shagreen Boots" "Arcanist Slippers" "Conjurer Boots" "Hydrascale Boots" "Wyrmscale Boots" "Legion Boots" "Soldier Boots" "Assassin's Boots" "Carnal Boots" 
+				Rarity Rare
+				ItemLevel >= 86
 				Identified False
 
 		# Body Armours
@@ -598,13 +605,13 @@ Import "fresh_filter_shared/pre.filter"
 				Identified False
 
 			Show
-				BaseType == "Leather Belt" "Heavy Belt" "Vanguard Belt"
+				BaseType == "Vanguard Belt"
 				Rarity Rare
 				ItemLevel >= 84
 				Identified False
 
 			Show
-				BaseType == "Crystal Belt" "Stygian Vise" "Leather Belt" "Heavy Belt" "Vanguard Belt"
+				BaseType == "Crystal Belt" "Stygian Vise" "Vanguard Belt"
 				Rarity Normal
 				ItemLevel >= 86
 
@@ -626,20 +633,23 @@ Import "fresh_filter_shared/pre.filter"
 
 			Show
 				Class "Utility Flasks"
-				Rarity >= Normal
-				Quality >= 16
+				BaseType == "Quicksilver Flask" "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Basalt Flask" "Diamond Flask" "Gold Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask"
+				Quality >= 4
+				ItemLevel >= 84
+
+			Show
+				BaseType == "Iron Flask"
 				ItemLevel >= 84
 
 			Show
 				BaseType == "Divine Life Flask" "Divine Mana Flask" "Eternal Life Flask" "Eternal Mana Flask"
 				Rarity >= Normal
-				Quality >= 16
+				Quality >= 20
 				ItemLevel >= 84
 
 			Show
 				Class "Utility Flasks"
-				Rarity >= Normal
-				Quality >= 18
+				Quality >= 10
 				AreaLevel <= 74
 				AreaLevel >= 65
 
@@ -672,15 +682,18 @@ Import "fresh_filter_shared/pre.filter"
 		Show
 			FracturedItem True
 			Class == Amulets Rings Belts Jewel Sceptres Staves Wands "Rune Daggers" Bows
+			Corrupted False
 			#Identified False
 
 		Show
 			FracturedItem True
 			DropLevel >= 50
+			Corrupted False
 			#Identified False
 
 		Show
 			HasExplicitMod "Aisling's" "Cameria's" "Haku's" "Hillock's" "It That Fled's" "Leo's" "Riker's" "Rin's" "Tora's" "Vagan's" "Vorici's" "Catarina's"
+			Corrupted False
 
 		# Body Armours
 
@@ -709,7 +722,7 @@ Import "fresh_filter_shared/pre.filter"
 		# Belts 
 
 			Show
-				BaseType == "Leather Belt" "Heavy Belt" "Vanguard Belt"
+				BaseType == "Vanguard Belt"
 				Rarity Rare
 				Identified False
 
