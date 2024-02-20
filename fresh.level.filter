@@ -108,12 +108,6 @@ Import "fresh_filter_shared/pre.filter"
 		Show
 			BaseType == "Rain of Chaos" "The Blazing Fire" "The Journalist"
 
-	# Gems
-	# ----
-
-		Show
-			BaseType == "Portal" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Vaal Breach" 
-
 	# Equipment
 	# ---------
 
@@ -844,6 +838,9 @@ Import "fresh_filter_shared/pre.filter"
 				Quality >= 20
 				Rarity Normal
 
+        	Show
+            	Sockets 6
+
 # Interesting
 # ===========
 
@@ -861,6 +858,9 @@ Import "fresh_filter_shared/pre.filter"
 		Show
 			Quality >= 7
 			Class Gems
+
+		Show
+			BaseType == "Portal" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" 
 
 	# Equipment
 	# ---------

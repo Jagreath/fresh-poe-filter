@@ -97,7 +97,10 @@ Import "fresh_filter_shared/pre.filter"
 	# --------
 
 		Show # Basic Currency
-        	BaseType == "Stacked Deck" "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Rogue's Marker" "Enkindling Orb" "Instilling Orb" "Surveyor's Compass" "Charged Compass" "Orb of Unmaking"
+        	BaseType == "Stacked Deck" "Vaal Orb" "Orb of Regret" "Chaos Orb" "Gemcutter's Prism" "Awakened Sextant" "Harbinger's Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Orb of Unmaking" "Surveyor's Compass" "Charged Compass"
+
+		Show # Basic Currency
+        	BaseType == "Cartographer's Chisel" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Rogue's Marker" "Enkindling Orb" "Instilling Orb" 
 			StackSize > 1
 
 	# Gems
@@ -121,6 +124,7 @@ Import "fresh_filter_shared/pre.filter"
 		Show
 			Class "Sanctum Research"
 			BaseType "Forbidden Tome" "Research"
+			AreaLevel > 82
 
 	# Equipment
 	# ---------
@@ -243,10 +247,7 @@ Import "fresh_filter_shared/pre.filter"
 
 		Show
 			Class Gems
-			GemLevel >= 20
-			
-		Show
-			BaseType == "Portal" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace" "Vaal Breach" 
+			GemLevel > 20
 
 	# Maps
 	# ----
@@ -490,6 +491,9 @@ Import "fresh_filter_shared/pre.filter"
 				Quality > 27
 				#Rarity Normal
 
+			Show # six links
+				SocketGroup 6
+
 # Interesting
 # =========== 
 
@@ -505,6 +509,12 @@ Import "fresh_filter_shared/pre.filter"
 		Show
 			BaseType ==  "Orb of Binding" "Orb of Alchemy" "Jeweller's Orb" "Blessed Orb" "Glassblower's Bauble" "Regal Orb" "Engineer's Orb" 
 			StackSize > 2
+
+	# Gems
+	# ----
+
+		Show
+			BaseType == "Portal" "Vaal Haste" "Vaal Discipline" "Vaal Clarity" "Vaal Grace"
 
 	# Maps
 	# ----
@@ -653,6 +663,12 @@ Import "fresh_filter_shared/pre.filter"
 				AreaLevel <= 74
 				AreaLevel >= 65
 
+		# Vendor
+
+			Show
+				Sockets 6
+				Height <= 3
+
 # Common
 # ======
 
@@ -672,9 +688,9 @@ Import "fresh_filter_shared/pre.filter"
 	# Gems
 	# ----
 
-		Show
-			Class Gems
-			BaseType "Vaal" 
+		#Show
+		#	Class Gems
+		#	BaseType "Vaal" 
 
 	# Equipment
 	# ---------
@@ -756,7 +772,7 @@ Import "fresh_filter_shared/pre.filter"
 			#	Height <= 2
 
 			Show
-				Quality >= 10
+				Quality >= 16
 				Class Gems
 
 Import "fresh_filter_shared/post.filter"

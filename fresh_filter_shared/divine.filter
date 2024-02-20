@@ -41,7 +41,7 @@
 # ----
 
     Show
-        BaseType == "Awakened Empower Support" "Awakened Multistrike Support" "Awakened Greater Multiple Projectiles Support" "Awakened Enhance Support" "Awakened Spell Cascade Support" "Awakened Spell Echo Support" "Awakened Unleash Support" "Awakened Chain Support" "Awakened Fork Support" "Awakened Increased Area of Effect Support" "Awakened Arrow Nova Support" "Awakened Cast on Critical Strike Support" "Awakened Generosity Support" "Awakened Void Manipulation Support" "Awakened Elemental Focus Support" "Awakened Unbound Ailments Support" "Item Quantity Support"
+        BaseType == "Awakened Empower Support" "Awakened Multistrike Support" "Awakened Greater Multiple Projectiles Support" "Awakened Enhance Support" "Awakened Spell Cascade Support" "Awakened Spell Echo Support" "Awakened Unleash Support" "Awakened Chain Support" "Awakened Fork Support" "Awakened Increased Area of Effect Support" "Awakened Arrow Nova Support" "Awakened Cast on Critical Strike Support" "Awakened Generosity Support" "Awakened Void Manipulation Support" "Awakened Elemental Focus Support" "Awakened Unbound Ailments Support" "Item Quantity Support" "Vaal Breach" 
 
 # Maps
 # ----
